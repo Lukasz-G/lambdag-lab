@@ -1,0 +1,400 @@
+-ce
+-elle
+-il
+-ils
+-je
+-nous
+-on
+-t-elle
+-t-il
+-t-on
+-vous
+a
+absolument
+actuellement
+ailleurs
+ainsi
+ainsi qu'
+ainsi que
+aller
+alors
+alors qu'
+alors que
+après
+assez
+aucun
+aucune
+auparavant
+aussi
+aussi bien
+aussitôt
+autant
+autour
+autre
+autrement
+autres
+autrui
+av.
+avant
+avec
+avoir
+beaucoup
+bel et bien
+bien
+bien entendu
+bien qu'
+bien que
+bien sûr
+bientôt
+c'
+c' est pourquoi
+c'est-à-dire
+c'est-à-dire qu'
+c'est-à-dire que
+car
+ce
+ceci
+cela
+celle
+celle-ci
+celles
+celles-ci
+celui
+celui-ci
+cependant
+certain
+certaines
+certains
+ces
+cet
+cette
+ceux
+ceux-ci
+chacun
+chacune
+chaque
+chez
+combien
+comme
+comment
+complètement
+compte tenu
+concernant
+contre
+d
+d'
+d' abord
+d' ailleurs
+d' après
+d' autant plus
+d' autant que
+d' avance
+d' emblée
+d' entre
+d' ici
+d' où
+dans
+davantage
+de
+de ce fait
+de fait
+de le fait
+de le tout
+de même
+de nouveau
+de par
+de plus
+de plus en plus
+de temps en temps
+dehors
+depuis
+derrière
+des
+dessous
+dessus
+devant
+devenir
+devoir
+di
+différentes
+différents
+dire
+divers
+diverses
+donc
+donner
+dont
+du
+durant
+dès
+dès lors
+déjà
+désormais
+elle
+elle-même
+elles
+en
+en bas
+en commun
+en effet
+en face
+en fait
+en général
+en haut
+en outre
+en particulier
+en plus
+en raison
+en tant qu'
+en tant que
+en tout
+en tête
+en vain
+en vue
+encore
+enfin
+ensuite
+entièrement
+entre
+entre-temps
+envers
+environ
+essentiellement
+et
+et puis
+eux
+eux-mêmes
+exactement
+excepté
+extrêmement
+faire
+falloir
+fort
+guère
+généralement
+habituellement
+hors
+ici
+il
+il y a
+ils
+j'
+jamais
+je
+jusqu'
+jusque
+justement
+l
+l'
+l'on
+la
+la plus
+laisser
+laquelle
+le
+le long
+le moins
+le plus
+lequel
+les
+les plus
+lesquelles
+lesquels
+leur
+leurs
+loin
+longtemps
+lorsqu'
+lorsque
+lui
+lui-même
+là
+m'
+ma
+maintenant
+mais
+malgré
+me
+mes
+mettre
+moi
+moins
+mon
+même
+n' importe quel
+ne
+ni
+non
+non plus
+non seulement
+nos
+notamment
+notre
+nous
+nul
+néanmoins
+on
+or
+ou
+ou bien
+outre
+où
+par
+par ailleurs
+par conséquent
+par contre
+par exemple
+paraître
+parce qu'
+parce que
+parfois
+parmi
+particulièrement
+partout
+pas
+passer
+pendant
+personne
+petit à petit
+peu
+peu à peu
+peut-être
+plus
+plus ou moins
+plus qu'
+plus que
+plusieurs
+plutôt
+pour
+pour autant
+pour l' instant
+pourquoi
+pourtant
+pouvoir
+prendre
+presque
+principalement
+près
+puis
+puisqu'
+puisque
+qu'
+quand
+quand même
+quant à
+quasiment
+que
+quel
+quelle
+quelqu'un
+quelque
+quelque peu
+quelquefois
+quelques
+qui
+quitte à
+quoi
+rarement
+rester
+rien
+s'
+sa
+sans
+sans cesse
+sans doute
+sauf
+savoir
+se
+selon
+sembler
+ses
+seulement
+si
+si bien que
+si ce n' est
+simplement
+sinon
+soi
+soit
+son
+sous
+souvent
+suivant
+sur
+surtout
+tandis qu'
+tandis que
+tant
+tant qu'
+tant que
+tard
+tel
+telle
+tellement
+tenir
+ton
+totalement
+toujours
+tour à tour
+tous
+tout
+tout de même
+tout à fait
+toute
+toutefois
+toutes
+trop
+trouver
+très
+tu
+tôt
+un
+un peu
+une
+une fois
+unes
+uniquement
+uns
+venir
+vers
+via
+voir
+voire
+vos
+votre
+vouloir
+vous
+y
+y compris
+à
+à bord
+à cause
+à compter
+à coté
+à côté
+à la fois
+à le contraire
+à le delà
+à le final
+à le lieu
+à le mieux
+à le moins
+à le sujet
+à le total
+à le vu
+à les côtés
+à mesure
+à moins
+à nouveau
+à part
+à partir
+à peine
+à peu près
+à propos
+à proximité
+à présent
+à savoir
+à travers
+ça
+également
+être

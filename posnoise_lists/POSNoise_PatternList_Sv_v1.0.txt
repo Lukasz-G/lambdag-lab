@@ -1,0 +1,428 @@
+a
+all
+alls
+allt
+allt fortfarande
+allt mer
+alltefter
+allteftersom
+alltför
+alltid
+allting
+alltså
+and
+ange
+annan
+annars
+anse
+antingen
+att
+av
+av allt att döma
+avgöra
+bakom
+bara
+bedöma
+behöva
+beroende på
+beräkna
+berätta
+besluta
+beteckna
+betrakta
+beträffande
+betyda
+bl a
+bl.a.
+bland
+bland annat
+bli
+bortsett från
+bra
+bruka
+bägge
+båda
+bådadera
+både
+böra
+börja
+ca
+circa
+cirka
+de
+de här
+dels
+den
+den här
+denna
+densamma
+dessutom
+det
+det här
+det vill säga
+det_vill_säga
+dock
+du
+där
+därför
+därför att
+därigenom
+därmed
+då
+då och då
+efter
+efter det att
+eftersom
+ej
+el
+eller
+emellan
+emellertid
+emot
+en
+en halv
+ena
+enligt
+ens
+erkänna
+et_cetera
+etc
+exempelvis
+fast
+fastställa
+fastän
+finna
+flera
+fortfarande
+fortsätta
+fram
+fram och tillbaka
+framför
+framför allt
+framstå
+från
+från och med
+få
+för
+för att
+för det mesta
+för närvarande
+för sedan
+för sen
+för skull
+för övrigt
+förbli
+före
+förefalla
+förhindra
+förklara
+förmå
+förneka
+förr
+förr eller senare
+förrän
+först och främst
+försöka
+förutom
+förutsätta
+ganska
+garantera
+genom
+gentemot
+givetvis
+gärna
+ha
+han
+heller
+helt
+helt enkelt
+hemma
+hinna
+hittills
+hon
+hoppas
+hos
+hur
+hur som helst
+huruvida
+här
+hävda
+hög
+i
+i alla fall
+i allmänhet
+i anslutning till
+i dag
+i de fall
+i den mån som
+i enlighet med
+i form av
+i fråga om
+i förbindelse med
+i förhållande till
+i första hand
+i förväg
+i går
+i huvudsak
+i jämförelse med
+i längden
+i morgon
+i motsats till
+i och för sej
+i och för sig
+i och med
+i onödan
+i proportion till
+i regel
+i riktning mot
+i runt tal
+i samband med
+i sin tur
+i själva verket
+i stort sett
+i stället
+i stället för
+i så fall
+i så måtto
+i takt med
+i valet och kvalet
+i varje fall
+i år
+i övrigt
+ibland
+icke
+icke desto mindre
+idag
+ifråga om
+ifrågasätta
+ifrån
+igenom
+ihop
+in
+inför
+ingen
+ingenting
+inklusive
+innan
+innanför
+innebära
+inom
+inom ramen för
+inse
+inte
+intill
+jag
+ju
+jämfört med
+jämte
+kalla
+kanske
+komma
+konstatera
+kring
+kunna
+kvar
+känna
+kännas
+lika
+lika med
+liksom
+lite
+länge
+lär
+lära
+låt vara
+låta
+man
+med
+med avseende på
+med hjälp av
+med hänsyn till
+med tanke på
+med undantag för
+medan
+mellan
+men
+mena
+mer eller mindre
+mer och mer
+mer än
+mindre än
+mot
+mycken
+mycket
+må
+många
+mången
+måste
+naturligtvis
+ned
+ner
+ni
+nog
+nog så
+nu
+numera
+när
+när det gällde
+när det gäller
+när det gällt
+när som helst
+nära
+nära nog
+nästan
+någon
+någonting
+något av
+nånting
+oavsett
+oberoende av
+och
+också
+of
+ofta
+om
+omkring
+orka
+ovanpå
+per
+praktiskt taget
+på
+på egen hand
+på grund av
+på grundval av
+på rygg
+på så sätt
+påpeka
+reda
+redan
+rent av
+respektive
+riskera
+råka
+s k
+samma
+samman
+samt
+samtidigt med att
+samtidigt som
+samtlig
+se
+sedan
+sig
+sist men inte minst
+skola
+slippa
+sluta
+som
+som helst
+som regel
+somlig
+särskilt
+så
+så att
+så att säga
+så fan heller
+så gott som
+så här
+så länge
+så långt
+så småningom
+sådan
+sån
+såsom
+såväl
+t ex
+t.ex.
+tack vare
+the
+till
+till exempel
+till höger
+till höger och vänster
+till höger om
+till och med
+till skillnad mot
+till vänster
+till_exempel
+tillbaka
+tills
+tillsammans
+torde
+tro
+trots
+trots att
+ty
+tycka
+tyckas
+tänka
+under
+under alla förhållanden
+under förutsättning att
+undra
+ungefär
+upp
+upp till
+uppfatta
+uppge
+ur
+ur famn i famn
+ut
+utan
+utan vidare
+utanför
+ute
+utifrån
+utom
+utreda
+utöver
+vad
+vad beträffar
+vad för
+vad för slags
+vad gäller
+var
+var som helst
+vara
+varandra
+varann
+varannan
+vardera
+vare
+vare sig
+varenda
+varför
+varje
+varken
+vars
+vem
+verka
+veta
+vi
+via
+vid
+vid sidan av
+vid sidan om
+vidare
+vilja
+vilka
+vilka som helst
+vilken
+vilket som helst
+visa
+väl
+våga
+än
+ändå
+ännu
+ännu så länge
+även
+även om
+å
+å andra sidan
+å ena sidan
+åt
+ömsom
+önska
+över
+över huvud taget

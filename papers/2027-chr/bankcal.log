@@ -1,0 +1,10 @@
+  lithuanian_novels: scored 144 pairs in 143s
+  lithuanian_novels      bankcal L=5000  n=144 (12/132)  uncal Cllr 0.166 (min 0.000)  cal Cllr 0.001
+  ukrainian_novels: scored 256 pairs in 223s
+  ukrainian_novels       bankcal L=5000  n=256 (16/240)  uncal Cllr 0.028 (min 0.000)  cal Cllr 0.003
+  polish_novels: scored 289 pairs in 267s
+  polish_novels          bankcal L=5000  n=289 (17/272)  uncal Cllr 0.039 (min 0.000)  cal Cllr 0.028
+  german_novels: scored 784 pairs in 743s
+  german_novels          bankcal L=5000  n=784 (28/756)  uncal Cllr 0.048 (min 0.014)  cal Cllr 0.039
+  english_novels: scored 1849 pairs in 1806s
+  english_novels         bankcal L=5000  n=1849 (43/1806)  uncal Cllr 0.267 (min 0.135)  cal Cllr 0.189

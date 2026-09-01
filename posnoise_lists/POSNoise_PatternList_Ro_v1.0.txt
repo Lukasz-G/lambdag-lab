@@ -1,0 +1,464 @@
+-a
+-lea
+-ul
+-ului
+-uri
+a
+abia
+acasă
+acel
+acela
+același
+acest
+acesta
+acolo
+acum
+adesea
+adică
+adânc
+afara
+afară
+afară de
+afirma
+aici
+al
+ales
+alt
+altceva
+altcineva
+altfel
+altul
+alături
+alături de
+amenința
+angaja
+anterior
+anumit
+anunța
+apoi
+aproape
+apuca
+arăta
+asemenea
+astfel
+astfel că
+astfel încât
+astăzi
+asupra
+atunci
+atunci când
+atât
+atâta timp cât
+avea
+azi
+așa
+așa cum
+așa că
+așa încât
+așadar
+bine
+brusc
+ca
+ca atare
+ca și
+ca și cum
+cam
+care
+ce
+cel
+cel mult
+cel puțin
+cel târziu
+celălalt
+cere
+ceva
+chema
+chiar
+chiar dacă
+chiar și
+ci
+cine
+cine știe ce
+cineva
+circa
+clar
+conform
+considera
+continua
+contra
+conveni
+crede
+cu
+cu adevărat
+cu ajutorul
+cu atât mai puțin
+cu chiu cu vai
+cu excepția
+cu precădere
+cu privire la
+cu siguranță
+cu toate acestea
+cu toate astea
+cu toate că
+cu totul
+cum
+cumva
+curând
+cutare
+cuvânt cu cuvânt
+când
+cât
+cât și
+câtva
+că
+căci
+către
+da
+dacă
+dar
+datorită
+de
+de aceea
+de altfel
+de asemenea
+de ce
+de curând
+de către
+de deasupra
+de exemplu
+de fapt
+de la
+de lângă
+de obicei
+de pe
+de pe urma
+de peste
+de pildă
+de regulă
+de sub
+de tot
+de unde până unde
+de îndată
+de îndată ce
+de- a dreptul
+de- a lungul
+de-a
+de-a lungul
+deasupra
+deci
+decide
+declara
+decât
+degrabă
+deja
+demonstra
+denumi
+deoarece
+deodată
+des
+despre
+destul
+deveni
+deși
+din
+din cadrul
+din cauza
+din cauză că
+din ce în ce
+din când în când
+din fața
+din față
+din loc în loc
+din moment ce
+din nou
+din partea
+din pricina
+din punct de vedere
+din spatele
+din urmă
+dinaintea
+dincolo
+dincolo de
+dinspre
+dintre
+dintru
+doar
+dori
+dovedi
+dumnealui
+dumneata
+dumneavoastră
+după
+după aceea
+după ce
+după cum
+el
+estima
+etcetera
+eu
+executa
+extrem
+față de
+față în față
+față în față cu
+fi
+fie
+fiecare
+fiindcă
+foarte
+fără
+fără de
+fără să
+fără îndoială
+garanta
+gata
+grav
+greu
+hotărî
+iar
+ieri
+imposibil
+in
+in vitro
+in vivo
+intenționa
+jos
+la
+la fel
+la o parte
+la început
+lui
+lângă
+lăsa
+mai
+mai ales
+mai cu seamă
+mai degrabă
+mai întâi
+mai întâi de toate
+mereu
+meu
+mult
+mulțumi
+măcar
+mărturisi
+necesar
+nici
+nici pe departe
+nici una nici două
+nici_un
+niciodată
+nimeni
+nimic
+niște
+noaptea
+nu
+nu știu ce
+numai
+numi
+o
+o dată cu
+oarecare
+obliga
+odată
+odată ce
+odată cu
+ori
+ori de câte ori
+oricare
+orice
+oricine
+oricum
+parcă
+pe
+pe când
+pe de altă parte
+pe de o parte
+pe deplin
+pe ici pe colo
+pe la
+pe loc
+pe lângă
+pe măsură ce
+pe parcursul
+pe sub
+pe urmă
+pentru
+pentru ca
+pentru că
+per
+permite
+peste
+peste tot
+plin
+plus
+posibil
+potrivit
+prea
+precum
+precum și
+pretinde
+pricepe
+prin
+prin fața
+prin intermediul
+prin urmare
+printre
+printru
+privind
+probabil
+propune
+pur
+pur și simplu
+putea
+puțin
+până
+până -n
+până la
+până la urmă
+până în
+până și
+părea
+rapid
+refuza
+relata
+repede
+reprezenta
+reuși
+ruga
+rămâne
+rău
+sau
+sigur
+simplu
+simultan
+sine
+slab
+socoti
+special
+spre
+spre deosebire de
+spune
+strâns
+strădui
+sub
+sus
+să
+său
+tare
+tinde
+tocmai
+tot
+totodată
+totuși
+tu
+târziu
+tău
+uita
+ulterior
+un
+unde
+undeva
+uneori
+unul
+urma
+ușor
+va să zică
+voi
+vrea
+vreun
+vreunul
+zi cu zi
+împotriva
+împreună
+împreună cu
+în
+în același timp
+în afara
+în afară de
+în al doilea rând
+în al treilea rând
+în așa fel încât
+în cadrul
+în ce privește
+în ceea ce privește
+în cele din urmă
+în ciuda
+în comun
+în conformitate cu
+în consecință
+în continuare
+în cursul
+în curând
+în favoarea
+în fața
+în față
+în final
+în funcție de
+în general
+în genere
+în interiorul
+în jos
+în jur de
+în jurul
+în legătură cu
+în loc
+în loc de
+în mijlocul
+în numele
+în orice caz
+în plus
+în pofida
+în prealabil
+în prezent
+în primul rând
+în principal
+în privința
+în raport cu
+în realitate
+în schimb
+în sfârșit
+în spatele
+în special
+în sus
+în timp ce
+în timpul
+în tot cazul
+în total
+în urma
+în urmă
+în urmă cu
+în vederea
+în vigoare
+în vreme ce
+în întregime
+înainte
+înainte ca
+înainte de
+înaintea
+înapoi
+începe
+încerca
+înceta
+încât
+încă
+îndată
+îndeosebi
+însemna
+înspre
+însuși
+însă
+întotdeauna
+într-adevăr
+între
+între timp
+întreba
+întru
+întrucât
+întâi
+învăța
+și
+și așa mai departe
+și totuși
+și_alții
+ști

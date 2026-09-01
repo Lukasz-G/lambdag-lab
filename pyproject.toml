@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lambdag-lab"
+version = "1.0.0"
+description = "Research implementation and extensions around grammar-based authorship verification (LambdaG): multilingual POSNoise masking, Numba-accelerated KN/HPY/PPM engines, forensic calibration, explainability."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Lukasz Gagala", email = "lukaszgagala@wp.pl" }]
+keywords = ["authorship verification", "stylometry", "forensic linguistics",
+            "likelihood ratio", "POSNoise", "language models"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = ["numpy>=1.26", "scikit-learn>=1.3"]
+
+[project.optional-dependencies]
+numba = ["numba>=0.59"]          # strongly recommended: ~100x faster scoring
+spacy = ["spacy>=3.7"]           # masking from raw text (plus a per-language model)
+stanza = ["stanza>=1.7"]         # alternative tagger path (data_prep/mask_stanza)
+viz = ["matplotlib", "networkx"]
+dev = ["pytest", "tqdm"]
+
+[project.urls]
+Repository = "https://github.com/Lukasz-G/lambdag-lab"
+"Reference implementation (Nini)" = "https://github.com/AndreaNini/LambdaG"
+
+[project.scripts]
+lambdag-lab = "cli:main"
+
+[tool.setuptools]
+py-modules = ["lambdag", "cli"]
+
+# NOTE: install EDITABLE (pip install -e ".[numba,dev]") from a git checkout --
+# the pattern lists in ./posnoise_lists/ are discovered relative to lambdag.py,
+# which an editable install preserves. Wheel/PyPI packaging is deliberately
+# deferred (the PyPI name "LambdaG" is the reference implementation's).

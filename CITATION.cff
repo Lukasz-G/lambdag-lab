@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it together with the paper it
+  accompanies (see README for the per-paper references).
+title: "lambdag-lab: multilingual grammar-based authorship verification"
+type: software
+authors:
+  - family-names: "Gagala"
+    given-names: "Lukasz"
+    email: "lukaszgagala@wp.pl"
+    affiliation: "Georg-August-Universität Göttingen"
+repository-code: "https://github.com/Lukasz-G/lambdag-lab"
+license: Apache-2.0
+version: 1.0.0
+date-released: 2026-09-01
+keywords:
+  - authorship verification
+  - stylometry
+  - forensic linguistics
+  - POSNoise
+  - likelihood ratio
+references:
+  - type: article
+    title: >-
+      Grammar as a behavioral biometric: Using cognitively motivated grammar
+      models for authorship verification
+    authors:
+      - family-names: "Nini"
+        given-names: "Andrea"
+    notes: "The LambdaG method; reference implementation at github.com/AndreaNini/LambdaG"

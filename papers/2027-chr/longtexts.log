@@ -1,0 +1,15 @@
+  lithuanian_novels        kn          long L=1000  AUC 0.924  Cllr   19.953  sqrt 0.800  hapax 1.605  (16s)  n=48
+  lithuanian_novels        kn          long L=2000  AUC 0.976  Cllr   30.064  sqrt 0.707  hapax 1.331  (22s)  n=48
+  lithuanian_novels        kn          long L=5000  AUC 1.000  Cllr   65.385  sqrt 0.951  hapax 1.816  (58s)  n=47
+  ukrainian_novels         kn          long L=1000  AUC 0.969  Cllr    5.655  sqrt 0.333  hapax 0.511  (17s)  n=64
+  ukrainian_novels         kn          long L=2000  AUC 0.991  Cllr    4.977  sqrt 0.155  hapax 0.257  (28s)  n=64
+  ukrainian_novels         kn          long L=5000  AUC 1.000  Cllr    9.871  sqrt 0.144  hapax 0.253  (70s)  n=63
+  polish_novels            kn          long L=1000  AUC 0.921  Cllr   15.417  sqrt 0.652  hapax 1.247  (36s)  n=68
+  polish_novels            kn          long L=2000  AUC 0.984  Cllr    8.352  sqrt 0.264  hapax 0.556  (47s)  n=68
+  polish_novels            kn          long L=5000  AUC 0.999  Cllr   10.887  sqrt 0.188  hapax 0.351  (91s)  n=68
+  german_novels            kn          long L=1000  AUC 0.893  Cllr   17.749  sqrt 0.775  hapax 1.536  (85s)  n=112
+  german_novels            kn          long L=2000  AUC 0.946  Cllr   22.721  sqrt 0.616  hapax 1.241  (105s)  n=112
+  german_novels            kn          long L=5000  AUC 0.994  Cllr    5.398  sqrt 0.113  hapax 0.188  (206s)  n=112
+  english_novels           kn          long L=1000  AUC 0.914  Cllr   20.179  sqrt 0.752  hapax 1.444  (154s)  n=172
+  english_novels           kn          long L=2000  AUC 0.964  Cllr   19.491  sqrt 0.522  hapax 0.895  (179s)  n=172
+  english_novels           kn          long L=5000  AUC 0.988  Cllr   21.809  sqrt 0.339  hapax 0.458  (311s)  n=172

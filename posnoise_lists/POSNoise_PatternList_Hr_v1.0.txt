@@ -1,0 +1,336 @@
+a
+a i
+ako
+ali
+ali i
+bar
+barem
+baš
+bez
+bez obzira što
+bilo
+bilo da
+biti
+budući
+budući da
+da
+dakle
+daleko
+danas
+diljem
+do
+do sada
+dobro
+dodavati
+doista
+dok
+dokazati
+dosta
+dovoljno
+dozvoliti
+duž
+evo
+gdje
+glede
+god
+godišnje
+gotovo
+htjeti
+i
+i dalje
+i ili
+iako
+ikakav
+ili
+inače
+ipak
+ispod
+ispred
+ispričati
+istaknuti
+isticati
+itko
+iz
+iza
+izjaviti
+između
+iznad
+izvan
+išta
+ja
+jednom
+jer
+još
+još uvijek
+k
+kad
+kada
+kakav
+kako
+kako da
+kaniti
+kao
+kao da
+kao i
+kao niti
+kao što
+kasno
+kazati
+kod
+koji
+koliki
+koliko
+koncem
+krajem
+kroz
+li
+loše
+malo
+među
+međutim
+mi
+misliti
+mnogo
+moj
+morati
+moći
+možda
+na
+nad
+nadati
+naglasiti
+naglašavati
+naime
+najaviti
+nakon
+nakon čega
+nakon što
+namjeravati
+napominjati
+nastaviti
+nastavljati
+nastojati
+naučiti
+navoditi
+nazivati
+nazvati
+naš
+ne
+nego
+nego i
+nego što
+neka
+nekakav
+neki
+nekoliko
+netko
+nečiji
+nešto
+ni
+nikad
+nikada
+nikakav
+niti
+nitko
+ništa
+njegov
+njen
+njezin
+njihov
+no
+no što
+npr.
+o
+obećati
+objašnjavati
+od
+od kada
+odbijati
+odgovoriti
+odlučiti
+odlučivati
+odmah
+odnosno
+oko
+omogućivati
+on
+onaj
+onakav
+onda
+oni
+opet
+osim
+osim ako
+osim što
+ostajati
+ostati
+otkriti
+ovaj
+ovakav
+ovdje
+pa
+pak
+pitati
+planirati
+po
+pod
+pojasniti
+pokazati
+pokazivati
+pokoji
+pokraj
+pokušati
+pokušavati
+pola
+pomoću
+ponekad
+poput
+pored
+posebice
+poslije
+postajati
+postati
+posto
+potom
+potvrditi
+povodom
+pozvati
+početi
+početkom
+počinjati
+pred
+predlagati
+predložiti
+preko
+prema
+premda
+prestati
+previše
+pri
+prigodom
+prije
+prije nego
+prije nego što
+prije no što
+prilikom
+primjerice
+priopćiti
+pritom
+priznati
+procjenjivati
+proglasiti
+protiv
+puno
+putem
+radi
+reći
+s obzirom da
+s obzirom na
+s tim da
+sa
+sada
+samo
+sasvim
+sav
+sebe
+shvatiti
+slagati
+složiti
+smatrati
+smjeti
+spomenuti
+spriječiti
+sredinom
+stoga
+sumnjati
+svaki
+svatko
+sve
+sve dok
+svoj
+tada
+taj
+takav
+tako
+tako da
+tako što
+također
+te
+tek
+ti
+tijekom
+tj.
+tko
+to
+tokom
+tolik
+toliko
+trebati
+tu
+tvoj
+tvrditi
+u
+u kojem
+u odnosu na
+u slučaju da
+u svezi s
+u vezi s
+uglavnom
+ukazati
+uključivati
+ukoliko
+umjesto
+umjesto da
+unatoč
+unatoč tome što
+unutar
+uopće
+uoči
+upozoravati
+upozoriti
+upravo
+uslijed
+uspjeti
+usprkos
+usred
+ustvrditi
+utvrditi
+uvijek
+uvjeriti
+uz
+valjati
+vaš
+već
+već i
+vi
+više
+više nego
+više od
+vjerovati
+voljeti
+vrlo
+za
+za razliku od
+zaboraviti
+zaključiti
+zar
+zatim
+zato
+zato jer
+zato što
+zbog
+zbog toga što
+znati
+značiti
+zvati
+čak
+čak i
+često
+čiji
+čim
+činiti
+širok
+širom
+što
+žaliti
+željeti

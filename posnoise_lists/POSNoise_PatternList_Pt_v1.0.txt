@@ -1,0 +1,383 @@
+/
+a
+a a medida que
+a as vezes
+a favor ou contra
+a fim de
+a fim de que
+a não ser
+a não ser que
+a o
+a o invés
+a o invés de
+a o passo que
+a o ponto de
+a par de
+a partir de
+a ponto de
+a respeito de
+abaixo
+acabar
+acerca
+acerca de
+achar
+acima
+aconselhar
+acreditar
+acrescentar
+actualmente
+acusar
+adiantar
+admitir
+afinal
+afirmar
+agora
+agora que
+ainda
+ainda assim
+ainda que
+ajudar
+alegar
+algo
+algum
+alguém
+ali
+aliás
+alto
+além
+além de
+amanhã
+ambos
+ameaçar
+andar
+anteontem
+antes
+antes de
+anunciar
+ao
+apenas
+apesar
+apesar de
+apesar disso
+apontar
+aprender
+após
+aquele
+aqui
+aquilo
+aquém
+assim
+assim como
+através
+atrás
+até
+avaliar
+aí
+baixo
+bastante
+bem
+bem como
+cada
+cada vez mais
+cedo
+cerca
+cerca de
+certo
+certos
+chamar
+claro
+classificar
+com
+com vista a
+começar
+como
+como que
+como se
+como também
+compreender
+comprometer
+comprovar
+concluir
+concordar
+confessar
+conforme
+conseguir
+considerar
+consistir
+continuar
+contra
+contudo
+convencer
+convidar
+crer
+cujo
+cá
+da
+dado que
+de
+de aí a
+de esse modo
+de forma a
+de modo a
+de modo que
+de novo
+de o que
+de o que como
+de tal modo que
+debaixo
+decidir
+declarar
+deixar
+demais
+demasiado
+demonstrar
+dentro
+depois
+depois de
+depressa
+des
+desde
+desde que
+desejar
+desta
+destinar
+dever
+devido
+dezena
+dezenas de
+diante
+diante de
+disso
+diversos
+dizer
+durante
+e
+e/ou
+eis
+ela
+elas
+ele
+eles
+eles/elas
+em
+em a verdade
+em favor de
+em o entanto
+em relação a
+em torno de
+em vez de
+embora
+enfim
+enquanto
+enquanto que
+entender
+entre
+entrementes
+entretanto
+então
+esclarecer
+esperar
+esse
+estar
+este
+etc
+etc.
+eu
+exceto
+explicar
+face
+face a
+ficar
+foi
+fora
+fora de mão
+forçar
+garantir
+gostar
+graças
+graças a
+haver
+hoje
+há
+imaginar
+indicar
+informar
+interessar
+ir
+isso
+isto
+isto é
+jamais
+julgar
+junto
+já
+já que
+lembrar
+limitar
+logo
+logo que
+longe
+lá
+mais
+mais de
+mais de o que
+mais uma vez
+mal
+mandar
+mas
+mediante
+melhor
+menos
+mesmo
+mesmo assim
+mesmo que
+meu
+mostrar
+muitas
+muito
+nada
+nada mais nada menos
+negar
+nem
+nem mesmo
+nenhum
+nessa
+ninguém
+nosso
+novo
+nunca
+não
+não só
+nós
+o
+obrigar
+onde
+ontem
+ora
+ou
+ou seja
+outro
+outrora
+para
+para além de
+parecer
+pelo
+pelo menos
+pensar
+perante
+perceber
+perguntar
+permanecer
+permitir
+perto
+pior
+poder
+pois
+por
+por assim dizer
+por exemplo
+por fim
+por mais que
+por meio de
+por o menos
+por o que
+por outro lado
+porque
+porquê
+portanto
+porém
+pouco
+pra
+precisar
+preferir
+pretender
+primeira
+primeiro
+procurar
+prometer
+próprio
+próximo
+qual
+qualquer
+quando
+quanto
+quanto a
+quase
+que
+quem
+quer
+querer
+recentemente
+recomendar
+reconhecer
+recordar
+recusar
+resolver
+revelar
+rumo
+rápido
+saber
+salientar
+se
+se bem que
+segundo
+sem
+sem que
+sempre
+sendo assim
+sentir
+senão
+sequer
+ser
+seu
+si
+significar
+sim
+sob
+sobre
+sobretudo
+sua
+sublinhar
+só
+tais como
+tal
+tal como
+talvez
+também
+tampouco
+tanto
+tanto mais que
+temer
+tentar
+ter
+toda
+toda a
+todas as
+todo
+todo o
+todos os
+tornar
+trás
+tu
+tudo
+tão
+um
+um pouco
+uma
+uma a uma
+uma vez que
+uns vez que
+ver
+vice-versa
+vir
+visar
+visto que
+você
+voltar
+vosso
+vulgo
+várias
+vários
+vós
+é
+é como se

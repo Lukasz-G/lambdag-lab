@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+venv/
+.venv/
+
+# data and heavy artefacts live on Zenodo / are rebuilt by data_prep
+masked/
+data_prep/raw/
+data_prep/cache/
+scores/
+*.jsonl
+
+# LaTeX build debris (papers ship sources for experiments only)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+!papers/**/*.log
+*.out
+*.run.xml
+*.synctex.gz

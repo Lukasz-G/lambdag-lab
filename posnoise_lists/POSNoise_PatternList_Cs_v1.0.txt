@@ -1,0 +1,582 @@
+a
+a la
+a priori
+a sice
+a sice že
+a to
+a to jako
+a to protože
+a to že
+aby
+akorát
+ale
+alespoň
+anebo
+ani
+aniž
+ano
+apod
+asi
+aspoň
+atd
+avšak
+ač
+ačkoli
+ačkoliv
+ať
+až
+bez
+bez ohledu na
+blízko
+blízko k
+blíž k
+blíže k
+bohužel
+bok po boku s
+brzy
+buď
+byť
+bát
+být
+bývat
+bývávat
+během
+celkem
+chtít
+chtě nechtě
+chystat
+co
+co do
+co možná
+coby
+cokoli
+copak
+cosi
+což
+daleko
+de facto
+dlouho
+dnes
+dneska
+do
+do rukou
+do čela
+dobře
+docela
+dodat
+dodnes
+dodávat
+dohromady
+dokonce
+dokud
+dokázat
+dole
+dolů
+doma
+domnívat
+domů
+doporučovat
+doslova
+dost
+dosud
+doufat
+dovolit
+dovést
+dozvědět
+dvakrát
+dál
+dále
+dát
+dávno
+díky
+dříve
+hlavně
+hned
+hodlat
+hodně
+i
+i když
+i pokud
+ihned
+jak
+jakmile
+jako
+jakožto
+jaký
+jakýkoli
+jakýkoliv
+jakýsi
+jednak
+jednoduše
+jednou
+jeho
+jehož
+jelikož
+jen
+jenom
+jenomže
+jenž
+jenže
+jestli
+jestliže
+ještě
+jinak
+jinde
+jistě
+již
+já
+k
+kam
+každý
+kde
+kdežto
+kdo
+kdy
+kdysi
+když
+kolem
+kolem dokola
+kolik
+koncem
+konstatovat
+kromě
+krátce
+který
+kvůli
+letos
+li
+loni
+lépe
+mezi
+mezitím
+mimo
+mj
+mnohem
+mnoho
+moc
+moci
+možná
+muset
+my
+myslit
+málo
+méně
+méně než
+měsíc co měsíc
+můj
+na
+na místo
+na počest
+na rozdíl od
+na rozdíl ode
+na téma
+na vrub
+na způsob
+na základě
+na závěr
+na úkor
+na úrovni
+na účet
+nad
+nadále
+nahoru
+nahoře
+najednou
+najevo
+nakonec
+namísto
+naopak
+naposledy
+naprosto
+naproti
+napsat
+například
+narozdíl od
+natolik
+naučit
+navrhovat
+navzdory
+navíc
+naznačovat
+naštěstí
+ne
+nebo
+nebo li
+neboli
+neboť
+nechat
+nedaleko
+nehledě k
+nehledě na
+nejen
+nejen že
+nejprve
+nejspíš
+neustále
+nezávisle na
+než
+nic
+nicméně
+nijak
+nikde
+nikdo
+nikdy
+nikoli
+nikoliv
+nyní
+následkem
+náš
+nízko
+nýbrž
+něco
+nějak
+nějaký
+někam
+někde
+někdo
+někdy
+několik
+několikrát
+některý
+o
+obvykle
+obávat
+občas
+od
+odhadovat
+odkud
+odmítat
+odmítnout
+odpoledne
+odpovědět
+ohledně
+okolo
+on
+onen
+opravdu
+oproti
+opět
+ovšem
+oznámit
+pak
+pamatovat
+patrně
+plus
+plánovat
+po
+po boku
+po dobu
+po stránce
+po vzoru
+poblíž
+pochopit
+pod
+pod tlakem
+pod vlivem
+pod záminkou
+podle
+pokoušet
+pokud
+pokusit
+pomalu
+pomoci
+pomocí
+poněkud
+poněvadž
+poprvé
+potom
+potvrdit
+poté
+pouze
+pozdě
+poznamenat
+počátkem
+počínaje
+pořád
+požádat
+prakticky
+pro
+pro případ
+prohlásit
+prostě
+prostřednictvím
+proti
+proto
+protože
+proč
+prudce
+pryč
+právě
+prý
+ptát
+pár
+přece
+přece jen
+přece jenom
+před
+předem
+především
+předpokládat
+předtím
+přes
+přestat
+přesto
+přestože
+přesvědčit
+při
+při příležitosti
+přinejmenším
+připomenout
+přitom
+přiznat
+přičemž
+přát
+příliš
+přímo
+respektive
+rok co rok
+rovněž
+rozhodnout
+rozhodně
+ruku v ruce s
+rychle
+rád
+ráno
+s
+s ohledem na
+s pomocí
+s přihlédnutím k
+s výjimkou
+samozřejmě
+samý
+sdělit
+se
+se zřetelem k
+sem
+sice
+skoro
+skutečně
+směrem do
+směrem k
+směrem ke
+směrem na
+smět
+snad
+snadno
+snažit
+souběžně s
+současně s
+současně se
+společně s
+společně se
+spolu
+spolu s
+spolu se
+spíš
+stejně
+stále
+stůj co stůj
+svůj
+tady
+tak
+takhle
+takový
+takovýhle
+takovýto
+takto
+taky
+také
+takže
+tam
+teda
+tedy
+tehdy
+ten
+tenhle
+tenhleten
+tenkrát
+tento
+tentokrát
+tentýž
+teprve
+teď
+teďka
+tj
+to
+to je
+to jest
+to znamená
+tolik
+totiž
+trochu
+trošku
+tu
+tudíž
+tvrdit
+tváří v tvář
+tvůj
+ty
+téměř
+též
+týž
+těžce
+těžko
+třeba
+třikrát
+u
+u příležitosti
+ukazovat
+ukázat
+umožnit
+umožňovat
+umět
+upozornit
+uprostřed
+určitě
+uvnitř
+uvádět
+uvést
+uvědomit
+už
+v
+v blízkosti
+v době
+v důsledku
+v neprospěch
+v období
+v oblasti
+v oboru
+v otázce
+v podobě
+v poměru k
+v porovnání s
+v porovnání se
+v procesu
+v protikladu k
+v průběhu
+v případě
+v rozporu s
+v rozporu se
+v rámci
+v souhlasu s
+v souladu s
+v souladu se
+v souvislosti s
+v souvislosti se
+v zastoupení
+v zájmu
+v závislosti na
+v závěru
+v čele
+v čele s
+v čele se
+v řadě
+ve formě
+ve jménu
+ve prospěch
+ve shodě s
+ve smyslu
+ve směru
+ve spojení s
+ve spojení se
+ve spojitosti s
+ve spojitosti se
+ve spolupráci s
+ve spolupráci se
+ve srovnání s
+ve srovnání se
+ve světle
+ve vztahu k
+ve vztahu ke
+ve věci
+ve znamení
+vedle
+velice
+velmi
+ven
+venku
+versus
+večer
+veškerý
+vlastně
+vlevo
+vloni
+vpravo
+vy
+vysoce
+vysoko
+vysvětlit
+vysvětlovat
+vzadu
+vzhledem
+vzhledem k
+vzhledem ke
+váš
+víc než
+více
+více než
+výměnou za
+včas
+včera
+včetně
+vědět
+většinou
+věřit
+však
+všecek
+všechen
+všeho všudy
+všelijaký
+všude
+vůbec
+vůči
+vždy
+vždycky
+vždyť
+z
+z důvodu
+z důvodů
+z hlediska
+z oblasti
+z titulu
+z řad
+za
+za pomoci
+za účelem
+zase
+zatím
+zatímco
+začátkem
+začínat
+začít
+zcela
+zda
+zdaleka
+zdarma
+zde
+zdůraznit
+ze strany
+zejména
+zhruba
+zjistit
+zkrátka
+znamenat
+znovu
+zpočátku
+zpravidla
+zpět
+zrovna
+zvláště
+zvlášť
+zároveň
+zároveň s
+zároveň se
+zítra
+zřejmě
+často
+či
+čili
+říci
+říkat
+že
+žádný

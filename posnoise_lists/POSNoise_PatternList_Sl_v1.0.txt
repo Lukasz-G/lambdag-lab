@@ -1,0 +1,425 @@
+a
+ali
+ampak
+ampak tudi
+bati
+biti
+blizu
+bodisi
+bolj
+brez
+bržkone
+bržčas
+celo
+da
+daleč
+dalje
+danes
+dejati
+do
+dobro
+dodati
+dogovoriti
+dokaj
+dokazati
+dokler
+določati
+doma
+domala
+domnevati
+domov
+doslej
+dosti
+dovoliti
+dovolj
+drugače
+drugič
+drugje
+dvakrat
+edino
+enak
+enkrat
+glede
+glede na
+hitro
+hkrati
+hoteti
+in
+in sicer
+in to
+isti
+iz
+izmed
+izpod
+izpred
+izvedeti
+izven
+ja
+jaz
+jeseni
+jest
+jutri
+k
+kadar
+kaj
+kaj šele
+kajpak
+kajti
+kak
+kako
+kakor
+kakor da
+kakršen
+kakršenkoli
+kakšen
+kam
+kamor
+kar
+kar se da
+karkoli
+kateri
+kateri koli
+katerikoli
+katero koli
+kazati
+kdaj
+kdo
+kdor
+kdorkoli
+ker
+ki
+kje
+kjer
+kljub
+kljub temu da
+kmalu
+ko
+koder
+koli
+koliko
+kolikor
+komaj
+kot
+kot da
+kot pa da
+kot če
+kvečjemu
+lahko
+lani
+le
+le da
+letos
+malce
+malo
+manj
+manj kot
+marsikaj
+marsikateri
+marsikdo
+marveč
+med
+medtem
+medtem ko
+menda
+meniti
+mimo
+misliti
+mnog
+mnogo
+mogoče
+moj
+morati
+morda
+moči
+na
+na primer
+nad
+nadvse
+naj
+najbolj
+najbrž
+najin
+najmanj
+najprej
+največ
+največkrat
+name
+nameravati
+namesto
+namesto da
+namreč
+naprej
+narobe
+naročiti
+nase
+nato
+navkljub
+navzdol
+navzgor
+nazadnje
+nazaj
+naš
+ne
+ne da
+ne glede na
+ne le
+ne pa
+ne samo
+nek
+nekaj
+nekakšen
+nekateri
+nekdo
+neki
+nekoč
+nemara
+nenadoma
+nihče
+nikakor
+nikakršen
+nikar
+nikoli
+niti
+nič
+njegov
+njen
+njihov
+njun
+no
+noben
+o
+ob
+oba
+obenem
+oboj
+oceniti
+ocenjevati
+od
+odgovoriti
+odkar
+odločiti
+okoli
+okrog
+omeniti
+omogočiti
+on
+oni
+onkraj
+opozarjati
+opozoriti
+ostajati
+oziroma
+pa
+pa vendar
+paziti
+pač
+pač pa
+po
+po navadi
+pod
+pogosto
+pojasniti
+pokazati
+pol
+poleg
+poleti
+pomeniti
+pomisliti
+ponavadi
+ponoči
+popolnoma
+posebej
+poskusiti
+poskušati
+postajati
+postati
+potem
+potem ko
+poudariti
+povedati
+povsem
+povsod
+pozabiti
+pozno
+počasi
+prav
+praviloma
+praviti
+pravzaprav
+precej
+pred
+preden
+predlagati
+predvsem
+prej
+prek
+preko
+premnog
+prepričati
+preveč
+pri
+približno
+prizadevati
+priznati
+pričeti
+prositi
+proti
+prvič
+pustiti
+rad
+raje
+ravno
+razen
+razglasiti
+razložiti
+razmeroma
+res
+reči
+s tem da
+s tem ko
+saj
+samo
+se
+se pravi
+sedaj
+sem
+seveda
+sicer
+siliti
+skleniti
+sklepati
+skoraj
+skorajda
+skozi
+skupaj
+skušati
+smeti
+spet
+sploh
+spodaj
+spomladi
+spomniti
+sporočiti
+spraševati
+spričo
+sprva
+sredi
+svoj
+sčasoma
+ta
+tak
+tako
+tako da
+tako imenovana
+tako imenovane
+tako imenovanih
+tako kot
+tako rekoč
+takoj
+takrat
+takrat ko
+takšen
+tale
+tam
+tedaj
+temveč
+temveč tudi
+ter
+ti
+tik
+tisti
+tja
+to je
+toda
+tokrat
+toliko
+tolikšen
+torej
+trditi
+treba
+truditi
+tu
+tudi
+tukaj
+tvoj
+ugotavljati
+ugotoviti
+upati
+uspeti
+utegniti
+v
+vajin
+vame
+vaš
+vedeti
+vedno
+veliko
+veljati
+vendar
+vendarle
+verjeti
+verjetno
+ves
+več
+več kot
+večinoma
+večkrat
+vnaprej
+vprašati
+vsaj
+vsak
+vsakdo
+vsakršen
+vse
+vsekakor
+vselej
+vzdolž
+včasih
+včeraj
+všeč
+z
+za
+zakaj
+zame
+zapisati
+zaradi
+zares
+zase
+zatem
+zato
+zato da
+zato ker
+zavedati
+začeti
+zdaj
+zdaj ko
+zdeti
+zelo
+zgolj
+zgoraj
+zjutraj
+zlasti
+zmoči
+znati
+znotraj
+znova
+zoper
+zunaj
+zvečer
+če
+čeprav
+četudi
+čez
+češ
+češ da
+čim
+še
+še posebej
+še posebno
+še preden
+šele
+šele ko
+šteti
+žal
+že
+želeti
