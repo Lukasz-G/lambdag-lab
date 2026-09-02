@@ -1,0 +1,584 @@
+# aligned companion of POSNoise_PatternList_Cs_v1.0.txt; evidence: UD_Czech-PDT (222835 sentences)
+# entry	upos	class	evidence_count
+a	CCONJ	CCONJ	72007
+a la	CCONJ	MWE	72007
+a priori	CCONJ	MWE	72007
+a sice	CCONJ	MWE	72007
+a sice že	CCONJ	MWE	72007
+a to	CCONJ	MWE	72007
+a to jako	CCONJ	MWE	72007
+a to protože	CCONJ	MWE	72007
+a to že	CCONJ	MWE	72007
+aby	SCONJ	SCONJ	7179
+akorát	PART	PART	214
+ale	CCONJ	CCONJ	11781
+alespoň	PART	PART	520
+anebo	CCONJ	CCONJ	320
+ani	PART	PART	3007
+aniž	SCONJ	SCONJ	235
+ano	PART	PART	2017
+apod	ADV	ADV	161
+asi	PART	PART	4074
+aspoň	PART	PART	237
+atd	ADV	ADV	145
+avšak	CCONJ	CCONJ	792
+ač	SCONJ	SCONJ	76
+ačkoli	SCONJ	SCONJ	377
+ačkoliv	SCONJ	SCONJ	200
+ať	SCONJ	SCONJ	391
+až	PART	PART	4754
+bez	ADP	ADP	1944
+bez ohledu na	ADP	MWE	1944
+blízko	ADV	ADV	332
+blízko k	ADV	MWE	332
+blíž k	ADV	MWE	36
+blíže k	ADV	MWE	62
+bohužel	PART	PART	542
+bok po boku s	NOUN	MWE	54
+brzy	ADV	ADV	470
+buď	CCONJ	CCONJ	432
+byť	SCONJ	SCONJ	152
+bát	VERB	LVERB	296
+být	AUX	AUX	148788
+bývat	AUX	AUX	533
+bývávat	AUX	AUX	15
+během	ADP	ADP	1329
+celkem	ADV	ADV	617
+chtít	VERB	LVERB	3709
+chtě nechtě	VERB	MWE	3
+chystat	VERB	LVERB	186
+co	PRON	PRON	9251
+co do	PRON	MWE	9251
+co možná	PRON	MWE	9251
+coby	SCONJ	SCONJ	121
+cokoli	PRON	PRON	89
+copak	PRON	PRON	125
+cosi	PRON	PRON	66
+což	PRON	PRON	2769
+daleko	ADV	ADV	787
+de facto	X	MWE	340
+dlouho	ADV	ADV	1004
+dnes	ADV	ADV	1902
+dneska	ADV	ADV	516
+do	ADP	ADP	17049
+do rukou	ADP	MWE	17049
+do čela	ADP	MWE	17049
+dobře	ADV	ADV	1854
+docela	ADV	ADV	510
+dodat	VERB	LVERB	725
+dodnes	ADV	ADV	198
+dodávat	VERB	LVERB	382
+dohromady	ADV	ADV	255
+dokonce	ADV	ADV	1158
+dokud	SCONJ	SCONJ	275
+dokázat	VERB	LVERB	793
+dole	ADV	ADV	185
+dolů	ADV	ADV	255
+doma	ADV	ADV	692
+domnívat	VERB	LVERB	485
+domů	ADV	ADV	606
+doporučovat	VERB	LVERB	179
+doslova	ADV	ADV	132
+dost	ADV	ADV	1231
+dosud	ADV	ADV	803
+doufat	VERB	LVERB	377
+dovolit	VERB	LVERB	273
+dovést	VERB	LVERB	184
+dozvědět	VERB	LVERB	228
+dvakrát	ADV	ADV	337
+dál	ADV	ADV	713
+dále	ADV	ADV	1041
+dát	VERB	LVERB	2608
+dávno	ADV	ADV	642
+díky	ADP	ADP	603
+dříve	ADV	ADV	1239
+hlavně	PART	PART	691
+hned	ADV	ADV	492
+hodlat	VERB	LVERB	333
+hodně	ADV	ADV	1547
+i	CCONJ	CCONJ	14020
+i když	CCONJ	MWE	14020
+i pokud	CCONJ	MWE	14020
+ihned	ADV	ADV	125
+jak	ADV	ADV	7078
+jakmile	SCONJ	SCONJ	200
+jako	SCONJ	SCONJ	8404
+jakožto	SCONJ	SCONJ	91
+jaký	DET	DET	1715
+jakýkoli	DET	DET	380
+jakýkoliv	DET	DET	192
+jakýsi	DET	DET	243
+jednak	CCONJ	CCONJ	233
+jednoduše	ADV	ADV	97
+jednou	ADV	ADV	1031
+jeho	DET	DET	11220
+jehož	DET	DET	1308
+jelikož	SCONJ	SCONJ	267
+jen	PART	PART	4298
+jenom	PART	PART	1496
+jenomže	CCONJ	CCONJ	107
+jenž	PRON	PRON	3245
+jenže	CCONJ	CCONJ	342
+jestli	SCONJ	SCONJ	745
+jestliže	SCONJ	SCONJ	381
+ještě	PART	PART	5678
+jinak	ADV	ADV	836
+jinde	ADV	ADV	211
+jistě	PART	PART	386
+již	ADV	ADV	2567
+já	PRON	PRON	8672
+k	ADP	ADP	14306
+kam	ADV	ADV	499
+každý	DET	DET	2813
+kde	ADV	ADV	3420
+kdežto	CCONJ	CCONJ	68
+kdo	PRON	PRON	1997
+kdy	ADV	ADV	2731
+kdysi	ADV	ADV	245
+když	SCONJ	SCONJ	8464
+kolem	ADP	ADP	1259
+kolem dokola	ADP	MWE	1259
+kolik	DET	DET	855
+koncem	ADP	ADP	365
+konstatovat	VERB	LVERB	179
+kromě	ADP	ADP	848
+krátce	ADV	ADV	294
+který	DET	DET	25951
+kvůli	ADP	ADP	903
+letos	ADV	ADV	945
+li	SCONJ	SCONJ	1215
+loni	ADV	ADV	608
+lépe	ADV	ADV	479
+mezi	ADP	ADP	3318
+mezitím	ADV	ADV	226
+mimo	ADP	ADP	680
+mj	ADV	ADV	154
+mnohem	ADV	ADV	499
+mnoho	DET	DET	1387
+moc	ADV	ADV	1869
+moci	VERB	LVERB	10445
+možná	PART	PART	1174
+muset	VERB	LVERB	5078
+my	PRON	PRON	5944
+myslit	VERB	LVERB	1872
+málo	ADV	ADV	680
+méně	ADV	ADV	1317
+méně než	ADV	MWE	1317
+měsíc co měsíc	NOUN	MWE	2494
+můj	DET	DET	4007
+na	ADP	ADP	58701
+na místo	ADP	MWE	58701
+na počest	ADP	MWE	58701
+na rozdíl od	ADP	MWE	58701
+na rozdíl ode	ADP	MWE	58701
+na téma	ADP	MWE	58701
+na vrub	ADP	MWE	58701
+na způsob	ADP	MWE	58701
+na základě	ADP	MWE	58701
+na závěr	ADP	MWE	58701
+na úkor	ADP	MWE	58701
+na úrovni	ADP	MWE	58701
+na účet	ADP	MWE	58701
+nad	ADP	ADP	1683
+nadále	ADV	ADV	566
+nahoru	ADV	ADV	187
+nahoře	ADV	ADV	162
+najednou	ADV	ADV	231
+najevo	ADV	ADV	120
+nakonec	ADV	ADV	706
+namísto	ADP	ADP	122
+naopak	PART	PART	549
+naposledy	ADV	ADV	112
+naprosto	ADV	ADV	204
+naproti	ADP	ADP	137
+napsat	VERB	LVERB	357
+například	PART	PART	2160
+narozdíl od	ADP	MWE	18
+natolik	ADV	ADV	154
+naučit	VERB	LVERB	284
+navrhovat	VERB	LVERB	211
+navzdory	ADP	ADP	260
+navíc	ADV	ADV	880
+naznačovat	VERB	LVERB	198
+naštěstí	PART	PART	128
+ne	PART	PART	2363
+nebo	CCONJ	CCONJ	5807
+nebo li	CCONJ	MWE	5807
+neboli	CCONJ	CCONJ	878
+neboť	CCONJ	CCONJ	561
+nechat	VERB	LVERB	693
+nedaleko	ADP	ADP	83
+nehledě k	ADP	MWE	28
+nehledě na	ADP	MWE	28
+nejen	ADV	ADV	655
+nejen že	ADV	MWE	655
+nejprve	ADV	ADV	192
+nejspíš	PART	PART	70
+neustále	ADV	ADV	155
+nezávisle na	ADV	MWE	71
+než	SCONJ	SCONJ	5640
+nic	PRON	PRON	1488
+nicméně	CCONJ	CCONJ	363
+nijak	ADV	ADV	211
+nikde	ADV	ADV	97
+nikdo	PRON	PRON	936
+nikdy	ADV	ADV	838
+nikoli	PART	PART	290
+nikoliv	PART	PART	178
+nyní	ADV	ADV	1649
+následkem	ADP	ADP	69
+náš	DET	DET	3561
+nízko	ADV	ADV	224
+nýbrž	CCONJ	CCONJ	142
+něco	PRON	PRON	2245
+nějak	ADV	ADV	450
+nějaký	DET	DET	3023
+někam	ADV	ADV	236
+někde	ADV	ADV	426
+někdo	PRON	PRON	943
+někdy	ADV	ADV	901
+několik	DET	DET	1990
+několikrát	ADV	ADV	169
+některý	DET	DET	3051
+o	ADP	ADP	22505
+obvykle	ADV	ADV	383
+obávat	VERB	LVERB	229
+občas	ADV	ADV	267
+od	ADP	ADP	7423
+odhadovat	VERB	LVERB	259
+odkud	ADV	ADV	305
+odmítat	VERB	LVERB	248
+odmítnout	VERB	LVERB	689
+odpoledne	ADV	ADV	255
+odpovědět	VERB	LVERB	265
+ohledně	ADP	ADP	469
+okolo	ADP	ADP	334
+on	PRON	PRON	18235
+onen	DET	DET	362
+opravdu	PART	PART	906
+oproti	ADP	ADP	588
+opět	ADV	ADV	592
+ovšem	PART	PART	912
+oznámit	VERB	LVERB	1372
+pak	ADV	ADV	3059
+pamatovat	VERB	LVERB	723
+patrně	PART	PART	261
+plus	CCONJ	CCONJ	143
+plánovat	VERB	LVERB	315
+po	ADP	ADP	8410
+po boku	ADP	MWE	8410
+po dobu	ADP	MWE	8410
+po stránce	ADP	MWE	8410
+po vzoru	ADP	MWE	8410
+poblíž	ADP	ADP	98
+pochopit	VERB	LVERB	182
+pod	ADP	ADP	1618
+pod tlakem	ADP	MWE	1618
+pod vlivem	ADP	MWE	1618
+pod záminkou	ADP	MWE	1618
+podle	ADP	ADP	5529
+pokoušet	VERB	LVERB	200
+pokud	SCONJ	SCONJ	2160
+pokusit	VERB	LVERB	275
+pomalu	ADV	ADV	189
+pomoci	VERB	LVERB	1010
+pomocí	ADP	ADP	353
+poněkud	ADV	ADV	253
+poněvadž	SCONJ	SCONJ	172
+poprvé	ADV	ADV	469
+potom	ADV	ADV	2129
+potvrdit	VERB	LVERB	465
+poté	ADV	ADV	850
+pouze	PART	PART	1790
+pozdě	ADV	ADV	917
+poznamenat	VERB	LVERB	236
+počátkem	ADP	ADP	157
+počínaje	ADP	ADP	71
+pořád	ADV	ADV	633
+požádat	VERB	LVERB	355
+prakticky	PART	PART	428
+pro	ADP	ADP	12551
+pro případ	ADP	MWE	12551
+prohlásit	VERB	LVERB	845
+prostě	PART	PART	506
+prostřednictvím	ADP	ADP	607
+proti	ADP	ADP	2143
+proto	CCONJ	CCONJ	1792
+protože	SCONJ	SCONJ	4265
+proč	ADV	ADV	816
+prudce	ADV	ADV	252
+pryč	ADV	ADV	135
+právě	PART	PART	1588
+prý	PART	PART	554
+ptát	VERB	LVERB	284
+pár	DET	DET	519
+přece	PART	PART	368
+přece jen	PART	MWE	368
+přece jenom	PART	MWE	368
+před	ADP	ADP	3970
+předem	ADV	ADV	223
+především	PART	PART	1188
+předpokládat	VERB	LVERB	555
+předtím	ADV	ADV	409
+přes	ADP	ADP	1548
+přestat	VERB	LVERB	236
+přesto	CCONJ	CCONJ	644
+přestože	SCONJ	SCONJ	378
+přesvědčit	VERB	LVERB	198
+při	ADP	ADP	5021
+při příležitosti	ADP	MWE	5021
+přinejmenším	ADV	ADV	156
+připomenout	VERB	LVERB	181
+přitom	ADV	ADV	555
+přiznat	VERB	LVERB	214
+přičemž	ADV	ADV	495
+přát	VERB	LVERB	254
+příliš	ADV	ADV	915
+přímo	ADV	ADV	649
+respektive	ADV	ADV	165
+rok co rok	NOUN	MWE	12079
+rovněž	PART	PART	969
+rozhodnout	VERB	LVERB	956
+rozhodně	PART	PART	213
+ruku v ruce s	NOUN	MWE	92
+rychle	ADV	ADV	723
+rád	ADJ	OTH	2342
+ráno	ADV	ADV	445
+s	ADP	ADP	28513
+s ohledem na	ADP	MWE	28513
+s pomocí	ADP	MWE	28513
+s přihlédnutím k	ADP	MWE	28513
+s výjimkou	ADP	MWE	28513
+samozřejmě	PART	PART	986
+samý	DET	DET	1864
+sdělit	VERB	LVERB	512
+se	PRON	PRON	70141
+se zřetelem k	PRON	MWE	70141
+sem	ADV	ADV	331
+sice	CCONJ	CCONJ	791
+skoro	ADV	ADV	327
+skutečně	PART	PART	675
+směrem do	NOUN	MWE	243
+směrem k	NOUN	MWE	243
+směrem ke	NOUN	MWE	243
+směrem na	NOUN	MWE	243
+smět	VERB	LVERB	385
+snad	PART	PART	649
+snadno	ADV	ADV	208
+snažit	VERB	LVERB	945
+souběžně s	ADV	MWE	34
+současně s	ADV	MWE	299
+současně se	ADV	MWE	299
+společně s	ADV	MWE	355
+společně se	ADV	MWE	355
+spolu	ADV	ADV	919
+spolu s	ADV	MWE	919
+spolu se	ADV	MWE	919
+spíš	PART	PART	1114
+stejně	ADV	ADV	1072
+stále	ADV	ADV	1614
+stůj co stůj	VERB	MWE	4
+svůj	DET	DET	10784
+tady	ADV	ADV	2141
+tak	ADV	ADV	9889
+takhle	ADV	ADV	511
+takový	DET	DET	3442
+takovýhle	DET	DET	146
+takovýto	DET	DET	170
+takto	ADV	ADV	252
+taky	PART	PART	2352
+také	PART	PART	3882
+takže	CCONJ	CCONJ	2130
+tam	ADV	ADV	10487
+teda	PART	PART	126
+tedy	ADV	ADV	1838
+tehdy	ADV	ADV	1078
+ten	DET	DET	49525
+tenhle	DET	DET	1864
+tenhleten	DET	DET	282
+tenkrát	ADV	ADV	755
+tento	DET	DET	16500
+tentokrát	ADV	ADV	182
+tentýž	DET	DET	147
+teprve	ADV	ADV	407
+teď	ADV	ADV	2025
+teďka	ADV	ADV	131
+tj	CCONJ	CCONJ	238
+to	DET	DET	31400
+to je	DET	MWE	31400
+to jest	DET	MWE	31400
+to znamená	DET	MWE	31400
+tolik	DET	DET	553
+totiž	CCONJ	CCONJ	1060
+trochu	ADV	ADV	517
+trošku	ADV	ADV	363
+tu	ADV	ADV	1518
+tudíž	CCONJ	CCONJ	145
+tvrdit	VERB	LVERB	1110
+tváří v tvář	NOUN	MWE	87
+tvůj	DET	DET	162
+ty	DET	DET	1756
+téměř	ADV	ADV	1163
+též	PART	PART	236
+týž	DET	DET	189
+těžce	ADV	ADV	103
+těžko	ADV	ADV	262
+třeba	PART	PART	1997
+třikrát	ADV	ADV	165
+u	ADP	ADP	5754
+u příležitosti	ADP	MWE	5754
+ukazovat	VERB	LVERB	486
+ukázat	VERB	LVERB	592
+umožnit	VERB	LVERB	436
+umožňovat	VERB	LVERB	331
+umět	VERB	LVERB	657
+upozornit	VERB	LVERB	187
+uprostřed	ADP	ADP	194
+určitě	PART	PART	466
+uvnitř	ADP	ADP	142
+uvádět	VERB	LVERB	870
+uvést	VERB	LVERB	4306
+uvědomit	VERB	LVERB	181
+už	ADV	ADV	7708
+v	ADP	ADP	79013
+v blízkosti	ADP	MWE	79013
+v době	ADP	MWE	79013
+v důsledku	ADP	MWE	79013
+v neprospěch	ADP	MWE	79013
+v období	ADP	MWE	79013
+v oblasti	ADP	MWE	79013
+v oboru	ADP	MWE	79013
+v otázce	ADP	MWE	79013
+v podobě	ADP	MWE	79013
+v poměru k	ADP	MWE	79013
+v porovnání s	ADP	MWE	79013
+v porovnání se	ADP	MWE	79013
+v procesu	ADP	MWE	79013
+v protikladu k	ADP	MWE	79013
+v průběhu	ADP	MWE	79013
+v případě	ADP	MWE	79013
+v rozporu s	ADP	MWE	79013
+v rozporu se	ADP	MWE	79013
+v rámci	ADP	MWE	79013
+v souhlasu s	ADP	MWE	79013
+v souladu s	ADP	MWE	79013
+v souladu se	ADP	MWE	79013
+v souvislosti s	ADP	MWE	79013
+v souvislosti se	ADP	MWE	79013
+v zastoupení	ADP	MWE	79013
+v zájmu	ADP	MWE	79013
+v závislosti na	ADP	MWE	79013
+v závěru	ADP	MWE	79013
+v čele	ADP	MWE	79013
+v čele s	ADP	MWE	79013
+v čele se	ADP	MWE	79013
+v řadě	ADP	MWE	79013
+ve formě	ADP	MWE	14333
+ve jménu	ADP	MWE	14333
+ve prospěch	ADP	MWE	14333
+ve shodě s	ADP	MWE	14333
+ve smyslu	ADP	MWE	14333
+ve směru	ADP	MWE	14333
+ve spojení s	ADP	MWE	14333
+ve spojení se	ADP	MWE	14333
+ve spojitosti s	ADP	MWE	14333
+ve spojitosti se	ADP	MWE	14333
+ve spolupráci s	ADP	MWE	14333
+ve spolupráci se	ADP	MWE	14333
+ve srovnání s	ADP	MWE	14333
+ve srovnání se	ADP	MWE	14333
+ve světle	ADP	MWE	14333
+ve vztahu k	ADP	MWE	14333
+ve vztahu ke	ADP	MWE	14333
+ve věci	ADP	MWE	14333
+ve znamení	ADP	MWE	14333
+vedle	ADP	ADP	618
+velice	ADV	ADV	916
+velmi	ADV	ADV	1760
+ven	ADV	ADV	127
+venku	ADV	ADV	118
+versus	ADP	ADP	62
+večer	ADV	ADV	589
+veškerý	PRON	PRON	363
+vlastně	ADV	ADV	747
+vlevo	ADV	ADV	140
+vloni	ADV	ADV	219
+vpravo	ADV	ADV	115
+vy	PRON	PRON	2858
+vysoce	ADV	ADV	257
+vysoko	ADV	ADV	380
+vysvětlit	VERB	LVERB	200
+vysvětlovat	VERB	LVERB	185
+vzadu	ADV	ADV	141
+vzhledem	ADP	ADP	560
+vzhledem k	ADP	MWE	560
+vzhledem ke	ADP	MWE	560
+váš	DET	DET	1532
+víc než	ADV	MWE	798
+více	ADV	ADV	4064
+více než	ADV	MWE	4064
+výměnou za	NOUN	MWE	76
+včas	ADV	ADV	123
+včera	ADV	ADV	2291
+včetně	ADP	ADP	876
+vědět	VERB	LVERB	3078
+většinou	ADV	ADV	743
+věřit	VERB	LVERB	573
+však	CCONJ	CCONJ	4689
+všecek	PRON	PRON	134
+všechen	DET	DET	6633
+všeho všudy	DET	MWE	137
+všelijaký	DET	DET	81
+všude	ADV	ADV	277
+vůbec	PART	PART	1077
+vůči	ADP	ADP	457
+vždy	ADV	ADV	647
+vždycky	ADV	ADV	1455
+vždyť	CCONJ	CCONJ	211
+z	ADP	ADP	27191
+z důvodu	ADP	MWE	27191
+z důvodů	ADP	MWE	27191
+z hlediska	ADP	MWE	27191
+z oblasti	ADP	MWE	27191
+z titulu	ADP	MWE	27191
+z řad	ADP	MWE	27191
+za	ADP	ADP	14847
+za pomoci	ADP	MWE	14847
+za účelem	ADP	MWE	14847
+zase	ADV	ADV	1150
+zatím	ADV	ADV	1127
+zatímco	SCONJ	SCONJ	943
+začátkem	ADP	ADP	202
+začínat	VERB	LVERB	637
+začít	VERB	LVERB	2428
+zcela	ADV	ADV	732
+zda	SCONJ	SCONJ	1141
+zdaleka	ADV	ADV	105
+zdarma	ADV	ADV	99
+zde	ADV	ADV	794
+zdůraznit	VERB	LVERB	231
+ze strany	ADP	MWE	4787
+zejména	PART	PART	828
+zhruba	ADV	ADV	686
+zjistit	VERB	LVERB	534
+zkrátka	PART	PART	80
+znamenat	VERB	LVERB	1170
+znovu	ADV	ADV	697
+zpočátku	ADV	ADV	106
+zpravidla	ADV	ADV	112
+zpět	ADV	ADV	302
+zrovna	PART	PART	340
+zvláště	PART	PART	261
+zvlášť	ADV	ADV	182
+zároveň	ADV	ADV	603
+zároveň s	ADV	MWE	603
+zároveň se	ADV	MWE	603
+zítra	ADV	ADV	175
+zřejmě	PART	PART	715
+často	ADV	ADV	1438
+či	CCONJ	CCONJ	1845
+čili	CCONJ	CCONJ	372
+říci	VERB	LVERB	6361
+říkat	VERB	LVERB	4759
+že	SCONJ	SCONJ	34381
+žádný	DET	DET	2227

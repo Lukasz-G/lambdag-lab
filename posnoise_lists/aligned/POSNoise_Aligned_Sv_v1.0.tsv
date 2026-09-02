@@ -1,0 +1,430 @@
+# aligned companion of POSNoise_PatternList_Sv_v1.0.txt; evidence: UD_Swedish-Talbanken (12064 sentences)
+# entry	upos	class	evidence_count
+a	ADP	ADP	8
+all	DET	DET	487
+alls	ADV	ADV	28
+allt	ADV	ADV	198
+allt fortfarande	ADV	MWE	198
+allt mer	ADV	MWE	198
+alltefter	ADP	ADP	4
+allteftersom	SCONJ	SCONJ	4
+alltför	ADV	ADV	36
+alltid	ADV	ADV	56
+allting	PRON	PRON	8
+alltså	ADV	ADV	142
+and	CCONJ	CCONJ	6
+ange	VERB	LVERB	52
+annan	ADJ	OTH	623
+annars	ADV	ADV	30
+anse	VERB	LVERB	102
+antingen	CCONJ	CCONJ	24
+att	PART	PART	4198
+av	ADP	ADP	2720
+av allt att döma	ADP	MWE	2720
+avgöra	VERB	LVERB	16
+bakom	ADP	ADP	44
+bara	ADV	ADV	264
+bedöma	VERB	LVERB	16
+behöva	VERB	LVERB	234
+beroende på	ADJ	MWE	68
+beräkna	VERB	LVERB	58
+berätta	VERB	LVERB	18
+besluta	VERB	LVERB	22
+beteckna	VERB	LVERB	12
+betrakta	VERB	LVERB	36
+beträffande	ADP	ADP	8
+betyda	VERB	LVERB	60
+bl a	-	MWE	0
+bl.a.	ADV	ADV	72
+bland	ADP	ADP	76
+bland annat	ADP	MWE	76
+bli	VERB	LVERB	726
+bortsett från	ADJ	MWE	6
+bra	ADJ	OTH	274
+bruka	VERB	LVERB	52
+bägge	DET	DET	14
+båda	ADJ	OTH	72
+bådadera	PRON	PRON	4
+både	CCONJ	CCONJ	142
+böra	AUX	AUX	188
+börja	VERB	LVERB	142
+ca	ADV	ADV	106
+circa	ADV	ADV	54
+cirka	ADV	ADV	48
+de	DET	DET	2468
+de här	DET	MWE	2468
+dels	CCONJ	CCONJ	36
+den	PRON	PRON	4855
+den här	PRON	MWE	4855
+denna	DET	DET	1014
+densamma	PRON	PRON	26
+dessutom	ADV	ADV	82
+det	PRON	PRON	2970
+det här	PRON	MWE	2970
+det vill säga	PRON	MWE	2970
+det_vill_säga	ADV	ADV	29
+dock	ADV	ADV	126
+du	PRON	PRON	612
+där	ADV	ADV	320
+därför	ADV	ADV	198
+därför att	ADV	MWE	198
+därigenom	ADV	ADV	24
+därmed	ADV	ADV	60
+då	ADV	ADV	284
+då och då	ADV	MWE	284
+efter	ADP	ADP	298
+efter det att	ADP	MWE	298
+eftersom	SCONJ	SCONJ	87
+ej	PART	PART	26
+el	CCONJ	CCONJ	8
+eller	CCONJ	CCONJ	934
+emellan	ADP	ADP	14
+emellertid	ADV	ADV	66
+emot	ADV	ADV	28
+en	DET	DET	6362
+en halv	DET	MWE	6362
+ena	ADJ	OTH	48
+enligt	ADP	ADP	150
+ens	ADV	ADV	30
+erkänna	VERB	LVERB	12
+et_cetera	ADV	ADV	31
+etc	ADV	ADV	58
+exempelvis	ADV	ADV	32
+fast	ADJ	OTH	56
+fastställa	VERB	LVERB	23
+fastän	SCONJ	SCONJ	6
+finna	VERB	LVERB	88
+flera	ADJ	OTH	142
+fortfarande	ADV	ADV	82
+fortsätta	VERB	LVERB	44
+fram	ADV	ADV	138
+fram och tillbaka	ADV	MWE	138
+framför	ADP	ADP	40
+framför allt	ADP	MWE	40
+framstå	VERB	LVERB	16
+från	ADP	ADP	650
+från och med	ADP	MWE	650
+få	VERB	LVERB	1046
+för	ADP	ADP	2514
+för att	ADP	MWE	2514
+för det mesta	ADP	MWE	2514
+för närvarande	ADP	MWE	2514
+för sedan	ADP	MWE	2514
+för sen	ADP	MWE	2514
+för skull	ADP	MWE	2514
+för övrigt	ADP	MWE	2514
+förbli	VERB	LVERB	18
+före	ADP	ADP	77
+förefalla	VERB	LVERB	16
+förhindra	VERB	LVERB	16
+förklara	VERB	LVERB	26
+förmå	VERB	LVERB	12
+förneka	VERB	LVERB	10
+förr	ADV	ADV	44
+förr eller senare	ADV	MWE	44
+förrän	ADV	ADV	16
+först och främst	ADV	MWE	76
+försöka	VERB	LVERB	82
+förutom	ADP	ADP	8
+förutsätta	VERB	LVERB	16
+ganska	ADV	ADV	52
+garantera	VERB	LVERB	12
+genom	ADP	ADP	328
+gentemot	ADP	ADP	10
+givetvis	ADV	ADV	28
+gärna	ADV	ADV	84
+ha	VERB	LVERB	2336
+han	PRON	PRON	270
+heller	ADV	ADV	44
+helt	ADV	ADV	178
+helt enkelt	ADV	MWE	178
+hemma	ADV	ADV	56
+hinna	VERB	LVERB	28
+hittills	ADV	ADV	34
+hon	PRON	PRON	174
+hoppas	VERB	LVERB	10
+hos	ADP	ADP	250
+hur	ADV	ADV	354
+hur som helst	ADV	MWE	354
+huruvida	SCONJ	SCONJ	4
+här	ADV	ADV	282
+hävda	VERB	LVERB	22
+hög	ADJ	OTH	240
+i	ADP	ADP	5034
+i alla fall	ADP	MWE	5034
+i allmänhet	ADP	MWE	5034
+i anslutning till	ADP	MWE	5034
+i dag	ADP	MWE	5034
+i de fall	ADP	MWE	5034
+i den mån som	ADP	MWE	5034
+i enlighet med	ADP	MWE	5034
+i form av	ADP	MWE	5034
+i fråga om	ADP	MWE	5034
+i förbindelse med	ADP	MWE	5034
+i förhållande till	ADP	MWE	5034
+i första hand	ADP	MWE	5034
+i förväg	ADP	MWE	5034
+i går	ADP	MWE	5034
+i huvudsak	ADP	MWE	5034
+i jämförelse med	ADP	MWE	5034
+i längden	ADP	MWE	5034
+i morgon	ADP	MWE	5034
+i motsats till	ADP	MWE	5034
+i och för sej	ADP	MWE	5034
+i och för sig	ADP	MWE	5034
+i och med	ADP	MWE	5034
+i onödan	ADP	MWE	5034
+i proportion till	ADP	MWE	5034
+i regel	ADP	MWE	5034
+i riktning mot	ADP	MWE	5034
+i runt tal	ADP	MWE	5034
+i samband med	ADP	MWE	5034
+i sin tur	ADP	MWE	5034
+i själva verket	ADP	MWE	5034
+i stort sett	ADP	MWE	5034
+i stället	ADP	MWE	5034
+i stället för	ADP	MWE	5034
+i så fall	ADP	MWE	5034
+i så måtto	ADP	MWE	5034
+i takt med	ADP	MWE	5034
+i valet och kvalet	ADP	MWE	5034
+i varje fall	ADP	MWE	5034
+i år	ADP	MWE	5034
+i övrigt	ADP	MWE	5034
+ibland	ADV	ADV	70
+icke	PART	PART	26
+icke desto mindre	PART	MWE	26
+idag	ADV	ADV	50
+ifråga om	ADV	MWE	10
+ifrågasätta	VERB	LVERB	16
+ifrån	ADP	ADP	30
+igenom	ADP	ADP	26
+ihop	ADV	ADV	44
+in	ADV	ADV	157
+inför	ADP	ADP	32
+ingen	DET	DET	168
+ingenting	PRON	PRON	18
+inklusive	ADP	ADP	4
+innan	SCONJ	SCONJ	60
+innanför	ADP	ADP	6
+innebära	VERB	LVERB	122
+inom	ADP	ADP	236
+inom ramen för	ADP	MWE	236
+inse	VERB	LVERB	14
+inte	PART	PART	1440
+intill	ADP	ADP	12
+jag	PRON	PRON	256
+ju	ADV	ADV	90
+jämfört med	ADJ	MWE	8
+jämte	ADP	ADP	4
+kalla	VERB	LVERB	75
+kanske	ADV	ADV	150
+komma	VERB	LVERB	570
+konstatera	VERB	LVERB	22
+kring	ADP	ADP	40
+kunna	AUX	AUX	1598
+kvar	ADV	ADV	60
+känna	VERB	LVERB	91
+kännas	VERB	LVERB	12
+lika	ADV	ADV	140
+lika med	ADV	MWE	140
+liksom	ADP	ADP	38
+lite	ADV	ADV	192
+länge	ADV	ADV	130
+lär	VERB	LVERB	28
+lära	VERB	LVERB	66
+låt vara	VERB	MWE	20
+låta	VERB	LVERB	68
+man	PRON	PRON	1806
+med	ADP	ADP	1846
+med avseende på	ADP	MWE	1846
+med hjälp av	ADP	MWE	1846
+med hänsyn till	ADP	MWE	1846
+med tanke på	ADP	MWE	1846
+med undantag för	ADP	MWE	1846
+medan	SCONJ	SCONJ	42
+mellan	ADP	ADP	340
+men	CCONJ	CCONJ	736
+mena	VERB	LVERB	65
+mer eller mindre	ADV	MWE	254
+mer och mer	ADV	MWE	254
+mer än	ADV	MWE	254
+mindre än	ADV	MWE	160
+mot	ADP	ADP	218
+mycken	ADJ	OTH	22
+mycket	ADV	ADV	697
+må	AUX	AUX	14
+många	ADJ	OTH	452
+mången	ADJ	OTH	98
+måste	AUX	AUX	422
+naturligtvis	ADV	ADV	46
+ned	ADV	ADV	26
+ner	ADV	ADV	42
+ni	PRON	PRON	88
+nog	ADV	ADV	54
+nog så	ADV	MWE	54
+nu	ADV	ADV	268
+numera	ADV	ADV	40
+när	SCONJ	SCONJ	412
+när det gällde	SCONJ	MWE	412
+när det gäller	SCONJ	MWE	412
+när det gällt	SCONJ	MWE	412
+när som helst	SCONJ	MWE	412
+nära	ADV	ADV	128
+nära nog	ADV	MWE	128
+nästan	ADV	ADV	62
+någon	DET	DET	533
+någonting	PRON	PRON	8
+något av	PRON	MWE	198
+nånting	PRON	PRON	4
+oavsett	ADP	ADP	18
+oberoende av	ADJ	MWE	24
+och	CCONJ	CCONJ	5106
+också	ADV	ADV	648
+of	ADP	ADP	8
+ofta	ADV	ADV	182
+om	ADP	ADP	1506
+omkring	ADV	ADV	60
+orka	VERB	LVERB	14
+ovanpå	ADP	ADP	4
+per	ADP	ADP	128
+praktiskt taget	ADV	MWE	16
+på	ADP	ADP	2478
+på egen hand	ADP	MWE	2478
+på grund av	ADP	MWE	2478
+på grundval av	ADP	MWE	2478
+på rygg	ADP	MWE	2478
+på så sätt	ADP	MWE	2478
+påpeka	VERB	LVERB	20
+reda	ADV	ADV	28
+redan	ADV	ADV	108
+rent av	ADV	MWE	26
+respektive	ADV	ADV	35
+riskera	VERB	LVERB	12
+råka	VERB	LVERB	16
+s k	NOUN	MWE	10
+samma	ADJ	OTH	198
+samman	ADV	ADV	46
+samt	CCONJ	CCONJ	30
+samtidigt med att	ADV	MWE	94
+samtidigt som	ADV	MWE	94
+samtlig	ADJ	OTH	22
+se	VERB	LVERB	279
+sedan	ADV	ADV	150
+sig	PRON	PRON	1386
+sist men inte minst	ADV	MWE	8
+skola	AUX	AUX	1032
+slippa	VERB	LVERB	20
+sluta	VERB	LVERB	52
+som	PRON	PRON	3236
+som helst	PRON	MWE	3236
+som regel	PRON	MWE	3236
+somlig	PRON	PRON	12
+särskilt	ADV	ADV	112
+så	ADV	ADV	666
+så att	ADV	MWE	666
+så att säga	ADV	MWE	666
+så fan heller	ADV	MWE	666
+så gott som	ADV	MWE	666
+så här	ADV	MWE	666
+så länge	ADV	MWE	666
+så långt	ADV	MWE	666
+så småningom	ADV	MWE	666
+sådan	ADJ	OTH	173
+sån	ADJ	OTH	126
+såsom	CCONJ	CCONJ	22
+såväl	CCONJ	CCONJ	32
+t ex	NOUN	MWE	8
+t.ex.	ADV	ADV	124
+tack vare	NOUN	MWE	6
+the	DET	DET	4
+till	ADP	ADP	2014
+till exempel	ADP	MWE	2014
+till höger	ADP	MWE	2014
+till höger och vänster	ADP	MWE	2014
+till höger om	ADP	MWE	2014
+till och med	ADP	MWE	2014
+till skillnad mot	ADP	MWE	2014
+till vänster	ADP	MWE	2014
+till_exempel	ADV	ADV	108
+tillbaka	ADV	ADV	46
+tills	SCONJ	SCONJ	14
+tillsammans	ADV	ADV	88
+torde	AUX	AUX	18
+tro	VERB	LVERB	70
+trots	ADP	ADP	48
+trots att	ADP	MWE	48
+ty	CCONJ	CCONJ	16
+tycka	VERB	LVERB	58
+tyckas	VERB	LVERB	30
+tänka	VERB	LVERB	74
+under	ADP	ADP	512
+under alla förhållanden	ADP	MWE	512
+under förutsättning att	ADP	MWE	512
+undra	VERB	LVERB	10
+ungefär	ADV	ADV	66
+upp	ADV	ADV	188
+upp till	ADV	MWE	188
+uppfatta	VERB	LVERB	20
+uppge	VERB	LVERB	12
+ur	ADP	ADP	126
+ur famn i famn	ADP	MWE	126
+ut	ADV	ADV	262
+utan	ADP	ADP	324
+utan vidare	ADP	MWE	324
+utanför	ADP	ADP	56
+ute	ADV	ADV	24
+utifrån	ADP	ADP	10
+utom	ADP	ADP	26
+utreda	VERB	LVERB	12
+utöver	ADP	ADP	16
+vad	PRON	PRON	256
+vad beträffar	PRON	MWE	256
+vad för	PRON	MWE	256
+vad för slags	PRON	MWE	256
+vad gäller	PRON	MWE	256
+var	AUX	AUX	388
+var som helst	AUX	MWE	388
+vara	AUX	AUX	3840
+varandra	PRON	PRON	76
+varann	PRON	PRON	12
+varannan	DET	DET	12
+vardera	DET	DET	10
+vare	CCONJ	CCONJ	18
+vare sig	CCONJ	MWE	18
+varenda	DET	DET	4
+varför	ADV	ADV	76
+varje	DET	DET	254
+varken	CCONJ	CCONJ	28
+vars	PRON	PRON	20
+vem	PRON	PRON	28
+verka	VERB	LVERB	25
+veta	VERB	LVERB	84
+vi	PRON	PRON	1110
+via	ADP	ADP	12
+vid	ADP	ADP	553
+vid sidan av	ADP	MWE	553
+vid sidan om	ADP	MWE	553
+vidare	ADV	ADV	66
+vilja	AUX	AUX	242
+vilka	DET	DET	126
+vilka som helst	DET	MWE	126
+vilken	DET	DET	268
+vilket som helst	PRON	MWE	78
+visa	VERB	LVERB	198
+väl	ADV	ADV	78
+våga	VERB	LVERB	20
+än	SCONJ	SCONJ	438
+ändå	ADV	ADV	30
+ännu	ADV	ADV	104
+ännu så länge	ADV	MWE	104
+även	ADV	ADV	234
+även om	ADV	MWE	234
+å	ADP	ADP	26
+å andra sidan	ADP	MWE	26
+å ena sidan	ADP	MWE	26
+åt	ADP	ADP	106
+ömsom	CCONJ	CCONJ	4
+önska	VERB	LVERB	28
+över	ADP	ADP	190
+över huvud taget	ADP	MWE	190

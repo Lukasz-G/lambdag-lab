@@ -1,0 +1,710 @@
+# aligned companion of POSNoise_PatternList_Pl_v1.0.txt; evidence: UD_Polish-PDB (22152 sentences)
+# entry	upos	class	evidence_count
+a	CCONJ	CCONJ	1542
+a i	CCONJ	MWE	1542
+a mianowicie	CCONJ	MWE	1542
+a także	CCONJ	MWE	1542
+a więc	CCONJ	MWE	1542
+aby	SCONJ	SCONJ	265
+akurat	PART	PART	20
+albo	CCONJ	CCONJ	130
+albowiem	SCONJ	SCONJ	6
+ale	CCONJ	CCONJ	946
+ale i	CCONJ	MWE	946
+ale również	CCONJ	MWE	946
+ale także	CCONJ	MWE	946
+ale też	CCONJ	MWE	946
+ani	CCONJ	CCONJ	125
+aniżeli	SCONJ	SCONJ	5
+aż	PART	PART	99
+bardzo	ADV	ADV	573
+bez	ADP	ADP	248
+bez względu na	ADP	MWE	248
+bez wątpienia	ADP	MWE	248
+blisko	ADV	ADV	45
+bo	SCONJ	SCONJ	354
+bowiem	SCONJ	SCONJ	74
+brać	VERB	LVERB	75
+by	AUX	AUX	890
+byle	SCONJ	SCONJ	7
+bynajmniej	PART	PART	2
+bywać	VERB	LVERB	29
+być	AUX	AUX	7774
+być może	AUX	MWE	7774
+bądź	CCONJ	CCONJ	32
+całkiem	ADV	ADV	20
+całkowicie	ADV	ADV	21
+chcieć	VERB	LVERB	530
+chociaż	SCONJ	SCONJ	44
+choć	SCONJ	SCONJ	101
+choćby	PART	PART	18
+chyba	PART	PART	84
+ci	PRON	PRON	172
+ci sami	PRON	MWE	172
+ciebie	PRON	PRON	44
+cię	PRON	PRON	100
+co	PRON	PRON	953
+co do	PRON	MWE	953
+co najmniej	PRON	MWE	953
+co prawda	PRON	MWE	953
+co więcej	PRON	MWE	953
+cokolwiek	PRON	PRON	8
+coraz to	ADV	MWE	99
+coś	PRON	PRON	237
+czego	PRON	PRON	74
+czegoś	PRON	PRON	23
+czemu	ADV	ADV	21
+czy	PART	PART	671
+czyli	CCONJ	CCONJ	63
+czym	PRON	PRON	92
+czymś	PRON	PRON	18
+czyż	PART	PART	6
+czyżby	PART	PART	6
+często	ADV	ADV	153
+cóż	PRON	PRON	22
+daleko	ADV	ADV	90
+dawać	VERB	LVERB	69
+dać	VERB	LVERB	140
+dla	ADP	ADP	745
+dlaczego	ADV	ADV	111
+dlatego	ADV	ADV	174
+do	ADP	ADP	3681
+do celów	ADP	MWE	3681
+do spraw	ADP	MWE	3681
+do tego	ADP	MWE	3681
+dokoła	ADV	ADV	2
+dokąd	ADV	ADV	9
+dokładnie	ADV	ADV	35
+dopiero	PART	PART	105
+dopóki	SCONJ	SCONJ	21
+dosyć	PART	PART	8
+dosłownie	PART	PART	5
+dotychczas	ADV	ADV	25
+dość	PART	PART	53
+ds	ADP	ADP	13
+dużo	ADV	ADV	116
+dzięki	ADP	ADP	94
+gdy	ADV	ADV	443
+gdyby	SCONJ	SCONJ	108
+gdyż	SCONJ	SCONJ	46
+gdzie	ADV	ADV	184
+gdzie indziej	ADV	MWE	184
+gdzieś	ADV	ADV	42
+generalnie	PART	PART	9
+go	PRON	PRON	441
+głównie	PART	PART	33
+i	CCONJ	CCONJ	6404
+i tak	CCONJ	MWE	6404
+i tak dalej	CCONJ	MWE	6404
+i to	CCONJ	MWE	6404
+ich	PRON	PRON	481
+ile	DET	DET	138
+ilu	DET	DET	6
+im	PRON	PRON	179
+inaczej	ADV	ADV	45
+inny	ADJ	OTH	575
+innymi słowy	ADJ	MWE	40
+istotnie	PART	PART	7
+iść	VERB	LVERB	215
+iż	SCONJ	SCONJ	90
+ja	PRON	PRON	1007
+jak	SCONJ	SCONJ	1392
+jak gdyby	SCONJ	MWE	1392
+jak i	SCONJ	MWE	1392
+jak również	SCONJ	MWE	1392
+jaka	DET	DET	21
+jakaś	DET	DET	20
+jakby	SCONJ	SCONJ	95
+jaki	DET	DET	299
+jakich	DET	DET	22
+jakichkolwiek	DET	DET	8
+jakichś	DET	DET	9
+jakie	DET	DET	96
+jakiego	DET	DET	9
+jakiegokolwiek	DET	DET	6
+jakiegoś	DET	DET	25
+jakiej	DET	DET	20
+jakiejkolwiek	DET	DET	7
+jakiejś	DET	DET	7
+jakiekolwiek	DET	DET	5
+jakieś	DET	DET	53
+jakim	DET	DET	34
+jakimi	DET	DET	7
+jakimś	DET	DET	19
+jakiś	DET	DET	228
+jako	SCONJ	SCONJ	568
+jako tako	SCONJ	MWE	568
+jako że	SCONJ	MWE	568
+jakoby	SCONJ	SCONJ	18
+jaką	DET	DET	25
+jakąś	DET	DET	24
+je	PRON	PRON	202
+jednak	PART	PART	386
+jednakże	CCONJ	CCONJ	38
+jedynie	PART	PART	86
+jego	PRON	PRON	536
+jej	PRON	PRON	450
+jemu	PRON	PRON	7
+jeszcze	PART	PART	376
+jeśli	SCONJ	SCONJ	265
+jeżeli	SCONJ	SCONJ	134
+już	PART	PART	609
+ją	PRON	PRON	223
+każda	DET	DET	27
+każde	DET	DET	24
+każdego	DET	DET	48
+każdej	DET	DET	29
+każdemu	DET	DET	5
+każdy	DET	DET	291
+każdym	DET	DET	53
+każdą	DET	DET	19
+kiedy	ADV	ADV	509
+kiedy indziej	ADV	MWE	509
+kiedyś	ADV	ADV	53
+kilka	DET	DET	261
+kilkadziesiąt	DET	DET	22
+kilkanaście	DET	DET	43
+kilkaset	DET	DET	16
+kilkoma	DET	DET	7
+kilku	DET	DET	82
+kilkudziesięciu	DET	DET	7
+kilkunastu	DET	DET	15
+kilkuset	DET	DET	8
+kim	PRON	PRON	39
+kimś	PRON	PRON	13
+kogo	PRON	PRON	33
+kogoś	PRON	PRON	27
+komu	PRON	PRON	18
+komuś	PRON	PRON	11
+konkretnie	PART	PART	10
+koło	NOUN	OTH	73
+kto	PRON	PRON	251
+ktokolwiek	PRON	PRON	9
+ktoś	PRON	PRON	165
+która	DET	DET	214
+które	DET	DET	403
+którego	DET	DET	115
+której	DET	DET	115
+któremu	DET	DET	18
+który	DET	DET	1901
+których	DET	DET	194
+którym	DET	DET	180
+którymi	DET	DET	20
+któryś	DET	DET	16
+którzy	DET	DET	209
+którą	DET	DET	86
+ku	ADP	ADP	38
+kłaść	VERB	LVERB	12
+lecz	CCONJ	CCONJ	94
+lecz także	CCONJ	MWE	94
+lub	CCONJ	CCONJ	385
+mało	ADV	ADV	125
+mego	DET	DET	7
+mi	PRON	PRON	325
+mianowicie	PART	PART	7
+mieć	VERB	LVERB	1616
+mimo	ADP	ADP	87
+mimo to	ADP	MWE	87
+mimo wszystko	ADP	MWE	87
+mimo że	ADP	MWE	87
+między	ADP	ADP	170
+między innymi	ADP	MWE	170
+mnie	PRON	PRON	429
+mniej	ADV	ADV	76
+mniej więcej	ADV	MWE	76
+mną	PRON	PRON	32
+moi	DET	DET	11
+moich	DET	DET	21
+moim	DET	DET	57
+moimi	DET	DET	7
+moja	DET	DET	50
+moje	DET	DET	48
+mojego	DET	DET	30
+mojej	DET	DET	47
+moją	DET	DET	25
+może	VERB	LVERB	566
+można	VERB	LVERB	276
+mu	PRON	PRON	304
+musieć	VERB	LVERB	471
+my	PRON	PRON	467
+móc	VERB	LVERB	1023
+mój	DET	DET	371
+mówić	VERB	LVERB	512
+na	ADP	ADP	6250
+na bazie	ADP	MWE	6250
+na co dzień	ADP	MWE	6250
+na cześć	ADP	MWE	6250
+na dodatek	ADP	MWE	6250
+na drodze	ADP	MWE	6250
+na miarę	ADP	MWE	6250
+na mocy	ADP	MWE	6250
+na ogół	ADP	MWE	6250
+na pewno	ADP	MWE	6250
+na podstawie	ADP	MWE	6250
+na potrzeby	ADP	MWE	6250
+na poziomie	ADP	MWE	6250
+na przełomie	ADP	MWE	6250
+na przykład	ADP	MWE	6250
+na rzecz	ADP	MWE	6250
+na skraju	ADP	MWE	6250
+na skutek	ADP	MWE	6250
+na szczęście	ADP	MWE	6250
+na temat	ADP	MWE	6250
+na tle	ADP	MWE	6250
+na widok	ADP	MWE	6250
+na wzór	ADP	MWE	6250
+na zasadzie	ADP	MWE	6250
+na łamach	ADP	MWE	6250
+nad	ADP	ADP	372
+nadal	ADV	ADV	64
+najbardziej	ADV	ADV	68
+najpierw	ADV	ADV	39
+najwięcej	DET	DET	14
+najwyraźniej	PART	PART	7
+najwyżej	PART	PART	11
+należy	VERB	LVERB	178
+nam	PRON	PRON	145
+nami	PRON	PRON	25
+naprawdę	PART	PART	86
+naprzeciw	ADP	ADP	5
+naprzeciwko	ADP	ADP	15
+nas	PRON	PRON	226
+nasi	DET	DET	25
+następnie	ADV	ADV	43
+nasz	DET	DET	425
+nasza	DET	DET	28
+nasze	DET	DET	68
+naszego	DET	DET	45
+naszej	DET	DET	57
+naszych	DET	DET	73
+naszym	DET	DET	58
+naszą	DET	DET	18
+natomiast	CCONJ	CCONJ	79
+nawet	PART	PART	313
+niby	PART	PART	32
+nic	PRON	PRON	195
+nich	PRON	PRON	230
+niczego	PRON	PRON	25
+niczym	SCONJ	SCONJ	46
+nie	PART	PART	4106
+niech	AUX	AUX	49
+niechaj	AUX	AUX	3
+niechby	AUX	AUX	1
+niechże	AUX	AUX	1
+nieco	ADV	ADV	35
+niedaleko	ADP	ADP	31
+niego	PRON	PRON	141
+niej	PRON	PRON	113
+niejako	PART	PART	7
+niektóre	DET	DET	35
+niektórych	DET	DET	37
+niektórzy	DET	DET	38
+niemal	PART	PART	35
+niemniej	PART	PART	8
+niemniej jednak	PART	MWE	8
+niemu	PRON	PRON	6
+niestety	PART	PART	51
+niewiele	DET	DET	24
+niezależnie od	ADV	MWE	13
+nigdy	ADV	ADV	133
+nigdzie	ADV	ADV	9
+nikogo	PRON	PRON	21
+nikomu	PRON	PRON	17
+nikt	PRON	PRON	132
+nim	PRON	PRON	188
+nimi	PRON	PRON	79
+nią	PRON	PRON	81
+niż	SCONJ	SCONJ	311
+no	PART	PART	59
+o	ADP	ADP	1861
+o ile	ADP	MWE	1861
+o tyle	ADP	MWE	1861
+oba	DET	DET	79
+obaj	DET	DET	16
+obecnie	ADV	ADV	70
+obie	DET	DET	15
+oboje	DET	DET	5
+obok	ADP	ADP	321
+obu	DET	DET	26
+obydwa	NUM	NUM	3
+oczywiście	PART	PART	77
+od	ADP	ADP	1038
+od strony	ADP	MWE	1038
+ode	ADP	ADP	8
+odnośnie	ADP	ADP	6
+odnośnie do	ADP	MWE	6
+ok	PART	PART	49
+około	PART	PART	120
+on	PRON	PRON	4133
+ona	PRON	PRON	126
+one	PRON	PRON	86
+oni	PRON	PRON	75
+ono	PRON	PRON	22
+oprócz	ADP	ADP	36
+oraz	CCONJ	CCONJ	439
+oto	PART	PART	70
+otóż	PART	PART	13
+owego	DET	DET	7
+owszem	INTJ	INTJ	4
+paru	DET	DET	11
+parę	DET	DET	36
+pewien	DET	DET	124
+pewna	ADJ	OTH	14
+pewne	DET	DET	27
+pewnego	DET	DET	17
+pewnej	DET	DET	15
+pewnie	PART	PART	31
+pewnych	DET	DET	14
+pewnym	DET	DET	16
+pewną	DET	DET	6
+po	ADP	ADP	1482
+po prostu	ADP	MWE	1482
+pod	ADP	ADP	416
+pod adresem	ADP	MWE	416
+pod koniec	ADP	MWE	416
+pod kątem	ADP	MWE	416
+pod wpływem	ADP	MWE	416
+pod względem	ADP	MWE	416
+podczas	ADP	ADP	156
+podczas gdy	ADP	MWE	156
+podobno	PART	PART	17
+pomimo	ADP	ADP	8
+pomiędzy	ADP	ADP	47
+ponad	PART	PART	96
+ponadto	PART	PART	49
+ponieważ	SCONJ	SCONJ	90
+poniżej	ADP	ADP	21
+ponownie	ADV	ADV	21
+ponoć	PART	PART	8
+poprzez	ADP	ADP	52
+potem	ADV	ADV	171
+powiedzieć	VERB	LVERB	398
+powinien	VERB	LVERB	325
+powyżej	ADP	ADP	24
+poza	ADP	ADP	98
+poza tym	ADP	MWE	98
+położyć	VERB	LVERB	39
+pośród	ADP	ADP	7
+praktycznie	PART	PART	18
+prawdopodobnie	PART	PART	51
+prawie	PART	PART	70
+przecież	PART	PART	116
+przeciw	ADP	ADP	28
+przeciwko	ADP	ADP	51
+przeciwnie	PART	PART	11
+przed	ADP	ADP	502
+przede	ADP	ADP	79
+przede wszystkim	ADP	MWE	79
+przez	ADP	ADP	1029
+przeze	ADP	ADP	7
+przy	ADP	ADP	432
+przy czym	ADP	MWE	432
+przy okazji	ADP	MWE	432
+przy pomocy	ADP	MWE	432
+przy tym	ADP	MWE	432
+przynajmniej	PART	PART	43
+pójść	VERB	LVERB	90
+póki	SCONJ	SCONJ	6
+później	ADV	ADV	73
+raczej	PART	PART	62
+razem z	NOUN	MWE	112
+razem ze	NOUN	MWE	112
+robić	VERB	LVERB	202
+rodem z	NOUN	MWE	3
+rzadko	ADV	ADV	13
+rzecz jasna	NOUN	MWE	182
+rzeczywiście	ADV	ADV	40
+również	PART	PART	217
+sam	ADJ	OTH	405
+sie	PRON	PRON	5
+siebie	PRON	PRON	739
+się	PRON	PRON	5876
+skoro	SCONJ	SCONJ	75
+sobie	PRON	PRON	374
+sobą	PRON	PRON	104
+spod	ADP	ADP	26
+sporo	DET	DET	14
+spośród	ADP	ADP	17
+sprzed	ADP	ADP	10
+stamtąd	ADV	ADV	13
+stać	VERB	LVERB	654
+stąd	ADV	ADV	28
+swe	DET	DET	25
+swego	DET	DET	31
+swej	DET	DET	30
+swoich	DET	DET	104
+swoim	DET	DET	80
+swoimi	DET	DET	13
+swoje	DET	DET	125
+swojego	DET	DET	52
+swojej	DET	DET	57
+swojemu	DET	DET	6
+swoją	DET	DET	92
+swych	DET	DET	35
+swym	DET	DET	12
+swój	DET	DET	758
+swą	DET	DET	26
+szczególnie	PART	PART	45
+ta	DET	DET	150
+ta sama	DET	MWE	150
+tacy	DET	DET	13
+tak	ADV	ADV	677
+tak naprawdę	ADV	MWE	677
+tak samo	ADV	MWE	677
+tak sobie	ADV	MWE	677
+tak więc	ADV	MWE	677
+taka	DET	DET	62
+taki	DET	DET	603
+taki sam	DET	MWE	603
+takich	DET	DET	109
+takich samych	DET	MWE	109
+takie	DET	DET	140
+takiego	DET	DET	66
+takiej	DET	DET	33
+takim	DET	DET	49
+takim samym	DET	MWE	49
+takimi	DET	DET	11
+taką	DET	DET	38
+także	PART	PART	266
+tam	ADV	ADV	216
+tamtej	DET	DET	8
+tamten	DET	DET	36
+te	DET	DET	253
+te same	DET	MWE	253
+tego	DET	DET	534
+tego samego	DET	MWE	534
+tej	DET	DET	341
+tej samej	DET	MWE	341
+temu	ADP	ADP	109
+ten	DET	DET	2341
+ten sam	DET	MWE	2341
+teoretycznie	PART	PART	10
+teraz	ADV	ADV	242
+też	PART	PART	330
+to	PRON	PRON	3035
+to samo	PRON	MWE	3035
+tobie	PRON	PRON	12
+tobą	PRON	PRON	21
+toteż	SCONJ	SCONJ	10
+trochę	ADV	ADV	82
+trzeba	VERB	LVERB	142
+tu	ADV	ADV	218
+tutaj	ADV	ADV	75
+tuż	PART	PART	34
+twoi	DET	DET	5
+twoich	DET	DET	6
+twoim	DET	DET	14
+twoja	DET	DET	13
+twoje	DET	DET	20
+twojego	DET	DET	9
+twojej	DET	DET	6
+twoją	DET	DET	9
+twój	DET	DET	122
+ty	PRON	PRON	378
+tych	DET	DET	247
+tych samych	DET	MWE	247
+tyle	ADV	ADV	144
+tyle samo	ADV	MWE	144
+tyle że	ADV	MWE	144
+tylko	PART	PART	495
+tylu	DET	DET	5
+tym	PRON	PRON	778
+tym samym	PRON	MWE	778
+tymczasem	CCONJ	CCONJ	50
+tymi	DET	DET	18
+tą	DET	DET	31
+tę	DET	DET	94
+tę samą	DET	MWE	94
+u	ADP	ADP	179
+umieć	VERB	LVERB	32
+w	ADP	ADP	10265
+w celu	ADP	MWE	10265
+w charakterze	ADP	MWE	10265
+w chwili	ADP	MWE	10265
+w ciągu	ADP	MWE	10265
+w czasie	ADP	MWE	10265
+w dodatku	ADP	MWE	10265
+w drodze	ADP	MWE	10265
+w dziedzinie	ADP	MWE	10265
+w efekcie	ADP	MWE	10265
+w formie	ADP	MWE	10265
+w granicach	ADP	MWE	10265
+w gruncie rzeczy	ADP	MWE	10265
+w głąb	ADP	MWE	10265
+w głębi	ADP	MWE	10265
+w imieniu	ADP	MWE	10265
+w imię	ADP	MWE	10265
+w istocie	ADP	MWE	10265
+w kierunku	ADP	MWE	10265
+w końcu	ADP	MWE	10265
+w kształcie	ADP	MWE	10265
+w kwestii	ADP	MWE	10265
+w miarę	ADP	MWE	10265
+w momencie	ADP	MWE	10265
+w następstwie	ADP	MWE	10265
+w obliczu	ADP	MWE	10265
+w obrębie	ADP	MWE	10265
+w obszarze	ADP	MWE	10265
+w odniesieniu do	ADP	MWE	10265
+w ogóle	ADP	MWE	10265
+w okolicach	ADP	MWE	10265
+w okolicy	ADP	MWE	10265
+w okresie	ADP	MWE	10265
+w oparciu o	ADP	MWE	10265
+w pobliżu	ADP	MWE	10265
+w porównaniu do	ADP	MWE	10265
+w porównaniu z	ADP	MWE	10265
+w postaci	ADP	MWE	10265
+w przeciwieństwie do	ADP	MWE	10265
+w przeciągu	ADP	MWE	10265
+w przedmiocie	ADP	MWE	10265
+w przypadku	ADP	MWE	10265
+w przypadku gdy	ADP	MWE	10265
+w ramach	ADP	MWE	10265
+w razie	ADP	MWE	10265
+w rezultacie	ADP	MWE	10265
+w rodzaju	ADP	MWE	10265
+w roli	ADP	MWE	10265
+w rozumieniu	ADP	MWE	10265
+w skali	ADP	MWE	10265
+w sprawie	ADP	MWE	10265
+w stosunku do	ADP	MWE	10265
+w stronę	ADP	MWE	10265
+w sumie	ADP	MWE	10265
+w szczególności	ADP	MWE	10265
+w toku	ADP	MWE	10265
+w towarzystwie	ADP	MWE	10265
+w trakcie	ADP	MWE	10265
+w wyniku	ADP	MWE	10265
+w wypadku	ADP	MWE	10265
+w wysokości	ADP	MWE	10265
+w zakresie	ADP	MWE	10265
+w zależności od	ADP	MWE	10265
+w zamian	ADP	MWE	10265
+w zamian za	ADP	MWE	10265
+w zasadzie	ADP	MWE	10265
+w zgodzie z	ADP	MWE	10265
+w związku z	ADP	MWE	10265
+w związku ze	ADP	MWE	10265
+w środku	ADP	MWE	10265
+w świetle	ADP	MWE	10265
+wam	PRON	PRON	25
+warto	VERB	LVERB	33
+was	PRON	PRON	32
+wasz	DET	DET	25
+wasze	DET	DET	9
+wbrew	ADP	ADP	21
+wciąż	ADV	ADV	53
+wcześniej	ADV	ADV	90
+we	ADP	ADP	211
+wedle	ADP	ADP	9
+według	ADP	ADP	97
+wewnątrz	ADP	ADP	16
+wg	ADP	ADP	6
+widocznie	PART	PART	7
+widzieć	VERB	LVERB	222
+wiele	DET	DET	253
+wieloma	DET	DET	6
+wielu	DET	DET	106
+więc	SCONJ	SCONJ	237
+więcej	DET	DET	153
+wkrótce	ADV	ADV	30
+wobec	ADP	ADP	90
+wokół	ADP	ADP	38
+wolno	VERB	LVERB	28
+wprawdzie	PART	PART	10
+wprost	PART	PART	26
+wraz z	ADV	MWE	66
+wraz ze	ADV	MWE	66
+wreszcie	PART	PART	77
+wręcz	PART	PART	22
+wskutek	ADP	ADP	7
+wszak	PART	PART	6
+wszelki	DET	DET	74
+wszelkich	DET	DET	22
+wszelkie	DET	DET	27
+wszelką	DET	DET	5
+wszyscy	PRON	PRON	153
+wszystkich	DET	DET	144
+wszystkie	DET	DET	144
+wszystkiego	PRON	PRON	19
+wszystkim	PRON	PRON	107
+wszystkimi	DET	DET	11
+wszystko	PRON	PRON	294
+wszędzie	ADV	ADV	16
+wtedy	ADV	ADV	171
+wy	PRON	PRON	67
+wydawać	VERB	LVERB	125
+wyjątkowo	ADV	ADV	19
+wyłącznie	PART	PART	34
+wzdłuż	ADP	ADP	26
+względem	NOUN	OTH	42
+wziąć	VERB	LVERB	111
+wówczas	ADV	ADV	66
+właściwie	PART	PART	34
+właśnie	PART	PART	132
+włącznie z	ADV	MWE	5
+wśród	ADP	ADP	113
+z	ADP	ADP	5705
+z głębi	ADP	MWE	5705
+z kolei	ADP	MWE	5705
+z okazji	ADP	MWE	5705
+z pewnością	ADP	MWE	5705
+z powodu	ADP	MWE	5705
+z punktu widzenia	ADP	MWE	5705
+z racji	ADP	MWE	5705
+z reguły	ADP	MWE	5705
+z tytułu	ADP	MWE	5705
+z tyłu	ADP	MWE	5705
+z uwagi na	ADP	MWE	5705
+z wolna	ADP	MWE	5705
+z wyjątkiem	ADP	MWE	5705
+z wysokości	ADP	MWE	5705
+z zakresu	ADP	MWE	5705
+z zasady	ADP	MWE	5705
+za	ADP	ADP	1184
+za pomocą	ADP	MWE	1184
+za pośrednictwem	ADP	MWE	1184
+za sprawą	ADP	MWE	1184
+za to	ADP	MWE	1184
+zaledwie	PART	PART	30
+zależnie od	ADV	MWE	4
+zamiast	SCONJ	SCONJ	137
+zanim	SCONJ	SCONJ	38
+zapewne	PART	PART	27
+zaraz	ADV	ADV	37
+zarazem	PART	PART	11
+zarówno	PART	PART	63
+zatem	SCONJ	SCONJ	54
+zawsze	ADV	ADV	143
+zazwyczaj	ADV	ADV	21
+zaś	CCONJ	CCONJ	60
+zbyt	ADV	ADV	116
+zdecydowanie	PART	PART	21
+ze	ADP	ADP	529
+ze strony	ADP	MWE	529
+ze względu na	ADP	MWE	529
+zgodnie z	ADV	MWE	103
+zgodnie ze	ADV	MWE	103
+znowu	PART	PART	39
+znów	PART	PART	46
+zostawać	AUX	AUX	44
+zostawić	VERB	LVERB	33
+zostać	AUX	AUX	561
+zresztą	PART	PART	49
+zrobić	VERB	LVERB	194
+zupełnie	ADV	ADV	52
+zwykle	ADV	ADV	33
+zwłaszcza	PART	PART	42
+zza	ADP	ADP	19
+ów	DET	DET	31
+łącznie z	ADV	MWE	15
+żaden	DET	DET	167
+żadna	DET	DET	9
+żadne	DET	DET	12
+żadnego	DET	DET	42
+żadnej	DET	DET	19
+żadnych	DET	DET	42
+żadnym	DET	DET	11
+że	SCONJ	SCONJ	2687
+żeby	SCONJ	SCONJ	258

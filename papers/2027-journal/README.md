@@ -38,6 +38,16 @@ Post-submission experiments feeding the long paper. Grows with the paper.
 | `make_journal_tables.py` | regenerates the paper's calibration-chapter tables |
 | `make_email_figs.py` | the three exhibit figures (entrenchment scatter, corpus gauge, cohort normalisation) |
 
+## Cross-lingual transfer & the aligned category layer
+
+| Script | Role |
+|---|---|
+| `xling_pilot.py` | leave-one-language-out verification over six novel corpora; universal alphabets: `tags` (function words collapsed to W), `ranks` (Zipf frequency-rank buckets), `cats` (functional classes from the aligned companion lists) |
+| `aligned_utils.py` | loader for `posnoise_lists/aligned/` + category back-off helper for out-of-vocabulary function words |
+| `../../data_prep/build_aligned_lists.py` | regenerates the category annotations (entry -> dominant UD POS -> functional class) from the same UD treebanks the pattern lists were built from |
+| `../../tm/phase4/aligned_atoms.jl` | shared class atoms for the hyperdimensional encoder and readable clause literals for profile classifiers |
+| `../../tm/phase4/profile_tm.jl` | per-author profile Tsetlin machines, one-vs-population, with cohort-contrast verdicts |
+
 Headline of the campaign: typicality around K is *predictable* from the known
 author's material but does not convert into a case-internal calibrator; the
 reference cohort's spread does calibrate (8/8 real-case datasets), and the

@@ -1,0 +1,427 @@
+# aligned companion of POSNoise_PatternList_Sl_v1.0.txt; evidence: UD_Slovenian-SSJ (13435 sentences)
+# entry	upos	class	evidence_count
+a	CCONJ	CCONJ	260
+ali	CCONJ	CCONJ	865
+ampak	CCONJ	CCONJ	110
+ampak tudi	CCONJ	MWE	110
+bati	VERB	LVERB	39
+biti	AUX	AUX	18912
+blizu	ADV	ADV	30
+bodisi	CCONJ	CCONJ	13
+bolj	ADV	ADV	265
+brez	ADP	ADP	176
+bržkone	PART	PART	8
+bržčas	PART	PART	4
+celo	PART	PART	137
+da	SCONJ	SCONJ	3012
+daleč	ADV	ADV	32
+dalje	ADV	ADV	18
+danes	ADV	ADV	132
+dejati	VERB	LVERB	64
+do	ADP	ADP	714
+dobro	ADV	ADV	202
+dodati	VERB	LVERB	52
+dogovoriti	VERB	LVERB	13
+dokaj	ADV	ADV	18
+dokazati	VERB	LVERB	22
+dokler	SCONJ	SCONJ	37
+določati	VERB	LVERB	30
+doma	ADV	ADV	48
+domala	PART	PART	4
+domnevati	VERB	LVERB	15
+domov	ADV	ADV	20
+doslej	ADV	ADV	51
+dosti	DET	DET	15
+dovoliti	VERB	LVERB	30
+dovolj	DET	DET	96
+drugače	ADV	ADV	40
+drugič	ADV	ADV	15
+drugje	ADV	ADV	16
+dvakrat	ADV	ADV	21
+edino	ADJ	OTH	12
+enak	DET	DET	66
+enkrat	ADV	ADV	42
+glede	ADV	ADV	107
+glede na	ADV	MWE	107
+hitro	ADV	ADV	98
+hkrati	ADV	ADV	71
+hoteti	VERB	LVERB	140
+in	CCONJ	CCONJ	6132
+in sicer	CCONJ	MWE	6132
+in to	CCONJ	MWE	6132
+isti	DET	DET	79
+iz	ADP	ADP	823
+izmed	ADP	ADP	57
+izpod	ADP	ADP	6
+izpred	ADP	ADP	4
+izvedeti	VERB	LVERB	32
+izven	ADP	ADP	5
+ja	PART	PART	17
+jaz	PRON	PRON	786
+jeseni	ADV	ADV	23
+jest	PRON	PRON	6
+jutri	ADV	ADV	15
+k	ADP	ADP	223
+kadar	SCONJ	SCONJ	42
+kaj	PRON	PRON	324
+kaj šele	PRON	MWE	324
+kajpak	PART	PART	4
+kajti	CCONJ	CCONJ	46
+kak	DET	DET	55
+kako	ADV	ADV	239
+kakor	SCONJ	SCONJ	95
+kakor da	SCONJ	MWE	95
+kakršen	DET	DET	36
+kakršenkoli	DET	DET	8
+kakšen	DET	DET	148
+kam	ADV	ADV	20
+kamor	SCONJ	SCONJ	20
+kar	PRON	PRON	532
+kar se da	PRON	MWE	532
+karkoli	PRON	PRON	9
+kateri	DET	DET	546
+kateri koli	DET	MWE	546
+katerikoli	DET	DET	6
+katero koli	DET	MWE	61
+kazati	VERB	LVERB	73
+kdaj	ADV	ADV	46
+kdo	PRON	PRON	126
+kdor	PRON	PRON	10
+kdorkoli	PRON	PRON	8
+ker	SCONJ	SCONJ	323
+ki	SCONJ	SCONJ	2514
+kje	ADV	ADV	36
+kjer	SCONJ	SCONJ	185
+kljub	ADP	ADP	118
+kljub temu da	ADP	MWE	118
+kmalu	ADV	ADV	56
+ko	SCONJ	SCONJ	687
+koder	SCONJ	SCONJ	8
+koli	PART	PART	22
+koliko	DET	DET	26
+kolikor	SCONJ	SCONJ	23
+komaj	ADV	ADV	26
+kot	SCONJ	SCONJ	1200
+kot da	SCONJ	MWE	1200
+kot pa da	SCONJ	MWE	1200
+kot če	SCONJ	MWE	1200
+kvečjemu	PART	PART	5
+lahko	ADV	ADV	883
+lani	ADV	ADV	63
+le	PART	PART	437
+le da	PART	MWE	437
+letos	ADV	ADV	61
+malce	ADV	ADV	31
+malo	DET	DET	103
+manj	DET	DET	118
+manj kot	DET	MWE	118
+marsikaj	PRON	PRON	15
+marsikateri	DET	DET	8
+marsikdo	PRON	PRON	5
+marveč	CCONJ	CCONJ	5
+med	ADP	ADP	608
+medtem	ADV	ADV	67
+medtem ko	ADV	MWE	67
+menda	PART	PART	25
+meniti	VERB	LVERB	62
+mimo	ADP	ADP	23
+misliti	VERB	LVERB	106
+mnog	DET	DET	62
+mnogo	DET	DET	16
+mogoče	ADJ	OTH	138
+moj	DET	DET	134
+morati	VERB	LVERB	464
+morda	PART	PART	107
+moči	VERB	LVERB	228
+na	ADP	ADP	3557
+na primer	ADP	MWE	3557
+nad	ADP	ADP	119
+nadvse	ADV	ADV	13
+naj	PART	PART	401
+najbolj	ADV	ADV	144
+najbrž	PART	PART	28
+najin	DET	DET	11
+najmanj	ADV	ADV	21
+najprej	ADV	ADV	60
+največ	DET	DET	41
+največkrat	ADV	ADV	15
+name	PRON	PRON	38
+nameravati	VERB	LVERB	17
+namesto	ADP	ADP	27
+namesto da	ADP	MWE	27
+namreč	CCONJ	CCONJ	152
+naprej	ADV	ADV	70
+narobe	ADV	ADV	19
+naročiti	VERB	LVERB	13
+nase	PRON	PRON	11
+nato	ADV	ADV	117
+navkljub	ADP	ADP	5
+navzdol	ADV	ADV	14
+navzgor	ADV	ADV	15
+nazadnje	ADV	ADV	23
+nazaj	ADV	ADV	38
+naš	DET	DET	230
+ne	PART	PART	1433
+ne da	PART	MWE	1433
+ne glede na	PART	MWE	1433
+ne le	PART	MWE	1433
+ne pa	PART	MWE	1433
+ne samo	PART	MWE	1433
+nek	DET	DET	108
+nekaj	DET	DET	405
+nekakšen	DET	DET	37
+nekateri	DET	DET	173
+nekdo	PRON	PRON	39
+neki	DET	DET	29
+nekoč	ADV	ADV	29
+nemara	PART	PART	10
+nenadoma	ADV	ADV	17
+nihče	PRON	PRON	49
+nikakor	ADV	ADV	30
+nikakršen	DET	DET	9
+nikar	PART	PART	9
+nikoli	ADV	ADV	66
+niti	PART	PART	112
+nič	PRON	PRON	140
+njegov	DET	DET	448
+njen	DET	DET	251
+njihov	DET	DET	235
+njun	DET	DET	38
+no	PART	PART	31
+noben	DET	DET	82
+o	ADP	ADP	792
+ob	ADP	ADP	411
+oba	DET	DET	114
+obenem	ADV	ADV	15
+oboj	DET	DET	11
+oceniti	VERB	LVERB	22
+ocenjevati	VERB	LVERB	23
+od	ADP	ADP	779
+odgovoriti	VERB	LVERB	46
+odkar	SCONJ	SCONJ	18
+odločiti	VERB	LVERB	97
+okoli	ADV	ADV	78
+okrog	ADP	ADP	37
+omeniti	VERB	LVERB	32
+omogočiti	VERB	LVERB	36
+on	PRON	PRON	2664
+oni	DET	DET	26
+onkraj	ADP	ADP	6
+opozarjati	VERB	LVERB	19
+opozoriti	VERB	LVERB	25
+ostajati	VERB	LVERB	17
+oziroma	CCONJ	CCONJ	142
+pa	CCONJ	CCONJ	2038
+pa vendar	CCONJ	MWE	2038
+paziti	VERB	LVERB	18
+pač	PART	PART	57
+pač pa	PART	MWE	57
+po	ADP	ADP	1230
+po navadi	ADP	MWE	1230
+pod	ADP	ADP	194
+pogosto	ADV	ADV	103
+pojasniti	VERB	LVERB	28
+pokazati	VERB	LVERB	90
+pol	DET	DET	55
+poleg	ADP	ADP	119
+poleti	ADV	ADV	15
+pomeniti	VERB	LVERB	113
+pomisliti	VERB	LVERB	28
+ponavadi	ADV	ADV	23
+ponoči	ADV	ADV	19
+popolnoma	ADV	ADV	36
+posebej	ADV	ADV	59
+poskusiti	VERB	LVERB	24
+poskušati	VERB	LVERB	42
+postajati	VERB	LVERB	19
+postati	VERB	LVERB	184
+potem	ADV	ADV	197
+potem ko	ADV	MWE	197
+poudariti	VERB	LVERB	26
+povedati	VERB	LVERB	168
+povsem	ADV	ADV	86
+povsod	ADV	ADV	17
+pozabiti	VERB	LVERB	29
+pozno	ADV	ADV	72
+počasi	ADV	ADV	33
+prav	PART	PART	234
+praviloma	ADV	ADV	14
+praviti	VERB	LVERB	112
+pravzaprav	PART	PART	50
+precej	ADV	ADV	70
+pred	ADP	ADP	374
+preden	SCONJ	SCONJ	40
+predlagati	VERB	LVERB	60
+predvsem	PART	PART	164
+prej	ADV	ADV	64
+prek	ADP	ADP	43
+preko	ADP	ADP	20
+premnog	DET	DET	4
+prepričati	VERB	LVERB	35
+preveč	DET	DET	42
+pri	ADP	ADP	829
+približno	ADV	ADV	92
+prizadevati	VERB	LVERB	15
+priznati	VERB	LVERB	30
+pričeti	VERB	LVERB	17
+prositi	VERB	LVERB	29
+proti	ADP	ADP	187
+prvič	ADV	ADV	68
+pustiti	VERB	LVERB	42
+rad	ADV	ADV	104
+raje	ADV	ADV	23
+ravno	PART	PART	47
+razen	ADJ	OTH	53
+razglasiti	VERB	LVERB	16
+razložiti	VERB	LVERB	21
+razmeroma	ADV	ADV	17
+res	ADV	ADV	93
+reči	VERB	LVERB	194
+s tem da	ADP	MWE	1399
+s tem ko	ADP	MWE	1399
+saj	CCONJ	CCONJ	323
+samo	PART	PART	266
+se	PRON	PRON	4053
+se pravi	PRON	MWE	4053
+sedaj	ADV	ADV	47
+sem	AUX	AUX	570
+seveda	PART	PART	160
+sicer	PART	PART	209
+siliti	VERB	LVERB	15
+skleniti	VERB	LVERB	27
+sklepati	VERB	LVERB	17
+skoraj	PART	PART	109
+skorajda	PART	PART	18
+skozi	ADP	ADP	69
+skupaj	ADV	ADV	133
+skušati	VERB	LVERB	48
+smeti	VERB	LVERB	93
+spet	ADV	ADV	81
+sploh	PART	PART	96
+spodaj	ADV	ADV	17
+spomladi	ADV	ADV	18
+spomniti	VERB	LVERB	29
+sporočiti	VERB	LVERB	19
+spraševati	VERB	LVERB	19
+spričo	ADP	ADP	8
+sprva	ADV	ADV	22
+sredi	ADP	ADP	31
+svoj	DET	DET	818
+sčasoma	ADV	ADV	14
+ta	DET	DET	2408
+tak	DET	DET	126
+tako	ADV	ADV	780
+tako da	ADV	MWE	780
+tako imenovana	ADV	MWE	780
+tako imenovane	ADV	MWE	780
+tako imenovanih	ADV	MWE	780
+tako kot	ADV	MWE	780
+tako rekoč	ADV	MWE	780
+takoj	ADV	ADV	61
+takrat	ADV	ADV	98
+takrat ko	ADV	MWE	98
+takšen	DET	DET	112
+tale	DET	DET	19
+tam	ADV	ADV	103
+tedaj	ADV	ADV	35
+temveč	CCONJ	CCONJ	66
+temveč tudi	CCONJ	MWE	66
+ter	CCONJ	CCONJ	290
+ti	PRON	PRON	344
+tik	ADV	ADV	21
+tisti	DET	DET	279
+tja	ADV	ADV	27
+to je	DET	MWE	859
+toda	CCONJ	CCONJ	134
+tokrat	ADV	ADV	35
+toliko	DET	DET	63
+tolikšen	DET	DET	7
+torej	ADV	ADV	118
+trditi	VERB	LVERB	33
+treba	ADV	ADV	143
+truditi	VERB	LVERB	14
+tu	ADV	ADV	68
+tudi	PART	PART	1523
+tukaj	ADV	ADV	37
+tvoj	DET	DET	23
+ugotavljati	VERB	LVERB	27
+ugotoviti	VERB	LVERB	71
+upati	VERB	LVERB	38
+uspeti	VERB	LVERB	68
+utegniti	VERB	LVERB	14
+v	ADP	ADP	6114
+vajin	DET	DET	9
+vame	PRON	PRON	30
+vaš	DET	DET	97
+vedeti	VERB	LVERB	227
+vedno	ADV	ADV	203
+veliko	DET	DET	245
+veljati	VERB	LVERB	89
+vendar	CCONJ	CCONJ	280
+vendarle	CCONJ	CCONJ	42
+verjeti	VERB	LVERB	46
+verjetno	ADV	ADV	97
+ves	DET	DET	895
+več	DET	DET	448
+več kot	DET	MWE	448
+večinoma	ADV	ADV	33
+večkrat	ADV	ADV	40
+vnaprej	ADV	ADV	15
+vprašati	VERB	LVERB	41
+vsaj	PART	PART	100
+vsak	DET	DET	250
+vsakdo	PRON	PRON	13
+vsakršen	DET	DET	7
+vse	DET	DET	421
+vsekakor	PART	PART	39
+vselej	ADV	ADV	16
+vzdolž	ADP	ADP	8
+včasih	ADV	ADV	61
+včeraj	ADV	ADV	37
+všeč	ADV	ADV	23
+z	ADP	ADP	3200
+za	ADP	ADP	2741
+zakaj	ADV	ADV	81
+zame	PRON	PRON	70
+zapisati	VERB	LVERB	31
+zaradi	ADP	ADP	343
+zares	ADV	ADV	28
+zase	PRON	PRON	20
+zatem	ADV	ADV	17
+zato	CCONJ	CCONJ	338
+zato da	CCONJ	MWE	338
+zato ker	CCONJ	MWE	338
+zavedati	VERB	LVERB	24
+začeti	VERB	LVERB	229
+zdaj	ADV	ADV	181
+zdaj ko	ADV	MWE	181
+zdeti	VERB	LVERB	118
+zelo	ADV	ADV	274
+zgolj	PART	PART	39
+zgoraj	ADV	ADV	21
+zjutraj	ADV	ADV	22
+zlasti	PART	PART	61
+zmoči	VERB	LVERB	13
+znati	VERB	LVERB	55
+znotraj	ADP	ADP	29
+znova	ADV	ADV	45
+zoper	ADP	ADP	21
+zunaj	ADP	ADP	26
+zvečer	ADV	ADV	16
+če	SCONJ	SCONJ	583
+čeprav	SCONJ	SCONJ	137
+četudi	SCONJ	SCONJ	15
+čez	ADP	ADP	81
+češ	PART	PART	13
+češ da	PART	MWE	13
+čim	ADV	ADV	46
+še	PART	PART	990
+še posebej	PART	MWE	990
+še posebno	PART	MWE	990
+še preden	PART	MWE	990
+šele	PART	PART	94
+šele ko	PART	MWE	94
+šteti	VERB	LVERB	22
+žal	ADV	ADV	27
+že	PART	PART	609
+želeti	VERB	LVERB	150

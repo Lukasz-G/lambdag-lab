@@ -1,0 +1,2005 @@
+# aligned companion of POSNoise_PatternList_De_v3.0.txt; evidence: UD_German-GSD (15589 sentences)
+# entry	upos	class	evidence_count
+'m	PROPN	OTH	1
+'n	-	UNK	0
+'ne	-	UNK	0
+'nem	-	UNK	0
+'nen	-	UNK	0
+'ner	-	UNK	0
+'s	X	OTH	41
+ab	ADP	ADP	296
+ab dem	ADP	MWE	296
+ab und an	ADP	MWE	296
+ab und zu	ADP	MWE	296
+abends	ADV	ADV	10
+aber	ADV	ADV	440
+aber auch	ADV	MWE	440
+abermals	ADV	ADV	3
+abgesehen davon	VERB	MWE	4
+abgesehen von	VERB	MWE	4
+abschliessend	-	UNK	0
+abschließend	ADJ	OTH	6
+abseits	ADP	ADP	4
+absichtlich	ADJ	OTH	1
+absolut	ADJ	OTH	33
+abwärts	ADV	ADV	3
+ach	INTJ	INTJ	1
+ach so	INTJ	MWE	1
+achso	-	UNK	0
+acht	NUM	NUM	56
+achte	ADJ	OTH	2
+achteinhalb	-	UNK	0
+achtel	NOUN	OTH	1
+achten	VERB	LVERB	12
+achtens	-	UNK	0
+achter	ADJ	OTH	2
+achtes	-	UNK	0
+achtzehnte	-	UNK	0
+achtzig	-	UNK	0
+ah	-	UNK	0
+aha	-	UNK	0
+aktuell	ADJ	OTH	20
+all	PROPN	OTH	16
+all das was	PROPN	MWE	16
+all und jeder	PROPN	MWE	16
+alldieweil	-	UNK	0
+alle	DET	DET	469
+alledem	-	UNK	0
+allein	ADV	ADV	27
+allem	DET	DET	119
+allem anschein nach	DET	MWE	119
+allemal	ADV	ADV	1
+allen	DET	DET	48
+allenfalls	ADV	ADV	3
+allenthalben	-	UNK	0
+aller	DET	DET	46
+aller wahrscheinlichkeit nach	DET	MWE	46
+allerart	-	UNK	0
+allerdings	ADV	ADV	132
+allerhand	-	UNK	0
+allerlei	-	UNK	0
+allermeisten	DET	DET	2
+allerorten	-	UNK	0
+allerorts	-	UNK	0
+alles	DET	DET	93
+alles in allem	DET	MWE	93
+alles mögliche	DET	MWE	93
+alles was	DET	MWE	93
+allesamt	ADV	ADV	1
+allesmögliche	-	UNK	0
+alleweil	-	UNK	0
+allgemeinen	ADJ	OTH	17
+alltäglich	ADJ	OTH	1
+allzeit	ADV	ADV	1
+allzu	ADV	ADV	1
+allzu viele	ADV	MWE	1
+allzuviel	-	UNK	0
+als	ADP	ADP	1659
+als auch	ADP	MWE	1659
+als bald	ADP	MWE	1659
+als beispielsweise	ADP	MWE	1659
+als folge	ADP	MWE	1659
+als konsequenz	ADP	MWE	1659
+als ob	ADP	MWE	1659
+als wenn	ADP	MWE	1659
+als zb	ADP	MWE	1659
+alsbald	ADV	ADV	1
+alsdann	-	UNK	0
+also	ADV	ADV	77
+also gut	ADV	MWE	77
+am	PROPN	OTH	2
+am ende	PROPN	MWE	2
+am ende von	PROPN	MWE	2
+an	ADP	ADP	1914
+an sich	ADP	MWE	1914
+andauernd	-	UNK	0
+andere	DET	DET	110
+anderem	DET	DET	91
+anderen	DET	DET	161
+anderer	DET	DET	391
+andererseits	ADV	ADV	15
+anderes	DET	DET	6
+andern	-	UNK	0
+andernfalls	-	UNK	0
+andernorts	-	UNK	0
+anders	ADV	ADV	22
+anders ausgedrückt	ADV	MWE	22
+anders gesagt	ADV	MWE	22
+anderswo	ADV	ADV	3
+anderthalb	NUM	NUM	2
+anfangs	ADV	ADV	17
+angeblich	ADJ	OTH	17
+angenommen dass	VERB	MWE	14
+angesichts	ADP	ADP	5
+anlässlich	ADP	ADP	6
+annähernd	ADJ	OTH	4
+ans	-	UNK	0
+anscheinend	ADV	ADV	1
+anschließend	ADJ	OTH	61
+ansonsten	ADV	ADV	14
+anstatt	ADP	ADP	5
+anstelle	ADP	ADP	5
+apropos	-	UNK	0
+arg	ADJ	OTH	3
+au	PROPN	OTH	1
+aua	-	UNK	0
+auch	ADV	ADV	1346
+auf	ADP	ADP	1680
+auf alle fälle	ADP	MWE	1680
+auf dass	ADP	MWE	1680
+auf daß	ADP	MWE	1680
+auf der anderen seite	ADP	MWE	1680
+auf der einen seite	ADP	MWE	1680
+auf grund	ADP	MWE	1680
+auf jeden fall	ADP	MWE	1680
+aufeinander	ADV	ADV	8
+aufer	-	UNK	0
+auffallend	ADJ	OTH	4
+aufgrund	ADP	ADP	75
+aufm	-	UNK	0
+aufn	-	UNK	0
+aufs	-	UNK	0
+aufs neue	-	MWE	0
+aufwärts	ADV	ADV	2
+augenfällig	-	UNK	0
+augenscheinlich	ADJ	OTH	1
+aus	ADP	ADP	1039
+ausdrücklich	ADJ	OTH	6
+auseinander	ADV	ADV	4
+ausgenommen	VERB	LVERB	3
+ausgerechnet	ADV	ADV	4
+ausgesprochen	ADJ	OTH	14
+ausm	-	UNK	0
+ausnahmslos	ADJ	OTH	1
+ausnahmslos alle	ADJ	MWE	1
+ausnehmend	-	UNK	0
+ausschliesslich	-	UNK	0
+ausschließlich	ADJ	OTH	24
+aussen	ADV	ADV	2
+ausser	-	UNK	0
+ausser dass	-	MWE	0
+ausser wenn	-	MWE	0
+ausserdem	ADV	ADV	4
+ausserhalb	-	UNK	0
+autsch	-	UNK	0
+außen	ADV	ADV	18
+außer	ADP	ADP	17
+außer dass	ADP	MWE	17
+außer wenn	ADP	MWE	17
+außerdem	ADV	ADV	90
+außerhalb	ADP	ADP	18
+bah	-	UNK	0
+bald	ADV	ADV	47
+bald bald	ADV	MWE	47
+baldigst	-	UNK	0
+bedauerlicherweise	-	UNK	0
+bedingt	ADJ	OTH	9
+behufs	-	UNK	0
+bei	ADP	ADP	1186
+bei alledem	ADP	MWE	1186
+bei weitem	ADP	MWE	1186
+beide	DET	DET	179
+beiden	DET	DET	130
+beider	DET	DET	7
+beiderseits	ADV	ADV	2
+beides	DET	DET	3
+beie	-	UNK	0
+beieinander	ADV	ADV	1
+beileibe nicht	-	MWE	0
+beim	-	UNK	0
+beinahe	ADV	ADV	5
+beiseite	ADV	ADV	1
+beispiel	NOUN	OTH	55
+beispielsweise	ADV	ADV	46
+bekanntermassen	-	UNK	0
+bekanntermaßen	-	UNK	0
+bekanntlich	-	UNK	0
+bereits	ADV	ADV	182
+besonders	ADV	ADV	78
+beste grüße	ADJ	MWE	30
+besten dank	ADJ	MWE	44
+bestenfalls	-	UNK	0
+bestimmt	ADJ	OTH	53
+beständig	-	UNK	0
+betreffs	-	UNK	0
+bevor	SCONJ	SCONJ	38
+bewusst	ADJ	OTH	8
+bezeichnenderweise	ADV	ADV	1
+beziehungsweise	CCONJ	CCONJ	8
+beziehungsweise auch	CCONJ	MWE	8
+bezüglich	ADP	ADP	2
+bin	AUX	AUX	83
+binnen	ADP	ADP	2
+bis	ADP	ADP	875
+bis an	ADP	MWE	875
+bis auf	ADP	MWE	875
+bis zu	ADP	MWE	875
+bis zum	ADP	MWE	875
+bisher	ADV	ADV	30
+bisschen	ADV	ADV	4
+bist	AUX	AUX	4
+biste	-	UNK	0
+bisweilen	ADJ	OTH	1
+bitte	ADV	ADV	8
+bitte schön	ADV	MWE	8
+bitte sehr	ADV	MWE	8
+bitter	ADJ	OTH	10
+bitteschön	-	UNK	0
+bittesehr	-	UNK	0
+bißchen	ADV	ADV	1
+blabla	-	UNK	0
+bloss	-	UNK	0
+bloss dass	-	MWE	0
+bloß	ADJ	OTH	5
+bloß dass	ADJ	MWE	5
+boa	PROPN	OTH	1
+boah	-	UNK	0
+bspw	ADJ	OTH	1
+bspw.	-	UNK	0
+bzw	CCONJ	CCONJ	6
+bzw.	ADV	ADV	2
+bäh	-	UNK	0
+ciao	-	UNK	0
+d.h.	X	OTH	4
+da	SCONJ	SCONJ	244
+dabei	ADV	ADV	181
+dadurch	ADV	ADV	47
+dafuer	-	UNK	0
+dafür	ADV	ADV	52
+dagegen	ADV	ADV	29
+daheim	ADV	ADV	4
+daher	ADV	ADV	55
+dahin	ADV	ADV	25
+dahinein	-	UNK	0
+dahingegen	-	UNK	0
+dahingehend	-	UNK	0
+dahinter	ADV	ADV	3
+damals	ADV	ADV	56
+damit	ADV	ADV	180
+danach	ADV	ADV	88
+daneben	ADV	ADV	32
+dank	NOUN	OTH	35
+danke	NOUN	OTH	9
+danke schön	NOUN	MWE	9
+danke sehr	NOUN	MWE	9
+dankenswerterweise	-	UNK	0
+dankeschön	NOUN	OTH	2
+dann	ADV	ADV	217
+dann und wann	ADV	MWE	217
+daran	ADV	ADV	21
+darauf	ADV	ADV	77
+darauffolgend	ADJ	OTH	3
+daraus	ADV	ADV	13
+daraus ergibt sich	ADV	MWE	13
+daraus folgt	ADV	MWE	13
+darf	AUX	AUX	19
+darfst	-	UNK	0
+darin	ADV	ADV	37
+darum	ADV	ADV	11
+darum herum	ADV	MWE	11
+darunter	ADV	ADV	41
+darüber	ADV	ADV	46
+darüber hinaus	ADV	MWE	46
+das	DET	DET	2652
+das da	DET	MWE	2652
+das eine oder andere	DET	MWE	2652
+das heisst	DET	MWE	2652
+das heißt	DET	MWE	2652
+das meinige	DET	MWE	2652
+das was	DET	MWE	2652
+daselbst	-	UNK	0
+dass	SCONJ	SCONJ	531
+dasselbe	-	UNK	0
+dasselbige	-	UNK	0
+dauernd	ADJ	OTH	4
+davon	ADV	ADV	81
+davon abgesehen	ADV	MWE	81
+davor	ADV	ADV	9
+dawider	-	UNK	0
+dazu	ADV	ADV	100
+dazumal	-	UNK	0
+dazwischen	ADV	ADV	2
+daß	SCONJ	SCONJ	129
+de	PROPN	OTH	148
+definitiv	ADJ	OTH	3
+deim	-	UNK	0
+dein	DET	DET	5
+deine	-	UNK	0
+deinem	-	UNK	0
+deinen	DET	DET	3
+deiner	-	UNK	0
+deines	-	UNK	0
+deinige	-	UNK	0
+deins	-	UNK	0
+dem	DET	DET	6048
+dem anschein nach	DET	MWE	6048
+dem vernehmen nach	DET	MWE	6048
+dementsprechend	ADJ	OTH	4
+demgegenüber	-	UNK	0
+demgemäss	-	UNK	0
+demgemäß	-	UNK	0
+demhingegen	-	UNK	0
+demjenigen	DET	DET	4
+demnach	ADV	ADV	5
+demnächst	ADV	ADV	2
+demselben	DET	DET	1
+demzufolge	ADV	ADV	2
+den	DET	DET	2790
+den berichten zufolge	DET	MWE	2790
+denen	PRON	PRON	86
+denjenigen	DET	DET	1
+denkbar	ADJ	OTH	1
+denn	SCONJ	SCONJ	54
+dennoch	ADV	ADV	23
+denselben	DET	DET	1
+der	DET	DET	31668
+der da	DET	MWE	31668
+der eine oder andere	DET	MWE	31668
+der großteil	DET	MWE	31668
+der meinige	DET	MWE	31668
+der reihe nach	DET	MWE	31668
+der seinige	DET	MWE	31668
+derart	ADV	ADV	4
+dereinst	-	UNK	0
+deren	PRON	PRON	97
+derentwegen	-	UNK	0
+derer	PRON	PRON	4
+derethalben	-	UNK	0
+deretwegen	-	UNK	0
+dergleichen	DET	DET	1
+derjenige	DET	DET	10
+derjenigen	DET	DET	1
+derlei	-	UNK	0
+dermassen	-	UNK	0
+dermaßen	ADV	ADV	2
+derselbe	DET	DET	23
+derselben	DET	DET	8
+derselbige	-	UNK	0
+derzeit	ADV	ADV	22
+des	DET	DET	2097
+des weiteren	DET	MWE	2097
+des öfteren	DET	MWE	2097
+deshalb	ADV	ADV	63
+desjenigen	-	UNK	0
+desselben	DET	DET	6
+dessen	PRON	PRON	92
+dessen ungeachtet	PRON	MWE	92
+dessenthalben	-	UNK	0
+dessentwegen	-	UNK	0
+desto	CCONJ	CCONJ	1
+desungeachtet	-	UNK	0
+deswegen	ADV	ADV	11
+desweiteren	-	UNK	0
+deutlich	ADJ	OTH	53
+dh	-	UNK	0
+dich	PRON	PRON	2
+dich selbst	PRON	MWE	2
+die	DET	DET	8014
+die da	DET	MWE	8014
+die hälfte	DET	MWE	8014
+die mehrzahl	DET	MWE	8014
+die meinige	DET	MWE	8014
+die seinige	DET	MWE	8014
+diejenige	DET	DET	1
+diejenigen	DET	DET	3
+dies	DET	DET	139
+dies und das	DET	MWE	139
+diese	DET	DET	401
+dieselbe	DET	DET	3
+dieselben	DET	DET	3
+dieselbige	-	UNK	0
+diesem	DET	DET	183
+diesen	DET	DET	85
+dieser	DET	DET	1274
+dieses	DET	DET	144
+diesmal	ADV	ADV	13
+diesseits	-	UNK	0
+dieweil	-	UNK	0
+dir	PRON	PRON	2
+diverse	ADJ	OTH	3
+doch	ADV	ADV	97
+doch auch	ADV	MWE	97
+dort	ADV	ADV	274
+dorther	-	UNK	0
+dorthin	ADV	ADV	7
+draussen	ADV	ADV	1
+draußen	ADV	ADV	4
+drei	NUM	NUM	178
+drei viertel	NUM	MWE	178
+dreieinhalb	NUM	NUM	2
+dreihundert	-	UNK	0
+dreissig	-	UNK	0
+dreitausend	-	UNK	0
+dreiundzwanzig	-	UNK	0
+dreiviertel	-	UNK	0
+dreizehn	NUM	NUM	2
+dreizehnte	-	UNK	0
+dreißig	NUM	NUM	1
+dreißigste	-	UNK	0
+drin	ADV	ADV	2
+drinnen	ADV	ADV	1
+dritte	ADJ	OTH	26
+drittel	NOUN	OTH	13
+dritten	ADJ	OTH	38
+drittens	-	UNK	0
+dritter	ADJ	OTH	3
+drittes	-	UNK	0
+drunter	-	UNK	0
+drüben	ADV	ADV	1
+drüber	ADV	ADV	1
+du	PRON	PRON	36
+dummerweise	ADV	ADV	1
+durch	ADP	ADP	691
+durch die bank	ADP	MWE	691
+durchaus	ADV	ADV	14
+durchaus nicht	ADV	MWE	14
+durcheinander	-	UNK	0
+durchgehend	ADJ	OTH	7
+durchgängig	ADJ	OTH	2
+durchs	-	UNK	0
+durchweg	ADV	ADV	5
+durfte	AUX	AUX	8
+durften	AUX	AUX	6
+durftest	-	UNK	0
+durftet	-	UNK	0
+dutzend	NOUN	OTH	7
+dutzende	NOUN	OTH	3
+dürfen	AUX	AUX	70
+dürft	-	UNK	0
+dürfte	AUX	AUX	11
+dürfte ich	AUX	MWE	11
+dürften	AUX	AUX	5
+dürftest	-	UNK	0
+dürftet	-	UNK	0
+eben	ADV	ADV	11
+ebendas	-	UNK	0
+ebendem	-	UNK	0
+ebenden	-	UNK	0
+ebender	-	UNK	0
+ebendie	-	UNK	0
+ebendiese	-	UNK	0
+ebendiesem	-	UNK	0
+ebendiesen	-	UNK	0
+ebendieser	DET	DET	1
+ebendieses	DET	DET	1
+ebenfalls	ADV	ADV	96
+ebenjene	-	UNK	0
+ebenjenem	-	UNK	0
+ebenjenen	-	UNK	0
+ebenjener	-	UNK	0
+ebenjenes	-	UNK	0
+ebenso	ADV	ADV	48
+ebenso wie	ADV	MWE	48
+echt	ADJ	OTH	35
+eh	-	UNK	0
+ehe	NOUN	OTH	27
+ehedem	-	UNK	0
+eher	ADV	ADV	46
+ehrlich	PROPN	OTH	7
+ehrlich gesagt	PROPN	MWE	7
+ehrlicherweise	-	UNK	0
+ei	NOUN	OTH	8
+eigens	ADV	ADV	5
+eigentlich	ADJ	OTH	39
+ein	DET	DET	5614
+ein bisschen	DET	MWE	5614
+ein drittel	DET	MWE	5614
+ein gewisser teil	DET	MWE	5614
+ein gewisses maß	DET	MWE	5614
+ein großteil	DET	MWE	5614
+ein großteil von	DET	MWE	5614
+ein gutteil	DET	MWE	5614
+ein halb	DET	MWE	5614
+ein jeder	DET	MWE	5614
+ein jeglicher	DET	MWE	5614
+ein jegliches	DET	MWE	5614
+ein klein wenig	DET	MWE	5614
+ein neuerliches mal	DET	MWE	5614
+ein stück weit	DET	MWE	5614
+ein ums andere mal	DET	MWE	5614
+ein viertel	DET	MWE	5614
+ein weiteres mal	DET	MWE	5614
+ein wenig	DET	MWE	5614
+einander	PRON	PRON	1
+eine	DET	DET	1683
+eine art	DET	MWE	1683
+eine art von	DET	MWE	1683
+eine jede	DET	MWE	1683
+eineinhalb	NUM	NUM	1
+einem	DET	DET	599
+einen	DET	DET	604
+einer	DET	DET	747
+einerlei	-	UNK	0
+einerseits	ADV	ADV	11
+eines	DET	DET	287
+einfach	ADV	ADV	90
+eingangs	ADV	ADV	1
+einhundert	-	UNK	0
+einige	DET	DET	168
+einigem	DET	DET	1
+einigen	DET	DET	39
+einiger	DET	DET	13
+einigermassen	-	UNK	0
+einigermaßen	ADV	ADV	4
+einigermaßen gut	ADV	MWE	4
+einiges	DET	DET	6
+einmal	ADV	ADV	54
+eins	DET	DET	5
+einst	ADV	ADV	12
+einstmals	ADV	ADV	1
+eintausend	-	UNK	0
+einzelne	ADJ	OTH	17
+einzelnen	ADJ	OTH	29
+einzig	ADJ	OTH	48
+einzig und allein	ADJ	MWE	48
+einzige	ADJ	OTH	26
+einzigen	ADJ	OTH	9
+einziges	ADJ	OTH	2
+eklatant	-	UNK	0
+elf	NUM	NUM	12
+elfeinhalb	-	UNK	0
+elfte	-	UNK	0
+eminent	-	UNK	0
+ende	NOUN	OTH	141
+endlich	ADV	ADV	22
+enorm	ADJ	OTH	5
+entgegen	ADP	ADP	8
+entlang	ADP	ADP	25
+entschuldige	-	UNK	0
+entschuldigen sie	VERB	MWE	3
+entschuldigung	-	UNK	0
+entsprechend	ADJ	OTH	44
+entweder	CCONJ	CCONJ	17
+entweder oder	CCONJ	MWE	17
+er	PRON	PRON	2429
+erfreulicherweise	-	UNK	0
+ergo	NOUN	OTH	1
+ergänzend	ADJ	OTH	2
+erheblich	ADJ	OTH	17
+erkennbar	ADJ	OTH	9
+erneut	ADJ	OTH	45
+erneuter	-	UNK	0
+ersichtlich	ADJ	OTH	1
+erst	ADJ	OTH	565
+erstaunlicherweise	-	UNK	0
+erste	ADJ	OTH	172
+ersten	ADJ	OTH	236
+erstens	ADV	ADV	3
+erster	ADJ	OTH	30
+ersterer	-	UNK	0
+ersteres	-	UNK	0
+erstes	ADJ	OTH	14
+erwiesenermassen	-	UNK	0
+erwiesenermaßen	-	UNK	0
+es	PRON	PRON	1108
+es tut mir leid	PRON	MWE	1108
+et cetera	CCONJ	MWE	13
+etc	-	UNK	0
+etc.	X	OTH	11
+etliche	DET	DET	9
+etliche male	DET	MWE	9
+etlichen	DET	DET	3
+etwa	ADV	ADV	213
+etwas	ADV	ADV	80
+etwelche	-	UNK	0
+etwelchen	-	UNK	0
+euch	PRON	PRON	7
+euch selbst	PRON	MWE	7
+euer	DET	DET	6
+eure	DET	DET	1
+eurem	-	UNK	0
+euren	DET	DET	2
+eurer	DET	DET	3
+eures	-	UNK	0
+eurige	-	UNK	0
+eventuell	ADJ	OTH	5
+evtl	ADJ	OTH	2
+evtl.	ADV	ADV	1
+exemplarisch	-	UNK	0
+exklusiv	ADJ	OTH	3
+extrem	ADJ	OTH	15
+ey	-	UNK	0
+fairerweise	-	UNK	0
+falls	SCONJ	SCONJ	12
+falls nötig	SCONJ	MWE	12
+fast	ADV	ADV	77
+fei	PROPN	OTH	2
+felsenfest	ADJ	OTH	1
+fern	ADV	ADV	24
+ferner	ADV	ADV	20
+folgende	ADJ	OTH	21
+folgenden	ADJ	OTH	34
+folgender	ADJ	OTH	2
+folgendermaßen	ADV	ADV	1
+folgerichtig	ADJ	OTH	2
+folglich	-	UNK	0
+fort	ADV	ADV	25
+fortan	ADV	ADV	13
+fortwährend	ADJ	OTH	1
+fraglos	-	UNK	0
+freilich	ADV	ADV	6
+freiwillig	ADJ	OTH	7
+freundlicherweise	-	UNK	0
+früher	ADJ	OTH	33
+fuer	ADP	ADP	2
+fälschlicherweise	ADV	ADV	1
+förmlich	ADJ	OTH	1
+fünf	NUM	NUM	77
+fünfeinhalb	-	UNK	0
+fünfhundert	-	UNK	0
+fünfhunderttausend	-	UNK	0
+fünfte	ADJ	OTH	11
+fünftel	NOUN	OTH	1
+fünften	ADJ	OTH	9
+fünftens	-	UNK	0
+fünfter	NOUN	OTH	4
+fünftes	-	UNK	0
+fünfunddreißig	-	UNK	0
+fünfzehn	NUM	NUM	1
+fünfzehntausend	-	UNK	0
+fünfzehnte	-	UNK	0
+fünfzig	NUM	NUM	1
+für	ADP	ADP	1633
+für gewöhnlich	ADP	MWE	1633
+fürderhin	ADV	ADV	1
+füreinander	-	UNK	0
+fürs	-	UNK	0
+ganz	ADJ	OTH	125
+ganz bestimmt	ADJ	MWE	125
+ganz gerne	ADJ	MWE	125
+ganz im gegenteil	ADJ	MWE	125
+ganz schön	ADJ	MWE	125
+ganz sicher	ADJ	MWE	125
+ganz und gar	ADJ	MWE	125
+ganz und gar nicht	ADJ	MWE	125
+ganz wie	ADJ	MWE	125
+ganze	ADJ	OTH	25
+ganzen	ADJ	OTH	27
+ganzer	ADJ	OTH	3
+ganzes	ADJ	OTH	4
+gar	ADV	ADV	31
+gar keine	ADV	MWE	31
+gar nicht	ADV	MWE	31
+garantiert	-	UNK	0
+gedurft	-	UNK	0
+gegebenenfalls	ADV	ADV	2
+gegen	ADP	ADP	233
+gegeneinander	ADV	ADV	2
+gegens	-	UNK	0
+gegenseitig	ADJ	OTH	6
+gegenwärtig	ADJ	OTH	4
+gegenüber	ADP	ADP	54
+gehabt	VERB	LVERB	10
+gekonnt	ADJ	OTH	1
+gelegentlich	ADJ	OTH	13
+gell	-	UNK	0
+gelle	-	UNK	0
+gemeinhin	-	UNK	0
+gemeiniglich	-	UNK	0
+gemocht	-	UNK	0
+gemusst	-	UNK	0
+gemäss	-	UNK	0
+gemäß	ADP	ADP	4
+gen	NOUN	OTH	7
+genau	ADJ	OTH	61
+genau wie	ADJ	MWE	61
+genauso wie	ADV	MWE	11
+generell	ADJ	OTH	6
+genug	ADV	ADV	10
+genügend	ADJ	OTH	7
+gerade	ADV	ADV	44
+geradeaus	ADJ	OTH	1
+geradeheraus	-	UNK	0
+geradezu	ADV	ADV	2
+gern	ADV	ADV	10
+gern geschehen	ADV	MWE	10
+gerüchteweise	-	UNK	0
+geschweige	-	UNK	0
+geschätzt	VERB	LVERB	7
+gesetzt den fall	VERB	MWE	15
+gesollt	-	UNK	0
+gestern	ADV	ADV	3
+gewaltig	ADJ	OTH	3
+gewesen	AUX	AUX	45
+gewiss	-	UNK	0
+gewisse	ADJ	OTH	10
+gewissermaen	-	UNK	0
+gewissermaßen	-	UNK	0
+gewisslich	-	UNK	0
+gewiß	ADJ	OTH	15
+gewollt	NOUN	OTH	1
+geworden	VERB	LVERB	31
+gewöhnlich	ADJ	OTH	7
+gezwungenermassen	-	UNK	0
+gezwungenermaßen	-	UNK	0
+ggf	ADJ	OTH	1
+ggf.	ADV	ADV	1
+gleich	ADJ	OTH	78
+gleich wie	ADJ	MWE	78
+gleichermassen	-	UNK	0
+gleichermaßen	ADV	ADV	2
+gleichfalls	ADV	ADV	1
+gleichsam	ADV	ADV	3
+gleichviel	-	UNK	0
+gleichwie	ADP	ADP	1
+gleichwohl	ADV	ADV	6
+glücklicherweise	ADJ	OTH	1
+gottseidank	-	UNK	0
+grundsätzlich	ADJ	OTH	15
+größtenteils	ADV	ADV	8
+grüß gott	-	MWE	0
+gut möglich	ADJ	MWE	459
+gänzlich	ADJ	OTH	4
+hab	AUX	AUX	14
+hab's	-	UNK	0
+habe	AUX	AUX	188
+haben	AUX	AUX	1496
+habend	-	UNK	0
+habenden	-	UNK	0
+habs	-	UNK	0
+habt	AUX	AUX	1
+halb	ADJ	OTH	13
+halber	-	UNK	0
+halbwegs	ADV	ADV	1
+hallo	INTJ	INTJ	5
+halt	ADV	ADV	6
+hast	AUX	AUX	2
+haste	-	UNK	0
+hat	AUX	AUX	478
+hat's	-	UNK	0
+hats	-	UNK	0
+hatte	AUX	AUX	336
+hatten	AUX	AUX	96
+hattest	-	UNK	0
+hattet	-	UNK	0
+haufenweise	-	UNK	0
+hauptsächlich	ADJ	OTH	29
+he	PROPN	OTH	2
+hej	-	UNK	0
+her	ADV	ADV	20
+herab	ADV	ADV	3
+heran	ADV	ADV	1
+herauf	-	UNK	0
+heraus	ADV	ADV	31
+herbei	ADV	ADV	2
+herein	-	UNK	0
+hernach	-	UNK	0
+herrje	-	UNK	0
+herrjemine	-	UNK	0
+herunter	-	UNK	0
+hervor	ADV	ADV	20
+herzlichen dank	ADJ	MWE	1
+herüber	-	UNK	0
+heute	ADV	ADV	242
+hey	-	UNK	0
+hi	-	UNK	0
+hie und da	-	MWE	0
+hier	ADV	ADV	256
+hier und da	ADV	MWE	256
+hieran	-	UNK	0
+hierauf	ADV	ADV	1
+hieraus	ADV	ADV	1
+hieraus folgt	ADV	MWE	1
+hierbei	ADV	ADV	19
+hierdurch	ADV	ADV	1
+hierfür	ADV	ADV	14
+hiergegen	-	UNK	0
+hierher	ADV	ADV	6
+hierhin	-	UNK	0
+hierin	ADV	ADV	1
+hiermit	ADV	ADV	1
+hiernach	-	UNK	0
+hierunter	-	UNK	0
+hiervon	ADV	ADV	2
+hierzu	ADV	ADV	13
+hierüber	ADV	ADV	2
+hin	ADV	ADV	57
+hin und wieder	ADV	MWE	57
+hinab	ADV	ADV	1
+hinauf	ADV	ADV	3
+hinaus	ADV	ADV	29
+hinein	ADV	ADV	1
+hingegen	ADV	ADV	15
+hinlänglich	-	UNK	0
+hinsichtlich	ADP	ADP	5
+hinten	ADV	ADV	14
+hinter	ADP	ADP	42
+hintereinander	ADV	ADV	3
+hinterher	ADV	ADV	2
+hinterm	-	UNK	0
+hintern	-	UNK	0
+hinters	-	UNK	0
+hinunter	-	UNK	0
+hinweg	ADP	ADP	2
+hinwiederum	-	UNK	0
+hinüber	-	UNK	0
+hm	-	UNK	0
+hmm	-	UNK	0
+hochachtungsvoll	-	UNK	0
+hoppla	-	UNK	0
+huch	-	UNK	0
+hundert	NUM	NUM	14
+hundertausend	-	UNK	0
+hunderte	NUM	NUM	1
+hundertprozentig	ADJ	OTH	1
+hundertste	-	UNK	0
+hundertstel	-	UNK	0
+hunderttausend	-	UNK	0
+hurra	-	UNK	0
+hä	-	UNK	0
+häh	-	UNK	0
+hälfte	NOUN	OTH	37
+hätte	AUX	AUX	41
+hätten	AUX	AUX	34
+hättest	-	UNK	0
+hättet	-	UNK	0
+häufig	ADJ	OTH	53
+höchst	PROPN	OTH	3
+höchstens	ADV	ADV	2
+höchstpersönlich	-	UNK	0
+höchstwahrscheinlich	-	UNK	0
+höllisch	ADJ	OTH	1
+ich	PRON	PRON	830
+icke	-	UNK	0
+igitt	-	UNK	0
+ihm	PRON	PRON	185
+ihn	PRON	PRON	140
+ihnen	PRON	PRON	63
+ihr	DET	DET	761
+ihre	DET	DET	227
+ihrem	DET	DET	78
+ihren	DET	DET	129
+ihrer	DET	DET	125
+ihres	DET	DET	28
+ihrige	-	UNK	0
+ihrs	-	UNK	0
+im	-	UNK	0
+im allgemeinen	-	MWE	0
+im endeffekt	-	MWE	0
+im ergebnis	-	MWE	0
+im falle dass	-	MWE	0
+im folgenden	-	MWE	0
+im gegensatz	-	MWE	0
+im gegensatz dazu	-	MWE	0
+im gegensatz zu	-	MWE	0
+im gegenteil	-	MWE	0
+im grossen und ganzen	-	MWE	0
+im großen und ganzen	-	MWE	0
+im grunde genommen	-	MWE	0
+im laufe von	-	MWE	0
+im notfall	-	MWE	0
+im prinzip	-	MWE	0
+im vergleich mit	-	MWE	0
+im vergleich zu	-	MWE	0
+im verlauf von	-	MWE	0
+im weiteren	-	MWE	0
+im wesentlichen	-	MWE	0
+im zweifel	-	MWE	0
+im zweifelsfall	-	MWE	0
+im übrigen	-	MWE	0
+immer	ADV	ADV	189
+immer mal wieder	ADV	MWE	189
+immer wieder	ADV	MWE	189
+immer wieder aufs neue	ADV	MWE	189
+immerhin	ADV	ADV	10
+immerzu	-	UNK	0
+in	ADP	ADP	7702
+in allen belangen	ADP	MWE	7702
+in der art	ADP	MWE	7702
+in der konsequenz	ADP	MWE	7702
+in der regel	ADP	MWE	7702
+in der tat	ADP	MWE	7702
+in diesem zusammenhang	ADP	MWE	7702
+in etwa	ADP	MWE	7702
+in gewissem masse	ADP	MWE	7702
+in gewissem maße	ADP	MWE	7702
+in jedem fall	ADP	MWE	7702
+in jeder hinsicht	ADP	MWE	7702
+in keiner weise	ADP	MWE	7702
+in keinster weise	ADP	MWE	7702
+in vollem umfang	ADP	MWE	7702
+indem	SCONJ	SCONJ	21
+indes	ADV	ADV	3
+indessen	ADV	ADV	3
+ineinander	ADV	ADV	8
+infolge	ADP	ADP	10
+infolgedessen	ADV	ADV	1
+inmitten	ADP	ADP	6
+inne	ADV	ADV	6
+innen	ADV	ADV	9
+inner	ADJ	OTH	14
+innerhalb	ADP	ADP	54
+ins	-	UNK	0
+insbesondere	ADV	ADV	74
+insofern	ADV	ADV	6
+interessanterweise	ADV	ADV	1
+inwiefern	-	UNK	0
+inwieweit	ADV	ADV	3
+inzwischen	ADV	ADV	30
+irgend	ADV	ADV	1
+irgendein	DET	DET	6
+irgendeine	DET	DET	1
+irgendeinem	DET	DET	2
+irgendeinen	-	UNK	0
+irgendeiner	DET	DET	1
+irgendetwas	PRON	PRON	1
+irgendjemand	-	UNK	0
+irgendjemand anderes	-	MWE	0
+irgendjemanden	-	UNK	0
+irgendsowas	-	UNK	0
+irgendwann	ADV	ADV	3
+irgendwas	PRON	PRON	1
+irgendwelche	DET	DET	3
+irgendwer	PRON	PRON	1
+irgendwie	ADV	ADV	4
+irgendwo	ADV	ADV	3
+irre	ADJ	OTH	1
+isses	-	UNK	0
+ist	AUX	AUX	2120
+ja	ADV	ADV	27
+ja wohl	ADV	MWE	27
+jaja	-	UNK	0
+jau	-	UNK	0
+jawohl	-	UNK	0
+je	ADV	ADV	43
+je desto	ADV	MWE	43
+je nachdem	ADV	MWE	43
+je nachdem ob	ADV	MWE	43
+je umso	ADV	MWE	43
+jede	DET	DET	36
+jede menge	DET	MWE	36
+jedem	DET	DET	29
+jeden	DET	DET	32
+jedenfalls	ADV	ADV	7
+jeder	DET	DET	149
+jederlei	-	UNK	0
+jedermann	-	UNK	0
+jedermanns	-	UNK	0
+jederzeit	ADV	ADV	8
+jedes	DET	DET	20
+jedes mal	DET	MWE	20
+jedoch	ADV	ADV	252
+jedwede	-	UNK	0
+jedwedem	-	UNK	0
+jedweden	-	UNK	0
+jedweder	-	UNK	0
+jedwedes	-	UNK	0
+jegliche	DET	DET	3
+jeglichen	DET	DET	1
+jeglicher	DET	DET	4
+jemals	ADV	ADV	2
+jemand	PRON	PRON	10
+jemand anders	PRON	MWE	10
+jemandem	-	UNK	0
+jemanden	PRON	PRON	1
+jene	DET	DET	8
+jenem	DET	DET	3
+jenen	DET	DET	6
+jener	DET	DET	33
+jenes	DET	DET	4
+jenseits	ADP	ADP	5
+jesus	PROPN	OTH	5
+jetzt	ADV	ADV	57
+jeweils	ADV	ADV	52
+jo	PROPN	OTH	2
+joa	-	UNK	0
+juhu	-	UNK	0
+just	PROPN	OTH	2
+jüngst	-	UNK	0
+kann	AUX	AUX	341
+kann sein	AUX	MWE	341
+kannst	AUX	AUX	1
+kaum	ADV	ADV	41
+kaum dass	ADV	MWE	41
+kein	DET	DET	295
+kein bisschen	DET	MWE	295
+kein stück	DET	MWE	295
+keine	DET	DET	157
+keine frage	DET	MWE	157
+keine ursache	DET	MWE	157
+keine zweifel	DET	MWE	157
+keinem	DET	DET	12
+keinen	DET	DET	46
+keinen deut	DET	MWE	46
+keiner	DET	DET	10
+keinerlei	DET	DET	5
+keines	DET	DET	2
+keinesfalls	-	UNK	0
+keinesfalls nicht	-	MWE	0
+keineswegs	ADV	ADV	3
+keinmal	-	UNK	0
+keins	-	UNK	0
+klar	ADJ	OTH	24
+klarer fall	ADJ	MWE	2
+klugerweise	-	UNK	0
+komischerweise	-	UNK	0
+kommende	ADJ	OTH	2
+kommenden	ADJ	OTH	10
+komplett	ADJ	OTH	15
+konnte	AUX	AUX	180
+konnten	AUX	AUX	52
+konntest	-	UNK	0
+konntet	-	UNK	0
+konsequenterweise	-	UNK	0
+kraft	NOUN	OTH	26
+krass	-	UNK	0
+kurz	ADJ	OTH	129
+kurz gesagt	ADJ	MWE	129
+kurz nach	ADJ	MWE	129
+kurz vor	ADJ	MWE	129
+kurzerhand	ADV	ADV	5
+kurzum	-	UNK	0
+kurzzeitig	ADJ	OTH	8
+können	AUX	AUX	832
+könnt	AUX	AUX	1
+könnte	AUX	AUX	25
+könnten	AUX	AUX	12
+könntest	-	UNK	0
+könntet	-	UNK	0
+künftig	ADJ	OTH	20
+lange	ADJ	OTH	67
+laut	ADP	ADP	34
+lauter	ADJ	OTH	1
+lediglich	ADV	ADV	37
+leicht	ADJ	OTH	49
+leider	ADV	ADV	65
+letzte	ADJ	OTH	40
+letztem	-	UNK	0
+letzten	ADJ	OTH	67
+letzten endes	ADJ	MWE	67
+letztendlich	ADJ	OTH	8
+letztenendes	ADV	ADV	1
+letztens	-	UNK	0
+letzter	ADJ	OTH	18
+letztere	ADJ	OTH	7
+letzterem	ADJ	OTH	3
+letzteren	NOUN	OTH	2
+letzterer	ADJ	OTH	2
+letzteres	ADJ	OTH	3
+letztes	ADJ	OTH	3
+letztlich	ADV	ADV	13
+lg	PROPN	OTH	2
+liebe grüsse	NOUN	MWE	15
+liebe grüße	NOUN	MWE	15
+lieber	ADV	ADV	8
+links	ADV	ADV	10
+logischerweise	-	UNK	0
+los	ADJ	OTH	19
+längs	ADP	ADP	3
+längst	ADV	ADV	1
+mag	AUX	AUX	11
+mag sein	AUX	MWE	11
+magst	-	UNK	0
+mal	NOUN	OTH	135
+mal mal	NOUN	MWE	135
+man	PRON	PRON	418
+man weiß nicht	PRON	MWE	418
+manch	-	UNK	0
+manche	DET	DET	14
+manchem	-	UNK	0
+manchen	DET	DET	7
+mancher	DET	DET	22
+mancherlei	DET	DET	1
+mancherorts	-	UNK	0
+manches	-	UNK	0
+manchmal	ADV	ADV	19
+mangels	NOUN	OTH	2
+mann	NOUN	OTH	97
+massenhaft	ADJ	OTH	2
+masslos	-	UNK	0
+maßlos	ADJ	OTH	1
+mega	ADJ	OTH	2
+mehr	ADV	ADV	436
+mehr noch	ADV	MWE	436
+mehr oder weniger	ADV	MWE	436
+mehr schlecht als recht	ADV	MWE	436
+mehrer	-	UNK	0
+mehrere	DET	DET	95
+mehreren	DET	DET	37
+mehrerer	DET	DET	8
+mehrerlei	-	UNK	0
+mehrfach	ADJ	OTH	17
+mehrheitlich	ADJ	OTH	3
+mehrmals	ADV	ADV	12
+mehrzahl	NOUN	OTH	3
+mei	-	UNK	0
+meim	-	UNK	0
+mein	DET	DET	195
+meine	DET	DET	70
+meinem	DET	DET	23
+meinen	VERB	LVERB	47
+meiner	DET	DET	33
+meines	DET	DET	5
+meines erachtens	DET	MWE	5
+meinetwegen	-	UNK	0
+meinige	-	UNK	0
+meins	-	UNK	0
+meist	ADV	ADV	124
+meiste	DET	DET	3
+meisten	DET	DET	55
+meistens	ADV	ADV	11
+meistenteils	ADV	ADV	1
+mensch	NOUN	OTH	115
+mer	PROPN	OTH	1
+merkwürdigerweise	-	UNK	0
+mfg	-	UNK	0
+mich	PRON	PRON	102
+mich selbst	PRON	MWE	102
+mindestens	ADV	ADV	30
+mir	PRON	PRON	110
+mit	ADP	ADP	2340
+mit anderen worten	ADP	MWE	2340
+mit ausnahme	ADP	MWE	2340
+mit ausnahme von	ADP	MWE	2340
+mit beginn	ADP	MWE	2340
+mit freundlichen grüssen	ADP	MWE	2340
+mit freundlichen grüßen	ADP	MWE	2340
+mit hilfe	ADP	MWE	2340
+mit sicherheit	ADP	MWE	2340
+miteinander	ADV	ADV	8
+mithilfe	NOUN	OTH	1
+mithin	ADV	ADV	1
+mitnichten	ADV	ADV	1
+mitsamt	ADP	ADP	2
+mittags	ADV	ADV	2
+mittels	ADP	ADP	22
+mitten	ADV	ADV	16
+mitunter	ADV	ADV	3
+mochte	-	UNK	0
+mochten	AUX	AUX	1
+mochtest	-	UNK	0
+mochtet	-	UNK	0
+moin	-	UNK	0
+momentan	ADJ	OTH	4
+morgen	NOUN	OTH	12
+morgens	ADV	ADV	2
+muss	AUX	AUX	79
+musst	-	UNK	0
+musste	AUX	AUX	60
+mussten	AUX	AUX	33
+musstest	-	UNK	0
+musstet	-	UNK	0
+mutmasslich	-	UNK	0
+mutmaßlich	ADJ	OTH	1
+muß	AUX	AUX	37
+mußt	-	UNK	0
+mußte	AUX	AUX	3
+mässig	-	UNK	0
+mäßig	ADJ	OTH	3
+möcht	-	UNK	0
+möchte	AUX	AUX	29
+möchten	AUX	AUX	2
+möchtest	-	UNK	0
+möchtet	-	UNK	0
+mögen	AUX	AUX	45
+möglich	ADJ	OTH	72
+möglicherweise	ADV	ADV	14
+möglichst	ADV	ADV	10
+mögt	-	UNK	0
+müssen	AUX	AUX	298
+müsst	AUX	AUX	1
+müsste	AUX	AUX	3
+müssten	AUX	AUX	3
+müsstest	-	UNK	0
+müsstet	-	UNK	0
+müßte	AUX	AUX	1
+na	PROPN	OTH	5
+na gut	PROPN	MWE	5
+na ja	PROPN	MWE	5
+na klar	PROPN	MWE	5
+na so was	PROPN	MWE	5
+nach	ADP	ADP	1228
+nach ablauf von	ADP	MWE	1228
+nachdem	SCONJ	SCONJ	83
+nacheinander	ADV	ADV	2
+nachher	-	UNK	0
+nachmittags	ADV	ADV	1
+nachts	ADV	ADV	7
+nachweislich	ADJ	OTH	2
+nahe	ADP	ADP	38
+nahezu	ADV	ADV	18
+naja	ADV	ADV	2
+namentlich	ADJ	OTH	2
+nanu	-	UNK	0
+naturgemäß	-	UNK	0
+natürlich	ADJ	OTH	26
+ne	DET	DET	2
+neben	ADP	ADP	127
+nebenan	ADV	ADV	1
+nebenbei	ADV	ADV	5
+nebeneinander	ADV	ADV	4
+nebst	ADP	ADP	2
+nech	-	UNK	0
+nee	-	UNK	0
+nein	PART	PART	6
+nem	-	UNK	0
+nen	-	UNK	0
+ner	-	UNK	0
+netterweise	-	UNK	0
+neuerdings	-	UNK	0
+neuerlich	-	UNK	0
+neulich	-	UNK	0
+neun	NUM	NUM	24
+neuneinhalb	-	UNK	0
+neunte	ADJ	OTH	2
+neunten	ADJ	OTH	1
+neunter	-	UNK	0
+neuntes	-	UNK	0
+neunundneunzig	-	UNK	0
+neunzehnte	-	UNK	0
+neunzig	-	UNK	0
+nich	PART	PART	1
+nicht	PART	PART	1099
+nicht anders als	PART	MWE	1099
+nicht einmal	PART	MWE	1099
+nicht ganz	PART	MWE	1099
+nicht im geringsten	PART	MWE	1099
+nicht mehr	PART	MWE	1099
+nicht nur	PART	MWE	1099
+nicht nur sondern auch	PART	MWE	1099
+nicht so sehr als vielmehr	PART	MWE	1099
+nicht sonderlich	PART	MWE	1099
+nicht wahr	PART	MWE	1099
+nicht zuletzt	PART	MWE	1099
+nichts	PRON	PRON	61
+nichts als	PRON	MWE	61
+nichts weiter als	PRON	MWE	61
+nichts zu danken	PRON	MWE	61
+nichtsdestotrotz	ADV	ADV	1
+nichtsdestoweniger	-	UNK	0
+nie	ADV	ADV	58
+nie mehr	ADV	MWE	58
+niemals	ADV	ADV	10
+niemals mehr	ADV	MWE	10
+niemand	PRON	PRON	12
+niemand sonst	PRON	MWE	12
+niemandem	-	UNK	0
+niemanden	PRON	PRON	1
+nirgendhin	-	UNK	0
+nirgends	-	UNK	0
+nirgends mehr	-	MWE	0
+nirgendwo	ADV	ADV	2
+nirgendwohin	-	UNK	0
+noch	ADV	ADV	519
+noch einmal	ADV	MWE	519
+nochmal	ADV	ADV	3
+nochmals	ADV	ADV	11
+nochwas	-	UNK	0
+normalerweise	ADV	ADV	7
+notfalls	ADV	ADV	3
+notgedrungen	-	UNK	0
+notwendigerweise	-	UNK	0
+null	NOUN	OTH	5
+nun	ADV	ADV	97
+nun gut	ADV	MWE	97
+nun ja	ADV	MWE	97
+nun mal	ADV	MWE	97
+nunmal	-	UNK	0
+nunmehr	ADV	ADV	9
+nur	ADV	ADV	568
+nur bedingt	ADV	MWE	568
+nur dass	ADV	MWE	568
+nur noch	ADV	MWE	568
+nächste	ADJ	OTH	13
+nächsten	ADJ	OTH	47
+nächster	ADJ	OTH	3
+nächstes	NOUN	OTH	2
+nämlich	ADV	ADV	7
+nö	-	UNK	0
+nötigenfalls	-	UNK	0
+ob	SCONJ	SCONJ	62
+oben	ADV	ADV	15
+obendrein	-	UNK	0
+oberhalb	ADP	ADP	6
+obgleich	SCONJ	SCONJ	1
+obschon	-	UNK	0
+obwohl	SCONJ	SCONJ	46
+obzwar	-	UNK	0
+oder	CCONJ	CCONJ	577
+oder aber	CCONJ	MWE	577
+oder dergleichen	CCONJ	MWE	577
+oder so	CCONJ	MWE	577
+oder so was	CCONJ	MWE	577
+oder so ähnlich	CCONJ	MWE	577
+oder was auch immer	CCONJ	MWE	577
+oder was weiß ich	CCONJ	MWE	577
+offen gesagt	ADJ	MWE	42
+offenbar	ADJ	OTH	12
+offenkundig	ADJ	OTH	2
+offensichtlich	ADJ	OTH	4
+oft	ADV	ADV	72
+oh	-	UNK	0
+oha	-	UNK	0
+ohne	ADP	ADP	120
+ohne ausnahme	ADP	MWE	120
+ohne frage	ADP	MWE	120
+ohne weiteres	ADP	MWE	120
+ohne zweifel	ADP	MWE	120
+ohnedies	ADV	ADV	1
+ohnehin	ADV	ADV	3
+oje	-	UNK	0
+ojemine	-	UNK	0
+paar	ADJ	OTH	35
+paradoxerweise	-	UNK	0
+pardon	-	UNK	0
+partout	-	UNK	0
+pauschal	ADJ	OTH	1
+per	ADP	ADP	21
+persönlich	ADJ	OTH	36
+pfui	-	UNK	0
+pipapo	-	UNK	0
+plus	NOUN	OTH	4
+plötzlich	ADJ	OTH	15
+praktisch	ADJ	OTH	13
+prinzipiell	ADJ	OTH	4
+prost	PROPN	OTH	1
+pscht	-	UNK	0
+pst	-	UNK	0
+puh	-	UNK	0
+qua	-	UNK	0
+quasi	ADV	ADV	4
+ran	PROPN	OTH	1
+recht	NOUN	OTH	97
+rechts	ADV	ADV	13
+regelmässig	ADJ	OTH	1
+regelmäßig	ADJ	OTH	34
+reichlich	ADJ	OTH	7
+reiflich	-	UNK	0
+reihenweise	-	UNK	0
+rein gar nichts	ADJ	MWE	29
+relativ	ADJ	OTH	21
+respektive	CCONJ	CCONJ	1
+restlos	ADJ	OTH	3
+resümierend	-	UNK	0
+richtig	ADJ	OTH	49
+richtigerweise	-	UNK	0
+richtiggehend	-	UNK	0
+riesig	ADJ	OTH	4
+ringsum	-	UNK	0
+ruhig	ADJ	OTH	13
+rund	ADV	ADV	108
+rundheraus	-	UNK	0
+rundherum	ADV	ADV	2
+rundum	ADV	ADV	4
+rundweg	NOUN	OTH	2
+rückwärts	-	UNK	0
+samt	ADP	ADP	7
+samt und sonders	ADP	MWE	7
+sattsam	-	UNK	0
+scheinbar	ADJ	OTH	11
+schlechterdings	-	UNK	0
+schlicht	ADJ	OTH	6
+schlichtweg	ADV	ADV	1
+schliesslich	-	UNK	0
+schließlich	ADV	ADV	61
+schlimmstenfalls	-	UNK	0
+schlussendlich	ADJ	OTH	1
+schlußendlich	ADJ	OTH	1
+schnellstens	-	UNK	0
+schon	ADV	ADV	182
+schon allein	ADV	MWE	182
+schwerlich	ADJ	OTH	2
+schätzungsweise	ADV	ADV	2
+se	PROPN	OTH	1
+sechs	NUM	NUM	72
+sechseinhalb	-	UNK	0
+sechstausend	-	UNK	0
+sechste	NOUN	OTH	7
+sechstel	-	UNK	0
+sechsten	ADJ	OTH	8
+sechstens	-	UNK	0
+sechster	NOUN	OTH	4
+sechstes	-	UNK	0
+sechzehn	NUM	NUM	1
+sechzehnte	-	UNK	0
+sechzig	PROPN	OTH	2
+sehr	ADV	ADV	473
+sei	AUX	AUX	111
+sei es drum	AUX	MWE	111
+sei's drum	-	MWE	0
+seid	AUX	AUX	1
+seien	AUX	AUX	31
+seien sie so gut	AUX	MWE	31
+seiend	-	UNK	0
+seiet	-	UNK	0
+seim	-	UNK	0
+sein	AUX	AUX	6407
+seine	DET	DET	423
+seinem	DET	DET	171
+seinen	DET	DET	175
+seiner	DET	DET	300
+seinerzeit	-	UNK	0
+seines	DET	DET	78
+seinesgleichen	-	UNK	0
+seinige	-	UNK	0
+seins	NOUN	OTH	2
+seist	-	UNK	0
+seit	ADP	ADP	348
+seit dem	ADP	MWE	348
+seitdem	ADV	ADV	33
+seitens	ADP	ADP	5
+seither	ADV	ADV	17
+seitwärts	-	UNK	0
+selber	DET	DET	40
+selbige	DET	DET	1
+selbigem	-	UNK	0
+selbigen	-	UNK	0
+selbiger	-	UNK	0
+selbiges	-	UNK	0
+selbst	ADV	ADV	137
+selbstredend	-	UNK	0
+selbstverständlich	ADJ	OTH	7
+selten	ADJ	OTH	48
+seltsamerweise	-	UNK	0
+servus	-	UNK	0
+sich	PRON	PRON	1595
+sich gegenseitig	PRON	MWE	1595
+sich selbst	PRON	MWE	1595
+sicher	ADJ	OTH	26
+sicherlich	ADV	ADV	6
+sichtlich	ADJ	OTH	4
+sie	PRON	PRON	1235
+sieben	NUM	NUM	58
+siebeneinhalb	-	UNK	0
+siebente	NOUN	OTH	1
+siebenten	-	UNK	0
+siebenter	-	UNK	0
+siebentes	-	UNK	0
+siebte	NOUN	OTH	2
+siebtel	-	UNK	0
+siebten	ADJ	OTH	9
+siebtens	-	UNK	0
+siebter	NOUN	OTH	2
+siebtes	-	UNK	0
+siebzehn	-	UNK	0
+siebzehnte	-	UNK	0
+siebzig	-	UNK	0
+sieht so aus	VERB	MWE	30
+sind	AUX	AUX	794
+sinnvollerweise	-	UNK	0
+sintemal	-	UNK	0
+so	ADV	ADV	455
+so einigermaßen	ADV	MWE	455
+so etwa	ADV	MWE	455
+so gut wie	ADV	MWE	455
+so in etwa	ADV	MWE	455
+so lala	ADV	MWE	455
+so manche	ADV	MWE	455
+so richtig	ADV	MWE	455
+so wie	ADV	MWE	455
+so … wie	ADV	MWE	455
+sobald	SCONJ	SCONJ	5
+sodann	-	UNK	0
+sodass	SCONJ	SCONJ	13
+soeben	-	UNK	0
+sofern	SCONJ	SCONJ	9
+sofort	ADV	ADV	37
+sogar	ADV	ADV	58
+sogleich	ADJ	OTH	1
+solang	-	UNK	0
+solange	SCONJ	SCONJ	4
+solch	DET	DET	4
+solche	DET	DET	33
+solchem	-	UNK	0
+solchen	DET	DET	12
+solcher	DET	DET	63
+solcherlei	-	UNK	0
+solches	DET	DET	8
+soll	AUX	AUX	91
+sollen	AUX	AUX	289
+sollst	AUX	AUX	1
+sollt	-	UNK	0
+sollte	AUX	AUX	92
+sollten	AUX	AUX	41
+solltest	-	UNK	0
+solltet	-	UNK	0
+somit	ADV	ADV	47
+sonach	-	UNK	0
+sonder	CCONJ	CCONJ	1
+sondern	CCONJ	CCONJ	123
+sondern auch	CCONJ	MWE	123
+sonnenklar	-	UNK	0
+sonst	ADV	ADV	20
+sonst nichts	ADV	MWE	20
+sonstige	ADJ	OTH	4
+sonstigem	-	UNK	0
+sonstigen	ADJ	OTH	4
+sonstiger	-	UNK	0
+sonstiges	-	UNK	0
+sooft	-	UNK	0
+sorry	NOUN	OTH	1
+soundsovielte	-	UNK	0
+soviel	DET	DET	7
+soviel ich weiß	DET	MWE	7
+sovielte	-	UNK	0
+sowas	PRON	PRON	1
+sowas in der art	PRON	MWE	1
+soweit	SCONJ	SCONJ	6
+soweit ich weiß	SCONJ	MWE	6
+sowie	CCONJ	CCONJ	252
+sowie auch	CCONJ	MWE	252
+sowieso	ADV	ADV	6
+sowohl	CCONJ	CCONJ	51
+sowohl als	CCONJ	MWE	51
+sowohl als auch	CCONJ	MWE	51
+sowohl wie auch	CCONJ	MWE	51
+sozusagen	ADV	ADV	2
+speziell	ADJ	OTH	39
+sporadisch	ADJ	OTH	1
+sprich	-	UNK	0
+später	ADJ	OTH	219
+stark	ADJ	OTH	114
+statt	ADP	ADP	68
+stattdessen	ADV	ADV	8
+stellenweise	-	UNK	0
+stets	ADV	ADV	27
+ständig	ADJ	OTH	13
+super	ADJ	OTH	77
+sämtliche	DET	DET	11
+sämtlichen	DET	DET	1
+sämtlicher	DET	DET	2
+sämtliches	DET	DET	1
+tagsüber	ADV	ADV	2
+tagtäglich	-	UNK	0
+tatsächlich	ADJ	OTH	25
+tausend	NUM	NUM	13
+tausende	NOUN	OTH	7
+tausendste	-	UNK	0
+tausendstel	-	UNK	0
+teils	ADV	ADV	15
+teils teils	ADV	MWE	15
+teilweise	ADV	ADV	47
+tja	-	UNK	0
+todsicher	-	UNK	0
+total	ADJ	OTH	23
+trotz	ADP	ADP	39
+trotz alledem	ADP	MWE	39
+trotz allem	ADP	MWE	39
+trotzdem	ADV	ADV	25
+tschüs	-	UNK	0
+tschüss	-	UNK	0
+tut mir leid	VERB	MWE	6
+u a	NOUN	MWE	36
+u. a.	X	MWE	1
+u.a.	X	OTH	22
+u.u.	-	UNK	0
+ua	ADV	ADV	1
+uff	-	UNK	0
+um	ADP	ADP	586
+umgehend	ADJ	OTH	5
+umgekehrt	ADJ	OTH	6
+ums	-	UNK	0
+umso	ADV	ADV	3
+umständehalber	-	UNK	0
+unbedingt	ADV	ADV	8
+unbeschreiblich	ADJ	OTH	1
+und	CCONJ	CCONJ	7193
+und der gleichen	CCONJ	MWE	7193
+und dergleichen	CCONJ	MWE	7193
+und so	CCONJ	MWE	7193
+und so fort	CCONJ	MWE	7193
+und so weiter	CCONJ	MWE	7193
+und was nicht alles	CCONJ	MWE	7193
+und ähnliches	CCONJ	MWE	7193
+und/oder	-	UNK	0
+unerhört	ADJ	OTH	1
+ungeachtet	VERB	LVERB	1
+ungeachtet dessen	VERB	MWE	1
+ungefähr	ADV	ADV	8
+ungeheuer	ADJ	OTH	2
+ungemein	-	UNK	0
+ungern	-	UNK	0
+ungewöhnlich	ADJ	OTH	5
+unglaublich	ADJ	OTH	8
+ungleich	ADJ	OTH	3
+unglücklicherweise	ADV	ADV	1
+unlängst	-	UNK	0
+unmaßgeblich	-	UNK	0
+unregelmässig	-	UNK	0
+unregelmäßig	ADJ	OTH	3
+uns	PRON	PRON	116
+uns selbst	PRON	MWE	116
+unsagbar	-	UNK	0
+unser	DET	DET	124
+unsere	DET	DET	53
+unsereiner	-	UNK	0
+unserem	DET	DET	13
+unseren	DET	DET	11
+unserer	DET	DET	16
+unseres	DET	DET	7
+unsers	-	UNK	0
+unsre	-	UNK	0
+unsrem	-	UNK	0
+unsren	-	UNK	0
+unsrer	-	UNK	0
+unsrige	-	UNK	0
+unstreitig	-	UNK	0
+unsäglich	-	UNK	0
+unten	ADV	ADV	15
+unter	ADP	ADP	422
+unter anderem	ADP	MWE	422
+unter der bedingung dass	ADP	MWE	422
+unter keinen umständen	ADP	MWE	422
+unter umständen	ADP	MWE	422
+untereinander	ADV	ADV	8
+unterhalb	ADP	ADP	9
+unterm	-	UNK	0
+unterm strich	-	MWE	0
+untern	-	UNK	0
+unters	-	UNK	0
+unverhohlen	-	UNK	0
+unverzüglich	ADJ	OTH	2
+unweigerlich	-	UNK	0
+unweit	ADP	ADP	8
+unzweifelhaft	-	UNK	0
+unzählige	ADJ	OTH	3
+unzähligen	ADJ	OTH	1
+ups	X	OTH	1
+usf	ADV	ADV	1
+usf.	-	UNK	0
+usw	X	OTH	6
+usw.	-	UNK	0
+uu	-	UNK	0
+vereinzelt	ADJ	OTH	8
+vergangenen	ADJ	OTH	20
+vergleichsweise	ADV	ADV	6
+verglichen mit	VERB	MWE	3
+vermeintlich	ADJ	OTH	4
+vermutlich	ADJ	OTH	33
+vermutlich auch	ADJ	MWE	33
+vermöge	VERB	LVERB	1
+vernünftigerweise	-	UNK	0
+versehentlich	ADJ	OTH	1
+verständlicherweise	ADV	ADV	1
+verzeih	PROPN	OTH	1
+verzeihung	-	UNK	0
+viel	DET	DET	297
+viele	DET	DET	139
+viele grüße	DET	MWE	139
+vieleicht	-	UNK	0
+vielem	DET	DET	1
+vielen	DET	DET	75
+vielen dank	DET	MWE	75
+vieler	DET	DET	8
+vielerlei	-	UNK	0
+vielerorts	ADV	ADV	3
+vieles	DET	DET	3
+vielfach	ADJ	OTH	1
+vielleicht	ADV	ADV	24
+vielleicht auch	ADV	MWE	24
+vielmehr	ADV	ADV	11
+vier	NUM	NUM	118
+viereinhalb	-	UNK	0
+vierte	ADJ	OTH	13
+viertel	NOUN	OTH	12
+vierten	ADJ	OTH	7
+viertens	-	UNK	0
+vierter	NOUN	OTH	4
+viertes	ADJ	OTH	1
+vierzehn	NUM	NUM	1
+vierzehnte	-	UNK	0
+vierzig	NUM	NUM	4
+voll	ADJ	OTH	33
+voll und ganz	ADJ	MWE	33
+vollends	-	UNK	0
+vollkommen	ADJ	OTH	4
+vollständig	ADJ	OTH	33
+vom	-	UNK	0
+von	ADP	ADP	3628
+von neuem	ADP	MWE	3628
+von zeit zu zeit	ADP	MWE	3628
+voneinander	ADV	ADV	5
+vor	ADP	ADP	475
+vor ablauf von	ADP	MWE	475
+vor allem	ADP	MWE	475
+vorab	ADV	ADV	5
+voraus	ADV	ADV	5
+vorausgesetzt	-	UNK	0
+vorausgesetzt dass	-	MWE	0
+vordem	-	UNK	0
+voreinander	-	UNK	0
+vorgestern	-	UNK	0
+vorher	ADV	ADV	28
+vorherige	ADJ	OTH	1
+vorherigen	ADJ	OTH	4
+vorhin	-	UNK	0
+vorige	ADJ	OTH	1
+vorigen	ADJ	OTH	4
+voriger	-	UNK	0
+voriges	-	UNK	0
+vorletzte	ADJ	OTH	2
+vorletzten	ADJ	OTH	4
+vorm	-	UNK	0
+vormals	ADV	ADV	1
+vormittags	-	UNK	0
+vorn	ADV	ADV	5
+vorne	ADV	ADV	8
+vornehmlich	ADJ	OTH	7
+vors	-	UNK	0
+vorwiegend	ADJ	OTH	11
+vorwärts	NOUN	OTH	1
+vorübergehend	ADJ	OTH	5
+völlig	ADJ	OTH	27
+wahnsinnig	ADJ	OTH	2
+wahrscheinlich	ADJ	OTH	23
+wann	ADV	ADV	1
+war	AUX	AUX	1325
+war's	-	UNK	0
+ward	-	UNK	0
+wardst	-	UNK	0
+waren	AUX	AUX	313
+wars	-	UNK	0
+warst	-	UNK	0
+wart	VERB	LVERB	1
+warum	ADV	ADV	12
+was	PRON	PRON	218
+was auch immer	PRON	MWE	218
+was für	PRON	MWE	218
+was für ein	PRON	MWE	218
+was weiß ich	PRON	MWE	218
+weder	CCONJ	CCONJ	17
+weder noch	CCONJ	MWE	17
+weg	NOUN	OTH	63
+wegen	ADP	ADP	110
+weidlich	-	UNK	0
+weil	SCONJ	SCONJ	84
+weiland	-	UNK	0
+weit	ADJ	OTH	313
+weiter	ADV	ADV	101
+weiter oben	ADV	MWE	101
+weiter unten	ADV	MWE	101
+weitere	ADJ	OTH	131
+weiteren	ADJ	OTH	90
+weiteres	ADJ	OTH	14
+weiterhin	ADV	ADV	34
+weitestgehend	ADJ	OTH	4
+weitgehend	ADJ	OTH	22
+weithin	ADV	ADV	3
+welch	DET	DET	1
+welch ein	DET	MWE	1
+welche	DET	DET	55
+welchem	DET	DET	10
+welchen	DET	DET	4
+welcher	DET	DET	119
+welcherlei	-	UNK	0
+welches	DET	DET	26
+wem	PRON	PRON	2
+wen	PRON	PRON	3
+wenig	DET	DET	116
+wenige	DET	DET	42
+wenigen	DET	DET	22
+weniger	ADV	ADV	50
+weniges	-	UNK	0
+wenigsten	ADJ	OTH	2
+wenigstens	ADV	ADV	7
+wenn	SCONJ	SCONJ	163
+wenn auch	SCONJ	MWE	163
+wenn ich bitten darf	SCONJ	MWE	163
+wenn nötig	SCONJ	MWE	163
+wenn schon	SCONJ	MWE	163
+wenngleich	SCONJ	SCONJ	2
+wennschon	-	UNK	0
+wer	PRON	PRON	45
+wer auch immer	PRON	MWE	45
+wer weiß	PRON	MWE	45
+werd	AUX	AUX	1
+werde	AUX	AUX	52
+werden	AUX	AUX	3639
+werdend	ADJ	OTH	4
+werdet	AUX	AUX	1
+weshalb	ADV	ADV	9
+wessen	-	UNK	0
+wessenthalben	-	UNK	0
+weswegen	-	UNK	0
+wider	ADV	ADV	6
+widrigenfalls	-	UNK	0
+wie	ADP	ADP	466
+wie auch	ADP	MWE	466
+wie auch immer	ADP	MWE	466
+wie dem auch sei	ADP	MWE	466
+wie es heißt	ADP	MWE	466
+wie es scheint	ADP	MWE	466
+wie etwa	ADP	MWE	466
+wie folgt	ADP	MWE	466
+wie gesagt	ADP	MWE	466
+wie lange	ADP	MWE	466
+wie man hört	ADP	MWE	466
+wie oft	ADP	MWE	466
+wie verlautet	ADP	MWE	466
+wie viel	ADP	MWE	466
+wie viele	ADP	MWE	466
+wie wenn	ADP	MWE	466
+wie zum beispiel	ADP	MWE	466
+wieder	ADV	ADV	270
+wieder und wieder	ADV	MWE	270
+wiederholt	VERB	LVERB	20
+wiederholtermaßen	-	UNK	0
+wiederum	ADV	ADV	20
+wieso	ADV	ADV	2
+wieviel	DET	DET	1
+wievielte	-	UNK	0
+will	AUX	AUX	66
+willst	-	UNK	0
+wir	PRON	PRON	440
+wird	AUX	AUX	676
+wirklich	ADV	ADV	78
+wirst	AUX	AUX	1
+wo	ADV	ADV	152
+wobei	ADV	ADV	56
+wodurch	ADV	ADV	12
+wofür	-	UNK	0
+wogegen	-	UNK	0
+woher	ADV	ADV	2
+wohin	ADV	ADV	5
+wohingegen	ADV	ADV	3
+wohl	ADV	ADV	50
+wohl eher	ADV	MWE	50
+wohlgemerkt	-	UNK	0
+woll	-	UNK	0
+wollen	AUX	AUX	210
+wollt	VERB	LVERB	2
+wollte	AUX	AUX	59
+wollten	AUX	AUX	26
+wolltest	-	UNK	0
+wolltet	-	UNK	0
+womit	ADV	ADV	4
+womöglich	ADV	ADV	2
+wonach	ADV	ADV	6
+woran	ADV	ADV	1
+worauf	ADV	ADV	3
+woraufhin	ADV	ADV	7
+woraus	ADV	ADV	1
+worden	AUX	AUX	114
+worin	ADV	ADV	2
+worum	-	UNK	0
+worunter	-	UNK	0
+worüber	-	UNK	0
+wovon	ADV	ADV	10
+wovor	-	UNK	0
+wow	-	UNK	0
+wozu	ADV	ADV	5
+wurde	AUX	AUX	1519
+wurden	AUX	AUX	446
+wurdest	-	UNK	0
+wurdet	-	UNK	0
+während	ADP	ADP	209
+währenddem	-	UNK	0
+währenddessen	ADV	ADV	3
+wär	-	UNK	0
+wäre	AUX	AUX	28
+wären	AUX	AUX	11
+wären sie so freundlich	AUX	MWE	11
+wärest	-	UNK	0
+wäret	-	UNK	0
+wärst	-	UNK	0
+wärt	-	UNK	0
+würde	AUX	AUX	52
+würden	AUX	AUX	18
+würdest	-	UNK	0
+würdet	-	UNK	0
+x-mal	-	UNK	0
+x-te	-	UNK	0
+z. b.	ADP	MWE	20
+z.b.	ADV	ADV	24
+zahllose	-	UNK	0
+zahlreiche	ADJ	OTH	49
+zahlreichen	ADJ	OTH	26
+zb	ADV	ADV	2
+zehn	NUM	NUM	41
+zehneinhalb	-	UNK	0
+zehntausend	NOUN	OTH	3
+zehnte	NOUN	OTH	4
+zehntel	-	UNK	0
+zehnten	ADJ	OTH	6
+zehnter	NOUN	OTH	2
+zehntes	-	UNK	0
+zeitlebens	ADV	ADV	3
+zeitweilig	ADJ	OTH	2
+zeitweise	ADV	ADV	13
+ziemlich	ADV	ADV	13
+zig	-	UNK	0
+zigtausend	-	UNK	0
+zu	ADP	ADP	3293
+zu beginn	ADP	MWE	3293
+zu guter letzt	ADP	MWE	3293
+zu hause	ADP	MWE	3293
+zudem	ADV	ADV	83
+zueinander	ADV	ADV	3
+zuerst	ADV	ADV	17
+zufolge	ADP	ADP	17
+zufälligerweise	-	UNK	0
+zugegeben	VERB	LVERB	1
+zugegebenermassen	-	UNK	0
+zugegebenermaßen	-	UNK	0
+zugestandenermassen	-	UNK	0
+zugestandenermaßen	-	UNK	0
+zugleich	ADV	ADV	25
+zugunsten	ADP	ADP	10
+zuhauf	-	UNK	0
+zuhause	ADJ	OTH	2
+zukünftig	ADJ	OTH	5
+zulasten	-	UNK	0
+zuletzt	ADV	ADV	22
+zuliebe	-	UNK	0
+zum	-	UNK	0
+zum abschluss	-	MWE	0
+zum anderen	-	MWE	0
+zum beispiel	-	MWE	0
+zum einen	-	MWE	0
+zum ersten	-	MWE	0
+zum schluss	-	MWE	0
+zum wiederholten mal	-	MWE	0
+zum wiederholten male	-	MWE	0
+zum x-ten mal	-	MWE	0
+zum zeitpunkt	-	MWE	0
+zum zweiten	-	MWE	0
+zumal	SCONJ	SCONJ	6
+zumeist	ADV	ADV	13
+zumindest	ADV	ADV	12
+zunächst	ADV	ADV	120
+zur	-	UNK	0
+zur gänze	-	MWE	0
+zur hälfte	-	MWE	0
+zur zeit von	-	MWE	0
+zurück	ADV	ADV	96
+zusammen	ADV	ADV	111
+zusammenfassend	ADJ	OTH	1
+zusehends	ADV	ADV	1
+zusehens	-	UNK	0
+zusätzlich	ADJ	OTH	51
+zutiefst	ADV	ADV	2
+zuviel	DET	DET	3
+zuviele	-	UNK	0
+zuvor	ADV	ADV	54
+zuweilen	ADJ	OTH	1
+zwangsläufig	ADJ	OTH	5
+zwanzig	NUM	NUM	4
+zwanzigste	-	UNK	0
+zwar	ADV	ADV	55
+zwar aber	ADV	MWE	55
+zwecks	ADP	ADP	1
+zwei	NUM	NUM	347
+zwei drittel	NUM	MWE	347
+zweieinhalb	NUM	NUM	1
+zweieinhalbtausend	-	UNK	0
+zweifellos	ADJ	OTH	1
+zweifelsfrei	-	UNK	0
+zweifelsohne	-	UNK	0
+zweihundert	-	UNK	0
+zweite	ADJ	OTH	49
+zweiten	ADJ	OTH	103
+zweitens	ADV	ADV	2
+zweiter	ADJ	OTH	10
+zweites	ADJ	OTH	4
+zweiundachtzig	-	UNK	0
+zwischen	ADP	ADP	279
+zwischendurch	ADV	ADV	2
+zwischenzeitlich	ADJ	OTH	5
+zwölf	NUM	NUM	18
+zwölfeinhalb	-	UNK	0
+zwölfte	NOUN	OTH	1
+äh	-	UNK	0
+ähm	-	UNK	0
+ähnlich wie	ADJ	MWE	35
+äußerst	ADV	ADV	12
+öfter	ADV	ADV	2
+öfteren	NOUN	OTH	3
+öfters	ADV	ADV	2
+öhm	-	UNK	0
+über	ADP	ADP	589
+über alle massen	ADP	MWE	589
+über alle maßen	ADP	MWE	589
+überall	ADV	ADV	10
+überaus	ADV	ADV	6
+überdies	ADV	ADV	2
+übereinander	ADV	ADV	2
+überhaupt	ADV	ADV	31
+überhaupt nicht	ADV	MWE	31
+überm	-	UNK	0
+übermorgen	-	UNK	0
+übernächste	-	UNK	0
+überraschenderweise	ADV	ADV	1
+übers	-	UNK	0
+üblicher weise	-	MWE	0
+üblicherweise	ADV	ADV	5
+übrigens	ADV	ADV	8

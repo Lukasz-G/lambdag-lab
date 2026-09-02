@@ -1,0 +1,841 @@
+# aligned companion of POSNoise_PatternList_Ru_v1.0.txt; evidence: UD_Russian-SynTagRus (87337 sentences)
+# entry	upos	class	evidence_count
+а	CCONJ	CCONJ	8641
+а также	CCONJ	MWE	8641
+а то	CCONJ	MWE	8641
+а то и	CCONJ	MWE	8641
+аж	PART	PART	13
+аль	PART	PART	16
+без	ADP	ADP	1170
+бен	PART	PART	37
+бин	PART	PART	8
+благо	NOUN	OTH	63
+благодаря	ADP	ADP	187
+близ	ADP	ADP	20
+близко	ADV	ADV	76
+более	ADV	ADV	1635
+более чем	ADV	MWE	1635
+больше	ADV	ADV	939
+больше чем	ADV	MWE	939
+брать	VERB	LVERB	281
+будто	PART	PART	252
+будто бы	PART	MWE	252
+бы	AUX	AUX	2574
+было	AUX	AUX	3306
+быть	AUX	AUX	15453
+в	ADP	ADP	45323
+в виде	ADP	MWE	45323
+в виду	ADP	MWE	45323
+в значительной мере	ADP	MWE	45323
+в качестве	ADP	MWE	45323
+в конечном счете	ADP	MWE	45323
+в конечном счёте	ADP	MWE	45323
+в конце концов	ADP	MWE	45323
+в настоящее время	ADP	MWE	45323
+в общей сложности	ADP	MWE	45323
+в одиночку	ADP	MWE	45323
+в особенности	ADP	MWE	45323
+в отличие от	ADP	MWE	45323
+в отношении	ADP	MWE	45323
+в первую очередь	ADP	MWE	45323
+в противном случае	ADP	MWE	45323
+в связи с	ADP	MWE	45323
+в случае если	ADP	MWE	45323
+в соответствии с	ADP	MWE	45323
+в течение	ADP	MWE	45323
+в то время как	ADP	MWE	45323
+в угоду	ADP	MWE	45323
+в ходе	ADP	MWE	45323
+в частности	ADP	MWE	45323
+вам	PRON	PRON	271
+вами	PRON	PRON	71
+вас	PRON	PRON	366
+ваш	DET	DET	281
+ваша	DET	DET	33
+ваше	DET	DET	29
+вашего	DET	DET	24
+вашей	DET	DET	34
+вашем	DET	DET	11
+вашему	DET	DET	8
+ваши	DET	DET	39
+вашим	DET	DET	16
+ваших	DET	DET	13
+вашу	DET	DET	19
+вблизи	ADP	ADP	31
+ввиду	ADP	ADP	29
+вдоль	ADP	ADP	73
+ведь	PART	PART	766
+везде	ADV	ADV	46
+весь	DET	DET	4363
+весьма	ADV	ADV	290
+взамен	ADV	ADV	23
+взять	VERB	LVERB	450
+видеть	VERB	LVERB	727
+вместо	ADP	ADP	194
+вне	ADP	ADP	103
+вновь	ADV	ADV	179
+внутри	ADV	ADV	185
+внутрь	ADP	ADP	39
+во	ADP	ADP	1544
+во время	ADP	MWE	1544
+во главе	ADP	MWE	1544
+во избежание	ADP	MWE	1544
+возле	ADP	ADP	76
+возможно	ADV	ADV	347
+вокруг	ADP	ADP	257
+вон	PART	PART	34
+вопреки	ADP	ADP	52
+вот	PART	PART	1331
+впереди	ADV	ADV	55
+вплоть до	ADV	MWE	81
+вполне	ADV	ADV	419
+впрочем	ADV	ADV	288
+вроде	ADP	ADP	209
+вроде бы	ADP	MWE	209
+вроде как	ADP	MWE	209
+вряд ли	ADV	MWE	145
+все	PRON	PRON	4900
+все же	PRON	MWE	4900
+все равно	PRON	MWE	4900
+все равно что	PRON	MWE	4900
+все-таки	PART	PART	269
+всегда	ADV	ADV	639
+всего	PRON	PRON	1168
+всей	DET	DET	259
+всем	DET	DET	497
+всеми	DET	DET	114
+всему	DET	DET	124
+всех	DET	DET	960
+всея	DET	DET	5
+вследствие	ADP	ADP	32
+всю	DET	DET	255
+всюду	ADV	ADV	29
+вся	DET	DET	210
+всякая	DET	DET	27
+всякие	DET	DET	23
+всякий	DET	DET	325
+всяким	DET	DET	6
+всяких	DET	DET	43
+всякого	DET	DET	42
+всякое	DET	DET	18
+всякой	DET	DET	29
+всяком	DET	DET	47
+всякому	DET	DET	8
+всякую	DET	DET	11
+всяческие	DET	DET	5
+всё	PRON	PRON	2339
+всё ещё	PRON	MWE	2339
+всё же	PRON	MWE	2339
+всё равно	PRON	MWE	2339
+всё-таки	PART	PART	13
+всём	DET	DET	5
+вы	PRON	PRON	1633
+выше	ADV	ADV	229
+где	ADV	ADV	1291
+где-то	ADV	ADV	109
+главным образом	ADJ	MWE	122
+говорить	VERB	LVERB	2016
+да	PART	PART	1010
+да и	PART	MWE	1010
+дабы	SCONJ	SCONJ	34
+давать	VERB	LVERB	615
+давно	ADV	ADV	294
+даже	PART	PART	1935
+далеко	ADV	ADV	433
+дать	VERB	LVERB	565
+де	PART	PART	48
+действительно	ADV	ADV	334
+делать	VERB	LVERB	992
+дель	PART	PART	7
+дескать	PART	PART	25
+для	ADP	ADP	4900
+до	ADP	ADP	2697
+до отказа	ADP	MWE	2697
+до поры до времени	ADP	MWE	2697
+до сих пор	ADP	MWE	2697
+довольно	ADV	ADV	317
+должен	ADJ	OTH	1435
+др.	DET	DET	14
+друг	PRON	PRON	817
+друг друга	PRON	MWE	817
+друга	PRON	PRON	176
+другая	DET	DET	108
+друге	PRON	PRON	5
+другие	DET	DET	492
+другим	DET	DET	179
+другими	DET	DET	142
+других	DET	DET	638
+другого	DET	DET	135
+другое	DET	DET	199
+другой	DET	DET	2721
+другом	DET	DET	152
+другому	DET	DET	43
+другу	PRON	PRON	66
+другую	DET	DET	93
+его	DET	DET	4493
+едва	ADV	ADV	114
+едва ли	ADV	MWE	114
+едва не	ADV	MWE	114
+единственно	PART	PART	20
+ее	PRON	PRON	2158
+ежели	SCONJ	SCONJ	9
+ей	PRON	PRON	351
+еле	PART	PART	19
+ему	PRON	PRON	1091
+если	SCONJ	SCONJ	2766
+если бы	SCONJ	MWE	2766
+еще	ADV	ADV	2609
+ещё	ADV	ADV	75
+ею	PRON	PRON	65
+её	DET	DET	85
+ж	PART	PART	76
+же	PART	PART	3676
+за	ADP	ADP	4413
+за исключением	ADP	MWE	4413
+за рубежом	ADP	MWE	4413
+за счет	ADP	MWE	4413
+затем	ADV	ADV	389
+зато	CCONJ	CCONJ	167
+зачем	ADV	ADV	155
+здесь	ADV	ADV	781
+значит	ADV	ADV	406
+и	CCONJ	CCONJ	41393
+и то	CCONJ	MWE	41393
+ибо	SCONJ	SCONJ	123
+идти	VERB	LVERB	1079
+из	ADP	ADP	5604
+из-за	ADP	ADP	406
+из-под	ADP	ADP	65
+изо	ADP	ADP	22
+или	CCONJ	CCONJ	2933
+или же	CCONJ	MWE	2933
+им	PRON	PRON	762
+именно	PART	PART	964
+иметь	VERB	LVERB	1325
+ими	PRON	PRON	114
+иначе	ADV	ADV	232
+иная	DET	DET	25
+иногда	ADV	ADV	328
+иного	DET	DET	41
+иное	DET	DET	49
+иной	DET	DET	475
+ином	DET	DET	16
+иному	DET	DET	9
+иную	DET	DET	17
+иные	DET	DET	54
+иным	DET	DET	46
+иными	DET	DET	41
+иных	DET	DET	52
+исключительно	ADV	ADV	112
+итак	ADV	ADV	101
+их	PRON	PRON	2925
+ишь	PART	PART	6
+к	ADP	ADP	6766
+ка	PART	PART	19
+каждая	DET	DET	68
+каждого	DET	DET	137
+каждое	DET	DET	60
+каждой	DET	DET	96
+каждом	DET	DET	84
+каждому	DET	DET	60
+каждую	DET	DET	45
+каждые	DET	DET	16
+каждый	DET	DET	1023
+каждым	DET	DET	59
+казаться	VERB	LVERB	598
+как	SCONJ	SCONJ	7500
+как будто	SCONJ	MWE	7500
+как будто бы	SCONJ	MWE	7500
+как бы	SCONJ	MWE	7500
+как если бы	SCONJ	MWE	7500
+как минимум	SCONJ	MWE	7500
+как можно	SCONJ	MWE	7500
+как нельзя	SCONJ	MWE	7500
+как раз	SCONJ	MWE	7500
+как только	SCONJ	MWE	7500
+какая	DET	DET	100
+какая-либо	DET	DET	6
+какая-нибудь	DET	DET	14
+какая-то	DET	DET	52
+какие	DET	DET	221
+какие-либо	DET	DET	12
+какие-нибудь	DET	DET	13
+какие-то	DET	DET	152
+каким	DET	DET	93
+каким-либо	DET	DET	10
+каким-нибудь	DET	DET	8
+каким-то	DET	DET	69
+какими	DET	DET	38
+какими-то	DET	DET	16
+каких	DET	DET	67
+каких-либо	DET	DET	27
+каких-нибудь	DET	DET	6
+каких-то	DET	DET	54
+каков	DET	DET	89
+какова	DET	DET	23
+каково	DET	DET	22
+каковы	DET	DET	25
+какого	DET	DET	39
+какого-либо	DET	DET	17
+какого-нибудь	DET	DET	19
+какого-то	DET	DET	38
+какое	DET	DET	84
+какое-нибудь	DET	DET	7
+какое-то	DET	DET	100
+какой	DET	DET	1040
+какой-либо	DET	DET	127
+какой-нибудь	DET	DET	157
+какой-то	DET	DET	746
+каком	DET	DET	63
+каком-либо	DET	DET	6
+каком-нибудь	DET	DET	6
+каком-то	DET	DET	33
+какому	DET	DET	16
+какому-нибудь	DET	DET	7
+какому-то	DET	DET	11
+какую	DET	DET	52
+какую-либо	DET	DET	7
+какую-нибудь	DET	DET	16
+какую-то	DET	DET	35
+кем	PRON	PRON	84
+кем-то	PRON	PRON	12
+класть	VERB	LVERB	23
+ко	ADP	ADP	162
+когда	SCONJ	SCONJ	2257
+кого	PRON	PRON	218
+кого-либо	PRON	PRON	6
+кого-нибудь	PRON	PRON	7
+кого-то	PRON	PRON	64
+кое-какие	DET	DET	16
+кое-кто	PRON	PRON	19
+кое-что	PRON	PRON	40
+коей	DET	DET	7
+коем	DET	DET	28
+коли	SCONJ	SCONJ	16
+коль	SCONJ	SCONJ	14
+коль скоро	SCONJ	MWE	14
+ком	PRON	PRON	13
+кому	PRON	PRON	144
+кому-то	PRON	PRON	47
+конечно	ADV	ADV	783
+которая	DET	DET	737
+которого	DET	DET	421
+которое	DET	DET	365
+которой	DET	DET	599
+котором	DET	DET	310
+которому	DET	DET	140
+которую	DET	DET	345
+которые	DET	DET	1718
+который	DET	DET	6950
+которым	DET	DET	240
+которыми	DET	DET	143
+которых	DET	DET	757
+крайне	ADV	ADV	149
+кроме	ADP	ADP	486
+кроме как	ADP	MWE	486
+кроме того	ADP	MWE	486
+кто	PRON	PRON	1525
+кто-либо	PRON	PRON	22
+кто-нибудь	PRON	PRON	53
+кто-то	PRON	PRON	330
+куда	ADV	ADV	368
+ладно	PART	PART	34
+ли	PART	PART	1188
+либо	CCONJ	CCONJ	284
+лишь	PART	PART	937
+лишь бы	PART	MWE	937
+любая	DET	DET	51
+любого	DET	DET	78
+любое	DET	DET	51
+любой	DET	DET	656
+любом	DET	DET	93
+любому	DET	DET	29
+любую	DET	DET	44
+любые	DET	DET	54
+любым	DET	DET	14
+любыми	DET	DET	7
+любых	DET	DET	38
+мало	ADV	ADV	564
+меж	ADP	ADP	13
+между	ADP	ADP	861
+менее	ADV	ADV	452
+менее чем	ADV	MWE	452
+меньше	ADV	ADV	322
+меньше чем	ADV	MWE	322
+меня	PRON	PRON	1147
+мимо	ADP	ADP	84
+минус	NOUN	OTH	40
+мне	PRON	PRON	1366
+многие	DET	DET	603
+многим	DET	DET	59
+многими	DET	DET	23
+многих	DET	DET	343
+много	ADV	ADV	1027
+многого	PRON	PRON	7
+многое	PRON	PRON	215
+многом	PRON	PRON	82
+многому	PRON	PRON	7
+мной	PRON	PRON	97
+мною	PRON	PRON	32
+мое	DET	DET	111
+моего	DET	DET	87
+моей	DET	DET	130
+моем	DET	DET	35
+моему	DET	DET	39
+может	VERB	LVERB	1939
+можно	VERB	LVERB	1810
+мои	DET	DET	132
+моим	DET	DET	54
+моими	DET	DET	10
+моих	DET	DET	74
+мой	DET	DET	1152
+мол	PART	PART	94
+мочь	VERB	LVERB	4047
+мою	DET	DET	57
+моя	DET	DET	151
+мы	PRON	PRON	5318
+н.	PROPN	OTH	120
+на	ADP	ADP	19888
+на плаву	ADP	MWE	19888
+на полпути	ADP	MWE	19888
+над	ADP	ADP	594
+надо	VERB	LVERB	963
+накануне	ADV	ADV	96
+наконец	ADV	ADV	325
+нам	PRON	PRON	729
+нами	PRON	PRON	110
+наоборот	ADV	ADV	122
+наподобие	ADP	ADP	7
+напротив	ADV	ADV	90
+наравне с	ADV	MWE	9
+нас	PRON	PRON	1263
+насколько	ADV	ADV	145
+настолько	ADV	ADV	119
+насчет	ADP	ADP	35
+наш	DET	DET	2214
+наша	DET	DET	171
+наше	DET	DET	132
+нашего	DET	DET	199
+нашей	DET	DET	476
+нашем	DET	DET	96
+нашему	DET	DET	60
+наши	DET	DET	330
+нашим	DET	DET	81
+нашими	DET	DET	33
+наших	DET	DET	255
+нашу	DET	DET	116
+не	PART	PART	19703
+не столько	PART	MWE	19703
+не то	PART	MWE	19703
+не то что	PART	MWE	19703
+не то чтобы	PART	MWE	19703
+не только	PART	MWE	19703
+невзирая на	ADV	MWE	15
+него	PRON	PRON	831
+недавно	ADV	ADV	230
+нее	PRON	PRON	404
+нежели	SCONJ	SCONJ	58
+ней	PRON	PRON	435
+некая	DET	DET	15
+некие	DET	DET	15
+некий	DET	DET	168
+неким	DET	DET	9
+неких	DET	DET	18
+некое	DET	DET	12
+некоего	DET	DET	19
+некоей	DET	DET	5
+некоем	DET	DET	6
+некоторая	DET	DET	12
+некоторого	DET	DET	13
+некоторое	DET	DET	76
+некоторой	DET	DET	23
+некотором	DET	DET	17
+некоторую	DET	DET	13
+некоторые	DET	DET	349
+некоторый	DET	DET	791
+некоторым	DET	DET	58
+некоторыми	DET	DET	16
+некоторых	DET	DET	202
+некто	PRON	PRON	7
+некую	DET	DET	15
+нельзя	VERB	LVERB	408
+нем	PRON	PRON	338
+немногим	PRON	PRON	13
+немного	ADV	ADV	188
+нему	PRON	PRON	155
+несколько	NUM	NUM	1149
+несмотря на	ADV	MWE	246
+нет	VERB	LVERB	1442
+неужели	PART	PART	54
+нечто	PRON	PRON	103
+нею	PRON	PRON	21
+ни	PART	PART	1583
+ни в коей мере	PART	MWE	1583
+ни в коем случае	PART	MWE	1583
+ни много ни мало	PART	MWE	1583
+ни разу	PART	MWE	1583
+ни шатко ни валко	PART	MWE	1583
+нигде	ADV	ADV	37
+ниже	ADJ	OTH	141
+никакая	DET	DET	22
+никакие	DET	DET	31
+никаким	DET	DET	5
+никакими	DET	DET	7
+никаких	DET	DET	209
+никакого	DET	DET	137
+никакое	DET	DET	9
+никакой	DET	DET	509
+никем	PRON	PRON	8
+никогда	ADV	ADV	388
+никого	PRON	PRON	99
+никоим	DET	DET	9
+никоим образом	DET	MWE	9
+никому	PRON	PRON	78
+никто	PRON	PRON	608
+ним	PRON	PRON	467
+ними	PRON	PRON	239
+них	PRON	PRON	1223
+ничего	PRON	PRON	736
+ничем	PRON	PRON	58
+ничему	PRON	PRON	9
+ничто	PRON	PRON	791
+но	CCONJ	CCONJ	6767
+но и	CCONJ	MWE	6767
+ну	PART	PART	457
+нужно	ADJ	OTH	636
+нём	PRON	PRON	16
+о	ADP	ADP	4392
+об	ADP	ADP	1056
+оба	NUM	NUM	224
+обо	ADP	ADP	21
+обычно	ADV	ADV	259
+один	NUM	NUM	3695
+один за другим	NUM	MWE	3695
+один на один	NUM	MWE	3695
+одна	NUM	NUM	392
+одна за другой	NUM	MWE	392
+однако	ADV	ADV	1139
+одни	DET	DET	127
+одним	NUM	NUM	256
+одними	DET	DET	11
+одних	DET	DET	55
+одно	NUM	NUM	329
+одного	NUM	NUM	377
+одной	NUM	NUM	567
+одном	NUM	NUM	202
+одному	NUM	NUM	84
+одну	NUM	NUM	221
+оказаться	VERB	LVERB	830
+оказываться	VERB	LVERB	220
+около	ADP	ADP	472
+он	PRON	PRON	10472
+она	PRON	PRON	4631
+они	PRON	PRON	6828
+оно	PRON	PRON	775
+опять	ADV	ADV	244
+особенно	ADV	ADV	438
+остальная	DET	DET	7
+остального	DET	DET	11
+остальное	DET	DET	57
+остальной	DET	DET	298
+остальном	DET	DET	7
+остальные	DET	DET	105
+остальным	DET	DET	26
+остальными	DET	DET	6
+остальных	DET	DET	68
+от	ADP	ADP	4401
+относительно	ADP	ADP	143
+ото	ADP	ADP	7
+отсюда	ADV	ADV	91
+оттого что	ADV	MWE	48
+оттуда	ADV	ADV	76
+отчего	ADV	ADV	29
+очень	ADV	ADV	1589
+перед	ADP	ADP	629
+передо	ADP	ADP	7
+плюс	ADP	ADP	89
+по	ADP	ADP	8028
+по крайней мере	ADP	MWE	8028
+по меньшей мере	ADP	MWE	8028
+по мере	ADP	MWE	8028
+по мере того как	ADP	MWE	8028
+по отношению к	ADP	MWE	8028
+по поводу	ADP	MWE	8028
+по сравнению с	ADP	MWE	8028
+поверх	ADP	ADP	16
+под	ADP	ADP	1330
+подо	ADP	ADP	6
+подобно	ADP	ADP	48
+позади	ADV	ADV	22
+позже	ADV	ADV	160
+пойти	VERB	LVERB	482
+пока	ADV	ADV	762
+пока что	ADV	MWE	762
+полностью	ADV	ADV	222
+помимо	ADP	ADP	116
+поперек	ADP	ADP	12
+попросту	PART	PART	37
+порядка	NOUN	OTH	133
+поскольку	SCONJ	SCONJ	469
+после	ADP	ADP	1576
+посреди	ADP	ADP	25
+посредством	ADP	ADP	28
+постоянно	ADV	ADV	200
+потом	ADV	ADV	876
+потому	ADV	ADV	1007
+потому как	ADV	MWE	1007
+потому что	ADV	MWE	1007
+почему	ADV	ADV	511
+почти	ADV	ADV	701
+почти что	ADV	MWE	701
+поэтому	ADV	ADV	716
+пр.	DET	DET	17
+прежде	ADP	ADP	355
+прежде всего	ADP	MWE	355
+прежде чем	ADP	MWE	355
+преимущественно	ADV	ADV	25
+при	ADP	ADP	2324
+при помощи	ADP	MWE	2324
+при условии что	ADP	MWE	2324
+причем	CCONJ	CCONJ	292
+причём	CCONJ	CCONJ	7
+про	ADP	ADP	413
+просто	PART	PART	950
+просто-напросто	PART	PART	6
+против	ADP	ADP	470
+прочего	DET	DET	33
+прочее	PRON	PRON	53
+прочей	DET	DET	5
+прочие	DET	DET	31
+прочим	PRON	PRON	38
+прочими	DET	DET	6
+прочих	DET	DET	44
+прямо	ADV	ADV	206
+прямо-таки	PART	PART	11
+пусть	PART	PART	170
+путем	ADP	ADP	127
+путём	ADP	ADP	9
+равно как	ADJ	MWE	223
+ради	ADP	ADP	121
+раз	NOUN	OTH	1312
+разве	PART	PART	142
+разве что	PART	MWE	142
+раньше	ADV	ADV	280
+редко	ADV	ADV	85
+рядом	ADV	ADV	221
+с	ADP	ADP	13884
+с помощью	ADP	MWE	13884
+с тех пор	ADP	MWE	13884
+с тех пор как	ADP	MWE	13884
+сам	DET	DET	1700
+сам собой	DET	MWE	1700
+сама	DET	DET	201
+сама собой	DET	MWE	201
+самая	DET	DET	123
+сами	DET	DET	334
+сами собой	DET	MWE	334
+самим	DET	DET	66
+самими	DET	DET	12
+самих	DET	DET	71
+само	DET	DET	122
+само собой	DET	MWE	122
+самого	DET	DET	247
+самое	DET	DET	291
+самой	DET	DET	231
+самом	DET	DET	415
+самому	DET	DET	74
+саму	DET	DET	28
+самую	DET	DET	59
+самые	DET	DET	241
+самый	DET	DET	2128
+самым	DET	DET	217
+самыми	DET	DET	27
+самых	DET	DET	291
+сверх	ADP	ADP	7
+свое	DET	DET	344
+своего	DET	DET	437
+своей	DET	DET	659
+своем	DET	DET	213
+своему	DET	DET	92
+свои	DET	DET	633
+своим	DET	DET	314
+своими	DET	DET	194
+своих	DET	DET	541
+свой	DET	DET	4510
+свою	DET	DET	653
+своя	DET	DET	39
+своё	DET	DET	15
+своём	DET	DET	13
+свыше	ADP	ADP	44
+сделать	VERB	LVERB	948
+себе	PRON	PRON	867
+себя	PRON	PRON	2335
+сего	DET	DET	18
+сей	DET	DET	331
+сейчас	ADV	ADV	1072
+сих	DET	DET	246
+сказать	VERB	LVERB	1838
+сквозь	ADP	ADP	86
+сколь	ADV	ADV	24
+сколько	NUM	NUM	340
+скоро	ADV	ADV	166
+следовательно	ADV	ADV	69
+следует	VERB	LVERB	248
+слишком	ADV	ADV	295
+словно	SCONJ	SCONJ	147
+словно бы	SCONJ	MWE	147
+снаружи	ADV	ADV	24
+сначала	ADV	ADV	233
+снизу вверх	ADV	MWE	31
+снова	ADV	ADV	208
+со	ADP	ADP	1261
+со стороны	ADP	MWE	1261
+собой	PRON	PRON	411
+собою	PRON	PRON	20
+совершенно	ADV	ADV	350
+совсем	ADV	ADV	497
+согласно	ADP	ADP	184
+спустя	ADP	ADP	113
+сразу	ADV	ADV	457
+среди	ADP	ADP	466
+становиться	VERB	LVERB	471
+стать	VERB	LVERB	2360
+стоит	VERB	LVERB	395
+столько	ADV	ADV	193
+сюда	ADV	ADV	95
+т.	PRON	PRON	312
+т. е.	PRON	MWE	312
+т. есть	PRON	MWE	312
+т. как	PRON	MWE	312
+та	DET	DET	143
+так	ADV	ADV	3578
+так же как	ADV	MWE	3578
+так и	ADV	MWE	3578
+так как	ADV	MWE	3578
+так что	ADV	MWE	3578
+такая	DET	DET	312
+также	PART	PART	919
+таки	PART	PART	17
+такие	DET	DET	467
+таким	DET	DET	437
+такими	DET	DET	83
+таких	DET	DET	442
+таков	DET	DET	103
+такова	DET	DET	46
+таково	DET	DET	8
+такового	DET	DET	11
+таковой	DET	DET	78
+таковы	DET	DET	27
+таковым	DET	DET	14
+таковыми	DET	DET	9
+таковых	DET	DET	11
+такого	DET	DET	323
+такое	DET	DET	424
+такой	DET	DET	3536
+такой-то	DET	DET	19
+таком	DET	DET	122
+такому	DET	DET	27
+такую	DET	DET	161
+там	ADV	ADV	1110
+твое	DET	DET	26
+твоего	DET	DET	13
+твоей	DET	DET	14
+твоему	DET	DET	7
+твои	DET	DET	22
+твоим	DET	DET	7
+твоих	DET	DET	7
+твой	DET	DET	164
+твою	DET	DET	11
+твоя	DET	DET	26
+те	DET	DET	547
+тебе	PRON	PRON	187
+тебя	PRON	PRON	220
+тем	PRON	PRON	1297
+тем более что	PRON	MWE	1297
+тем не менее	PRON	MWE	1297
+теми	DET	DET	66
+теперь	ADV	ADV	825
+тех	DET	DET	641
+то	PRON	PRON	7916
+то есть	PRON	MWE	7916
+то и дело	PRON	MWE	7916
+то ли	PRON	MWE	7916
+то что	PRON	MWE	7916
+тобой	PRON	PRON	29
+тобою	PRON	PRON	5
+тогда	ADV	ADV	896
+тогда как	ADV	MWE	896
+того	PRON	PRON	1563
+тоже	PART	PART	852
+той	DET	DET	311
+только	PART	PART	2930
+только что	PART	MWE	2930
+только-только	PART	PART	5
+том	PRON	PRON	1815
+тому	PRON	PRON	474
+тому назад	PRON	MWE	474
+тот	DET	DET	3968
+точно	ADV	ADV	327
+ту	DET	DET	132
+туда	ADV	ADV	191
+тут	ADV	ADV	781
+ты	PRON	PRON	1139
+у	ADP	ADP	4057
+уж	PART	PART	360
+уже	ADV	ADV	2635
+уметь	VERB	LVERB	131
+фон	NOUN	OTH	110
+хотеть	VERB	LVERB	796
+хоть	ADV	ADV	206
+хоть бы	ADV	MWE	206
+хоть и	ADV	MWE	206
+хотя	SCONJ	SCONJ	869
+хотя бы	SCONJ	MWE	869
+хотя и	SCONJ	MWE	869
+часто	ADV	ADV	487
+чего	PRON	PRON	434
+чего-либо	PRON	PRON	6
+чего-то	PRON	PRON	46
+чей	DET	DET	131
+чем	SCONJ	SCONJ	1529
+чем-нибудь	PRON	PRON	15
+чем-то	PRON	PRON	113
+чему	PRON	PRON	82
+чему-то	PRON	PRON	9
+через	ADP	ADP	952
+что	SCONJ	SCONJ	15010
+что за	SCONJ	MWE	15010
+что ни на есть	SCONJ	MWE	15010
+что-либо	PRON	PRON	31
+что-нибудь	PRON	PRON	93
+что-то	PRON	PRON	560
+чтоб	SCONJ	SCONJ	41
+чтобы	SCONJ	SCONJ	2006
+чуть	ADV	ADV	254
+чуть не	ADV	MWE	254
+чуть-чуть	PART	PART	34
+чье	DET	DET	12
+чьей-то	DET	DET	6
+чьи	DET	DET	36
+чьи-то	DET	DET	8
+чьих	DET	DET	6
+чью	DET	DET	10
+чью-то	DET	DET	5
+чья	DET	DET	38
+чья-то	DET	DET	6
+чём	PRON	PRON	5
+эта	DET	DET	598
+этакий	DET	DET	18
+эти	DET	DET	1108
+этим	DET	DET	405
+этими	DET	DET	78
+этих	DET	DET	627
+это	PRON	PRON	9091
+этого	PRON	PRON	1409
+этой	DET	DET	937
+этом	PRON	PRON	1719
+этому	DET	DET	327
+этот	DET	DET	7358
+эту	DET	DET	502
+я	PRON	PRON	7733
+являться	VERB	LVERB	799

@@ -1,0 +1,360 @@
+# aligned companion of POSNoise_PatternList_Uk_v1.0.txt; evidence: UD_Ukrainian-IU (7092 sentences)
+# entry	upos	class	evidence_count
+а	CCONJ	CCONJ	739
+а й	CCONJ	MWE	739
+а отже	CCONJ	MWE	739
+а саме	CCONJ	MWE	739
+а також	CCONJ	MWE	739
+а то й	CCONJ	MWE	739
+аби	SCONJ	SCONJ	13
+або	CCONJ	CCONJ	216
+адже	SCONJ	SCONJ	26
+аж	PART	PART	55
+айбо	CCONJ	CCONJ	3
+але	CCONJ	CCONJ	318
+але й	CCONJ	MWE	318
+ані	CCONJ	CCONJ	18
+аніж	SCONJ	SCONJ	6
+б	AUX	AUX	97
+ба	PART	PART	5
+багато	DET	DET	109
+без	ADP	ADP	93
+би	AUX	AUX	47
+близько	ADP	ADP	37
+бо	SCONJ	SCONJ	129
+бодай	PART	PART	7
+боятися	VERB	LVERB	26
+бувати	VERB	LVERB	26
+будь-який	DET	DET	38
+бути	AUX	AUX	1254
+більш	ADV	ADV	31
+більш ніж	ADV	MWE	31
+більш як	ADV	MWE	31
+більше	ADV	ADV	87
+більше ніж	ADV	MWE	87
+біля	ADP	ADP	34
+в	ADP	ADP	1495
+в тому числі	ADP	MWE	1495
+ваш	DET	DET	51
+ввесь	DET	DET	4
+вдатися	VERB	LVERB	11
+вдома	ADV	ADV	17
+весь	DET	DET	282
+вже	ADV	ADV	170
+взагалі	ADV	ADV	24
+вздовж	ADP	ADP	4
+ви	PRON	PRON	224
+визнати	VERB	LVERB	11
+вирішити	VERB	LVERB	14
+вище	ADV	ADV	14
+виявитися	VERB	LVERB	33
+власне	PART	PART	14
+внаслідок	ADP	ADP	10
+вночі	ADV	ADV	18
+водночас	ADV	ADV	14
+вона	PRON	PRON	473
+вони	PRON	PRON	477
+воно	PRON	PRON	94
+впродовж	ADP	ADP	10
+все	PRON	PRON	160
+все одно	PRON	MWE	160
+все-таки	PART	PART	3
+встановити	VERB	LVERB	15
+всього	PRON	PRON	19
+всякий	DET	DET	11
+всілякий	DET	DET	4
+від	ADP	ADP	374
+відносно	ADP	ADP	7
+відразу	ADV	ADV	15
+він	PRON	PRON	818
+геть	ADV	ADV	15
+далі	ADV	ADV	65
+де	ADV	ADV	116
+декілька	DET	DET	15
+десь	ADV	ADV	30
+дехто	PRON	PRON	4
+деякий	DET	DET	40
+для	ADP	ADP	392
+до	ADP	ADP	919
+до того ж	ADP	MWE	919
+добре	ADV	ADV	65
+довестися	VERB	LVERB	15
+довкола	ADV	ADV	9
+додому	ADV	ADV	24
+дозволити	VERB	LVERB	19
+дозволяти	VERB	LVERB	15
+допомагати	VERB	LVERB	13
+допомогти	VERB	LVERB	14
+досить	ADV	ADV	24
+досі	ADV	ADV	26
+другий	ADJ	OTH	82
+дуже	ADV	ADV	143
+думати	VERB	LVERB	57
+дізнатися	VERB	LVERB	12
+ж	PART	PART	182
+же	PART	PART	41
+жодний	DET	DET	41
+з	ADP	ADP	1457
+з-за	ADP	ADP	4
+з-під	ADP	ADP	9
+за	ADP	ADP	631
+заборонити	VERB	LVERB	13
+забувати	VERB	LVERB	10
+завдяки	ADP	ADP	21
+завжди	ADV	ADV	46
+загалом	ADV	ADV	17
+задля	ADP	ADP	4
+зазначити	VERB	LVERB	19
+заки	SCONJ	SCONJ	4
+замість	ADP	ADP	26
+запропонувати	VERB	LVERB	19
+заради	ADP	ADP	4
+зараз	ADV	ADV	37
+зате	CCONJ	CCONJ	10
+заявити	VERB	LVERB	14
+збиратися	VERB	LVERB	11
+згадати	VERB	LVERB	14
+згодом	ADV	ADV	11
+згідно	ADV	ADV	18
+змогти	VERB	LVERB	20
+знати	VERB	LVERB	114
+знов	ADV	ADV	20
+знову	ADV	ADV	28
+зовсім	ADV	ADV	52
+зокрема	ADV	ADV	32
+зрозуміти	VERB	LVERB	20
+зі	ADP	ADP	86
+й	CCONJ	CCONJ	542
+його	PRON	PRON	406
+кожний	DET	DET	109
+кожній	DET	DET	13
+коли	ADV	ADV	247
+колись	ADV	ADV	16
+коло	ADP	ADP	34
+котрий	DET	DET	32
+котрийсь	DET	DET	3
+краще	ADV	ADV	25
+крізь	ADP	ADP	7
+крім	ADP	ADP	31
+куди	ADV	ADV	21
+кілька	DET	DET	102
+лиш	PART	PART	10
+лише	PART	PART	109
+любити	VERB	LVERB	41
+мабуть	ADV	ADV	11
+майже	ADV	ADV	48
+менш	ADV	ADV	14
+менш як	ADV	MWE	14
+менше ніж	ADV	MWE	15
+ми	PRON	PRON	477
+мов	SCONJ	SCONJ	23
+могти	VERB	LVERB	237
+може	VERB	LVERB	125
+можна	ADV	ADV	157
+мусити	VERB	LVERB	38
+між	ADP	ADP	72
+мій	DET	DET	149
+на	ADP	ADP	1885
+навколо	ADP	ADP	16
+навпаки	ADV	ADV	13
+навпроти	ADP	ADP	6
+навіть	PART	PART	145
+над	ADP	ADP	49
+назад	ADV	ADV	18
+найбільш	ADV	ADV	12
+намагатися	VERB	LVERB	22
+наприклад	ADV	ADV	32
+наприкінці	ADP	ADP	9
+нарешті	ADV	ADV	19
+насправді	ADV	ADV	22
+натомість	CCONJ	CCONJ	18
+наче	SCONJ	SCONJ	21
+наш	DET	DET	192
+не	PART	PART	1418
+не лише	PART	MWE	1418
+не просто	PART	MWE	1418
+не те що	PART	MWE	1418
+не то	PART	MWE	1418
+не тільки	PART	MWE	1418
+невже	PART	PART	3
+немати	VERB	LVERB	79
+немов	SCONJ	SCONJ	9
+неначе	SCONJ	SCONJ	8
+нехай	PART	PART	8
+нині	ADV	ADV	22
+но	PART	PART	8
+ну	PART	PART	32
+ні	CCONJ	CCONJ	85
+ніби	SCONJ	SCONJ	20
+нібито	PART	PART	9
+ніж	SCONJ	SCONJ	74
+ніколи	ADV	ADV	44
+ніхто	PRON	PRON	62
+ніщо	PRON	PRON	42
+ніяк	ADV	ADV	16
+ніякий	DET	DET	17
+о	PROPN	OTH	29
+об	ADP	ADP	12
+од	ADP	ADP	18
+один	DET	DET	314
+однак	CCONJ	CCONJ	25
+одначе	CCONJ	CCONJ	7
+одне	DET	DET	27
+означати	VERB	LVERB	10
+окрім	ADP	ADP	15
+окрім як	ADP	MWE	15
+оскільки	SCONJ	SCONJ	31
+ось	PART	PART	22
+от	PART	PART	55
+отже	PART	PART	29
+ото	PART	PART	9
+отой	DET	DET	11
+оце	PART	PART	10
+оцей	DET	DET	9
+пам’ятати	VERB	LVERB	15
+перед	ADP	ADP	67
+перестати	VERB	LVERB	11
+питати	VERB	LVERB	13
+питатися	VERB	LVERB	11
+по	ADP	ADP	182
+повз	ADP	ADP	5
+повністю	ADV	ADV	17
+повідомити	VERB	LVERB	16
+поза	ADP	ADP	13
+поки	ADV	ADV	28
+поки що	ADV	MWE	28
+поміж	ADP	ADP	9
+понад	ADP	ADP	20
+попри	ADP	ADP	14
+попросити	VERB	LVERB	10
+поруч	ADV	ADV	13
+посеред	ADP	ADP	6
+потім	ADV	ADV	64
+почати	VERB	LVERB	69
+починати	VERB	LVERB	28
+при	ADP	ADP	88
+принаймні	ADV	ADV	11
+про	ADP	ADP	410
+пропонувати	VERB	LVERB	12
+просити	VERB	LVERB	21
+просто	PART	PART	62
+проте	CCONJ	CCONJ	28
+проти	ADP	ADP	45
+протягом	ADP	ADP	44
+прямо	ADV	ADV	7
+під	ADP	ADP	194
+після	ADP	ADP	139
+разом	ADV	ADV	47
+раптом	ADV	ADV	14
+розуміти	VERB	LVERB	20
+сам	DET	DET	120
+саме	PART	PART	72
+самий	DET	DET	55
+свій	DET	DET	360
+се	PRON	PRON	15
+себе	PRON	PRON	174
+сей	DET	DET	13
+серед	ADP	ADP	54
+сказати	VERB	LVERB	92
+скільки	ADV	ADV	14
+слід	ADV	ADV	38
+сподіватися	VERB	LVERB	12
+спочатку	ADV	ADV	22
+справді	ADV	ADV	17
+спробувати	VERB	LVERB	15
+стосовно	ADP	ADP	4
+стільки	ADV	ADV	11
+супроти	ADP	ADP	3
+сьогодні	ADV	ADV	53
+т.	ADV	ADV	23
+та	CCONJ	CCONJ	955
+та й то	CCONJ	MWE	955
+так	ADV	ADV	274
+так само	ADV	MWE	274
+так що	ADV	MWE	274
+так і	ADV	MWE	274
+таке	DET	DET	53
+таки	PART	PART	39
+такий	DET	DET	309
+також	ADV	ADV	139
+там	ADV	ADV	98
+твій	DET	DET	28
+те	PRON	PRON	275
+теж	ADV	ADV	35
+тепер	ADV	ADV	58
+ти	PRON	PRON	172
+типу	NOUN	OTH	16
+то	PART	PART	217
+тобто	SCONJ	SCONJ	27
+тоді	ADV	ADV	103
+тоді як	ADV	MWE	103
+тож	SCONJ	SCONJ	15
+той	DET	DET	382
+тому	ADV	ADV	142
+тому що	ADV	MWE	142
+тощо	PART	PART	25
+треба	ADV	ADV	89
+трохи	ADV	ADV	41
+туди	ADV	ADV	27
+тут	ADV	ADV	109
+тільки	PART	PART	136
+тільки що	PART	MWE	136
+у	ADP	ADP	1578
+у той час як	ADP	MWE	1578
+у тому числі	ADP	MWE	1578
+увесь	DET	DET	134
+уже	ADV	ADV	38
+уздовж	ADP	ADP	3
+унаслідок	ADP	ADP	4
+усе	PRON	PRON	34
+усякий	DET	DET	5
+хай	PART	PART	15
+хотіти	VERB	LVERB	83
+хотітися	VERB	LVERB	20
+хоч	PART	PART	44
+хоча	SCONJ	SCONJ	37
+хто	PRON	PRON	117
+хтось	PRON	PRON	38
+хіба	PART	PART	12
+це	PRON	PRON	525
+цей	DET	DET	459
+цілком	ADV	ADV	24
+часом	NOUN	OTH	32
+часто	ADV	ADV	46
+через	ADP	ADP	132
+чи	CCONJ	CCONJ	222
+чи то	CCONJ	MWE	222
+чи то пак	CCONJ	MWE	222
+чий	DET	DET	3
+чийсь	DET	DET	3
+чому	ADV	ADV	32
+шляхом	ADP	ADP	17
+шо	SCONJ	SCONJ	10
+ще	ADV	ADV	240
+що	SCONJ	SCONJ	1337
+щоб	SCONJ	SCONJ	183
+щоби	SCONJ	SCONJ	37
+щодня	ADV	ADV	12
+щодо	ADP	ADP	50
+щось	PRON	PRON	69
+я	PRON	PRON	629
+як	SCONJ	SCONJ	546
+як також	SCONJ	MWE	546
+як тільки	SCONJ	MWE	546
+як і	SCONJ	MWE	546
+якби	SCONJ	SCONJ	12
+який	DET	DET	650
+якийсь	DET	DET	92
+якось	ADV	ADV	28
+якраз	PART	PART	22
+якщо	SCONJ	SCONJ	119
+і	CCONJ	CCONJ	2238
+із	ADP	ADP	211
+інакше	ADV	ADV	10
+іноді	ADV	ADV	15
+інш.	DET	DET	3
+інше	PRON	PRON	19
+інший	DET	DET	226
+їх	PRON	PRON	167
+їхній	DET	DET	46
+її	PRON	PRON	205

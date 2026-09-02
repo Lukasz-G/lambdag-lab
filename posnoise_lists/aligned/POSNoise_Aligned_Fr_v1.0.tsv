@@ -1,0 +1,402 @@
+# aligned companion of POSNoise_PatternList_Fr_v1.0.txt; evidence: UD_French-GSD (16342 sentences)
+# entry	upos	class	evidence_count
+-ce	PRON	PRON	27
+-elle	PRON	PRON	18
+-il	PRON	PRON	52
+-ils	PRON	PRON	22
+-je	PRON	PRON	8
+-nous	PRON	PRON	7
+-on	PRON	PRON	14
+-t-elle	PRON	PRON	18
+-t-il	PRON	PRON	59
+-t-on	PRON	PRON	6
+-vous	PRON	PRON	19
+a	AUX	AUX	2339
+absolument	ADV	ADV	14
+actuellement	ADV	ADV	39
+ailleurs	ADV	ADV	115
+ainsi	ADV	ADV	376
+ainsi qu'	ADV	MWE	376
+ainsi que	ADV	MWE	376
+aller	VERB	LVERB	264
+alors	ADV	ADV	376
+alors qu'	ADV	MWE	376
+alors que	ADV	MWE	376
+après	ADP	ADP	491
+assez	ADV	ADV	60
+aucun	DET	DET	125
+aucune	DET	DET	58
+auparavant	ADV	ADV	30
+aussi	ADV	ADV	409
+aussi bien	ADV	MWE	409
+aussitôt	ADV	ADV	10
+autant	ADV	ADV	50
+autour	ADV	ADV	70
+autre	ADJ	OTH	545
+autrement	ADV	ADV	11
+autres	ADJ	OTH	337
+autrui	PRON	PRON	5
+av.	ADP	ADP	21
+avant	ADP	ADP	279
+avec	ADP	ADP	1361
+avoir	AUX	AUX	4233
+beaucoup	ADV	ADV	118
+bel et bien	ADJ	MWE	8
+bien	ADV	ADV	384
+bien entendu	ADV	MWE	384
+bien qu'	ADV	MWE	384
+bien que	ADV	MWE	384
+bien sûr	ADV	MWE	384
+bientôt	ADV	ADV	17
+c'	PRON	PRON	554
+c' est pourquoi	PRON	MWE	554
+c'est-à-dire	CCONJ	CCONJ	52
+c'est-à-dire qu'	CCONJ	MWE	52
+c'est-à-dire que	CCONJ	MWE	52
+car	CCONJ	CCONJ	132
+ce	DET	DET	3193
+ceci	PRON	PRON	25
+cela	PRON	PRON	142
+celle	PRON	PRON	100
+celle-ci	PRON	PRON	37
+celles	PRON	PRON	40
+celles-ci	PRON	PRON	13
+celui	PRON	PRON	312
+celui-ci	PRON	PRON	131
+cependant	ADV	ADV	117
+certain	ADJ	OTH	62
+certaines	DET	DET	67
+certains	DET	DET	181
+ces	DET	DET	407
+cet	DET	DET	192
+cette	DET	DET	865
+ceux	PRON	PRON	81
+ceux-ci	PRON	PRON	26
+chacun	PRON	PRON	46
+chacune	PRON	PRON	14
+chaque	DET	DET	133
+chez	ADP	ADP	171
+combien	ADV	ADV	10
+comme	ADP	ADP	718
+comment	ADV	ADV	51
+complètement	ADV	ADV	15
+compte tenu	NOUN	MWE	138
+concernant	ADP	ADP	37
+contre	ADP	ADP	300
+d	ADP	ADP	15
+d'	ADP	ADP	5028
+d' abord	ADP	MWE	5028
+d' ailleurs	ADP	MWE	5028
+d' après	ADP	MWE	5028
+d' autant plus	ADP	MWE	5028
+d' autant que	ADP	MWE	5028
+d' avance	ADP	MWE	5028
+d' emblée	ADP	MWE	5028
+d' entre	ADP	MWE	5028
+d' ici	ADP	MWE	5028
+d' où	ADP	MWE	5028
+dans	ADP	ADP	3137
+davantage	ADV	ADV	26
+de	ADP	ADP	31887
+de ce fait	ADP	MWE	31887
+de fait	ADP	MWE	31887
+de le fait	ADP	MWE	31887
+de le tout	ADP	MWE	31887
+de même	ADP	MWE	31887
+de nouveau	ADP	MWE	31887
+de par	ADP	MWE	31887
+de plus	ADP	MWE	31887
+de plus en plus	ADP	MWE	31887
+de temps en temps	ADP	MWE	31887
+dehors	NOUN	OTH	11
+depuis	ADP	ADP	355
+derrière	ADP	ADP	33
+des	DET	DET	1788
+dessous	NOUN	OTH	6
+dessus	NOUN	OTH	12
+devant	ADP	ADP	80
+devenir	VERB	LVERB	282
+devoir	VERB	LVERB	367
+di	X	OTH	25
+différentes	ADJ	OTH	57
+différents	ADJ	OTH	87
+dire	VERB	LVERB	217
+divers	DET	DET	63
+diverses	ADJ	OTH	26
+donc	ADV	ADV	189
+donner	VERB	LVERB	247
+dont	PRON	PRON	380
+du	DET	DET	108
+durant	ADP	ADP	139
+dès	ADP	ADP	126
+dès lors	ADP	MWE	126
+déjà	ADV	ADV	102
+désormais	ADV	ADV	37
+elle	PRON	PRON	957
+elle-même	PRON	PRON	24
+elles	PRON	PRON	119
+en	ADP	ADP	6143
+en bas	ADP	MWE	6143
+en commun	ADP	MWE	6143
+en effet	ADP	MWE	6143
+en face	ADP	MWE	6143
+en fait	ADP	MWE	6143
+en général	ADP	MWE	6143
+en haut	ADP	MWE	6143
+en outre	ADP	MWE	6143
+en particulier	ADP	MWE	6143
+en plus	ADP	MWE	6143
+en raison	ADP	MWE	6143
+en tant qu'	ADP	MWE	6143
+en tant que	ADP	MWE	6143
+en tout	ADP	MWE	6143
+en tête	ADP	MWE	6143
+en vain	ADP	MWE	6143
+en vue	ADP	MWE	6143
+encore	ADV	ADV	206
+enfin	ADV	ADV	57
+ensuite	ADV	ADV	123
+entièrement	ADV	ADV	18
+entre	ADP	ADP	497
+entre-temps	ADV	ADV	1
+envers	ADP	ADP	18
+environ	ADV	ADV	106
+essentiellement	ADV	ADV	31
+et	CCONJ	CCONJ	8134
+et puis	CCONJ	MWE	8134
+eux	PRON	PRON	72
+eux-mêmes	PRON	PRON	19
+exactement	ADV	ADV	10
+excepté	ADP	ADP	6
+extrêmement	ADV	ADV	17
+faire	VERB	LVERB	1005
+falloir	VERB	LVERB	120
+fort	ADJ	OTH	98
+guère	ADV	ADV	7
+généralement	ADV	ADV	48
+habituellement	ADV	ADV	8
+hors	ADV	ADV	33
+ici	ADV	ADV	47
+il	PRON	PRON	3616
+il y a	PRON	MWE	3616
+ils	PRON	PRON	491
+j'	PRON	PRON	237
+jamais	ADV	ADV	90
+je	PRON	PRON	326
+jusqu'	ADP	ADP	245
+jusque	ADP	ADP	253
+justement	ADV	ADV	4
+l	DET	DET	17
+l'	DET	DET	7384
+l'on	PRON	PRON	71
+la	DET	DET	11095
+la plus	DET	MWE	11095
+laisser	VERB	LVERB	89
+laquelle	PRON	PRON	72
+le	DET	DET	43616
+le long	DET	MWE	43616
+le moins	DET	MWE	43616
+le plus	DET	MWE	43616
+lequel	PRON	PRON	223
+les	DET	DET	9870
+les plus	DET	MWE	9870
+lesquelles	PRON	PRON	26
+lesquels	PRON	PRON	29
+leur	DET	DET	507
+leurs	DET	DET	214
+loin	ADV	ADV	36
+longtemps	ADV	ADV	47
+lorsqu'	SCONJ	SCONJ	50
+lorsque	SCONJ	SCONJ	118
+lui	PRON	PRON	6632
+lui-même	PRON	PRON	82
+là	ADV	ADV	97
+m'	PRON	PRON	61
+ma	DET	DET	63
+maintenant	ADV	ADV	38
+mais	CCONJ	CCONJ	833
+malgré	ADP	ADP	80
+me	PRON	PRON	73
+mes	DET	DET	36
+mettre	VERB	LVERB	253
+moi	PRON	PRON	734
+moins	ADV	ADV	172
+mon	DET	DET	73
+même	ADJ	OTH	503
+n' importe quel	ADV	MWE	823
+ne	ADV	ADV	1637
+ni	CCONJ	CCONJ	64
+non	ADV	ADV	136
+non plus	ADV	MWE	136
+non seulement	ADV	MWE	136
+nos	DET	DET	65
+notamment	ADV	ADV	190
+notre	DET	DET	88
+nous	PRON	PRON	390
+nul	ADJ	OTH	32
+néanmoins	ADV	ADV	27
+on	PRON	PRON	638
+or	NOUN	OTH	69
+ou	CCONJ	CCONJ	898
+ou bien	CCONJ	MWE	898
+outre	ADV	ADV	45
+où	ADV	ADV	402
+par	ADP	ADP	2470
+par ailleurs	ADP	MWE	2470
+par conséquent	ADP	MWE	2470
+par contre	ADP	MWE	2470
+par exemple	ADP	MWE	2470
+paraître	VERB	LVERB	34
+parce qu'	ADV	MWE	40
+parce que	ADV	MWE	40
+parfois	ADV	ADV	67
+parmi	ADP	ADP	94
+particulièrement	ADV	ADV	57
+partout	ADV	ADV	16
+pas	ADV	ADV	1048
+passer	VERB	LVERB	218
+pendant	ADP	ADP	201
+personne	NOUN	OTH	171
+petit à petit	ADJ	MWE	233
+peu	ADV	ADV	248
+peu à peu	ADV	MWE	248
+peut-être	ADV	ADV	27
+plus	ADV	ADV	1346
+plus ou moins	ADV	MWE	1346
+plus qu'	ADV	MWE	1346
+plus que	ADV	MWE	1346
+plusieurs	DET	DET	264
+plutôt	ADV	ADV	45
+pour	ADP	ADP	2531
+pour autant	ADP	MWE	2531
+pour l' instant	ADP	MWE	2531
+pourquoi	ADV	ADV	44
+pourtant	ADV	ADV	30
+pouvoir	VERB	LVERB	767
+prendre	VERB	LVERB	321
+presque	ADV	ADV	38
+principalement	ADV	ADV	42
+près	ADV	ADV	124
+puis	CCONJ	CCONJ	266
+puisqu'	SCONJ	SCONJ	15
+puisque	SCONJ	SCONJ	49
+qu'	SCONJ	SCONJ	1026
+quand	SCONJ	SCONJ	102
+quand même	SCONJ	MWE	102
+quant à	ADV	MWE	42
+quasiment	ADV	ADV	3
+que	SCONJ	SCONJ	2990
+quel	ADJ	OTH	73
+quelle	ADJ	OTH	28
+quelqu'un	PRON	PRON	17
+quelque	DET	DET	37
+quelque peu	DET	MWE	37
+quelquefois	ADV	ADV	1
+quelques	DET	DET	151
+qui	PRON	PRON	2162
+quitte à	VERB	MWE	25
+quoi	PRON	PRON	24
+rarement	ADV	ADV	11
+rester	VERB	LVERB	186
+rien	PRON	PRON	76
+s'	PRON	PRON	1049
+sa	DET	DET	928
+sans	ADP	ADP	249
+sans cesse	ADP	MWE	249
+sans doute	ADP	MWE	249
+sauf	CCONJ	CCONJ	16
+savoir	VERB	LVERB	119
+se	PRON	PRON	1346
+selon	ADP	ADP	229
+sembler	VERB	LVERB	88
+ses	DET	DET	793
+seulement	ADV	ADV	74
+si	SCONJ	SCONJ	330
+si bien que	SCONJ	MWE	330
+si ce n' est	SCONJ	MWE	330
+simplement	ADV	ADV	34
+sinon	ADV	ADV	12
+soi	PRON	PRON	2348
+soit	AUX	AUX	179
+son	DET	DET	4371
+sous	ADP	ADP	358
+souvent	ADV	ADV	121
+suivant	ADJ	OTH	112
+sur	ADP	ADP	1686
+surtout	ADV	ADV	81
+tandis qu'	ADV	MWE	64
+tandis que	ADV	MWE	64
+tant	ADV	ADV	116
+tant qu'	ADV	MWE	116
+tant que	ADV	MWE	116
+tard	ADV	ADV	124
+tel	ADJ	OTH	123
+telle	ADJ	OTH	33
+tellement	ADV	ADV	6
+tenir	VERB	LVERB	120
+ton	NOUN	OTH	18
+totalement	ADV	ADV	25
+toujours	ADV	ADV	143
+tour à tour	NOUN	MWE	132
+tous	ADJ	OTH	265
+tout	ADJ	OTH	847
+tout de même	ADJ	MWE	847
+tout à fait	ADJ	MWE	847
+toute	ADJ	OTH	130
+toutefois	ADV	ADV	67
+toutes	ADJ	OTH	138
+trop	ADV	ADV	73
+trouver	VERB	LVERB	279
+très	ADV	ADV	508
+tu	PRON	PRON	16
+tôt	ADV	ADV	15
+un	DET	DET	10507
+un peu	DET	MWE	10507
+une	DET	DET	3727
+une fois	DET	MWE	3727
+unes	PRON	PRON	5
+uniquement	ADV	ADV	14
+uns	PRON	PRON	8
+venir	VERB	LVERB	163
+vers	ADP	ADP	225
+via	ADP	ADP	24
+voir	VERB	LVERB	240
+voire	CCONJ	CCONJ	32
+vos	DET	DET	31
+votre	DET	DET	57
+vouloir	VERB	LVERB	117
+vous	PRON	PRON	296
+y	PRON	PRON	541
+y compris	PRON	MWE	541
+à	ADP	ADP	10636
+à bord	ADP	MWE	10636
+à cause	ADP	MWE	10636
+à compter	ADP	MWE	10636
+à coté	ADP	MWE	10636
+à côté	ADP	MWE	10636
+à la fois	ADP	MWE	10636
+à le contraire	ADP	MWE	10636
+à le delà	ADP	MWE	10636
+à le final	ADP	MWE	10636
+à le lieu	ADP	MWE	10636
+à le mieux	ADP	MWE	10636
+à le moins	ADP	MWE	10636
+à le sujet	ADP	MWE	10636
+à le total	ADP	MWE	10636
+à le vu	ADP	MWE	10636
+à les côtés	ADP	MWE	10636
+à mesure	ADP	MWE	10636
+à moins	ADP	MWE	10636
+à nouveau	ADP	MWE	10636
+à part	ADP	MWE	10636
+à partir	ADP	MWE	10636
+à peine	ADP	MWE	10636
+à peu près	ADP	MWE	10636
+à propos	ADP	MWE	10636
+à proximité	ADP	MWE	10636
+à présent	ADP	MWE	10636
+à savoir	ADP	MWE	10636
+à travers	ADP	MWE	10636
+ça	PRON	PRON	45
+également	ADV	ADV	321
+être	AUX	AUX	9631

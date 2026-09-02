@@ -1,0 +1,282 @@
+# aligned companion of POSNoise_PatternList_Sr_v1.0.txt; evidence: UD_Serbian-SET (4384 sentences)
+# entry	upos	class	evidence_count
+a	CCONJ	CCONJ	237
+a nakon što	CCONJ	MWE	237
+ako	SCONJ	SCONJ	102
+ali	CCONJ	CCONJ	164
+ali i	CCONJ	MWE	164
+bar	ADV	ADV	10
+bez	ADP	ADP	54
+bez obzira na	ADP	MWE	54
+bez obzira što	ADP	MWE	54
+bilo	AUX	AUX	113
+biti	AUX	AUX	5645
+budući	ADJ	OTH	19
+budući da	ADJ	MWE	19
+da	SCONJ	SCONJ	2557
+da li	SCONJ	MWE	2557
+dakle	CCONJ	CCONJ	6
+daleko	ADV	ADV	51
+danas	ADV	ADV	46
+do	ADP	ADP	208
+do sada	ADP	MWE	208
+dobro	ADV	ADV	50
+dodati	VERB	LVERB	51
+dok	SCONJ	SCONJ	80
+dozvoliti	VERB	LVERB	20
+duž	ADP	ADP	5
+evo	PART	PART	4
+gde	ADV	ADV	44
+god	PART	PART	6
+godišnje	ADV	ADV	12
+hteti	AUX	AUX	571
+i	CCONJ	CCONJ	2715
+i dalje	CCONJ	MWE	2715
+i ne samo	CCONJ	MWE	2715
+i te kako	CCONJ	MWE	2715
+i to	CCONJ	MWE	2715
+iako	SCONJ	SCONJ	25
+ikada	ADV	ADV	7
+ikakav	DET	DET	5
+ili	CCONJ	CCONJ	142
+ipak	ADV	ADV	18
+ispod	ADP	ADP	4
+ispred	ADP	ADP	13
+istaći	VERB	LVERB	19
+isticati	VERB	LVERB	16
+iz	ADP	ADP	320
+iza	ADP	ADP	20
+izjaviti	VERB	LVERB	117
+između	ADP	ADP	89
+iznad	ADP	ADP	4
+izvestiti	VERB	LVERB	21
+ja	PRON	PRON	31
+jer	SCONJ	SCONJ	65
+još	ADV	ADV	118
+još uvek	ADV	MWE	118
+k	ADP	ADP	6
+ka	ADP	ADP	37
+kad	ADV	ADV	7
+kada	ADV	ADV	143
+kakav	DET	DET	33
+kako	SCONJ	SCONJ	137
+kao	SCONJ	SCONJ	304
+kao da	SCONJ	MWE	304
+kao i	SCONJ	MWE	304
+kao i da	SCONJ	MWE	304
+kao ni	SCONJ	MWE	304
+kao što	SCONJ	MWE	304
+kasno	ADV	ADV	30
+kazati	VERB	LVERB	175
+ko	PRON	PRON	38
+kod	ADP	ADP	24
+koji	DET	DET	1175
+koliki	DET	DET	3
+koliko	ADV	ADV	35
+koliko god	ADV	MWE	35
+krajem	ADP	ADP	10
+kroz	ADP	ADP	23
+li	PART	PART	82
+mada	SCONJ	SCONJ	27
+malo	ADV	ADV	58
+među	ADP	ADP	57
+međutim	ADV	ADV	128
+mi	PRON	PRON	78
+misliti	VERB	LVERB	31
+mnogo	ADV	ADV	157
+moj	DET	DET	17
+morati	VERB	LVERB	131
+moći	VERB	LVERB	240
+možda	ADV	ADV	22
+na	ADP	ADP	1225
+nad	ADP	ADP	23
+nadati	VERB	LVERB	36
+naglasiti	VERB	LVERB	12
+naime	PART	PART	4
+najaviti	VERB	LVERB	14
+nakon	ADP	ADP	76
+nakon što	ADP	MWE	76
+nameravati	VERB	LVERB	11
+napred	ADV	ADV	7
+nastaviti	VERB	LVERB	43
+navesti	VERB	LVERB	17
+naš	DET	DET	64
+ne	PART	PART	339
+nego	CCONJ	CCONJ	66
+nego i	CCONJ	MWE	66
+nego što	CCONJ	MWE	66
+neka	DET	DET	10
+nekada	ADV	ADV	8
+nekakav	DET	DET	3
+neki	DET	DET	127
+neko	PRON	PRON	18
+nekoliko	DET	DET	75
+nečiji	DET	DET	4
+nešto	PRON	PRON	17
+ni	PART	PART	40
+nijedan	DET	DET	9
+nikada	ADV	ADV	21
+nikakav	DET	DET	8
+niko	PRON	PRON	19
+niti	CCONJ	CCONJ	11
+ništa	PRON	PRON	17
+njegov	DET	DET	136
+njen	DET	DET	66
+njihov	DET	DET	83
+o	ADP	ADP	355
+obećati	VERB	LVERB	16
+objasniti	VERB	LVERB	12
+od	ADP	ADP	556
+od kada	ADP	MWE	556
+od kako	ADP	MWE	556
+od tada	ADP	MWE	556
+odbiti	VERB	LVERB	14
+odlučiti	VERB	LVERB	24
+odmah	ADV	ADV	15
+odsto	ADV	ADV	102
+oko	ADV	ADV	119
+omogućavati	VERB	LVERB	19
+omogućiti	VERB	LVERB	26
+on	PRON	PRON	416
+onaj	DET	DET	80
+onda	ADV	ADV	18
+oni	PRON	PRON	177
+opet	ADV	ADV	8
+osim	ADP	ADP	16
+osim ako	ADP	MWE	16
+ostajati	VERB	LVERB	22
+ostati	VERB	LVERB	36
+otkriti	VERB	LVERB	17
+otprilike	ADV	ADV	5
+ovaj	DET	DET	237
+ovakav	DET	DET	5
+ovde	ADV	ADV	15
+pa	CCONJ	CCONJ	23
+pa i	CCONJ	MWE	23
+pa čak i	CCONJ	MWE	23
+planirati	VERB	LVERB	35
+po	ADP	ADP	114
+pod	ADP	ADP	62
+pokazati	VERB	LVERB	42
+pokazivati	VERB	LVERB	32
+pokušati	VERB	LVERB	20
+pokušavati	VERB	LVERB	27
+pomoći	VERB	LVERB	49
+ponoviti	VERB	LVERB	12
+ponovo	ADV	ADV	24
+poput	ADP	ADP	20
+pored	ADP	ADP	44
+posebno	ADV	ADV	35
+posle	ADP	ADP	115
+postati	VERB	LVERB	75
+potom	ADV	ADV	11
+potvrditi	VERB	LVERB	16
+povodom	ADP	ADP	9
+pozivati	VERB	LVERB	29
+pozvati	VERB	LVERB	37
+početkom	ADP	ADP	19
+počinjati	VERB	LVERB	10
+pošto	SCONJ	SCONJ	20
+pre	ADP	ADP	85
+pre nego što	ADP	MWE	85
+pred	ADP	ADP	26
+predložiti	VERB	LVERB	22
+preko	ADP	ADP	47
+prema	ADP	ADP	122
+pri	ADP	ADP	9
+prilikom	ADP	ADP	8
+protiv	ADP	ADP	113
+puno	ADV	ADV	22
+putem	ADP	ADP	18
+radi	VERB	LVERB	40
+reći	VERB	LVERB	415
+s obzirom da	ADP	MWE	48
+s obzirom na	ADP	MWE	48
+sa	ADP	ADP	738
+sada	ADV	ADV	90
+samo	ADV	ADV	120
+samo da	ADV	MWE	120
+samo što	ADV	MWE	120
+saopštiti	VERB	LVERB	62
+sav	DET	DET	162
+sebe	PRON	PRON	1451
+skoro	ADV	ADV	29
+složiti	VERB	LVERB	19
+smatrati	VERB	LVERB	48
+sredinom	ADP	ADP	7
+svaki	DET	DET	71
+svako	DET	DET	10
+sve	DET	DET	127
+svoj	DET	DET	350
+tada	ADV	ADV	10
+taj	DET	DET	733
+takav	DET	DET	67
+tako	ADV	ADV	46
+tako da	ADV	MWE	46
+tako i	ADV	MWE	46
+takođe	ADV	ADV	167
+te	DET	DET	55
+tek	ADV	ADV	12
+tokom	ADP	ADP	84
+toliko	ADV	ADV	15
+tražiti	VERB	LVERB	40
+trebati	VERB	LVERB	169
+trenutno	ADV	ADV	28
+tu	ADV	ADV	32
+tvrditi	VERB	LVERB	35
+u	ADP	ADP	3202
+u odnosu na	ADP	MWE	3202
+u skladu sa	ADP	MWE	3202
+u vezi sa	ADP	MWE	3202
+uglavnom	ADV	ADV	16
+ujutru	ADV	ADV	6
+ukazati	VERB	LVERB	35
+uključivati	ADV	ADV	84
+ukoliko	SCONJ	SCONJ	11
+ukupno	ADV	ADV	23
+umesto	ADP	ADP	22
+umesto da	ADP	MWE	22
+unutar	ADP	ADP	13
+uopšte	ADV	ADV	7
+uoči	ADP	ADP	13
+upozoravati	VERB	LVERB	12
+upozoriti	VERB	LVERB	23
+uprkos	ADP	ADP	29
+uprkos tome što	ADP	MWE	29
+usled	ADP	ADP	3
+uspeti	VERB	LVERB	28
+usred	ADP	ADP	6
+uvek	ADV	ADV	56
+uveče	ADV	ADV	7
+uz	ADP	ADP	21
+učiniti	VERB	LVERB	22
+van	ADP	ADP	4
+vaš	DET	DET	9
+veoma	ADV	ADV	22
+verovati	VERB	LVERB	35
+već	ADV	ADV	66
+već i	ADV	MWE	66
+vi	PRON	PRON	11
+vrlo	ADV	ADV	23
+za	ADP	ADP	1201
+za sada	ADP	MWE	1201
+zaista	ADV	ADV	9
+zajedno	ADV	ADV	24
+zatim	ADV	ADV	6
+zato	SCONJ	SCONJ	42
+zato što	SCONJ	MWE	42
+zatražiti	VERB	LVERB	16
+zbog	ADP	ADP	111
+zbog toga što	ADP	MWE	111
+znati	VERB	LVERB	31
+značiti	VERB	LVERB	34
+čak	ADV	ADV	24
+čak i	ADV	MWE	24
+čak i ako	ADV	MWE	24
+često	ADV	ADV	23
+čiji	DET	DET	38
+čim	SCONJ	SCONJ	3
+širom	ADP	ADP	23
+šta	PRON	PRON	34
+što	SCONJ	SCONJ	323
+želeti	VERB	LVERB	67

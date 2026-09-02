@@ -1,0 +1,385 @@
+# aligned companion of POSNoise_PatternList_It_v1.0.txt; evidence: UD_Italian-ISDT (14167 sentences)
+# entry	upos	class	evidence_count
+'s	PART	PART	26
+a	ADP	ADP	7710
+a che	ADP	MWE	7710
+abbastanza	ADV	ADV	22
+accanto a	ADV	MWE	19
+ad	ADP	ADP	470
+adesso	ADV	ADV	55
+affatto	ADV	ADV	3
+affinché	SCONJ	SCONJ	16
+alcun	DET	DET	28
+alcuna	DET	DET	35
+alcune	DET	DET	47
+alcuni	DET	DET	155
+alcuno	DET	DET	262
+allora	ADV	ADV	48
+alquanto	ADV	ADV	2
+altra	ADJ	OTH	129
+altre	ADJ	OTH	139
+altri	ADJ	OTH	240
+altrimenti	ADV	ADV	14
+altro	ADJ	OTH	691
+altrove	ADV	ADV	6
+altrui	DET	DET	28
+anche	ADV	ADV	784
+anche se	ADV	MWE	784
+ancora	ADV	ADV	180
+and	CCONJ	CCONJ	9
+andare	VERB	LVERB	231
+anzi	ADV	ADV	21
+appena	ADV	ADV	36
+assai	ADV	ADV	10
+assieme a	ADV	MWE	15
+attorno a	ADV	MWE	19
+attorno ad	ADV	MWE	19
+attraverso	ADP	ADP	56
+attualmente	ADV	ADV	19
+avere	AUX	AUX	3078
+benché	SCONJ	SCONJ	6
+bene	ADV	ADV	205
+bensì	CCONJ	CCONJ	5
+c'	PRON	PRON	168
+ce	PROPN	OTH	37
+certe	DET	DET	13
+certi	DET	DET	15
+certo	ADV	ADV	104
+che	PRON	PRON	3950
+chi	PRON	PRON	470
+chiunque	PRON	PRON	12
+ci	PRON	PRON	580
+ciascun	DET	DET	18
+ciascuna	DET	DET	19
+ciascuno	DET	DET	62
+cioè	CCONJ	CCONJ	99
+circa	ADV	ADV	60
+ciò	PRON	PRON	103
+coloro	PRON	PRON	28
+colui	PRON	PRON	8
+come	ADP	ADP	926
+come a	ADP	MWE	926
+come da	ADP	MWE	926
+come in	ADP	MWE	926
+completamente	ADV	ADV	12
+comunque	ADV	ADV	54
+con	ADP	ADP	1466
+contro	ADP	ADP	170
+contro di	ADP	MWE	170
+cos'	PRON	PRON	59
+cosa	NOUN	OTH	385
+così	ADV	ADV	158
+cui	PRON	PRON	410
+c’	PRON	PRON	19
+d'	ADP	ADP	387
+da	ADP	ADP	3218
+da quando	ADP	MWE	3218
+dare	VERB	LVERB	197
+davanti	ADV	ADV	38
+davanti a	ADV	MWE	38
+davvero	ADV	ADV	32
+de	PROPN	OTH	106
+degli	DET	DET	12
+dei	DET	DET	37
+delle	DET	DET	28
+dentro	ADV	ADV	13
+determinate	DET	DET	14
+di	ADP	ADP	19611
+di come	ADP	MWE	19611
+di nuovo	ADP	MWE	19611
+di per sé	ADP	MWE	19611
+dietro	ADP	ADP	24
+dietro a	ADP	MWE	24
+dinanzi a	ADV	MWE	10
+dire	VERB	LVERB	269
+diversa	ADJ	OTH	22
+diverse	ADJ	OTH	36
+diversi	DET	DET	63
+diverso	ADJ	OTH	146
+dopo	ADP	ADP	323
+dopo che	ADP	MWE	323
+dove	ADV	ADV	315
+dovere	AUX	AUX	610
+dunque	ADV	ADV	21
+durante	ADP	ADP	133
+d’	ADP	ADP	56
+e	CCONJ	CCONJ	5911
+ed	CCONJ	CCONJ	297
+egli	PRON	PRON	42
+entrambe	DET	DET	7
+entrambi	DET	DET	23
+entro	ADP	ADP	62
+eppure	ADV	ADV	19
+esattamente	ADV	ADV	8
+essa	PRON	PRON	46
+esse	PRON	PRON	27
+essere	AUX	AUX	7775
+essi	PRON	PRON	40
+esso	PRON	PRON	127
+fare	VERB	LVERB	863
+fin	ADV	ADV	15
+fin da	ADV	MWE	15
+finalmente	ADV	ADV	17
+finché	SCONJ	SCONJ	20
+fino a	ADV	MWE	137
+fino a quando	ADV	MWE	137
+fino ad	ADV	MWE	137
+forse	ADV	ADV	83
+fra	ADP	ADP	104
+fuori	ADV	ADV	54
+fuori da	ADV	MWE	54
+fuori di	ADV	MWE	54
+generalmente	ADV	ADV	10
+già	ADV	ADV	164
+gli	DET	DET	1856
+glie	PRON	PRON	10
+grazie a	NOUN	MWE	50
+i	DET	DET	4870
+il	DET	DET	38053
+in	ADP	ADP	6514
+in quanto	ADP	MWE	6514
+infine	ADV	ADV	36
+innanzi	ADP	ADP	12
+inoltre	ADV	ADV	99
+insieme a	ADV	MWE	80
+insieme ad	ADV	MWE	80
+insieme con	ADV	MWE	80
+intanto	ADV	ADV	26
+intorno	ADV	ADV	25
+intorno a	ADV	MWE	25
+invece	ADV	ADV	117
+invece di	ADV	MWE	117
+io	PRON	PRON	73
+l'	DET	DET	4765
+la	DET	DET	9698
+lasciare	VERB	LVERB	93
+le	DET	DET	4254
+lei	PRON	PRON	62
+li	PRON	PRON	137
+lo	DET	DET	1179
+lontano	ADJ	OTH	38
+lontano da	ADJ	MWE	38
+loro	DET	DET	353
+lui	PRON	PRON	112
+lungo	ADJ	OTH	130
+là	ADV	ADV	17
+lì	ADV	ADV	23
+l’	DET	DET	301
+ma	CCONJ	CCONJ	710
+magari	ADV	ADV	15
+mai	ADV	ADV	97
+male	ADV	ADV	33
+malgrado	ADP	ADP	7
+me	PRON	PRON	43
+medesimo	ADJ	OTH	32
+mediante	ADP	ADP	29
+meno	ADV	ADV	114
+mentre	SCONJ	SCONJ	126
+mettere	VERB	LVERB	162
+mi	PRON	PRON	167
+mia	DET	DET	40
+miei	DET	DET	15
+mio	DET	DET	115
+molta	DET	DET	15
+molte	DET	DET	78
+molti	DET	DET	134
+moltissimi	DET	DET	5
+molto	DET	DET	424
+n'	PRON	PRON	6
+ne	PRON	PRON	281
+neanche	ADV	ADV	7
+nemmeno	ADV	ADV	16
+neppure	ADV	ADV	22
+nessun	DET	DET	26
+nessuna	DET	DET	26
+nessuno	PRON	PRON	89
+niente	PRON	PRON	21
+noi	PRON	PRON	109
+non	ADV	ADV	1908
+nonché	CCONJ	CCONJ	26
+nonostante	ADP	ADP	30
+nostra	DET	DET	60
+nostre	DET	DET	22
+nostri	DET	DET	40
+nostro	DET	DET	185
+nulla	PRON	PRON	38
+numerose	ADJ	OTH	9
+numerosi	DET	DET	22
+nuovamente	ADV	ADV	12
+nè	CCONJ	CCONJ	28
+né	CCONJ	CCONJ	52
+o	CCONJ	CCONJ	1112
+od	CCONJ	CCONJ	21
+of	ADP	ADP	21
+ogni	DET	DET	326
+ognuno	PRON	PRON	11
+oltre	ADV	ADV	104
+oltre a	ADV	MWE	104
+oltre che	ADV	MWE	104
+oppure	CCONJ	CCONJ	48
+ora	NOUN	OTH	205
+ormai	ADV	ADV	50
+ossia	CCONJ	CCONJ	4
+ove	SCONJ	SCONJ	8
+ovunque	ADV	ADV	6
+ovvero	CCONJ	CCONJ	36
+parecchio	DET	DET	5
+parere	VERB	LVERB	41
+particolarmente	ADV	ADV	15
+per	ADP	ADP	2952
+perchè	SCONJ	SCONJ	8
+perché	SCONJ	SCONJ	234
+perciò	ADV	ADV	39
+perfino	ADV	ADV	12
+pertanto	ADV	ADV	35
+però	ADV	ADV	109
+piuttosto	ADV	ADV	21
+piuttosto che	ADV	MWE	21
+più	ADV	ADV	948
+più che	ADV	MWE	948
+po'	ADV	ADV	54
+poche	DET	DET	27
+pochi	DET	DET	39
+pochissimi	DET	DET	5
+poco	ADV	ADV	245
+poi	ADV	ADV	171
+poiché	SCONJ	SCONJ	14
+potere	AUX	AUX	1195
+prendere	VERB	LVERB	148
+presso	ADP	ADP	37
+presto	ADV	ADV	19
+prima	ADV	ADV	367
+prima che	ADV	MWE	367
+prima di	ADV	MWE	367
+principalmente	ADV	ADV	14
+propri	DET	DET	34
+propria	DET	DET	48
+proprie	DET	DET	27
+proprio	DET	DET	268
+purché	SCONJ	SCONJ	20
+qua	ADV	ADV	1
+qual	PRON	PRON	230
+qualche	DET	DET	120
+qualcosa	PRON	PRON	28
+qualcuno	PRON	PRON	25
+quale	DET	DET	854
+quali	PRON	PRON	118
+qualora	SCONJ	SCONJ	40
+qualsiasi	DET	DET	71
+qualunque	DET	DET	26
+quando	SCONJ	SCONJ	567
+quanta	DET	DET	7
+quante	DET	DET	62
+quanti	DET	DET	138
+quanto	PRON	PRON	464
+quanto a	PRON	MWE	464
+quasi	ADV	ADV	89
+quegli	DET	DET	11
+quei	DET	DET	24
+quel	DET	DET	66
+quell'	DET	DET	15
+quella	PRON	PRON	114
+quelle	PRON	PRON	79
+quelli	PRON	PRON	78
+quello	PRON	PRON	539
+quest'	DET	DET	65
+questa	DET	DET	251
+queste	DET	DET	114
+questi	DET	DET	146
+questo	DET	DET	1003
+quest’	DET	DET	37
+qui	ADV	ADV	96
+quindi	ADV	ADV	91
+raramente	ADV	ADV	5
+restare	VERB	LVERB	67
+riguardo a	NOUN	MWE	35
+rimanere	VERB	LVERB	83
+rispetto a	NOUN	MWE	71
+rispetto ad	NOUN	MWE	71
+risultare	VERB	LVERB	47
+s'	PRON	PRON	28
+salvo	ADJ	OTH	90
+salvo che	ADJ	MWE	90
+sapere	VERB	LVERB	140
+se	SCONJ	SCONJ	776
+sebbene	SCONJ	SCONJ	17
+secondo	ADP	ADP	315
+sembrare	VERB	LVERB	87
+semplicemente	ADV	ADV	9
+sempre	ADV	ADV	185
+senza	ADP	ADP	226
+senza che	ADP	MWE	226
+si	PRON	PRON	2417
+sia	AUX	AUX	264
+sino a	ADV	MWE	18
+solamente	ADV	ADV	5
+solere	VERB	LVERB	1
+solitamente	ADV	ADV	2
+solo	ADV	ADV	290
+soltanto	ADV	ADV	92
+sopra	ADP	ADP	53
+soprattutto	ADV	ADV	92
+sotto	ADP	ADP	108
+specialmente	ADV	ADV	12
+spesso	ADV	ADV	78
+stare	AUX	AUX	181
+stessa	ADJ	OTH	97
+stesso	ADJ	OTH	296
+su	ADP	ADP	1276
+su come	ADP	MWE	1276
+su di	ADP	MWE	1276
+sua	DET	DET	401
+subito	ADV	ADV	61
+sue	DET	DET	112
+suo	DET	DET	1040
+suoi	DET	DET	153
+sè	PRON	PRON	11
+sé	PRON	PRON	11
+tal	DET	DET	25
+tale	DET	DET	192
+tali	DET	DET	68
+taluni	DET	DET	6
+talvolta	ADV	ADV	5
+tanta	DET	DET	8
+tante	DET	DET	8
+tanti	DET	DET	24
+tanto	ADV	ADV	88
+tardi	ADV	ADV	12
+te	PRON	PRON	23
+tenere	VERB	LVERB	171
+the	DET	DET	29
+ti	PRON	PRON	62
+totalmente	ADV	ADV	8
+tra	ADP	ADP	391
+tra di	ADP	MWE	391
+tramite	ADP	ADP	23
+tranne	ADP	ADP	7
+troppe	DET	DET	6
+troppo	ADV	ADV	77
+trovare	VERB	LVERB	276
+tu	PRON	PRON	17
+tua	DET	DET	15
+tuo	DET	DET	56
+tuoi	DET	DET	16
+tutta	DET	DET	72
+tuttavia	ADV	ADV	80
+tutte	DET	DET	102
+tutti	DET	DET	290
+tutto	DET	DET	688
+un	DET	DET	2526
+un'	DET	DET	341
+una	DET	DET	1718
+uni	PRON	PRON	8
+unicamente	ADV	ADV	2
+uno	DET	DET	4883
+un’	DET	DET	18
+vari	ADJ	OTH	27
+varie	ADJ	OTH	22
+vedere	VERB	LVERB	481
+venire	AUX	AUX	466
+verso	ADP	ADP	123
+vi	PRON	PRON	128
+vicino	NOUN	OTH	125
+vicino a	NOUN	MWE	125
+voi	PRON	PRON	14
+volere	AUX	AUX	246

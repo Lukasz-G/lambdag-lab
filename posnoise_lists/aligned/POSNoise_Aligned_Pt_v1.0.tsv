@@ -1,0 +1,385 @@
+# aligned companion of POSNoise_PatternList_Pt_v1.0.txt; evidence: UD_Portuguese-Bosque (18714 sentences)
+# entry	upos	class	evidence_count
+/	PUNCT	OTH	106
+a	DET	DET	29352
+a a medida que	DET	MWE	29352
+a as vezes	DET	MWE	29352
+a favor ou contra	DET	MWE	29352
+a fim de	DET	MWE	29352
+a fim de que	DET	MWE	29352
+a não ser	DET	MWE	29352
+a não ser que	DET	MWE	29352
+a o	DET	MWE	29352
+a o invés	DET	MWE	29352
+a o invés de	DET	MWE	29352
+a o passo que	DET	MWE	29352
+a o ponto de	DET	MWE	29352
+a par de	DET	MWE	29352
+a partir de	DET	MWE	29352
+a ponto de	DET	MWE	29352
+a respeito de	DET	MWE	29352
+abaixo	ADV	ADV	18
+acabar	VERB	LVERB	176
+acerca	ADV	ADV	12
+acerca de	ADV	MWE	12
+achar	VERB	LVERB	110
+acima	ADV	ADV	28
+aconselhar	VERB	LVERB	22
+acreditar	VERB	LVERB	90
+acrescentar	VERB	LVERB	82
+actualmente	ADV	ADV	42
+acusar	VERB	LVERB	96
+adiantar	VERB	LVERB	44
+admitir	VERB	LVERB	76
+afinal	ADV	ADV	30
+afirmar	VERB	LVERB	288
+agora	ADV	ADV	324
+agora que	ADV	MWE	324
+ainda	ADV	ADV	604
+ainda assim	ADV	MWE	604
+ainda que	ADV	MWE	604
+ajudar	VERB	LVERB	60
+alegar	VERB	LVERB	30
+algo	PRON	PRON	52
+algum	DET	DET	408
+alguém	PRON	PRON	34
+ali	ADV	ADV	68
+aliás	ADV	ADV	56
+alto	ADJ	OTH	92
+além	ADV	ADV	194
+além de	ADV	MWE	194
+amanhã	ADV	ADV	56
+ambos	PRON	PRON	68
+ameaçar	VERB	LVERB	42
+andar	VERB	LVERB	64
+anteontem	ADV	ADV	58
+antes	ADV	ADV	272
+antes de	ADV	MWE	272
+anunciar	VERB	LVERB	122
+ao	ADP	ADP	34
+apenas	ADV	ADV	268
+apesar	ADV	ADV	168
+apesar de	ADV	MWE	168
+apesar disso	ADV	MWE	168
+apontar	VERB	LVERB	86
+aprender	VERB	LVERB	26
+após	ADP	ADP	168
+aquele	DET	DET	220
+aqui	ADV	ADV	116
+aquilo	PRON	PRON	40
+aquém	ADV	ADV	10
+assim	ADV	ADV	200
+assim como	ADV	MWE	200
+através	ADV	ADV	130
+atrás	ADV	ADV	42
+até	ADP	ADP	518
+avaliar	VERB	LVERB	30
+aí	ADV	ADV	100
+baixo	ADJ	OTH	66
+bastante	ADV	ADV	58
+bem	ADV	ADV	290
+bem como	ADV	MWE	290
+cada	DET	DET	218
+cada vez mais	DET	MWE	218
+cedo	ADV	ADV	18
+cerca	ADV	ADV	198
+cerca de	ADV	MWE	198
+certo	DET	DET	102
+certos	DET	DET	18
+chamar	VERB	LVERB	124
+claro	ADJ	OTH	106
+classificar	VERB	LVERB	24
+com	ADP	ADP	3154
+com vista a	ADP	MWE	3154
+começar	VERB	LVERB	256
+como	ADP	ADP	1416
+como que	ADP	MWE	1416
+como se	ADP	MWE	1416
+como também	ADP	MWE	1416
+compreender	VERB	LVERB	32
+comprometer	VERB	LVERB	24
+comprovar	VERB	LVERB	24
+concluir	VERB	LVERB	66
+concordar	VERB	LVERB	24
+confessar	VERB	LVERB	28
+conforme	SCONJ	SCONJ	20
+conseguir	VERB	LVERB	296
+considerar	VERB	LVERB	244
+consistir	VERB	LVERB	24
+continuar	VERB	LVERB	242
+contra	ADP	ADP	288
+contudo	CCONJ	CCONJ	24
+convencer	VERB	LVERB	42
+convidar	VERB	LVERB	32
+crer	VERB	LVERB	26
+cujo	DET	DET	106
+cá	ADV	ADV	18
+da	ADP	ADP	6
+dado que	NOUN	MWE	100
+de	ADP	ADP	35346
+de aí a	ADP	MWE	35346
+de esse modo	ADP	MWE	35346
+de forma a	ADP	MWE	35346
+de modo a	ADP	MWE	35346
+de modo que	ADP	MWE	35346
+de novo	ADP	MWE	35346
+de o que	ADP	MWE	35346
+de o que como	ADP	MWE	35346
+de tal modo que	ADP	MWE	35346
+debaixo	ADV	ADV	6
+decidir	VERB	LVERB	122
+declarar	VERB	LVERB	52
+deixar	VERB	LVERB	228
+demais	ADV	ADV	46
+demasiado	ADV	ADV	26
+demonstrar	VERB	LVERB	40
+dentro	ADV	ADV	88
+depois	ADV	ADV	418
+depois de	ADV	MWE	418
+depressa	ADV	ADV	10
+des	ADP	ADP	10
+desde	ADP	ADP	244
+desde que	ADP	MWE	244
+desejar	VERB	LVERB	34
+desta	ADP	ADP	12
+destinar	VERB	LVERB	60
+dever	VERB	LVERB	528
+devido	ADV	ADV	50
+dezena	NUM	NUM	22
+dezenas de	DET	MWE	20
+diante	ADV	ADV	38
+diante de	ADV	MWE	38
+disso	PRON	PRON	10
+diversos	DET	DET	46
+dizer	VERB	LVERB	1020
+durante	ADP	ADP	246
+e	CCONJ	CCONJ	8568
+e/ou	CCONJ	CCONJ	6
+eis	ADP	ADP	18
+ela	PRON	PRON	372
+elas	PRON	PRON	130
+ele	PRON	PRON	1230
+eles	PRON	PRON	324
+eles/elas	PRON	PRON	8
+em	ADP	ADP	12916
+em a verdade	ADP	MWE	12916
+em favor de	ADP	MWE	12916
+em o entanto	ADP	MWE	12916
+em relação a	ADP	MWE	12916
+em torno de	ADP	MWE	12916
+em vez de	ADP	MWE	12916
+embora	SCONJ	SCONJ	126
+enfim	ADV	ADV	8
+enquanto	ADV	ADV	172
+enquanto que	ADV	MWE	172
+entender	VERB	LVERB	72
+entre	ADP	ADP	744
+entrementes	ADV	ADV	6
+entretanto	CCONJ	CCONJ	60
+então	ADV	ADV	88
+esclarecer	VERB	LVERB	32
+esperar	VERB	LVERB	142
+esse	DET	DET	586
+estar	AUX	AUX	1674
+este	DET	DET	1348
+etc	ADV	ADV	10
+etc.	ADV	ADV	18
+eu	PRON	PRON	424
+exceto	ADP	ADP	6
+explicar	VERB	LVERB	130
+face	ADV	ADV	54
+face a	ADV	MWE	54
+ficar	VERB	LVERB	380
+foi	AUX	AUX	1256
+fora	ADV	ADV	148
+fora de mão	ADV	MWE	148
+forçar	VERB	LVERB	26
+garantir	VERB	LVERB	98
+gostar	VERB	LVERB	72
+graças	ADV	ADV	24
+graças a	ADV	MWE	24
+haver	VERB	LVERB	782
+hoje	ADV	ADV	320
+há	VERB	LVERB	556
+imaginar	VERB	LVERB	36
+indicar	VERB	LVERB	62
+informar	VERB	LVERB	88
+interessar	VERB	LVERB	30
+ir	AUX	AUX	970
+isso	PRON	PRON	336
+isto	PRON	PRON	130
+isto é	PRON	MWE	130
+jamais	ADV	ADV	14
+julgar	VERB	LVERB	26
+junto	ADV	ADV	78
+já	ADV	ADV	730
+já que	ADV	MWE	730
+lembrar	VERB	LVERB	58
+limitar	VERB	LVERB	38
+logo	ADV	ADV	104
+logo que	ADV	MWE	104
+longe	ADV	ADV	56
+lá	ADV	ADV	96
+mais	ADV	ADV	1656
+mais de	ADV	MWE	1656
+mais de o que	ADV	MWE	1656
+mais uma vez	ADV	MWE	1656
+mal	ADV	ADV	76
+mandar	VERB	LVERB	32
+mas	CCONJ	CCONJ	1126
+mediante	ADP	ADP	10
+melhor	ADJ	OTH	176
+menos	ADV	ADV	248
+mesmo	ADJ	OTH	552
+mesmo assim	ADJ	MWE	552
+mesmo que	ADJ	MWE	552
+meu	DET	DET	196
+mostrar	VERB	LVERB	176
+muitas	DET	DET	76
+muito	ADV	ADV	636
+nada	PRON	PRON	156
+nada mais nada menos	PRON	MWE	156
+negar	VERB	LVERB	44
+nem	CCONJ	CCONJ	204
+nem mesmo	CCONJ	MWE	204
+nenhum	DET	DET	82
+nessa	ADP	ADP	6
+ninguém	PRON	PRON	90
+nosso	DET	DET	216
+novo	ADJ	OTH	628
+nunca	ADV	ADV	124
+não	ADV	ADV	2790
+não só	ADV	MWE	2790
+nós	PRON	PRON	208
+o	DET	DET	57178
+obrigar	VERB	LVERB	44
+onde	PRON	PRON	356
+ontem	ADV	ADV	594
+ora	ADV	ADV	24
+ou	CCONJ	CCONJ	722
+ou seja	CCONJ	MWE	722
+outro	DET	DET	756
+outrora	ADV	ADV	6
+para	ADP	ADP	3948
+para além de	ADP	MWE	3948
+parecer	VERB	LVERB	196
+pelo	ADP	ADP	10
+pelo menos	ADP	MWE	10
+pensar	VERB	LVERB	142
+perante	ADP	ADP	36
+perceber	VERB	LVERB	28
+perguntar	VERB	LVERB	38
+permanecer	VERB	LVERB	34
+permitir	VERB	LVERB	170
+perto	ADV	ADV	52
+pior	ADJ	OTH	24
+poder	VERB	LVERB	1012
+pois	SCONJ	SCONJ	110
+por	ADP	ADP	4386
+por assim dizer	ADP	MWE	4386
+por exemplo	ADP	MWE	4386
+por fim	ADP	MWE	4386
+por mais que	ADP	MWE	4386
+por meio de	ADP	MWE	4386
+por o menos	ADP	MWE	4386
+por o que	ADP	MWE	4386
+por outro lado	ADP	MWE	4386
+porque	SCONJ	SCONJ	350
+porquê	ADV	ADV	12
+portanto	CCONJ	CCONJ	22
+porém	CCONJ	CCONJ	60
+pouco	ADV	ADV	334
+pra	ADP	ADP	8
+precisar	VERB	LVERB	62
+preferir	VERB	LVERB	60
+pretender	VERB	LVERB	104
+primeira	ADJ	OTH	268
+primeiro	ADJ	OTH	596
+procurar	VERB	LVERB	106
+prometer	VERB	LVERB	28
+próprio	DET	DET	204
+próximo	ADJ	OTH	248
+qual	PRON	PRON	212
+qualquer	DET	DET	218
+quando	ADV	ADV	450
+quanto	ADV	ADV	164
+quanto a	ADV	MWE	164
+quase	ADV	ADV	158
+que	PRON	PRON	8900
+quem	PRON	PRON	288
+quer	VERB	LVERB	106
+querer	VERB	LVERB	308
+recentemente	ADV	ADV	44
+recomendar	VERB	LVERB	22
+reconhecer	VERB	LVERB	56
+recordar	VERB	LVERB	54
+recusar	VERB	LVERB	44
+resolver	VERB	LVERB	84
+revelar	VERB	LVERB	110
+rumo	ADV	ADV	16
+rápido	ADJ	OTH	58
+saber	VERB	LVERB	282
+salientar	VERB	LVERB	22
+se	PRON	PRON	3420
+se bem que	PRON	MWE	3420
+segundo	ADP	ADP	636
+sem	ADP	ADP	438
+sem que	ADP	MWE	438
+sempre	ADV	ADV	226
+sendo assim	AUX	MWE	100
+sentir	VERB	LVERB	56
+senão	ADV	ADV	20
+sequer	ADV	ADV	48
+ser	AUX	AUX	7486
+seu	DET	DET	2188
+si	PRON	PRON	64
+significar	VERB	LVERB	44
+sim	ADV	ADV	44
+sob	ADP	ADP	102
+sobre	ADP	ADP	710
+sobretudo	ADV	ADV	58
+sua	DET	DET	896
+sublinhar	VERB	LVERB	32
+só	ADV	ADV	470
+tais como	DET	MWE	26
+tal	DET	DET	116
+tal como	DET	MWE	116
+talvez	ADV	ADV	78
+também	ADV	ADV	618
+tampouco	ADV	ADV	6
+tanto	DET	DET	124
+tanto mais que	DET	MWE	124
+temer	VERB	LVERB	30
+tentar	VERB	LVERB	160
+ter	VERB	LVERB	2534
+toda	DET	DET	140
+toda a	DET	MWE	140
+todas as	DET	MWE	114
+todo	DET	DET	704
+todo o	DET	MWE	704
+todos os	DET	MWE	304
+tornar	VERB	LVERB	140
+trás	ADV	ADV	14
+tu	PRON	PRON	10
+tudo	PRON	PRON	236
+tão	ADV	ADV	118
+um	DET	DET	7216
+um pouco	DET	MWE	7216
+uma	DET	DET	3332
+uma a uma	DET	MWE	3332
+uma vez que	DET	MWE	3332
+uns vez que	DET	MWE	58
+ver	VERB	LVERB	368
+vice-versa	ADV	ADV	8
+vir	VERB	LVERB	288
+visar	VERB	LVERB	24
+visto que	VERB	MWE	50
+você	PRON	PRON	80
+voltar	VERB	LVERB	144
+vosso	DET	DET	10
+vulgo	ADV	ADV	6
+várias	DET	DET	74
+vários	DET	DET	98
+vós	PRON	PRON	8
+é	AUX	AUX	2706
+é como se	AUX	MWE	2706

@@ -1,0 +1,466 @@
+# aligned companion of POSNoise_PatternList_Ro_v1.0.txt; evidence: UD_Romanian-RRT (9524 sentences)
+# entry	upos	class	evidence_count
+-a	DET	DET	38
+-lea	DET	DET	38
+-ul	DET	DET	27
+-ului	DET	DET	18
+-uri	DET	DET	5
+a	AUX	AUX	4777
+abia	ADV	ADV	31
+acasă	ADV	ADV	25
+acel	DET	DET	91
+acela	PRON	PRON	510
+același	DET	DET	119
+acest	DET	DET	688
+acesta	PRON	PRON	515
+acolo	ADV	ADV	38
+acum	ADV	ADV	103
+adesea	ADV	ADV	14
+adică	ADV	ADV	19
+adânc	ADJ	OTH	27
+afara	ADV	ADV	24
+afară	ADV	ADV	54
+afară de	ADV	MWE	54
+afirma	VERB	LVERB	19
+aici	ADV	ADV	76
+al	DET	DET	2856
+ales	ADV	ADV	70
+alt	DET	DET	268
+altceva	PRON	PRON	9
+altcineva	PRON	PRON	4
+altfel	ADV	ADV	35
+altul	PRON	PRON	88
+alături	ADV	ADV	33
+alături de	ADV	MWE	33
+amenința	VERB	LVERB	10
+angaja	VERB	LVERB	23
+anterior	ADJ	OTH	39
+anumit	DET	DET	114
+anunța	VERB	LVERB	41
+apoi	ADV	ADV	93
+aproape	ADV	ADV	103
+apuca	VERB	LVERB	28
+arăta	VERB	LVERB	63
+asemenea	ADJ	OTH	158
+astfel	ADV	ADV	190
+astfel că	ADV	MWE	190
+astfel încât	ADV	MWE	190
+astăzi	ADV	ADV	28
+asupra	ADP	ADP	152
+atunci	ADV	ADV	110
+atunci când	ADV	MWE	110
+atât	ADV	ADV	137
+atâta timp cât	DET	MWE	14
+avea	AUX	AUX	4542
+azi	ADV	ADV	20
+așa	ADV	ADV	156
+așa cum	ADV	MWE	156
+așa că	ADV	MWE	156
+așa încât	ADV	MWE	156
+așadar	ADV	ADV	9
+bine	ADV	ADV	99
+brusc	ADV	ADV	21
+ca	ADP	ADP	738
+ca atare	ADP	MWE	738
+ca și	ADP	MWE	738
+ca și cum	ADP	MWE	738
+cam	ADV	ADV	24
+care	PRON	PRON	2139
+ce	PRON	PRON	774
+cel	DET	DET	562
+cel mult	DET	MWE	562
+cel puțin	DET	MWE	562
+cel târziu	DET	MWE	562
+celălalt	DET	DET	91
+cere	VERB	LVERB	45
+ceva	PRON	PRON	55
+chema	VERB	LVERB	24
+chiar	ADV	ADV	146
+chiar dacă	ADV	MWE	146
+chiar și	ADV	MWE	146
+ci	CCONJ	CCONJ	47
+cine	PRON	PRON	45
+cine știe ce	PRON	MWE	45
+cineva	PRON	PRON	23
+circa	ADV	ADV	18
+clar	ADJ	OTH	33
+conform	ADP	ADP	67
+considera	VERB	LVERB	57
+continua	VERB	LVERB	70
+contra	ADP	ADP	4
+conveni	VERB	LVERB	17
+crede	VERB	LVERB	66
+cu	ADP	ADP	2499
+cu adevărat	ADP	MWE	2499
+cu ajutorul	ADP	MWE	2499
+cu atât mai puțin	ADP	MWE	2499
+cu chiu cu vai	ADP	MWE	2499
+cu excepția	ADP	MWE	2499
+cu precădere	ADP	MWE	2499
+cu privire la	ADP	MWE	2499
+cu siguranță	ADP	MWE	2499
+cu toate acestea	ADP	MWE	2499
+cu toate astea	ADP	MWE	2499
+cu toate că	ADP	MWE	2499
+cu totul	ADP	MWE	2499
+cum	ADV	ADV	236
+cumva	ADV	ADV	10
+curând	ADV	ADV	30
+cutare	DET	DET	9
+cuvânt cu cuvânt	NOUN	MWE	86
+când	ADV	ADV	429
+cât	ADV	ADV	170
+cât și	ADV	MWE	170
+câtva	DET	DET	107
+că	SCONJ	SCONJ	1061
+căci	CCONJ	CCONJ	12
+către	ADP	ADP	167
+da	VERB	LVERB	211
+dacă	SCONJ	SCONJ	496
+dar	CCONJ	CCONJ	363
+datorită	ADP	ADP	35
+de	ADP	ADP	9449
+de aceea	ADP	MWE	9449
+de altfel	ADP	MWE	9449
+de asemenea	ADP	MWE	9449
+de ce	ADP	MWE	9449
+de curând	ADP	MWE	9449
+de către	ADP	MWE	9449
+de deasupra	ADP	MWE	9449
+de exemplu	ADP	MWE	9449
+de fapt	ADP	MWE	9449
+de la	ADP	MWE	9449
+de lângă	ADP	MWE	9449
+de obicei	ADP	MWE	9449
+de pe	ADP	MWE	9449
+de pe urma	ADP	MWE	9449
+de peste	ADP	MWE	9449
+de pildă	ADP	MWE	9449
+de regulă	ADP	MWE	9449
+de sub	ADP	MWE	9449
+de tot	ADP	MWE	9449
+de unde până unde	ADP	MWE	9449
+de îndată	ADP	MWE	9449
+de îndată ce	ADP	MWE	9449
+de- a dreptul	ADP	MWE	73
+de- a lungul	ADP	MWE	73
+de-a	ADP	ADP	11
+de-a lungul	ADP	MWE	11
+deasupra	ADP	ADP	28
+deci	CCONJ	CCONJ	28
+decide	VERB	LVERB	31
+declara	VERB	LVERB	39
+decât	ADV	ADV	174
+degrabă	ADV	ADV	12
+deja	ADV	ADV	42
+demonstra	VERB	LVERB	21
+denumi	VERB	LVERB	12
+deoarece	SCONJ	SCONJ	82
+deodată	ADV	ADV	20
+des	ADV	ADV	15
+despre	ADP	ADP	107
+destul	ADV	ADV	39
+deveni	VERB	LVERB	144
+deși	SCONJ	SCONJ	66
+din	ADP	ADP	2052
+din cadrul	ADP	MWE	2052
+din cauza	ADP	MWE	2052
+din cauză că	ADP	MWE	2052
+din ce în ce	ADP	MWE	2052
+din când în când	ADP	MWE	2052
+din fața	ADP	MWE	2052
+din față	ADP	MWE	2052
+din loc în loc	ADP	MWE	2052
+din moment ce	ADP	MWE	2052
+din nou	ADP	MWE	2052
+din partea	ADP	MWE	2052
+din pricina	ADP	MWE	2052
+din punct de vedere	ADP	MWE	2052
+din spatele	ADP	MWE	2052
+din urmă	ADP	MWE	2052
+dinaintea	ADP	ADP	5
+dincolo	ADV	ADV	13
+dincolo de	ADV	MWE	13
+dinspre	ADP	ADP	7
+dintre	ADP	ADP	224
+dintru	ADP	ADP	73
+doar	ADV	ADV	88
+dori	VERB	LVERB	34
+dovedi	VERB	LVERB	35
+dumnealui	PRON	PRON	4
+dumneata	PRON	PRON	15
+dumneavoastră	PRON	PRON	107
+după	ADP	ADP	460
+după aceea	ADP	MWE	460
+după ce	ADP	MWE	460
+după cum	ADP	MWE	460
+el	PRON	PRON	2614
+estima	VERB	LVERB	16
+etcetera	ADV	ADV	13
+eu	PRON	PRON	633
+executa	VERB	LVERB	20
+extrem	ADV	ADV	13
+față de	NOUN	MWE	204
+față în față	NOUN	MWE	204
+față în față cu	NOUN	MWE	204
+fi	AUX	AUX	4511
+fie	AUX	AUX	242
+fiecare	DET	DET	188
+fiindcă	SCONJ	SCONJ	21
+foarte	ADV	ADV	136
+fără	ADP	ADP	237
+fără de	ADP	MWE	237
+fără să	ADP	MWE	237
+fără îndoială	ADP	MWE	237
+garanta	VERB	LVERB	17
+gata	ADV	ADV	12
+grav	ADJ	OTH	41
+greu	ADV	ADV	38
+hotărî	VERB	LVERB	29
+iar	ADV	ADV	202
+ieri	ADV	ADV	17
+imposibil	ADV	ADV	20
+in	ADP	ADP	33
+in vitro	ADP	MWE	33
+in vivo	ADP	MWE	33
+intenționa	VERB	LVERB	18
+jos	ADV	ADV	81
+la	ADP	ADP	3408
+la fel	ADP	MWE	3408
+la o parte	ADP	MWE	3408
+la început	ADP	MWE	3408
+lui	DET	DET	557
+lângă	ADP	ADP	46
+lăsa	VERB	LVERB	100
+mai	ADV	ADV	1271
+mai ales	ADV	MWE	1271
+mai cu seamă	ADV	MWE	1271
+mai degrabă	ADV	MWE	1271
+mai întâi	ADV	MWE	1271
+mai întâi de toate	ADV	MWE	1271
+mereu	ADV	ADV	12
+meu	DET	DET	189
+mult	DET	DET	383
+mulțumi	VERB	LVERB	12
+măcar	ADV	ADV	10
+mărturisi	VERB	LVERB	10
+necesar	ADJ	OTH	159
+nici	ADV	ADV	184
+nici pe departe	ADV	MWE	184
+nici una nici două	ADV	MWE	184
+nici_un	DET	DET	30
+niciodată	ADV	ADV	47
+nimeni	PRON	PRON	25
+nimic	PRON	PRON	46
+niște	DET	DET	45
+noaptea	NOUN	OTH	28
+nu	PART	PART	1626
+nu știu ce	PART	MWE	1626
+numai	ADV	ADV	170
+numi	VERB	LVERB	82
+o	DET	DET	2175
+o dată cu	DET	MWE	2175
+oarecare	DET	DET	22
+obliga	VERB	LVERB	26
+odată	ADV	ADV	33
+odată ce	ADV	MWE	33
+odată cu	ADV	MWE	33
+ori	NOUN	OTH	102
+ori de câte ori	NOUN	MWE	102
+oricare	DET	DET	50
+orice	DET	DET	184
+oricine	PRON	PRON	5
+oricum	ADV	ADV	15
+parcă	ADV	ADV	45
+pe	ADP	ADP	1783
+pe când	ADP	MWE	1783
+pe de altă parte	ADP	MWE	1783
+pe de o parte	ADP	MWE	1783
+pe deplin	ADP	MWE	1783
+pe ici pe colo	ADP	MWE	1783
+pe la	ADP	MWE	1783
+pe loc	ADP	MWE	1783
+pe lângă	ADP	MWE	1783
+pe măsură ce	ADP	MWE	1783
+pe parcursul	ADP	MWE	1783
+pe sub	ADP	MWE	1783
+pe urmă	ADP	MWE	1783
+pentru	ADP	ADP	1503
+pentru ca	ADP	MWE	1503
+pentru că	ADP	MWE	1503
+per	ADP	ADP	7
+permite	VERB	LVERB	67
+peste	ADP	ADP	112
+peste tot	ADP	MWE	112
+plin	ADJ	OTH	41
+plus	ADV	ADV	28
+posibil	ADV	ADV	59
+potrivit	ADP	ADP	38
+prea	ADV	ADV	69
+precum	ADV	ADV	99
+precum și	ADV	MWE	99
+pretinde	VERB	LVERB	10
+pricepe	VERB	LVERB	10
+prin	ADP	ADP	561
+prin fața	ADP	MWE	561
+prin intermediul	ADP	MWE	561
+prin urmare	ADP	MWE	561
+printre	ADP	ADP	48
+printru	ADP	ADP	46
+privind	ADP	ADP	177
+probabil	ADV	ADV	49
+propune	VERB	LVERB	32
+pur	ADV	ADV	27
+pur și simplu	ADV	MWE	27
+putea	VERB	LVERB	1029
+puțin	ADV	ADV	167
+până	ADP	ADP	299
+până -n	ADP	MWE	299
+până la	ADP	MWE	299
+până la urmă	ADP	MWE	299
+până în	ADP	MWE	299
+până și	ADP	MWE	299
+părea	VERB	LVERB	102
+rapid	ADV	ADV	39
+refuza	VERB	LVERB	21
+relata	VERB	LVERB	11
+repede	ADV	ADV	38
+reprezenta	VERB	LVERB	102
+reuși	VERB	LVERB	50
+ruga	VERB	LVERB	33
+rămâne	VERB	LVERB	116
+rău	ADV	ADV	54
+sau	CCONJ	CCONJ	976
+sigur	ADV	ADV	45
+simplu	ADJ	OTH	37
+simultan	ADV	ADV	13
+sine	PRON	PRON	3936
+slab	ADJ	OTH	23
+socoti	VERB	LVERB	14
+special	ADV	ADV	119
+spre	ADP	ADP	152
+spre deosebire de	ADP	MWE	152
+spune	VERB	LVERB	159
+strâns	ADJ	OTH	34
+strădui	VERB	LVERB	11
+sub	ADP	ADP	191
+sus	ADV	ADV	45
+să	PART	PART	2411
+său	DET	DET	274
+tare	ADV	ADV	32
+tinde	VERB	LVERB	10
+tocmai	ADV	ADV	22
+tot	DET	DET	583
+totodată	ADV	ADV	16
+totuși	ADV	ADV	87
+tu	PRON	PRON	402
+târziu	ADV	ADV	49
+tău	DET	DET	50
+uita	VERB	LVERB	72
+ulterior	ADV	ADV	29
+un	DET	DET	4496
+unde	ADV	ADV	150
+undeva	ADV	ADV	14
+uneori	ADV	ADV	33
+unul	PRON	PRON	227
+urma	VERB	LVERB	134
+ușor	ADV	ADV	67
+va să zică	AUX	MWE	329
+voi	VERB	LVERB	39
+vrea	AUX	AUX	595
+vreun	DET	DET	68
+vreunul	PRON	PRON	7
+zi cu zi	NOUN	MWE	206
+împotriva	ADP	ADP	94
+împreună	ADV	ADV	37
+împreună cu	ADV	MWE	37
+în	ADP	ADP	6105
+în același timp	ADP	MWE	6105
+în afara	ADP	MWE	6105
+în afară de	ADP	MWE	6105
+în al doilea rând	ADP	MWE	6105
+în al treilea rând	ADP	MWE	6105
+în așa fel încât	ADP	MWE	6105
+în cadrul	ADP	MWE	6105
+în ce privește	ADP	MWE	6105
+în ceea ce privește	ADP	MWE	6105
+în cele din urmă	ADP	MWE	6105
+în ciuda	ADP	MWE	6105
+în comun	ADP	MWE	6105
+în conformitate cu	ADP	MWE	6105
+în consecință	ADP	MWE	6105
+în continuare	ADP	MWE	6105
+în cursul	ADP	MWE	6105
+în curând	ADP	MWE	6105
+în favoarea	ADP	MWE	6105
+în fața	ADP	MWE	6105
+în față	ADP	MWE	6105
+în final	ADP	MWE	6105
+în funcție de	ADP	MWE	6105
+în general	ADP	MWE	6105
+în genere	ADP	MWE	6105
+în interiorul	ADP	MWE	6105
+în jos	ADP	MWE	6105
+în jur de	ADP	MWE	6105
+în jurul	ADP	MWE	6105
+în legătură cu	ADP	MWE	6105
+în loc	ADP	MWE	6105
+în loc de	ADP	MWE	6105
+în mijlocul	ADP	MWE	6105
+în numele	ADP	MWE	6105
+în orice caz	ADP	MWE	6105
+în plus	ADP	MWE	6105
+în pofida	ADP	MWE	6105
+în prealabil	ADP	MWE	6105
+în prezent	ADP	MWE	6105
+în primul rând	ADP	MWE	6105
+în principal	ADP	MWE	6105
+în privința	ADP	MWE	6105
+în raport cu	ADP	MWE	6105
+în realitate	ADP	MWE	6105
+în schimb	ADP	MWE	6105
+în sfârșit	ADP	MWE	6105
+în spatele	ADP	MWE	6105
+în special	ADP	MWE	6105
+în sus	ADP	MWE	6105
+în timp ce	ADP	MWE	6105
+în timpul	ADP	MWE	6105
+în tot cazul	ADP	MWE	6105
+în total	ADP	MWE	6105
+în urma	ADP	MWE	6105
+în urmă	ADP	MWE	6105
+în urmă cu	ADP	MWE	6105
+în vederea	ADP	MWE	6105
+în vigoare	ADP	MWE	6105
+în vreme ce	ADP	MWE	6105
+în întregime	ADP	MWE	6105
+înainte	ADV	ADV	158
+înainte ca	ADV	MWE	158
+înainte de	ADV	MWE	158
+înaintea	ADP	ADP	15
+înapoi	ADV	ADV	39
+începe	VERB	LVERB	164
+încerca	VERB	LVERB	49
+înceta	VERB	LVERB	21
+încât	SCONJ	SCONJ	88
+încă	ADV	ADV	104
+îndată	ADV	ADV	17
+îndeosebi	ADV	ADV	10
+însemna	VERB	LVERB	47
+înspre	ADP	ADP	6
+însuși	DET	DET	56
+însă	CCONJ	CCONJ	116
+întotdeauna	ADV	ADV	35
+într-adevăr	ADV	ADV	15
+între	ADP	ADP	224
+între timp	ADP	MWE	224
+întreba	VERB	LVERB	31
+întru	ADP	ADP	335
+întrucât	SCONJ	SCONJ	11
+întâi	NUM	NUM	28
+învăța	VERB	LVERB	15
+și	CCONJ	CCONJ	5338
+și așa mai departe	CCONJ	MWE	5338
+și totuși	CCONJ	MWE	5338
+și_alții	PRON	PRON	5
+ști	VERB	LVERB	142

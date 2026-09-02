@@ -1,0 +1,499 @@
+{
+  "cs": {
+    "by_class": {
+      "ADP": 49,
+      "ADV": 158,
+      "AUX": 3,
+      "CCONJ": 27,
+      "DET": 36,
+      "LVERB": 71,
+      "MWE": 145,
+      "OTH": 1,
+      "PART": 49,
+      "PRON": 18,
+      "SCONJ": 25
+    },
+    "coverage": 1.0,
+    "entries": 582,
+    "list": "POSNoise_PatternList_Cs_v1.0.txt",
+    "sentences": 222835,
+    "treebanks": [
+      "UD_Czech-PDT"
+    ],
+    "with_evidence": 582
+  },
+  "de": {
+    "by_class": {
+      "ADP": 66,
+      "ADV": 345,
+      "AUX": 72,
+      "CCONJ": 12,
+      "DET": 149,
+      "INTJ": 2,
+      "LVERB": 12,
+      "MWE": 391,
+      "NUM": 26,
+      "OTH": 312,
+      "PART": 3,
+      "PRON": 35,
+      "SCONJ": 20,
+      "UNK": 558
+    },
+    "coverage": 0.7214,
+    "entries": 2003,
+    "list": "POSNoise_PatternList_De_v3.0.txt",
+    "sentences": 15589,
+    "treebanks": [
+      "UD_German-GSD"
+    ],
+    "with_evidence": 1445
+  },
+  "el": {
+    "by_class": {
+      "ADP": 32,
+      "ADV": 59,
+      "AUX": 5,
+      "CCONJ": 8,
+      "DET": 12,
+      "LVERB": 45,
+      "MWE": 13,
+      "PART": 3,
+      "PRON": 13,
+      "SCONJ": 13
+    },
+    "coverage": 1.0,
+    "entries": 203,
+    "list": "POSNoise_PatternList_El_v1.0.txt",
+    "sentences": 2521,
+    "treebanks": [
+      "UD_Greek-GDT"
+    ],
+    "with_evidence": 203
+  },
+  "en": {
+    "by_class": {
+      "ADP": 55,
+      "ADV": 139,
+      "AUX": 22,
+      "CCONJ": 9,
+      "DET": 14,
+      "INTJ": 3,
+      "LVERB": 174,
+      "MWE": 322,
+      "NUM": 4,
+      "OTH": 42,
+      "PART": 2,
+      "PRON": 55,
+      "SCONJ": 17,
+      "UNK": 177
+    },
+    "coverage": 0.829,
+    "entries": 1035,
+    "list": "POSNoise_PatternList_En_v2.1.txt",
+    "sentences": 33244,
+    "treebanks": [
+      "UD_English-EWT"
+    ],
+    "with_evidence": 858
+  },
+  "es": {
+    "by_class": {
+      "ADP": 23,
+      "ADV": 72,
+      "AUX": 5,
+      "CCONJ": 8,
+      "DET": 89,
+      "INTJ": 1,
+      "LVERB": 19,
+      "MWE": 166,
+      "NUM": 1,
+      "OTH": 10,
+      "PRON": 47,
+      "SCONJ": 7
+    },
+    "coverage": 1.0,
+    "entries": 448,
+    "list": "POSNoise_PatternList_Es_v1.0.txt",
+    "sentences": 17662,
+    "treebanks": [
+      "UD_Spanish-AnCora"
+    ],
+    "with_evidence": 448
+  },
+  "fr": {
+    "by_class": {
+      "ADP": 35,
+      "ADV": 82,
+      "AUX": 4,
+      "CCONJ": 9,
+      "DET": 34,
+      "LVERB": 21,
+      "MWE": 122,
+      "OTH": 25,
+      "PRON": 60,
+      "SCONJ": 8
+    },
+    "coverage": 1.0,
+    "entries": 400,
+    "list": "POSNoise_PatternList_Fr_v1.0.txt",
+    "sentences": 16342,
+    "treebanks": [
+      "UD_French-GSD"
+    ],
+    "with_evidence": 400
+  },
+  "hr": {
+    "by_class": {
+      "ADP": 57,
+      "ADV": 58,
+      "AUX": 3,
+      "CCONJ": 9,
+      "DET": 32,
+      "LVERB": 84,
+      "MWE": 46,
+      "NUM": 1,
+      "OTH": 3,
+      "PART": 15,
+      "PRON": 16,
+      "SCONJ": 12
+    },
+    "coverage": 1.0,
+    "entries": 336,
+    "list": "POSNoise_PatternList_Hr_v1.0.txt",
+    "sentences": 9010,
+    "treebanks": [
+      "UD_Croatian-SET"
+    ],
+    "with_evidence": 336
+  },
+  "hu": {
+    "by_class": {
+      "ADP": 38,
+      "ADV": 90,
+      "AUX": 3,
+      "CCONJ": 24,
+      "DET": 14,
+      "LVERB": 10,
+      "NUM": 2,
+      "OTH": 2,
+      "PART": 1,
+      "PRON": 37,
+      "SCONJ": 12
+    },
+    "coverage": 1.0,
+    "entries": 233,
+    "list": "POSNoise_PatternList_Hu_v1.0.txt",
+    "sentences": 1800,
+    "treebanks": [
+      "UD_Hungarian-Szeged",
+      "UD_Hungarian-POUD"
+    ],
+    "with_evidence": 233
+  },
+  "it": {
+    "by_class": {
+      "ADP": 32,
+      "ADV": 86,
+      "AUX": 8,
+      "CCONJ": 14,
+      "DET": 93,
+      "LVERB": 17,
+      "MWE": 49,
+      "OTH": 21,
+      "PART": 1,
+      "PRON": 49,
+      "SCONJ": 13
+    },
+    "coverage": 1.0,
+    "entries": 383,
+    "list": "POSNoise_PatternList_It_v1.0.txt",
+    "sentences": 14167,
+    "treebanks": [
+      "UD_Italian-ISDT"
+    ],
+    "with_evidence": 383
+  },
+  "lt": {
+    "by_class": {
+      "ADP": 27,
+      "ADV": 61,
+      "AUX": 1,
+      "CCONJ": 9,
+      "DET": 13,
+      "LVERB": 42,
+      "MWE": 15,
+      "NUM": 1,
+      "OTH": 2,
+      "PART": 27,
+      "PRON": 33,
+      "SCONJ": 13
+    },
+    "coverage": 1.0,
+    "entries": 244,
+    "list": "POSNoise_PatternList_Lt_v1.0.txt",
+    "sentences": 3905,
+    "treebanks": [
+      "UD_Lithuanian-ALKSNIS",
+      "UD_Lithuanian-HSE"
+    ],
+    "with_evidence": 244
+  },
+  "lv": {
+    "by_class": {
+      "ADP": 24,
+      "ADV": 127,
+      "AUX": 2,
+      "CCONJ": 13,
+      "DET": 45,
+      "LVERB": 119,
+      "MWE": 26,
+      "NUM": 1,
+      "OTH": 2,
+      "PART": 33,
+      "PRON": 10,
+      "SCONJ": 9
+    },
+    "coverage": 1.0,
+    "entries": 411,
+    "list": "POSNoise_PatternList_Lv_v1.0.txt",
+    "sentences": 19580,
+    "treebanks": [
+      "UD_Latvian-LVTB"
+    ],
+    "with_evidence": 411
+  },
+  "nl": {
+    "by_class": {
+      "ADP": 62,
+      "ADV": 138,
+      "AUX": 7,
+      "CCONJ": 14,
+      "DET": 23,
+      "LVERB": 62,
+      "MWE": 115,
+      "NUM": 1,
+      "OTH": 4,
+      "PRON": 40,
+      "SCONJ": 24
+    },
+    "coverage": 1.0,
+    "entries": 490,
+    "list": "POSNoise_PatternList_Nl_v1.0.txt",
+    "sentences": 30723,
+    "treebanks": [
+      "UD_Dutch-Alpino",
+      "UD_Dutch-LassySmall"
+    ],
+    "with_evidence": 490
+  },
+  "no": {
+    "by_class": {
+      "ADP": 69,
+      "ADV": 114,
+      "AUX": 8,
+      "CCONJ": 10,
+      "DET": 22,
+      "LVERB": 81,
+      "OTH": 1,
+      "PART": 2,
+      "PRON": 26,
+      "SCONJ": 13
+    },
+    "coverage": 1.0,
+    "entries": 346,
+    "list": "POSNoise_PatternList_No_v1.0.txt",
+    "sentences": 20044,
+    "treebanks": [
+      "UD_Norwegian-Bokmaal"
+    ],
+    "with_evidence": 346
+  },
+  "pl": {
+    "by_class": {
+      "ADP": 57,
+      "ADV": 57,
+      "AUX": 8,
+      "CCONJ": 14,
+      "DET": 160,
+      "INTJ": 1,
+      "LVERB": 29,
+      "MWE": 201,
+      "NUM": 1,
+      "OTH": 5,
+      "PART": 74,
+      "PRON": 71,
+      "SCONJ": 30
+    },
+    "coverage": 1.0,
+    "entries": 708,
+    "list": "POSNoise_PatternList_Pl_v1.0.txt",
+    "sentences": 22152,
+    "treebanks": [
+      "UD_Polish-PDB"
+    ],
+    "with_evidence": 708
+  },
+  "pt": {
+    "by_class": {
+      "ADP": 27,
+      "ADV": 80,
+      "AUX": 5,
+      "CCONJ": 9,
+      "DET": 29,
+      "LVERB": 95,
+      "MWE": 95,
+      "NUM": 1,
+      "OTH": 12,
+      "PRON": 26,
+      "SCONJ": 4
+    },
+    "coverage": 1.0,
+    "entries": 383,
+    "list": "POSNoise_PatternList_Pt_v1.0.txt",
+    "sentences": 18714,
+    "treebanks": [
+      "UD_Portuguese-Bosque"
+    ],
+    "with_evidence": 383
+  },
+  "ro": {
+    "by_class": {
+      "ADP": 39,
+      "ADV": 89,
+      "AUX": 5,
+      "CCONJ": 7,
+      "DET": 31,
+      "LVERB": 56,
+      "MWE": 192,
+      "NUM": 1,
+      "OTH": 12,
+      "PART": 2,
+      "PRON": 23,
+      "SCONJ": 7
+    },
+    "coverage": 1.0,
+    "entries": 464,
+    "list": "POSNoise_PatternList_Ro_v1.0.txt",
+    "sentences": 9524,
+    "treebanks": [
+      "UD_Romanian-RRT"
+    ],
+    "with_evidence": 464
+  },
+  "ru": {
+    "by_class": {
+      "ADP": 70,
+      "ADV": 96,
+      "AUX": 3,
+      "CCONJ": 8,
+      "DET": 309,
+      "LVERB": 29,
+      "MWE": 142,
+      "NUM": 12,
+      "OTH": 9,
+      "PART": 43,
+      "PRON": 102,
+      "SCONJ": 16
+    },
+    "coverage": 1.0,
+    "entries": 839,
+    "list": "POSNoise_PatternList_Ru_v1.0.txt",
+    "sentences": 87337,
+    "treebanks": [
+      "UD_Russian-SynTagRus"
+    ],
+    "with_evidence": 839
+  },
+  "sl": {
+    "by_class": {
+      "ADP": 40,
+      "ADV": 108,
+      "AUX": 2,
+      "CCONJ": 17,
+      "DET": 54,
+      "LVERB": 76,
+      "MWE": 48,
+      "OTH": 3,
+      "PART": 38,
+      "PRON": 22,
+      "SCONJ": 17
+    },
+    "coverage": 1.0,
+    "entries": 425,
+    "list": "POSNoise_PatternList_Sl_v1.0.txt",
+    "sentences": 13435,
+    "treebanks": [
+      "UD_Slovenian-SSJ"
+    ],
+    "with_evidence": 425
+  },
+  "sr": {
+    "by_class": {
+      "ADP": 51,
+      "ADV": 56,
+      "AUX": 3,
+      "CCONJ": 8,
+      "DET": 29,
+      "LVERB": 56,
+      "MWE": 45,
+      "OTH": 1,
+      "PART": 6,
+      "PRON": 12,
+      "SCONJ": 13
+    },
+    "coverage": 1.0,
+    "entries": 280,
+    "list": "POSNoise_PatternList_Sr_v1.0.txt",
+    "sentences": 4384,
+    "treebanks": [
+      "UD_Serbian-SET"
+    ],
+    "with_evidence": 280
+  },
+  "sv": {
+    "by_class": {
+      "ADP": 51,
+      "ADV": 81,
+      "AUX": 9,
+      "CCONJ": 15,
+      "DET": 14,
+      "LVERB": 65,
+      "MWE": 143,
+      "OTH": 14,
+      "PART": 4,
+      "PRON": 23,
+      "SCONJ": 9
+    },
+    "coverage": 1.0,
+    "entries": 428,
+    "list": "POSNoise_PatternList_Sv_v1.0.txt",
+    "sentences": 12064,
+    "treebanks": [
+      "UD_Swedish-Talbanken"
+    ],
+    "with_evidence": 428
+  },
+  "uk": {
+    "by_class": {
+      "ADP": 56,
+      "ADV": 80,
+      "AUX": 3,
+      "CCONJ": 15,
+      "DET": 40,
+      "LVERB": 47,
+      "MWE": 35,
+      "OTH": 4,
+      "PART": 31,
+      "PRON": 25,
+      "SCONJ": 22
+    },
+    "coverage": 1.0,
+    "entries": 358,
+    "list": "POSNoise_PatternList_Uk_v1.0.txt",
+    "sentences": 7092,
+    "treebanks": [
+      "UD_Ukrainian-IU"
+    ],
+    "with_evidence": 358
+  }
+}
