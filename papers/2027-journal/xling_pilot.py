@@ -14,6 +14,10 @@
 #          category-annotated companion lists (posnoise_lists/aligned/);
 #          unlisted or classless tokens fall back to W, so cats is a strict
 #          refinement of tags.
+#   catsrank  class-conditioned rank buckets: each function word gets its
+#          frequency rank WITHIN its functional class (classless tokens rank
+#          within the residual W group), bucketed on a short edge list --
+#          the two alphabets combined (e.g. AUX1, ADV3, W10).
 #
 # Protocol: leave-one-language-out over six novel corpora. Per language, bank
 # authors are cut into 1000-token windows; same-author and (within-language)
@@ -23,7 +27,13 @@
 # XGBoost (the interaction learner that stood in for the TM in the
 # adjudication). Within-language 5-fold author-grouped CV gives the ceiling.
 #
-#   python experiments/xling_pilot.py [tags,ranks,cats]
+#   python experiments/xling_pilot.py [tags,ranks,cats,catsrank] [window_tokens]
+#
+# Window length is a CLI parameter (default 1000). Author eligibility, the
+# window count per author and the pair index structure are always taken from
+# the 1000-token protocol, so runs at shorter windows differ ONLY in how much
+# text each side of a pair contains (symmetric snippets, same authors, same
+# pairs).
 
 import json
 import random
@@ -39,13 +49,15 @@ from aligned_utils import LANG_CODE, class_of, load_aligned  # noqa: E402
 MASKED = HERE.parent / "masked"
 
 LANGS = ["german", "english", "french", "polish", "czech", "hungarian"]
-W = 1000          # window tokens
+W = 1000          # window tokens (CLI-overridable)
+WREF = 1000       # reference protocol: eligibility + window count always from this
 MAXWIN = 6        # windows per author
 MAX_AUTHORS = 30
 PAIRS_PER_AUTHOR = 6   # same pairs (diff matched 1:1)
 PLACEHOLDERS = set("#§Ø@©µ$¥")
 PUNCT_KEEP = set(".,;:!?()—–-'\"»«")
 RANK_EDGES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 50, 100]
+CR_EDGES = [1, 2, 3, 4, 5, 10, 20, 50]   # within-class rank buckets (catsrank)
 
 
 def read_tokens(f):
@@ -61,7 +73,7 @@ def load_lang(lang):
     bank = {}
     for f in sorted((MASKED / f"{lang}_novels" / "bank").glob("*.tsv")):
         t = read_tokens(f)
-        if len(t) >= 3 * W:
+        if len(t) >= 3 * WREF:
             bank[f.stem] = t
     names = sorted(bank)
     if len(names) > MAX_AUTHORS:
@@ -79,7 +91,22 @@ def rank_map(bank):
     return ranks
 
 
-def encode(toks, mode, ranks, table=None):
+def class_rank_map(bank, table):
+    """token -> class-conditioned rank-bucket symbol (e.g. AUX1, ADV3, W10)."""
+    by_cls = defaultdict(Counter)
+    for toks in bank.values():
+        for t in toks:
+            if t not in PLACEHOLDERS and any(ch.isalpha() for ch in t):
+                by_cls[class_of(t, table)][t] += 1
+    out = {}
+    for cls, c in by_cls.items():
+        for i, (tok, _) in enumerate(c.most_common(), start=1):
+            b = next((str(e) for e in CR_EDGES if i <= e), "X")
+            out[tok] = f"{cls}{b}"
+    return out
+
+
+def encode(toks, mode, ranks, table=None, crmap=None):
     out = []
     for t in toks:
         if t in PLACEHOLDERS:
@@ -89,8 +116,10 @@ def encode(toks, mode, ranks, table=None):
                 out.append("W")
             elif mode == "ranks":
                 out.append(ranks.get(t, "RX"))
-            else:  # cats
+            elif mode == "cats":
                 out.append(class_of(t, table))
+            else:  # catsrank
+                out.append(crmap.get(t, "WX"))
         else:
             out.append(t if t in PUNCT_KEEP else "P")
     return out
@@ -110,21 +139,25 @@ def ngram_counts(sym):
 def build_lang(lang, mode):
     bank = load_lang(lang)
     ranks = rank_map(bank) if mode == "ranks" else {}
-    table = load_aligned(LANG_CODE[lang]) if mode == "cats" else None
-    if mode == "cats" and not table:
-        raise SystemExit(f"no aligned companion file for {lang}; run "
-                         f"data_prep/build_aligned_lists.py first")
+    table, crmap = None, None
+    if mode in ("cats", "catsrank"):
+        table = load_aligned(LANG_CODE[lang])
+        if not table:
+            raise SystemExit(f"no aligned companion file for {lang}; run "
+                             f"data_prep/build_aligned_lists.py first")
+        if mode == "catsrank":
+            crmap = class_rank_map(bank, table)
     wins, n_alpha, n_class = {}, 0, 0
     for a, toks in bank.items():
-        sym = encode(toks, mode, ranks, table)
+        sym = encode(toks, mode, ranks, table, crmap)
         if mode == "cats":
             for s, t in zip(sym, toks):
                 if any(ch.isalpha() for ch in t):
                     n_alpha += 1
                     n_class += s != "W"
-        m = min(len(sym) // W, MAXWIN)
+        m = min(len(sym) // WREF, MAXWIN)
         wins[a] = [ngram_counts(sym[k * W:(k + 1) * W]) for k in range(m)]
-    if mode == "cats":
+    if mode == "cats" and W == WREF:
         print(f"  [{lang}: {n_class / max(n_alpha, 1):.1%} of kept words "
               f"carry a class]", flush=True)
     return wins
@@ -183,8 +216,11 @@ def main():
     from sklearn.model_selection import GroupKFold
     import xgboost as xgb
 
+    global W
     modes = (sys.argv[1].split(",") if len(sys.argv) > 1
-             else ["tags", "ranks", "cats"])
+             else ["tags", "ranks", "cats", "catsrank"])
+    if len(sys.argv) > 2:
+        W = int(sys.argv[2])
     for mode in modes:
         wins_by_lang = {l: build_lang(l, mode) for l in LANGS}
         counts = Counter()
@@ -195,7 +231,7 @@ def main():
         vocab = [g for g, n in counts.most_common(20000) if n >= 10]
         feats = featurise(wins_by_lang, vocab)
         pairs = {l: make_pairs(wins_by_lang[l], l) for l in LANGS}
-        print(f"\n=== mode={mode}  vocab={len(vocab)}  "
+        print(f"\n=== mode={mode}  W={W}  vocab={len(vocab)}  "
               f"pairs/lang ~{len(pairs[LANGS[0]][0]) * 2} ===")
         print(f"{'held-out':10s} {'n':>5s} {'LOLO log':>9s} {'LOLO xgb':>9s} "
               f"{'within xgb':>10s}")
