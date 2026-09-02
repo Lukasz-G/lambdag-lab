@@ -23,3 +23,6 @@ scores/
 *.out
 *.run.xml
 *.synctex.gz
+
+# tm/ zone: committed result caches are exempt from the global jsonl rule
+!tm/**/*.jsonl

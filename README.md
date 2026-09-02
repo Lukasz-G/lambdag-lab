@@ -69,6 +69,7 @@ posnoise_lists/     19 pattern lists + HiTS→UD map (provenance: docs/posnoise_
 tools/              list-building machinery (gmh/gml builders)
 data_prep/          corpus fetchers + masking drivers (ELTeC/DraCor/PoeTree; spaCy/Stanza)
 papers/             per-paper reproduction kits (see above)
+tm/                 the HDC-Tsetlin verifier (experimental; journal paper)
 docs/               design decisions, list provenance, remote-compute recipe
 tests/              incl. the load-bearing KN==HPY(θ=0) oracle
 ```

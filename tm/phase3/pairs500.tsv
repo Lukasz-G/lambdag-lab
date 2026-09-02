@@ -1,0 +1,501 @@
+id	label	known_author	q_author
+0	1	bruno wille	bruno wille
+1	0	karl may	conrad ferdinand meyer
+2	1	hermann kurz	hermann kurz
+3	1	johanna spyri	johanna spyri
+4	0	arthur schnitzler	johanna spyri
+5	1	ganghofer ludwig	ganghofer ludwig
+6	0	gustav meyrink	aston louise
+7	0	boyed ida	fanny lewald
+8	0	friedrich spielhagen	freytag gustav
+9	0	arthur schnitzler	aston louise
+10	0	auerbach berthold	gustav meyrink
+11	0	hermann kurz	jakob wassermann
+12	0	ganghofer ludwig	carl spitteler
+13	1	conrad ferdinand meyer	conrad ferdinand meyer
+14	1	jakob wassermann	jakob wassermann
+15	0	hermann kurz	otto ruppius
+16	0	arthur schnitzler	ferdinand kürnberger
+17	1	aston louise	aston louise
+18	1	ferdinand kürnberger	ferdinand kürnberger
+19	1	carl spitteler	carl spitteler
+20	0	freiin malwida meysenbug von	adele schopenhauer
+21	1	fanny lewald	fanny lewald
+22	1	kretzer max	kretzer max
+23	1	freytag gustav	freytag gustav
+24	1	friedrich spielhagen	friedrich spielhagen
+25	1	boyed ida	boyed ida
+26	0	conradi hermann	auerbach berthold
+27	0	aston louise	ferdinand kürnberger
+28	0	ferdinand kürnberger	fanny lewald
+29	0	braun lily	adalbert stifter
+30	0	kretzer max	ferdinand kürnberger
+31	1	freiin malwida meysenbug von	freiin malwida meysenbug von
+32	0	kretzer max	ganghofer ludwig
+33	1	friedrich spielhagen	friedrich spielhagen
+34	0	adalbert stifter	fanny lewald
+35	0	conrad ferdinand meyer	auerbach berthold
+36	1	fanny lewald	fanny lewald
+37	0	gustav meyrink	karl may
+38	0	bahr hermann	otto ruppius
+39	0	boyed ida	bahr hermann
+40	0	otto ruppius	hermann kurz
+41	1	georg weerth	georg weerth
+42	1	freiin malwida meysenbug von	freiin malwida meysenbug von
+43	0	gustav meyrink	conrad ferdinand meyer
+44	0	aston louise	otto ruppius
+45	1	karl may	karl may
+46	1	auerbach berthold	auerbach berthold
+47	1	friedrich spielhagen	friedrich spielhagen
+48	0	ganghofer ludwig	otto ruppius
+49	0	fanny lewald	arthur schnitzler
+50	1	bahr hermann	bahr hermann
+51	1	ganghofer ludwig	ganghofer ludwig
+52	0	otto ruppius	kretzer max
+53	0	gräfin hahnhahn ida von	johanna spyri
+54	1	carl spitteler	carl spitteler
+55	0	hermann kurz	kretzer max
+56	1	fanny lewald	fanny lewald
+57	0	otto ruppius	gustav meyrink
+58	0	arthur schnitzler	friedrich spielhagen
+59	0	karl may	fanny lewald
+60	0	friedrich spielhagen	freiin malwida meysenbug von
+61	1	freiin malwida meysenbug von	freiin malwida meysenbug von
+62	1	arthur schnitzler	arthur schnitzler
+63	1	kretzer max	kretzer max
+64	1	otto ruppius	otto ruppius
+65	0	ganghofer ludwig	conrad ferdinand meyer
+66	0	gräfin hahnhahn ida von	hermann kurz
+67	0	georg weerth	boyed ida
+68	0	gräfin hahnhahn ida von	kretzer max
+69	1	otto ruppius	otto ruppius
+70	1	braun lily	braun lily
+71	1	kretzer max	kretzer max
+72	0	georg weerth	jakob wassermann
+73	0	carl spitteler	conrad ferdinand meyer
+74	1	braun lily	braun lily
+75	1	hermann kurz	hermann kurz
+76	1	otto ruppius	otto ruppius
+77	1	gustav meyrink	gustav meyrink
+78	1	braun lily	braun lily
+79	1	georg weerth	georg weerth
+80	0	gräfin hahnhahn ida von	carl spitteler
+81	1	otto ruppius	otto ruppius
+82	0	freytag gustav	adele schopenhauer
+83	0	kretzer max	auerbach berthold
+84	1	friedrich spielhagen	friedrich spielhagen
+85	1	arthur schnitzler	arthur schnitzler
+86	0	maria rainer rilke	georg weerth
+87	1	gustav meyrink	gustav meyrink
+88	0	conrad ferdinand meyer	gräfin hahnhahn ida von
+89	1	boyed ida	boyed ida
+90	1	karl may	karl may
+91	1	aston louise	aston louise
+92	0	conrad ferdinand meyer	adele schopenhauer
+93	1	hermann kurz	hermann kurz
+94	0	gräfin hahnhahn ida von	arthur schnitzler
+95	1	conradi hermann	conradi hermann
+96	0	maria rainer rilke	boyed ida
+97	1	gustav meyrink	gustav meyrink
+98	0	conradi hermann	auerbach berthold
+99	1	ganghofer ludwig	ganghofer ludwig
+100	1	freytag gustav	freytag gustav
+101	1	gustav meyrink	gustav meyrink
+102	1	carl spitteler	carl spitteler
+103	0	freiin malwida meysenbug von	bahr hermann
+104	0	maria rainer rilke	adalbert stifter
+105	0	adalbert stifter	bahr hermann
+106	1	boyed ida	boyed ida
+107	1	maria rainer rilke	maria rainer rilke
+108	1	aston louise	aston louise
+109	1	conradi hermann	conradi hermann
+110	1	adele schopenhauer	adele schopenhauer
+111	0	freytag gustav	bruno wille
+112	1	friedrich spielhagen	friedrich spielhagen
+113	1	jakob wassermann	jakob wassermann
+114	1	bruno wille	bruno wille
+115	0	adalbert stifter	johanna spyri
+116	0	georg weerth	gräfin hahnhahn ida von
+117	0	conradi hermann	maria rainer rilke
+118	1	gustav meyrink	gustav meyrink
+119	0	bahr hermann	maria rainer rilke
+120	1	fanny lewald	fanny lewald
+121	1	bahr hermann	bahr hermann
+122	1	conrad ferdinand meyer	conrad ferdinand meyer
+123	1	braun lily	braun lily
+124	0	kretzer max	johanna spyri
+125	0	freiin malwida meysenbug von	jakob wassermann
+126	0	conrad ferdinand meyer	auerbach berthold
+127	1	freytag gustav	freytag gustav
+128	1	freytag gustav	freytag gustav
+129	1	otto ruppius	otto ruppius
+130	0	johanna spyri	auerbach berthold
+131	0	karl may	ganghofer ludwig
+132	1	conrad ferdinand meyer	conrad ferdinand meyer
+133	1	gustav meyrink	gustav meyrink
+134	1	ganghofer ludwig	ganghofer ludwig
+135	1	friedrich spielhagen	friedrich spielhagen
+136	0	carl spitteler	freytag gustav
+137	1	bruno wille	bruno wille
+138	0	gräfin hahnhahn ida von	fanny lewald
+139	1	johanna spyri	johanna spyri
+140	0	kretzer max	freiin malwida meysenbug von
+141	0	bahr hermann	carl spitteler
+142	0	freytag gustav	georg weerth
+143	1	jakob wassermann	jakob wassermann
+144	0	conrad ferdinand meyer	freiin malwida meysenbug von
+145	1	gräfin hahnhahn ida von	gräfin hahnhahn ida von
+146	0	arthur schnitzler	otto ruppius
+147	1	bruno wille	bruno wille
+148	0	carl spitteler	ferdinand kürnberger
+149	1	carl spitteler	carl spitteler
+150	1	bruno wille	bruno wille
+151	1	adele schopenhauer	adele schopenhauer
+152	0	bahr hermann	gustav meyrink
+153	0	aston louise	boyed ida
+154	1	maria rainer rilke	maria rainer rilke
+155	1	otto ruppius	otto ruppius
+156	0	ganghofer ludwig	braun lily
+157	1	freytag gustav	freytag gustav
+158	1	braun lily	braun lily
+159	1	freytag gustav	freytag gustav
+160	1	braun lily	braun lily
+161	0	johanna spyri	fanny lewald
+162	1	freiin malwida meysenbug von	freiin malwida meysenbug von
+163	1	gräfin hahnhahn ida von	gräfin hahnhahn ida von
+164	0	ferdinand kürnberger	adele schopenhauer
+165	1	otto ruppius	otto ruppius
+166	0	conradi hermann	karl may
+167	1	otto ruppius	otto ruppius
+168	0	auerbach berthold	karl may
+169	0	boyed ida	ferdinand kürnberger
+170	0	maria rainer rilke	bahr hermann
+171	1	arthur schnitzler	arthur schnitzler
+172	1	aston louise	aston louise
+173	1	jakob wassermann	jakob wassermann
+174	0	freiin malwida meysenbug von	friedrich spielhagen
+175	1	bruno wille	bruno wille
+176	1	adalbert stifter	adalbert stifter
+177	0	aston louise	bruno wille
+178	0	maria rainer rilke	aston louise
+179	0	adalbert stifter	ferdinand kürnberger
+180	0	carl spitteler	adalbert stifter
+181	0	gustav meyrink	carl spitteler
+182	1	kretzer max	kretzer max
+183	1	freytag gustav	freytag gustav
+184	0	gustav meyrink	georg weerth
+185	0	auerbach berthold	johanna spyri
+186	1	freytag gustav	freytag gustav
+187	0	bahr hermann	arthur schnitzler
+188	0	freiin malwida meysenbug von	gustav meyrink
+189	1	boyed ida	boyed ida
+190	0	johanna spyri	ganghofer ludwig
+191	1	bruno wille	bruno wille
+192	0	otto ruppius	aston louise
+193	1	otto ruppius	otto ruppius
+194	1	conrad ferdinand meyer	conrad ferdinand meyer
+195	0	gräfin hahnhahn ida von	boyed ida
+196	0	hermann kurz	auerbach berthold
+197	0	adele schopenhauer	ganghofer ludwig
+198	1	georg weerth	georg weerth
+199	0	conrad ferdinand meyer	boyed ida
+200	1	bahr hermann	bahr hermann
+201	1	bruno wille	bruno wille
+202	1	arthur schnitzler	arthur schnitzler
+203	0	gustav meyrink	braun lily
+204	0	johanna spyri	conrad ferdinand meyer
+205	1	auerbach berthold	auerbach berthold
+206	0	bahr hermann	bruno wille
+207	0	otto ruppius	freiin malwida meysenbug von
+208	0	conradi hermann	fanny lewald
+209	0	boyed ida	maria rainer rilke
+210	0	gräfin hahnhahn ida von	fanny lewald
+211	1	ganghofer ludwig	ganghofer ludwig
+212	1	karl may	karl may
+213	0	jakob wassermann	bahr hermann
+214	0	conradi hermann	freytag gustav
+215	0	adele schopenhauer	fanny lewald
+216	0	otto ruppius	georg weerth
+217	0	adalbert stifter	kretzer max
+218	1	otto ruppius	otto ruppius
+219	1	freytag gustav	freytag gustav
+220	0	aston louise	ferdinand kürnberger
+221	0	gustav meyrink	georg weerth
+222	1	gustav meyrink	gustav meyrink
+223	0	maria rainer rilke	kretzer max
+224	1	friedrich spielhagen	friedrich spielhagen
+225	1	braun lily	braun lily
+226	0	aston louise	bahr hermann
+227	1	ferdinand kürnberger	ferdinand kürnberger
+228	0	conrad ferdinand meyer	friedrich spielhagen
+229	1	arthur schnitzler	arthur schnitzler
+230	1	carl spitteler	carl spitteler
+231	0	ferdinand kürnberger	carl spitteler
+232	0	gustav meyrink	hermann kurz
+233	1	carl spitteler	carl spitteler
+234	0	freytag gustav	conradi hermann
+235	0	auerbach berthold	braun lily
+236	1	braun lily	braun lily
+237	1	johanna spyri	johanna spyri
+238	1	karl may	karl may
+239	0	arthur schnitzler	friedrich spielhagen
+240	0	maria rainer rilke	conradi hermann
+241	0	bruno wille	boyed ida
+242	1	arthur schnitzler	arthur schnitzler
+243	0	friedrich spielhagen	adele schopenhauer
+244	0	bahr hermann	jakob wassermann
+245	0	bruno wille	bahr hermann
+246	1	freytag gustav	freytag gustav
+247	1	braun lily	braun lily
+248	0	jakob wassermann	ganghofer ludwig
+249	0	conradi hermann	hermann kurz
+250	1	friedrich spielhagen	friedrich spielhagen
+251	0	conrad ferdinand meyer	ganghofer ludwig
+252	1	bruno wille	bruno wille
+253	1	georg weerth	georg weerth
+254	1	braun lily	braun lily
+255	1	bruno wille	bruno wille
+256	1	freytag gustav	freytag gustav
+257	0	auerbach berthold	hermann kurz
+258	0	arthur schnitzler	hermann kurz
+259	1	aston louise	aston louise
+260	1	maria rainer rilke	maria rainer rilke
+261	1	braun lily	braun lily
+262	0	friedrich spielhagen	aston louise
+263	1	adele schopenhauer	adele schopenhauer
+264	0	bruno wille	auerbach berthold
+265	1	friedrich spielhagen	friedrich spielhagen
+266	0	hermann kurz	ferdinand kürnberger
+267	1	karl may	karl may
+268	1	gräfin hahnhahn ida von	gräfin hahnhahn ida von
+269	1	arthur schnitzler	arthur schnitzler
+270	1	friedrich spielhagen	friedrich spielhagen
+271	1	adalbert stifter	adalbert stifter
+272	1	jakob wassermann	jakob wassermann
+273	1	johanna spyri	johanna spyri
+274	0	kretzer max	gustav meyrink
+275	1	gustav meyrink	gustav meyrink
+276	1	gräfin hahnhahn ida von	gräfin hahnhahn ida von
+277	0	bahr hermann	fanny lewald
+278	1	conradi hermann	conradi hermann
+279	0	boyed ida	arthur schnitzler
+280	1	jakob wassermann	jakob wassermann
+281	0	aston louise	arthur schnitzler
+282	0	carl spitteler	maria rainer rilke
+283	0	conrad ferdinand meyer	conradi hermann
+284	1	gräfin hahnhahn ida von	gräfin hahnhahn ida von
+285	0	braun lily	karl may
+286	0	braun lily	fanny lewald
+287	0	friedrich spielhagen	adalbert stifter
+288	0	gustav meyrink	braun lily
+289	0	hermann kurz	karl may
+290	0	gustav meyrink	auerbach berthold
+291	1	auerbach berthold	auerbach berthold
+292	0	bahr hermann	freiin malwida meysenbug von
+293	0	otto ruppius	bruno wille
+294	1	adalbert stifter	adalbert stifter
+295	0	braun lily	otto ruppius
+296	0	bahr hermann	fanny lewald
+297	1	ganghofer ludwig	ganghofer ludwig
+298	1	gräfin hahnhahn ida von	gräfin hahnhahn ida von
+299	1	maria rainer rilke	maria rainer rilke
+300	1	ferdinand kürnberger	ferdinand kürnberger
+301	0	adele schopenhauer	jakob wassermann
+302	1	adalbert stifter	adalbert stifter
+303	0	freiin malwida meysenbug von	adele schopenhauer
+304	1	jakob wassermann	jakob wassermann
+305	1	aston louise	aston louise
+306	1	johanna spyri	johanna spyri
+307	1	friedrich spielhagen	friedrich spielhagen
+308	1	bruno wille	bruno wille
+309	1	jakob wassermann	jakob wassermann
+310	1	maria rainer rilke	maria rainer rilke
+311	1	adele schopenhauer	adele schopenhauer
+312	1	auerbach berthold	auerbach berthold
+313	1	bahr hermann	bahr hermann
+314	0	freytag gustav	conradi hermann
+315	0	freiin malwida meysenbug von	bruno wille
+316	0	friedrich spielhagen	gustav meyrink
+317	0	georg weerth	freiin malwida meysenbug von
+318	1	adalbert stifter	adalbert stifter
+319	0	freytag gustav	ferdinand kürnberger
+320	1	otto ruppius	otto ruppius
+321	0	conradi hermann	friedrich spielhagen
+322	1	maria rainer rilke	maria rainer rilke
+323	0	otto ruppius	georg weerth
+324	1	gustav meyrink	gustav meyrink
+325	1	gräfin hahnhahn ida von	gräfin hahnhahn ida von
+326	1	jakob wassermann	jakob wassermann
+327	0	hermann kurz	carl spitteler
+328	1	kretzer max	kretzer max
+329	1	ganghofer ludwig	ganghofer ludwig
+330	1	auerbach berthold	auerbach berthold
+331	1	fanny lewald	fanny lewald
+332	0	johanna spyri	freiin malwida meysenbug von
+333	1	fanny lewald	fanny lewald
+334	0	adele schopenhauer	conrad ferdinand meyer
+335	1	arthur schnitzler	arthur schnitzler
+336	1	friedrich spielhagen	friedrich spielhagen
+337	1	conradi hermann	conradi hermann
+338	1	otto ruppius	otto ruppius
+339	0	arthur schnitzler	bahr hermann
+340	1	gräfin hahnhahn ida von	gräfin hahnhahn ida von
+341	0	braun lily	gustav meyrink
+342	0	jakob wassermann	hermann kurz
+343	0	conradi hermann	auerbach berthold
+344	0	jakob wassermann	freiin malwida meysenbug von
+345	0	bruno wille	friedrich spielhagen
+346	1	ferdinand kürnberger	ferdinand kürnberger
+347	0	maria rainer rilke	aston louise
+348	0	boyed ida	adalbert stifter
+349	0	kretzer max	braun lily
+350	1	braun lily	braun lily
+351	1	carl spitteler	carl spitteler
+352	1	adalbert stifter	adalbert stifter
+353	1	kretzer max	kretzer max
+354	0	auerbach berthold	conradi hermann
+355	0	ferdinand kürnberger	adalbert stifter
+356	1	bahr hermann	bahr hermann
+357	0	conrad ferdinand meyer	boyed ida
+358	1	ferdinand kürnberger	ferdinand kürnberger
+359	0	aston louise	conrad ferdinand meyer
+360	1	conradi hermann	conradi hermann
+361	0	carl spitteler	fanny lewald
+362	0	carl spitteler	adalbert stifter
+363	1	conradi hermann	conradi hermann
+364	1	ganghofer ludwig	ganghofer ludwig
+365	0	ferdinand kürnberger	hermann kurz
+366	0	georg weerth	kretzer max
+367	1	carl spitteler	carl spitteler
+368	1	freiin malwida meysenbug von	freiin malwida meysenbug von
+369	1	adele schopenhauer	adele schopenhauer
+370	0	freiin malwida meysenbug von	jakob wassermann
+371	0	conrad ferdinand meyer	jakob wassermann
+372	0	carl spitteler	bahr hermann
+373	0	ferdinand kürnberger	adele schopenhauer
+374	1	freiin malwida meysenbug von	freiin malwida meysenbug von
+375	0	ganghofer ludwig	johanna spyri
+376	0	ferdinand kürnberger	gräfin hahnhahn ida von
+377	1	adalbert stifter	adalbert stifter
+378	0	boyed ida	braun lily
+379	0	freiin malwida meysenbug von	gustav meyrink
+380	0	freiin malwida meysenbug von	freytag gustav
+381	0	kretzer max	conrad ferdinand meyer
+382	0	conrad ferdinand meyer	gräfin hahnhahn ida von
+383	0	jakob wassermann	adalbert stifter
+384	0	gräfin hahnhahn ida von	bahr hermann
+385	1	adalbert stifter	adalbert stifter
+386	1	jakob wassermann	jakob wassermann
+387	1	jakob wassermann	jakob wassermann
+388	1	kretzer max	kretzer max
+389	1	hermann kurz	hermann kurz
+390	0	conrad ferdinand meyer	ferdinand kürnberger
+391	1	friedrich spielhagen	friedrich spielhagen
+392	0	karl may	ganghofer ludwig
+393	0	friedrich spielhagen	karl may
+394	1	adele schopenhauer	adele schopenhauer
+395	1	johanna spyri	johanna spyri
+396	1	freiin malwida meysenbug von	freiin malwida meysenbug von
+397	0	johanna spyri	conrad ferdinand meyer
+398	0	georg weerth	conrad ferdinand meyer
+399	1	ferdinand kürnberger	ferdinand kürnberger
+400	1	friedrich spielhagen	friedrich spielhagen
+401	1	otto ruppius	otto ruppius
+402	1	ganghofer ludwig	ganghofer ludwig
+403	1	hermann kurz	hermann kurz
+404	0	fanny lewald	adalbert stifter
+405	0	bahr hermann	adele schopenhauer
+406	0	georg weerth	ferdinand kürnberger
+407	0	kretzer max	conradi hermann
+408	1	adele schopenhauer	adele schopenhauer
+409	1	aston louise	aston louise
+410	1	braun lily	braun lily
+411	0	carl spitteler	aston louise
+412	1	kretzer max	kretzer max
+413	1	auerbach berthold	auerbach berthold
+414	0	freytag gustav	auerbach berthold
+415	0	gustav meyrink	braun lily
+416	0	boyed ida	ganghofer ludwig
+417	0	friedrich spielhagen	kretzer max
+418	0	aston louise	fanny lewald
+419	0	conrad ferdinand meyer	adalbert stifter
+420	0	bruno wille	auerbach berthold
+421	1	jakob wassermann	jakob wassermann
+422	0	karl may	freytag gustav
+423	0	kretzer max	braun lily
+424	0	georg weerth	arthur schnitzler
+425	1	georg weerth	georg weerth
+426	1	hermann kurz	hermann kurz
+427	0	conradi hermann	braun lily
+428	0	conrad ferdinand meyer	friedrich spielhagen
+429	1	jakob wassermann	jakob wassermann
+430	0	braun lily	conradi hermann
+431	0	otto ruppius	jakob wassermann
+432	1	carl spitteler	carl spitteler
+433	1	friedrich spielhagen	friedrich spielhagen
+434	1	kretzer max	kretzer max
+435	1	friedrich spielhagen	friedrich spielhagen
+436	1	ferdinand kürnberger	ferdinand kürnberger
+437	1	jakob wassermann	jakob wassermann
+438	1	johanna spyri	johanna spyri
+439	0	hermann kurz	ganghofer ludwig
+440	0	fanny lewald	kretzer max
+441	1	braun lily	braun lily
+442	1	arthur schnitzler	arthur schnitzler
+443	0	georg weerth	gräfin hahnhahn ida von
+444	0	freytag gustav	boyed ida
+445	0	karl may	bruno wille
+446	1	freytag gustav	freytag gustav
+447	0	bruno wille	conrad ferdinand meyer
+448	0	aston louise	otto ruppius
+449	0	fanny lewald	jakob wassermann
+450	0	gustav meyrink	conrad ferdinand meyer
+451	0	fanny lewald	arthur schnitzler
+452	1	conrad ferdinand meyer	conrad ferdinand meyer
+453	1	freiin malwida meysenbug von	freiin malwida meysenbug von
+454	0	bruno wille	carl spitteler
+455	1	adele schopenhauer	adele schopenhauer
+456	1	auerbach berthold	auerbach berthold
+457	0	maria rainer rilke	boyed ida
+458	1	conradi hermann	conradi hermann
+459	0	boyed ida	hermann kurz
+460	1	braun lily	braun lily
+461	1	auerbach berthold	auerbach berthold
+462	0	aston louise	carl spitteler
+463	1	jakob wassermann	jakob wassermann
+464	1	bahr hermann	bahr hermann
+465	1	freytag gustav	freytag gustav
+466	0	otto ruppius	bahr hermann
+467	1	bahr hermann	bahr hermann
+468	1	gustav meyrink	gustav meyrink
+469	0	carl spitteler	conrad ferdinand meyer
+470	0	kretzer max	aston louise
+471	0	hermann kurz	ferdinand kürnberger
+472	0	fanny lewald	freytag gustav
+473	0	adele schopenhauer	auerbach berthold
+474	1	ferdinand kürnberger	ferdinand kürnberger
+475	1	jakob wassermann	jakob wassermann
+476	0	arthur schnitzler	jakob wassermann
+477	1	hermann kurz	hermann kurz
+478	1	bahr hermann	bahr hermann
+479	0	bahr hermann	kretzer max
+480	0	friedrich spielhagen	auerbach berthold
+481	1	maria rainer rilke	maria rainer rilke
+482	0	bruno wille	arthur schnitzler
+483	1	conradi hermann	conradi hermann
+484	0	conrad ferdinand meyer	freytag gustav
+485	1	adalbert stifter	adalbert stifter
+486	1	maria rainer rilke	maria rainer rilke
+487	1	ganghofer ludwig	ganghofer ludwig
+488	0	bahr hermann	braun lily
+489	0	aston louise	gräfin hahnhahn ida von
+490	0	hermann kurz	aston louise
+491	0	karl may	adele schopenhauer
+492	0	freytag gustav	jakob wassermann
+493	0	ganghofer ludwig	freytag gustav
+495	0	jakob wassermann	bruno wille
+496	0	ganghofer ludwig	jakob wassermann
+498	0	gustav meyrink	conrad ferdinand meyer
+501	0	johanna spyri	georg weerth
+504	0	conrad ferdinand meyer	freiin malwida meysenbug von
+506	0	freytag gustav	jakob wassermann
