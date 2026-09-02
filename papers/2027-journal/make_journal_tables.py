@@ -302,6 +302,96 @@ def fig_scatter():
     print("fig_withink_scatter.pdf")
 
 
+# --------------------------------------------------------------------------- #
+# Table 7: engine baseline medians (KN / HPY / PPMd x symmetric lengths)
+# --------------------------------------------------------------------------- #
+
+ENG_LANGS = ["czech", "english", "french", "hungarian", "latvian",
+             "lithuanian", "polish", "ukrainian"]
+
+
+def _cell_metrics(ds, eng, L):
+    from lambdag import cllr, cllr_min
+    from sklearn.metrics import roc_auc_score
+    fn = SCORES / f"{ds}__{eng}__sent__L{L}.jsonl"
+    if not fn.exists():
+        return None
+    recs = [json.loads(l) for l in open(fn, encoding="utf-8")]
+    if not recs:
+        return None
+    y = np.array([r["label"] for r in recs])
+    if len(set(y.tolist())) < 2:
+        return None
+    lam = np.array([r["lambda_G"] for r in recs])
+    s = np.array([r["sqrt"] for r in recs])
+    return (float(roc_auc_score(y, lam)),
+            float(cllr(s[y == 1], s[y == 0])),
+            float(cllr_min(s[y == 1], s[y == 0])))
+
+
+def tab_engines():
+    engines = [("kn", "Kneser--Ney"), ("hpy", "HPY (defaults)"),
+               ("ppmd_static", "PPMd static"), ("ppmd_sent", "PPMd adaptive")]
+    lengths = [0, 1200, 600, 300, 150]
+    lines = [HEADER, "\\begin{tabular}{lrrrrr}", "\\toprule",
+             "Engine & full & 1200 & 600 & 300 & 150 \\\\", "\\midrule"]
+    for metric, fmt in (("AUC", "{:.3f}"), ("Cllr", "{:.2f}")):
+        lines.append(f"\\multicolumn{{6}}{{l}}{{\\emph{{median "
+                     f"{'AUC (raw score)' if metric == 'AUC' else 'C llr (sqrt-corrected)'}}}}} \\\\")
+        for eng, name in engines:
+            row = [name]
+            for L in lengths:
+                vals = [m for ds in ENG_LANGS
+                        if (m := _cell_metrics(f"{ds}_novels", eng, L))]
+                idx = 0 if metric == "AUC" else 1
+                row.append(fmt.format(float(np.median([v[idx] for v in vals])))
+                           if vals else "--")
+            lines.append(" & ".join(row) + " \\\\")
+        if metric == "AUC":
+            lines.append("\\midrule")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_engines.tex").write_text("\n".join(lines) + "\n",
+                                         encoding="utf-8")
+    print("tab_engines written")
+
+
+# --------------------------------------------------------------------------- #
+# Table 8: HPY parameter sweep (medians over lt/hu/en)
+# --------------------------------------------------------------------------- #
+
+def tab_hpy():
+    variants = [
+        ("kn", "Kneser--Ney (anchor)"),
+        ("hpy_t0_min", "$\\theta{=}0$, minimal ($\\equiv$ KN)"),
+        ("hpy_t1_min", "$\\theta{=}1$, minimal"),
+        ("hpy_t5_min", "$\\theta{=}5$, minimal"),
+        ("hpy_t10_min", "$\\theta{=}10$, minimal"),
+        ("hpy_t0_exp", "$\\theta{=}0$, expected"),
+        ("hpy_t1_exp", "$\\theta{=}1$, expected"),
+        ("hpy_t10_exp", "$\\theta{=}10$, expected"),
+        ("hpy_t0_min_d50", "$d{=}0.5$, minimal"),
+        ("hpy_t0_min_d90", "$d{=}0.9$, minimal"),
+    ]
+    ds3 = ["lithuanian_novels", "hungarian_novels", "english_novels"]
+    lines = [HEADER, "\\begin{tabular}{lrrrr}", "\\toprule",
+             " & \\multicolumn{2}{c}{full} & \\multicolumn{2}{c}{$L=600$} \\\\",
+             "Variant & AUC & $C_{\\mathrm{llr}}$ & AUC & $C_{\\mathrm{llr}}$ \\\\",
+             "\\midrule"]
+    for eng, name in variants:
+        row = [name]
+        for L in (0, 600):
+            vals = [m for ds in ds3 if (m := _cell_metrics(ds, eng, L))]
+            if vals:
+                row.append(f"{np.median([v[0] for v in vals]):.3f}")
+                row.append(f"{np.median([v[1] for v in vals]):.2f}")
+            else:
+                row += ["--", "--"]
+        lines.append(" & ".join(row) + " \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_hpy.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print("tab_hpy written")
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     tab_b_measured()
@@ -311,3 +401,5 @@ if __name__ == "__main__":
     tab_tempered()
     tab_routeb_real()
     fig_scatter()
+    tab_engines()
+    tab_hpy()
