@@ -47,6 +47,21 @@ ENGINES = {
     "ppmd_sent":   ("ppmd", {"adaptive": True, "reset": "sentence"}),
     "ppmd_doc":    ("ppmd", {"adaptive": True, "reset": "document"}),
 }
+# HPY parameter sweep (journal engines chapter): theta = concentration,
+# min/exp = table estimator, dXX = discount. theta=0 + minimal + d=0.75 == KN
+# exactly (the oracle), so every variant below probes one departure from KN.
+for _th in (0, 1, 5, 10):
+    for _est in ("minimal", "expected"):
+        ENGINES[f"hpy_t{_th}_{_est[:3]}"] = (
+            "hpy", {"concentration": float(_th), "table_estimator": _est,
+                    "discount": 0.75})
+for _d in (0.5, 0.9):
+    ENGINES[f"hpy_t0_min_d{int(_d*100)}"] = (
+        "hpy", {"concentration": 0.0, "table_estimator": "minimal",
+                "discount": _d})
+    ENGINES[f"hpy_t1_exp_d{int(_d*100)}"] = (
+        "hpy", {"concentration": 1.0, "table_estimator": "expected",
+                "discount": _d})
 # morphology contrast for the engine ablation
 ENGINE_LANGS = ["hungarian", "latvian", "lithuanian", "czech", "russian", "polish",
                 "english", "french"]
