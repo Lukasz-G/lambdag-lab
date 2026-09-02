@@ -157,8 +157,157 @@ def tab_decisive():
     print(f"tab_decisive: {sum(1 for l in lines if l.endswith(chr(92)*2))} rows")
 
 
+# --------------------------------------------------------------------------- #
+# Table 4: the symmetrised estimator / mismatch-meter arms
+# --------------------------------------------------------------------------- #
+
+def tab_symmeter():
+    arms = []
+    for fn in sorted(SCORES.glob("*__symref-*__L2000.jsonl")):
+        rows = [json.loads(l) for l in open(fn, encoding="utf-8")]
+        if not rows:
+            continue
+        ds, refds = fn.name.replace("__L2000.jsonl", "").split("__symref-")
+        c = np.array([r["lambda_G"] / r["n_q"] for r in rows if not r["within"]])
+        se = float(c.std(ddof=1) / np.sqrt(len(c)))
+        arms.append((ds == refds, pretty(ds), pretty(refds), len(c),
+                     float(c.mean()), 1.96 * se))
+    arms.sort(key=lambda t: (not t[0], t[4]))
+    lines = [HEADER, "\\begin{tabular}{llrrr}", "\\toprule",
+             "Known authors & Reference corpus & $n$ & $b_{\\mathrm{sym}}$ & "
+             "95\\,\\% CI \\\\", "\\midrule"]
+    seen_mm = False
+    for matched, ds, refds, n, m, ci in arms:
+        if not matched and not seen_mm:
+            lines.append("\\midrule")
+            seen_mm = True
+        lines.append(f"{ds} & {refds if not matched else '(same)'} & {n} & "
+                     f"${m:+.4f}$ & $\\pm{ci:.4f}$ \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_symmeter.tex").write_text("\n".join(lines) + "\n",
+                                          encoding="utf-8")
+    print(f"tab_symmeter: {len(arms)} arms")
+
+
+# --------------------------------------------------------------------------- #
+# Table 5: tempered control + matched-arm studentisation (Cllr per variant)
+# --------------------------------------------------------------------------- #
+
+def tab_tempered():
+    from lambdag import cllr
+    lines = [HEADER, "\\begin{tabular}{lrrrr}", "\\toprule",
+             "Dataset & $\\lambda/\\sqrt{N}$ & clipped & rescaled & "
+             "studentised \\\\", "\\midrule"]
+    meds = {k: [] for k in range(4)}
+    for fn in sorted(SCORES.glob("*__symref-*__L2000.jsonl")):
+        ds, refds = fn.name.replace("__L2000.jsonl", "").split("__symref-")
+        if ds != refds:
+            continue
+        rows = [json.loads(l) for l in open(fn, encoding="utf-8")]
+        if not rows:
+            continue
+        y = np.array([r["within"] for r in rows])
+        sq = np.array([r["lambda_G"] / np.sqrt(r["n_q"]) for r in rows])
+        st = np.array([float(np.mean(r["lam_j"]) /
+                             (np.std(r["lam_j"], ddof=1) + 1e-9)) for r in rows])
+        variants = [sq, np.clip(sq, -4, 4),
+                    sq * (st.std(ddof=1) / (sq.std(ddof=1) + 1e-9)), st]
+        cs = [float(cllr(s[y == 1], s[y == 0])) for s in variants]
+        for i, c in enumerate(cs):
+            meds[i].append(c)
+        lines.append(f"{pretty(ds)} & " + " & ".join(f"{c:.2f}" for c in cs)
+                     + " \\\\")
+    lines += ["\\midrule", "Median & " +
+              " & ".join(f"{np.median(v):.2f}" for v in meds.values()) + " \\\\",
+              "\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_tempered.tex").write_text("\n".join(lines) + "\n",
+                                          encoding="utf-8")
+    print(f"tab_tempered: {len(meds[0])} matched arms")
+
+
+# --------------------------------------------------------------------------- #
+# Table 6: real-case cohort studentisation (L = 1200)
+# --------------------------------------------------------------------------- #
+
+def tab_routeb_real():
+    from lambdag import cllr, cllr_min as cmin
+    from sklearn.metrics import roc_auc_score
+    lines = [HEADER, "\\begin{tabular}{lrrrrrr}", "\\toprule",
+             "Dataset & $n$ & AUC plain/stud. & $C_{\\mathrm{llr}}$ plain & "
+             "cohort mean & studentised & floor \\\\", "\\midrule"]
+    meds = []
+    for fn in sorted(SCORES.glob("*__routebreal__L1200.jsonl")):
+        ds = fn.name.split("__")[0]
+        recs = [json.loads(l) for l in open(fn, encoding="utf-8")]
+        gfn = SCORES / f"{ds}__kn__sent__L1200.jsonl"
+        grid = {r["id"]: r for r in
+                (json.loads(l) for l in open(gfn, encoding="utf-8"))}
+        y, g, ss, st = [], [], [], []
+        for r in recs:
+            if r["id"] not in grid:
+                continue
+            lj = np.asarray(r["lam_j"], dtype=float)
+            y.append(r["label"]); g.append(grid[r["id"]]["sqrt"])
+            ss.append(float(np.mean(lj)) / np.sqrt(r["n_q"]))
+            st.append(float(np.mean(lj) / (np.std(lj, ddof=1) + 1e-9)))
+        y = np.array(y)
+        g, ss, st = np.array(g), np.array(ss), np.array(st)
+        cg = float(cllr(g[y == 1], g[y == 0]))
+        cs = float(cllr(ss[y == 1], ss[y == 0]))
+        ct = float(cllr(st[y == 1], st[y == 0]))
+        meds.append((cg, ct))
+        lines.append(f"{pretty(ds)} & {len(y)} & "
+                     f"{roc_auc_score(y, g):.3f}/{roc_auc_score(y, st):.3f} & "
+                     f"{cg:.2f} & {cs:.2f} & \\textbf{{{ct:.2f}}} & "
+                     f"{cmin(st[y == 1], st[y == 0]):.2f} \\\\")
+    lines += ["\\midrule",
+              f"Median & & & {np.median([m[0] for m in meds]):.2f} & & "
+              f"\\textbf{{{np.median([m[1] for m in meds]):.2f}}} & \\\\",
+              "\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_routeb_real.tex").write_text("\n".join(lines) + "\n",
+                                             encoding="utf-8")
+    print(f"tab_routeb_real: {len(meds)} datasets")
+
+
+# --------------------------------------------------------------------------- #
+# Figure: dataset-level scatter (median within-fit vs median H_d location)
+# --------------------------------------------------------------------------- #
+
+def fig_scatter():
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    from scipy import stats as sps
+    fig, axes = plt.subplots(1, 2, figsize=(9.2, 4.0), sharey=False)
+    for ax, L in zip(axes, (2000, 5000)):
+        xs, ys = [], []
+        for fn in sorted(SCORES.glob(f"*__kn__withink__L{L}.jsonl")):
+            st = author_stats(fn)
+            if len(st) >= 8:
+                xs.append(float(np.median([v[0] for v in st.values()])))
+                ys.append(float(np.median([v[1] for v in st.values()])))
+        ax.scatter(xs, ys, s=42, color="#2a78d6", alpha=0.85,
+                   edgecolor="white", linewidth=1.2)
+        rho = sps.spearmanr(xs, ys).statistic
+        ax.set_title(f"$L={L}$  ({len(xs)} datasets, "
+                     f"$\\rho={rho:+.2f}$)", fontsize=10)
+        ax.set_xlabel("median within-author self-fit (per token)")
+        ax.grid(True, color="#e6e4e0", linewidth=0.8)
+        ax.set_axisbelow(True)
+        for s in ("top", "right"):
+            ax.spines[s].set_visible(False)
+    axes[0].set_ylabel("median $H_d$ location (per token)")
+    fig.tight_layout()
+    fig.savefig(OUT.parent / "figures" / "fig_withink_scatter.pdf")
+    print("fig_withink_scatter.pdf")
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     tab_b_measured()
     tab_withink()
     tab_decisive()
+    tab_symmeter()
+    tab_tempered()
+    tab_routeb_real()
+    fig_scatter()
