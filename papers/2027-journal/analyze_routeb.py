@@ -1,4 +1,4 @@
-# ROUTE B: case-internal studentisation, for free from the symmeter files.
+# Cohort studentisation, case-internal, for free from the symmetrised-run files.
 # Each case carries its own H_d cohort: the per-donor lambdas lam_j = S_A - S_j
 # persisted by run_symmeter.py. The studentised statistic
 #     t = (S_A - mean_j S_j) / sd_j(S_j) = mean(lam_j) / sd(lam_j)

@@ -1,5 +1,6 @@
-# Within-K variance vs H_d band -- the "range of variation around K" experiment
-# (Nini's option 2, 2026-08-26 correspondence; see memory b-elimination-theory).
+# The range-of-variation-around-K experiment: does an author's within-author
+# variation predict the location of the different-author band? (Journal paper,
+# calibration chapter.)
 #
 # SYMMETRIC design (no 1000-vs-5000 asymmetry): per dataset and per length L, each
 # eligible bank author is cut into m <= MAXW disjoint L-token windows (sentence units,
@@ -10,11 +11,10 @@
 # with the reference pool excluding the known author (run_bankcal.py precedent; the
 # questioned author stays in the pool -- mild conservative bias, as in the paper).
 #
-# The later analysis regresses, per author: spread of within per-token lambda_G
-# against location/scale of cross per-token lambda_G. Outcome map: A = within-K
-# predicts location (reference-free b exists); B = predicts scale only ("the case
-# knows its own noise but not the population's position"); C = null; D = dataset-level
-# only (ecological confound).
+# The later analysis regresses, per author, the spread of the within-author
+# per-token lambda_G against the location and scale of the cross-author band;
+# author-level (within-dataset) correlations are the primary statistic, the
+# dataset-level scatter a secondary view.
 #
 #   python experiments/run_withink.py --datasets lithuanian_novels --lengths 2000
 #   python experiments/run_withink.py                    # all analysed datasets, both L

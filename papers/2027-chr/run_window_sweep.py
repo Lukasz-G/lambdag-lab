@@ -30,7 +30,8 @@ from lambdag import LambdaG, cllr, cllr_min  # noqa: E402
 
 DATASETS = ["lithuanian_novels", "polish_novels", "german_novels", "english_novels"]
 LENGTHS = [500, 1000, 2000, 5000]
-SEGS = {"sent": 0, "w10": 10, "w20": 20, "w30": 30, "w50": 50, "w100": 100}
+SEGS = {"sent": 0, "w10": 10, "w20": 20, "w30": 30, "w50": 50, "w100": 100,
+        "w150": 150, "w200": 200}   # w150/w200: the plateau check (journal paper, segmentation chapter)
 
 
 def main():

@@ -1,5 +1,5 @@
-# The MISMATCH METER (route A / Nini's option 4): symmetrised LambdaG with
-# PER-AUTHOR, size-matched reference grammars instead of pooled samples.
+# The corpus-adequacy gauge: symmetrised LambdaG with PER-AUTHOR, size-matched
+# reference grammars instead of pooled samples (journal paper, calibration chapter).
 #
 # Theory: with single-author reference models the known author is exchangeable
 # with the reference cohort under H_d, so E[per-token lambda | H_d] = 0 by
@@ -13,7 +13,7 @@
 # score(q, k, ref_sentences=donor_j, r=1).lambda_G  (algebraically identical to
 # the symmetrised estimator; each donor model is size-matched to S_A by the
 # sampler). Per-donor lambdas are persisted -- they double as the case-internal
-# cohort for Route-B studentisation analysis.
+# cohort for the studentisation analysis.
 #
 #   python experiments/run_symmeter.py --dataset german_novels
 #   python experiments/run_symmeter.py --dataset german_novels --refdataset german_poetree

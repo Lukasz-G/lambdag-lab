@@ -1,5 +1,5 @@
-# Tempered-sqrt control (defence against the "bounded-range artefact"
-# objection to Route B): is the studentised score's Cllr gain genuine
+# Tempered-sqrt control (the range-compression check on cohort
+# studentisation): is the studentised score's Cllr gain genuine
 # calibration, or just range compression that Cllr punishes less?
 # Label-free temperings of the sqrt score, per matched symmeter arm:
 #   clip4    sqrt clipped to [-4, +4] (the t statistic's natural range)

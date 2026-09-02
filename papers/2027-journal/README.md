@@ -2,7 +2,7 @@
 
 Post-submission experiments feeding the long paper. Grows with the paper.
 
-## The within-K campaign (2026-09): "a range of variation around K"
+## The within-K campaign: the range of variation around K
 
 | Script | Role |
 |---|---|
@@ -12,7 +12,7 @@ Post-submission experiments feeding the long paper. Grows with the paper.
 | `fit_bhat.py` | pooled b̂ regression (R² ≈ 0.3–0.4, transfers leave-one-dataset-out) + calibration-rescue test on long-text cases |
 | `analyze_decisive.py` | the decisive matched-L rescue test on ill-calibrated cells — negative: even oracle per-author location does not beat λ/√N |
 
-## The symmetrised estimator and the corpus-adequacy gauge (Nini's "option 4")
+## The symmetrised estimator and the corpus-adequacy gauge
 
 | Script | Role |
 |---|---|

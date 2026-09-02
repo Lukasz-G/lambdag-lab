@@ -1,4 +1,4 @@
-# Route B on REAL grid test pairs (defence against the pseudo-case objection):
+# Cohort studentisation on REAL grid test pairs (the ecological-validity control):
 # per-donor lambdas for the actual evaluation cases (masked/<ds>/pairs) at
 # symmetric L=1200 -- the ill-calibrated grid regime -- with R per-author donor
 # models from the reference bank. Stratified case subsample for cost control.

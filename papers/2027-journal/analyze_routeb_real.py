@@ -1,4 +1,4 @@
-# Route B on REAL grid test pairs -- the analysis. Three renderings on the
+# Cohort studentisation on REAL grid test pairs -- the analysis. Three renderings on the
 # identical (subsampled) case sets at symmetric L=1200:
 #   grid   the paper's pooled-reference sqrt score (joined on stored id)
 #   ssqrt  symmetrised sqrt: mean(lam_j) / sqrt(N)   (per-author donors)

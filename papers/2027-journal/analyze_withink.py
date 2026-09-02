@@ -1,6 +1,6 @@
-# Analysis of the within-K experiment (run_withink.py): does K's own within-author
-# variation predict the H_d band around K?  (Nini's "range of variation around K",
-# option 2 of the 2026-08-26 email; outcome map in the script header of run_withink.py.)
+# Analysis of the within-K experiment (run_withink.py): does the known author's
+# within-author variation predict the different-author band around him?
+# (Journal paper, calibration chapter: the range of variation around K.)
 #
 # Per author (as KNOWN side), from per-token scores w = lambda_G / n_q:
 #   within_mean, within_sd   over the author's within pairs (their windows vs each other)
@@ -10,8 +10,8 @@
 #
 # The serious test is WITHIN-DATASET: per (ds, L), Spearman correlation across authors,
 # then the distribution of those correlations (median, sign test). The pooled author-level
-# and dataset-level numbers are reported as context (the pooled one is confounded by
-# dataset — outcome D watch).
+# and dataset-level numbers are reported as context (the pooled one is confounded
+# by dataset).
 #
 #   python experiments/analyze_withink.py
 
