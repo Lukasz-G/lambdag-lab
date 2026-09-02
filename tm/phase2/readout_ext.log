@@ -1,0 +1,17 @@
+classes=539  negk=32  grid=6α×3τ=18 combos
+reference trained (POS_SHARP) in 554s
+  20/80 pairs
+  40/80 pairs
+  60/80 pairs
+  80/80 pairs
+
+=== AUC grid (80 pairs, negk=32) ===
+   α \ τ   τ=16    τ=32    τ=64    
+   0.00   0.605   0.552   0.649   
+   0.40   0.912   0.879   0.869   
+   0.60   0.924   0.910   0.899   
+   0.80   0.938   0.936   0.925   
+   0.90   0.943   0.938   0.929   
+   1.00   0.943   0.943   0.943   
+
+best: AUC=0.9431 at α=0.90 τ=16   (α=0 baseline == old softmax readout)

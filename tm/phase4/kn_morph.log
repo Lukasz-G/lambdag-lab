@@ -1,0 +1,12 @@
+KN morph L=full scored (180s)
+KN morph L=1200 scored (70s)
+KN morph L=600 scored (30s)
+KN morph L=300 scored (20s)
+KN morph L=150 scored (15s)
+
+     L       KNcur     KNmorph
+  full 0.9348/0.502 0.9318/0.506
+  1200 0.7775/0.862 0.7771/0.849
+   600 0.6688/0.953 0.6712/0.945
+   300 0.5764/0.989 0.5760/0.988
+   150 0.4999/1.004 0.4594/1.004

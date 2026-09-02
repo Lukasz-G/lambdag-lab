@@ -1,0 +1,11 @@
+KN scoring 500 pairs ...
+KN done (203s)
+
+=== 500 pairs ===
+  KN alone            AUC=0.935  Cllr=0.502
+  HDC cosine alone    AUC=0.859  Cllr=0.683
+  FUSE KN + cosine    AUC=0.944  Cllr=0.460
+  FUSE KN + TM        AUC=0.934  Cllr=0.504
+  FUSE KN + cos + TM  AUC=0.944  Cllr=0.459
+
+(fusion > KN  =>  HDC has orthogonal signal.)

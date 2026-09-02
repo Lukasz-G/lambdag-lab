@@ -1,0 +1,16 @@
+atoms: PRETRAINED (subword-composed words + learned char trigrams)
+28 authors, known frags/author ~452.2, q frags/author ~292.6
+encoded 20855 fragments in 34s
+stylometry block ON (29 scalars, placeholders: # @ © § ¥ ...)
+pair pool: 9000 same, 9000 diff (target 18000 total)
+features built (65660 bits/pair)
+test pairs encoded: 500 (eval lens: 0,1200,600,300,150)
+TRAIN  18000 pairs  member 1/3 (139s, 60 ep)  AUC = 0.8326
+TRAIN  18000 pairs  member 2/3 (136s, 60 ep)  AUC = 0.8610
+TRAIN  18000 pairs  member 3/3 (140s, 60 ep)  AUC = 0.8464
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=full   ->  test AUC = 0.8721
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=1200   ->  test AUC = 0.7738
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=600    ->  test AUC = 0.7183
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=300    ->  test AUC = 0.6604
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=150    ->  test AUC = 0.5898
+wrote scores (largest size, all eval lens)

@@ -1,0 +1,29 @@
+corpus 491849 tokens, vocab 1187, subwords 1580, D=8192, epochs=4
+self-check: compose deterministic=true ; sim(muss,müssen)=0.11 vs sim(muss,der)=-0.02
+
+=== BEFORE training (composed from random subwords) ===
+  sein     -> seinem(0.51) seines(0.50) seiner(0.49) seinen(0.48) nein(0.45) mein(0.45) dein(0.44) seit(0.44)
+  kann     -> kannst(0.48) mann(0.44) wann(0.44) dann(0.43) wenn(0.29) denn(0.28) kaum(0.26) in(0.21)
+  der      -> deren(0.39) derer(0.37) derlei(0.32) dergleichen(0.28) derselbe(0.28) dereinst(0.27) derselben(0.26) wer(0.26)
+  ich      -> och(0.26) ach(0.26) ick(0.24) könnten(0.03) dabei(0.03) meisten(0.03) daß(0.03) drinnen(0.03)
+  müssen   -> müsste(0.41) wessen(0.41) dessen(0.41) diesen(0.31) müssten(0.30) sieben(0.22) selten(0.22) keinen(0.21)
+  hat      -> hatte(0.39) hats(0.38) hat's(0.37) hattet(0.33) hattest(0.32) hatten(0.32) hab(0.26) tat(0.24)
+  wird     -> wir(0.37) wirklich(0.31) werd(0.30) will(0.29) ward(0.29) wirst(0.28) wieder(0.26) willen(0.25)
+  muss     -> musste(0.51) mussten(0.38) mußt(0.29) dass(0.28) ausser(0.24) 'n(0.21) a.(0.21) ..(0.21)
+
+training 4 epochs (subword AttractRepel, strict position) ...
+  epoch 1  148s  mean_sim=0.095 bit_entropy=0.929
+  epoch 2  158s  mean_sim=0.112 bit_entropy=0.916
+  epoch 3  155s  mean_sim=0.139 bit_entropy=0.895
+  epoch 4  151s  mean_sim=0.142 bit_entropy=0.893
+
+=== AFTER training ===
+  sein     -> seinem(0.66) seiner(0.66) seines(0.65) seinen(0.65) seid(0.61) seine(0.60) mein(0.60) dein(0.59)
+  kann     -> dann(0.69) wann(0.67) kannst(0.65) mann(0.64) denn(0.59) wenn(0.57) mußt(0.51) ja(0.51)
+  der      -> deren(0.49) de(0.48) derlei(0.47) derer(0.46) derselbe(0.46) denn(0.44) den(0.43) dem(0.42)
+  ich      -> ward(0.34) ihm(0.34) zurück(0.34) dieses(0.34) diesem(0.34) ick(0.34) nur(0.34) daß(0.33)
+  müssen   -> müsste(0.56) dessen(0.56) wessen(0.53) diesen(0.48) hatten(0.43) dürfen(0.43) zu(0.43) dann(0.43)
+  hat      -> hatte(0.56) hats(0.55) hattet(0.55) hatten(0.54) hattest(0.48) hat's(0.45) hast(0.43) habe(0.41)
+  wird     -> wir(0.55) ward(0.54) werd(0.54) wirklich(0.51) denn(0.49) dann(0.47) sind(0.47) fort(0.47)
+  muss     -> musste(0.54) mußt(0.42) dass(0.41) mussten(0.38) muß(0.36) kann(0.35) in(0.34) ja(0.34)
+saved -> subword_atoms.jls

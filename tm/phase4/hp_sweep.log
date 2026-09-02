@@ -1,0 +1,29 @@
+=== c1024 (CLAUSES=1024 T=256 S=4096) ===
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=full   ->  test AUC = 0.8770
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=1200   ->  test AUC = 0.7710
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=600    ->  test AUC = 0.7202
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=300    ->  test AUC = 0.6547
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=150    ->  test AUC = 0.5784
+wrote scores (largest size, all eval lens)
+=== c2048 (CLAUSES=2048 T=512 S=4096) ===
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=full   ->  test AUC = 0.8888
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=1200   ->  test AUC = 0.7811
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=600    ->  test AUC = 0.7248
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=300    ->  test AUC = 0.6531
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=150    ->  test AUC = 0.5924
+wrote scores (largest size, all eval lens)
+=== s2048 (CLAUSES=512 T=128 S=2048) ===
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=full   ->  test AUC = 0.8718
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=1200   ->  test AUC = 0.7713
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=600    ->  test AUC = 0.7304
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=300    ->  test AUC = 0.6469
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=150    ->  test AUC = 0.5838
+wrote scores (largest size, all eval lens)
+=== s8192 (CLAUSES=512 T=128 S=8192) ===
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=full   ->  test AUC = 0.8851
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=1200   ->  test AUC = 0.7857
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=600    ->  test AUC = 0.7172
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=300    ->  test AUC = 0.6532
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=150    ->  test AUC = 0.5954
+wrote scores (largest size, all eval lens)
+sweep done

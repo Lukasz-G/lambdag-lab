@@ -1,0 +1,11 @@
+atoms: PRETRAINED (subword-composed words + learned char trigrams)
+28 authors, known frags/author ~38.3, q frags/author ~85.3
+encoded 3460 fragments in 45s
+pair pool: 9000 same, 9000 diff (target 18000 total)
+features built (65536 bits/pair)
+test pairs encoded: 500
+TRAIN  18000 pairs  member 1/3 (117s, 60 ep)  AUC = 0.8754
+TRAIN  18000 pairs  member 2/3 (119s, 60 ep)  AUC = 0.8675
+TRAIN  18000 pairs  member 3/3 (118s, 60 ep)  AUC = 0.8810
+TRAIN  18000 pairs  ENSEMBLE(3)  ->  test AUC = 0.8919
+wrote tm_scaled_scores.jsonl (largest size)

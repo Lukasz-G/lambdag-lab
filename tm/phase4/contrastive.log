@@ -1,0 +1,13 @@
+28 authors (20 train / 8 val), k/author 32, q/author 41
+epoch 0 (pretrained atoms)  val AUC = 0.8243
+epoch 1  2s  val AUC = 0.8202  mean_sim = 0.047
+epoch 2  2s  val AUC = 0.8272  mean_sim = 0.089
+epoch 3  3s  val AUC = 0.8199  mean_sim = 0.048
+epoch 4  2s  val AUC = 0.8260  mean_sim = 0.077
+epoch 5  2s  val AUC = 0.8201  mean_sim = 0.048
+epoch 6  2s  val AUC = 0.8258  mean_sim = 0.072
+epoch 7  2s  val AUC = 0.8224  mean_sim = 0.050
+epoch 8  2s  val AUC = 0.8268  mean_sim = 0.067
+epoch 9  2s  val AUC = 0.8232  mean_sim = 0.051
+epoch 10  2s  val AUC = 0.8234  mean_sim = 0.065
+saved -> phase4/contrastive_atoms.jls

@@ -1,0 +1,18 @@
+w10 L=1200 scored (62s)
+w10 L=600 scored (34s)
+w10 L=300 scored (20s)
+w10 L=150 scored (14s)
+w20 L=1200 scored (55s)
+w20 L=600 scored (33s)
+w20 L=300 scored (19s)
+w20 L=150 scored (15s)
+w30 L=1200 scored (55s)
+w30 L=600 scored (31s)
+w30 L=300 scored (19s)
+w30 L=150 scored (14s)
+
+     L  KNsent   KNw10   KNw20   KNw30
+  1200   0.780   0.774   0.783   0.782
+   600   0.670   0.682   0.687   0.690
+   300   0.583   0.638   0.646   0.634
+   150   0.524   0.579   0.584   0.575

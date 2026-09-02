@@ -1,0 +1,14 @@
+building enriched masker (parser ON) ...
+  authors 7/28 (95s)
+  authors 14/28 (195s)
+  authors 21/28 (299s)
+  authors 28/28 (378s)
+authors_enr done, verification 28/28 files identical (378s)
+bank_enr done, verification 12/12 files identical (424s)
+  pairs 100/500 (504s)
+  pairs 200/500 (582s)
+  pairs 300/500 (660s)
+  pairs 400/500 (738s)
+  pairs 500/500 (813s)
+pairs500_enr done (500 pairs), verification 1000/1000 files identical
+ALL DONE in 814s

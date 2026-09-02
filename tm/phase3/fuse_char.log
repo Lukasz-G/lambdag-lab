@@ -1,0 +1,10 @@
+KN scoring 500 pairs ...
+KN done (222s)
+
+=== 500 pairs ===
+  KN alone           AUC=0.935  Cllr=0.502
+  KN + word          AUC=0.944  Cllr=0.459
+  KN + char          AUC=0.943  Cllr=0.456
+  KN + word + char   AUC=0.943  Cllr=0.456
+
+(KN+char > KN+word => char is MORE orthogonal to KN than word n-grams.)

@@ -1,0 +1,13 @@
+train (18000, 16386), test (500, 16386) (9000/9000 same/diff)
+linear: 5s  standalone AUC 0.8162
+xgboost: 1300s  standalone AUC 0.9222
+standalone AUC: linear 0.8162  xgboost 0.9222
+
+fusion (author-grouped 5-fold CV, n=500):
+  KN alone       AUC 0.9295  Cllr 0.535
+  KN + linear    AUC 0.9346  Cllr 0.515
+  KN + xgboost   AUC 0.9497  Cllr 0.434
+  linear alone   AUC 0.8103  Cllr 0.791
+  xgboost alone  AUC 0.9199  Cllr 0.516
+
+anchors (same 500-pair set, earlier campaign): KN 0.935/0.502; TM standalone ~0.90; KN+TM fusion 0.950/0.42

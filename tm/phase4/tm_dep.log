@@ -1,0 +1,18 @@
+vocab: CORPUS-built (2435 types, 3059 subwords) -> atoms forced RANDOM
+atoms: RANDOM
+dep-arc channel ON (42 labels)
+28 authors, known frags/author ~452.2, q frags/author ~292.6
+surprisal weighting ON (range 0.16-1.31, mean 1)
+encoded 20855 fragments in 42s
+pair pool: 9000 same, 9000 diff (target 18000 total)
+features built (98312 bits/pair)
+test pairs encoded: 500 (eval lens: 0,1200,600,300,150)
+TRAIN  18000 pairs  member 1/3 (262s, 60 ep)  AUC = 0.8812
+TRAIN  18000 pairs  member 2/3 (323s, 60 ep)  AUC = 0.8675
+TRAIN  18000 pairs  member 3/3 (323s, 60 ep)  AUC = 0.8727
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=full   ->  test AUC = 0.8912
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=1200   ->  test AUC = 0.7994
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=600    ->  test AUC = 0.6850
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=300    ->  test AUC = 0.6264
+TRAIN  18000 pairs  ENSEMBLE(3)  evalL=150    ->  test AUC = 0.5936
+wrote scores (largest size, all eval lens)

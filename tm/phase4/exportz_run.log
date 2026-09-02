@@ -1,0 +1,7 @@
+atoms: RANDOM
+28 authors, known frags/author ~25.7, q frags/author ~42.7
+encoded 1914 fragments in 30s
+pair pool: 9000 same, 9000 diff (target 18000 total)
+features built (65544 bits/pair)
+test pairs encoded: 500 (eval lens: 0)
+EXPORTZ: 18000 train + 500 test rows of 16384 floats -> D:/Moje dokumenty/Code/LambdaG/phase4/exportz

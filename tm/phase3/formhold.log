@@ -1,0 +1,31 @@
+corpus 491849 tokens, vocab 1187, D=8192, epochs=3
+
+===== formhold = 2048 / 8192  (D/4) =====
+  [mean_sim=0.066 bit_entropy=0.948]
+  sein     -> mein(0.21) seines(0.21) seinen(0.20) seinem(0.20) dein(0.20) seid(0.20)   [targets hit: none]
+  kann     -> dann(0.24) mann(0.24) wann(0.23) an(0.21) in(0.20) denn(0.20)   [targets hit: könnte]
+  der      -> den(0.27) oder(0.27) deren(0.26) einer(0.25) werden(0.25) des(0.25)   [targets hit: den,dem]
+  ich      -> sich(0.25) ihm(0.24) mich(0.23) ihr(0.23) #(0.23) durch(0.23)   [targets hit: sich,mich]
+  müssen   -> diesen(0.21) dessen(0.20) ersten(0.18) seines(0.18) sehr(0.18) zusammen(0.18)   [targets hit: none]
+  hat      -> hatte(0.21) hatten(0.21) daß(0.21) hab(0.20) #(0.20) ist(0.20)   [targets hit: hatte,ist]
+  wird     -> ward(0.22) sind(0.21) werd(0.20) wäre(0.20) wir(0.20) drei(0.19)   [targets hit: sind]
+
+===== formhold = 1024 / 8192  (D/8) =====
+  [mean_sim=0.039 bit_entropy=0.970]
+  sein     -> seines(0.13) mein(0.13) seinem(0.12) seinen(0.12) diesen(0.11) in(0.11)   [targets hit: none]
+  kann     -> daß(0.16) hinaus(0.16) eine(0.16) ihnen(0.16) an(0.16) mann(0.16)   [targets hit: könnte]
+  der      -> daß(0.24) oder(0.23) den(0.22) einer(0.22) ihr(0.21) werden(0.21)   [targets hit: den]
+  ich      -> #(0.23) ihm(0.22) sich(0.21) ihr(0.21) durch(0.21) ©(0.21)   [targets hit: sich]
+  müssen   -> diesen(0.15) ihnen(0.14) sehr(0.14) in(0.14) werden(0.14) seines(0.14)   [targets hit: none]
+  hat      -> daß(0.19) ist(0.18) #(0.18) Ø(0.18) ©(0.18) @(0.17)   [targets hit: ist]
+  wird     -> sind(0.16) #(0.16) @(0.15) an(0.15) ward(0.15) weil(0.15)   [targets hit: sind]
+
+===== formhold = 0 / 8192  (no anchor) =====
+  [mean_sim=0.013 bit_entropy=0.990]
+  sein     -> ©(0.07) einer(0.07) ihnen(0.07) einem(0.07) Ø(0.07) mir(0.07)   [targets hit: none]
+  kann     -> #(0.16) daß(0.15) Ø(0.14) ihnen(0.14) als(0.14) das(0.14)   [targets hit: none]
+  der      -> daß(0.23) ihr(0.20) auf(0.20) @(0.20) Ø(0.20) genug(0.19)   [targets hit: none]
+  ich      -> #(0.23) daß(0.21) nur(0.21) ©(0.20) eine(0.20) ist(0.20)   [targets hit: none]
+  müssen   -> #(0.12) ihnen(0.12) ihr(0.12) daß(0.11) sie(0.11) genug(0.11)   [targets hit: none]
+  hat      -> #(0.19) daß(0.18) Ø(0.18) ist(0.17) der(0.17) ©(0.17)   [targets hit: ist]
+  wird     -> #(0.15) @(0.14) ihnen(0.14) daß(0.14) von(0.13) einer(0.13)   [targets hit: ist]

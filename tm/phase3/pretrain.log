@@ -1,0 +1,45 @@
+corpus: 28000 sentences, 491849 tokens, vocab 1187 (min_count=2), D=8192
+char-init done (form-anchor: 4096/8192 bits frozen)
+
+=== BEFORE training (character form only) ===
+  sein      -> mein(0.72) nein(0.72) kein(0.72) ›ein(0.71) seinen(0.71) seit(0.71) seid(0.71) dein(0.71)
+  ist       -> meist(0.54) bist(0.51) mitsamt(0.46) abseits(0.44) warst(0.40) nebst(0.40) wärst(0.39) wirst(0.39)
+  haben     -> neben(0.55) hab(0.54) daneben(0.51) habe(0.47) hab's(0.46) dabei(0.44) waren(0.44) maßen(0.43)
+  hat       -> hattest(0.57) hab(0.57) hat's(0.54) tat(0.54) hats(0.50) hatte(0.45) habt(0.45) hast(0.45)
+  müssen    -> müsste(0.64) wessen(0.62) dessen(0.61) müssten(0.59) diesen(0.56) indessen(0.56) dieses(0.53) draussen(0.52)
+  können    -> binnen(0.68) 'nen(0.65) innen(0.64) inne(0.63) keinen(0.60) denn(0.60) wenn(0.60) könnte(0.59)
+  werden    -> werdet(0.78) worden(0.71) wurden(0.70) würden(0.70) werd(0.68) werde(0.64) geworden(0.64) dreien(0.61)
+  der       -> derer(0.75) dawider(0.63) weder(0.61) jeder(0.59) deren(0.59) wer(0.56) darüber(0.56) dem(0.56)
+  ich       -> reichlich(0.58) ach(0.57) och(0.57) ick(0.56) sichtlich(0.54) schließlich(0.53) absichtlich(0.51) ehrlich(0.51)
+  kann      -> dann(0.76) mann(0.76) wann(0.75) kannst(0.64) sodann(0.60) anno(0.58) dank(0.58) an(0.56)
+  wird      -> werd(0.67) ward(0.66) wirklich(0.57) drin(0.55) wärt(0.51) wäre(0.51) wart(0.50) wars(0.50)
+  nicht     -> nichts(0.57) nich(0.48) leicht(0.48) möcht(0.48) sichtlich(0.47) recht(0.47) schlicht(0.46) absichtlich(0.44)
+  und       -> uns(0.56) grund(0.55) rund(0.50) dauernd(0.43) nun(0.43) rundum(0.40) annähernd(0.39) unser(0.39)
+  war       -> gar(0.57) was(0.56) war's(0.55) warst(0.54) warum(0.54) waren(0.53) zwar(0.51) wir(0.51)
+  muss      -> musste(0.65) um's(0.54) dass(0.54) ausser(0.53) just(0.53) aufs(0.51) mussten(0.49) es(0.48)
+
+training AttractRepel(3,7,3) for 4 epochs ...
+  epoch 1  (mean_sim = 0.122, sim_std = 0.055, bit_entropy = 0.904, purity = NaN)
+  epoch 2  (mean_sim = 0.116, sim_std = 0.053, bit_entropy = 0.907, purity = NaN)
+  epoch 3  (mean_sim = 0.117, sim_std = 0.055, bit_entropy = 0.907, purity = NaN)
+  epoch 4  (mean_sim = 0.116, sim_std = 0.054, bit_entropy = 0.908, purity = NaN)
+
+=== AFTER training (form + learned context) ===
+  sein      -> nein(0.39) dein(0.39) seines(0.39) seiner(0.38) mein(0.38) seinem(0.38) seid(0.38) kein(0.38)
+  ist       -> meist(0.29) sie(0.27) mit(0.26) selbst(0.25) ihn(0.25) ihr(0.25) hast(0.25) abseits(0.24)
+  haben     -> hab(0.29) neben(0.29) daneben(0.26) habe(0.26) dabei(0.24) waren(0.24) hatten(0.24) hab's(0.24)
+  hat       -> hab(0.31) hattest(0.29) hat's(0.28) hatte(0.28) tat(0.28) hatten(0.26) hast(0.26) hats(0.26)
+  müssen    -> dessen(0.34) müsste(0.33) müssten(0.32) diesen(0.31) indessen(0.29) ersten(0.29) wessen(0.28) dieses(0.28)
+  können    -> binnen(0.35) wenn(0.34) denn(0.33) könnte(0.33) innen(0.33) ihnen(0.32) 'nen(0.32) inne(0.32)
+  werden    -> werdet(0.42) wurden(0.41) würden(0.39) worden(0.39) werde(0.36) geworden(0.36) andere(0.36) werd(0.35)
+  der       -> den(0.37) derer(0.37) des(0.35) dem(0.35) wer(0.35) deren(0.35) dawider(0.34) oder(0.34)
+  ich       -> sich(0.34) ach(0.33) mich(0.33) dich(0.30) schließlich(0.30) reichlich(0.29) nämlich(0.28) nicht(0.28)
+  kann      -> dann(0.42) wann(0.40) mann(0.40) dank(0.33) an(0.33) kannst(0.33) in(0.32) wenn(0.31)
+  wird      -> ward(0.38) werd(0.35) wirklich(0.32) sind(0.31) drin(0.29) wäre(0.29) wir(0.29) ihre(0.28)
+  nicht     -> nichts(0.32) recht(0.30) ich(0.28) leicht(0.27) nich(0.27) möcht(0.24) nie(0.24) schlicht(0.23)
+  und       -> uns(0.33) nun(0.29) grund(0.27) nur(0.27) sind(0.27) rund(0.26) dauernd(0.25) #(0.24)
+  war       -> was(0.33) waren(0.32) gar(0.32) ward(0.32) wir(0.31) warst(0.30) warum(0.29) zwar(0.29)
+  muss      -> musste(0.33) ausser(0.28) um's(0.27) dass(0.27) just(0.27) aufs(0.25) es(0.25) mußt(0.25)
+
+non-collapse check: mean_sim=0.116  sim_std=0.054  bit_entropy=0.908
+saved pretrained codebook -> atoms.jls

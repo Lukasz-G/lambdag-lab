@@ -26,3 +26,4 @@ scores/
 
 # tm/ zone: committed result caches are exempt from the global jsonl rule
 !tm/**/*.jsonl
+!tm/**/*.log

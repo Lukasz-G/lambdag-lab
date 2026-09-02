@@ -1,0 +1,8 @@
+500 pairs, 28 questioned authors, 5 folds (author-disjoint)
+
+  method                 AUC
+  RANDOM  cosine        0.8595
+  RANDOM  TM (adCV)     0.7826
+  SUBWORD cosine        0.8506
+  SUBWORD TM (adCV)     0.7668
+wrote hdc_scores500.jsonl

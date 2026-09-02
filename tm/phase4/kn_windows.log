@@ -1,0 +1,3 @@
+w=10  KN AUC = 0.9267   (500 pairs, 266s)
+w=20  KN AUC = 0.9278   (500 pairs, 230s)
+w=30  KN AUC = 0.9319   (500 pairs, 202s)

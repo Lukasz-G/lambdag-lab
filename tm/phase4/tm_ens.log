@@ -1,0 +1,12 @@
+28 authors, known frags/author ~38.0, q frags/author ~86.1
+encoded 3475 fragments in 39s
+pair pool: 9000 same, 9000 diff (target 18000 total)
+features built (65536 bits/pair)
+test pairs encoded: 500
+TRAIN  18000 pairs  member 1/5 (116s, 60 ep)  AUC = 0.9035
+TRAIN  18000 pairs  member 2/5 (115s, 60 ep)  AUC = 0.8609
+TRAIN  18000 pairs  member 3/5 (119s, 60 ep)  AUC = 0.8785
+TRAIN  18000 pairs  member 4/5 (120s, 60 ep)  AUC = 0.8967
+TRAIN  18000 pairs  member 5/5 (123s, 60 ep)  AUC = 0.8725
+TRAIN  18000 pairs  ENSEMBLE(5)  ->  test AUC = 0.8983
+wrote tm_scaled_scores.jsonl (largest size)

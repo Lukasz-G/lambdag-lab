@@ -1,0 +1,43 @@
+28 authors (20 train / 8 val), k/author 32, q/author 41
+epoch 0 (pretrained atoms)  val AUC = 0.8243
+epoch 1  4s  val AUC = 0.8267  mean_sim = 0.087
+epoch 2  3s  val AUC = 0.8246  mean_sim = 0.141
+epoch 3  3s  val AUC = 0.8259  mean_sim = 0.091
+epoch 4  3s  val AUC = 0.8242  mean_sim = 0.133
+epoch 5  3s  val AUC = 0.8232  mean_sim = 0.092
+epoch 6  3s  val AUC = 0.8244  mean_sim = 0.132
+epoch 7  3s  val AUC = 0.8246  mean_sim = 0.096
+epoch 8  3s  val AUC = 0.8245  mean_sim = 0.133
+epoch 9  3s  val AUC = 0.8233  mean_sim = 0.100
+epoch 10  3s  val AUC = 0.8271  mean_sim = 0.131
+epoch 11  3s  val AUC = 0.8237  mean_sim = 0.100
+epoch 12  3s  val AUC = 0.8263  mean_sim = 0.128
+epoch 13  3s  val AUC = 0.8257  mean_sim = 0.100
+epoch 14  3s  val AUC = 0.8246  mean_sim = 0.128
+epoch 15  3s  val AUC = 0.8265  mean_sim = 0.103
+epoch 16  3s  val AUC = 0.8262  mean_sim = 0.128
+epoch 17  3s  val AUC = 0.8227  mean_sim = 0.103
+epoch 18  2s  val AUC = 0.8246  mean_sim = 0.127
+epoch 19  3s  val AUC = 0.8259  mean_sim = 0.104
+epoch 20  3s  val AUC = 0.8233  mean_sim = 0.128
+epoch 21  3s  val AUC = 0.8269  mean_sim = 0.106
+epoch 22  3s  val AUC = 0.8268  mean_sim = 0.126
+epoch 23  3s  val AUC = 0.8268  mean_sim = 0.107
+epoch 24  3s  val AUC = 0.8257  mean_sim = 0.128
+epoch 25  3s  val AUC = 0.8248  mean_sim = 0.107
+epoch 26  3s  val AUC = 0.8255  mean_sim = 0.127
+epoch 27  3s  val AUC = 0.8230  mean_sim = 0.108
+epoch 28  3s  val AUC = 0.8263  mean_sim = 0.125
+epoch 29  3s  val AUC = 0.8252  mean_sim = 0.111
+epoch 30  3s  val AUC = 0.8249  mean_sim = 0.127
+epoch 31  3s  val AUC = 0.8249  mean_sim = 0.109
+epoch 32  3s  val AUC = 0.8255  mean_sim = 0.127
+epoch 33  3s  val AUC = 0.8248  mean_sim = 0.110
+epoch 34  3s  val AUC = 0.8226  mean_sim = 0.126
+epoch 35  3s  val AUC = 0.8266  mean_sim = 0.109
+epoch 36  3s  val AUC = 0.8271  mean_sim = 0.126
+epoch 37  3s  val AUC = 0.8241  mean_sim = 0.110
+epoch 38  3s  val AUC = 0.8266  mean_sim = 0.127
+epoch 39  3s  val AUC = 0.8260  mean_sim = 0.109
+epoch 40  3s  val AUC = 0.8243  mean_sim = 0.124
+saved -> phase4/contrastive_atoms.jls
