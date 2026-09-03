@@ -1,5 +1,6 @@
 # LambdaG on the universal catsrank alphabet vs surface tokens (journal paper,
-# cross-lingual chapter) -- step 1 of the borrowed-population ladder: does an
+# cross-lingual chapter) -- the prerequisite for borrowing reference populations
+# across languages: does an
 # order-10 Kneser-Ney grammar model over ~90 class-conditioned rank symbols
 # still discriminate authors WITHIN a language, and at what cost against the
 # surface-token baseline?
@@ -12,7 +13,7 @@
 # every sentence through the class-conditioned rank map built from the
 # language's own bank and its aligned companion list. Reference pool: bank
 # authors minus the known author, capped at REF_TOKENS x L tokens (native
-# references -- the borrowed-reference arm is the ladder's next step).
+# references; the borrowed foreign-reference arm is the follow-up experiment).
 #
 #   python experiments/run_lambdag_catsrank.py --datasets german_novels
 #   python experiments/run_lambdag_catsrank.py --arms catsrank --max-authors 4
