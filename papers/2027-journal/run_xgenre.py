@@ -18,6 +18,13 @@
 #
 #   python experiments/run_xgenre.py --arm native
 #   python experiments/run_xgenre.py --arm foreign
+#   python experiments/run_xgenre.py --arm native --known-tokens 10000
+#
+# --known-tokens K replaces the three 1000-token known windows with ONE known
+# document of K tokens (all the known-genre evidence the author affords, up to
+# K), and restricts the donor pool to authors with >= K tokens so the
+# size-matched donor grammars keep the estimator's exchangeability. Output
+# files carry a K{K} tag.
 #
 # Output: scores/xgenre/{g1}2{g2}__{arm}__L{L}.jsonl, one row per case:
 #   {"known","kw","quest","qw","within","lambda_G","n_q","lam_j":[...]}
@@ -89,7 +96,9 @@ def namekey(stem):
 
 
 def run(g1, g2, arm, args):
-    tag = f"{g1}2{g2}__{arm}__L{L}"
+    kt = args.known_tokens
+    ktag = f"K{kt}" if kt != KNOWN_W * L else ""
+    tag = f"{g1}2{g2}__{arm}__L{L}{ktag}"
     SCORES.mkdir(parents=True, exist_ok=True)
     fn = SCORES / f"{tag}.jsonl"
     if fn.exists():
@@ -104,13 +113,19 @@ def run(g1, g2, arm, args):
         print(f"{tag}: only {len(shared)} cross-genre authors, skipped",
               flush=True)
         return
-    # donor pool: questioned-genre banks, native or pooled-foreign
+    # donor pool: questioned-genre banks, native or pooled-foreign; donors must
+    # afford the known-document size so donor grammars stay size-matched
+    min_donor = kt if kt != KNOWN_W * L else L
     donors = {}
     srcs = [GERMAN[g2]] if arm == "native" else FOREIGN[g2]
     for src in srcs:
         for n, v in load_bank(src).items():
-            if v["ntok"] >= L:
+            if v["ntok"] >= min_donor:
                 donors[f"{src[:2]}:{n}"] = v["sents"]
+    if len(donors) < 8:
+        print(f"{tag}: only {len(donors)} donors afford {min_donor} tokens, "
+              f"skipped", flush=True)
+        return
     if len(donors) > MAX_DONORS:
         rng = random.Random(f"{tag}|donorcap")
         donors = {n: donors[n] for n in sorted(rng.sample(sorted(donors),
@@ -118,9 +133,14 @@ def run(g1, g2, arm, args):
     # distractors: questioned-genre German authors who are NOT the case author
     distract = sorted(a for a in b2 if b2[a]["ntok"] >= L)
 
-    kwins = {k: [window(b1[k1[k]]["sents"], i * L, L)
-                 for i in range(min(b1[k1[k]]["ntok"] // L, KNOWN_W))]
-             for k in shared}
+    if kt != KNOWN_W * L:
+        # one known document per author: all his known-genre text up to kt
+        kwins = {k: [window(b1[k1[k]]["sents"], 0, min(b1[k1[k]]["ntok"], kt))]
+                 for k in shared}
+    else:
+        kwins = {k: [window(b1[k1[k]]["sents"], i * L, L)
+                     for i in range(min(b1[k1[k]]["ntok"] // L, KNOWN_W))]
+                 for k in shared}
     qwins = {a: [window(b2[a]["sents"], i * L, L)
                  for i in range(min(b2[a]["ntok"] // L, SAME_W))]
              for a in distract}
@@ -177,6 +197,9 @@ def main():
     ap.add_argument("--arm", required=True, choices=["native", "foreign"])
     ap.add_argument("--directions", default="",
                     help="comma list like novels2poetree; default all six")
+    ap.add_argument("--known-tokens", type=int, default=KNOWN_W * L,
+                    help="one known doc of this many tokens instead of "
+                         "three 1000-token windows")
     args = ap.parse_args()
     dirs = ([tuple(d.split("2")) for d in args.directions.split(",") if d]
             or DIRECTIONS)
