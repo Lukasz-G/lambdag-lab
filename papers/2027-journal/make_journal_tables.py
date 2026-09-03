@@ -529,6 +529,52 @@ def tab_xref():
     print("tab_xref.tex")
 
 
+# --------------------------------------------------------------------------- #
+# Table: cross-genre verification in German (from the run_xgenre.py files)
+# --------------------------------------------------------------------------- #
+
+XGENRE_DIRS = ["novels2dracor", "novels2poetree", "dracor2novels",
+               "dracor2poetree", "poetree2novels", "poetree2dracor"]
+GNAME = {"novels": "novels", "dracor": "drama", "poetree": "poetry"}
+
+
+def tab_xgenre():
+    from sklearn.metrics import roc_auc_score
+    xs = HERE.parent / "scores" / "xgenre"
+    res = {}
+    for fn in sorted(xs.glob("*__L1000*.jsonl")):
+        parts = fn.name.split("__")
+        d, arm = parts[0], parts[1]
+        kt = "10k" if "K10000" in parts[2] else "3k"
+        rows = [json.loads(l) for l in open(fn, encoding="utf-8")]
+        y = np.array([r["within"] for r in rows])
+        lam = np.array([r["lambda_G"] for r in rows])
+        n = np.array([r["n_q"] for r in rows], dtype=float)
+        res[(d, arm, kt)] = {"auc": float(roc_auc_score(y, lam)),
+                             "b": float(np.mean(lam[y == 0] / n[y == 0]))}
+    lines = [HEADER,
+             "\\begin{tabular}{lccccc}", "\\toprule",
+             " & \\multicolumn{3}{c}{AUC (symmetrised $\\lambda$)} & "
+             "\\multicolumn{2}{c}{gauge $b_{\\mathrm{sym}}$} \\\\",
+             "\\cmidrule(lr){2-4}\\cmidrule(lr){5-6}",
+             "known $\\to$ questioned & native & native, 10k known & "
+             "foreign & native & foreign \\\\",
+             "\\midrule"]
+    for d in XGENRE_DIRS:
+        g1, g2 = d.split("2")
+        n3 = res[(d, "native", "3k")]
+        n10 = res.get((d, "native", "10k"))
+        f3 = res[(d, "foreign", "3k")]
+        lines.append(f"{GNAME[g1]} $\\to$ {GNAME[g2]} & {n3['auc']:.3f} & "
+                     + (f"{n10['auc']:.3f}" if n10 else "--")
+                     + f" & {f3['auc']:.3f} & {n3['b']:+.3f} & "
+                     f"{f3['b']:+.3f} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_xgenre.tex").write_text("\n".join(lines) + "\n",
+                                       encoding="utf-8")
+    print("tab_xgenre.tex")
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     tab_b_measured()
