@@ -392,6 +392,93 @@ def tab_hpy():
     print("tab_hpy written")
 
 
+# --------------------------------------------------------------------------- #
+# Table: cross-lingual transfer, four universal alphabets x three window sizes
+# (parsed from the xling_pilot.py logs -- regenerate, never retype)
+# --------------------------------------------------------------------------- #
+
+XLING_LOGS = ["xling_pilot.log", "xling_pilot_cats.log",
+              "xling_pilot_catsrank1000.log", "xling_pilot_w500.log",
+              "xling_pilot_w250.log"]
+XLING_MODES = ["tags", "ranks", "cats", "catsrank"]
+XLING_LANGS = ["german", "english", "french", "polish", "czech", "hungarian"]
+
+
+def parse_xling():
+    """(mode, W, lang) -> LOLO-xgb AUC, from the pilot logs."""
+    cells, mode, w = {}, None, None
+    for log in XLING_LOGS:
+        for line in open(HERE / log, encoding="utf-8"):
+            if line.startswith("=== mode="):
+                mode = line.split("mode=")[1].split()[0]
+                w = int(line.split("W=")[1].split()[0]) if "W=" in line else 1000
+            else:
+                f = line.split()
+                if len(f) == 5 and f[0] in XLING_LANGS:
+                    cells[(mode, w, f[0])] = float(f[3])
+    return cells
+
+
+def tab_xling():
+    cells = parse_xling()
+    lines = [HEADER,
+             "\\begin{tabular}{lcccc}", "\\toprule",
+             "held-out & tags & ranks & cats & catsrank \\\\", "\\midrule"]
+    for lang in XLING_LANGS:
+        vals = [cells[(m, 1000, lang)] for m in XLING_MODES]
+        best = max(vals)
+        row = " & ".join(f"\\textbf{{{v:.3f}}}" if v == best else f"{v:.3f}"
+                         for v in vals)
+        lines.append(f"{lang.capitalize()} & {row} \\\\")
+    lines.append("\\midrule")
+    for w in (1000, 500, 250):
+        vals = [float(np.mean([cells[(m, w, l)] for l in XLING_LANGS]))
+                for m in XLING_MODES]
+        best = max(vals)
+        row = " & ".join(f"\\textbf{{{v:.3f}}}" if v == best else f"{v:.3f}"
+                         for v in vals)
+        lines.append(f"mean, {w}-token windows & {row} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_xling.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print("tab_xling.tex")
+
+
+# --------------------------------------------------------------------------- #
+# Table: LambdaG on the universal alphabet vs surface tokens
+# (from the run_lambdag_catsrank.py score files)
+# --------------------------------------------------------------------------- #
+
+def tab_xalpha():
+    from sklearn.metrics import roc_auc_score
+    sys.path.insert(0, str(HERE.parent))
+    from lambdag import cllr_min
+    xs = HERE.parent / "scores"
+    res = {}
+    for fn in sorted(xs.glob("*__xalpha__L1000.jsonl")):
+        ds, arm = fn.name.split("__")[:2]
+        rows = [json.loads(l) for l in open(fn, encoding="utf-8")]
+        y = np.array([r["within"] for r in rows])
+        lam = np.array([r["lambda_G"] for r in rows])
+        sq = np.array([r["sqrt"] for r in rows])
+        res[(ds, arm)] = (float(roc_auc_score(y, lam)),
+                          float(cllr_min(sq[y == 1], sq[y == 0])))
+    lines = [HEADER,
+             "\\begin{tabular}{lcccc}", "\\toprule",
+             " & \\multicolumn{2}{c}{AUC ($\\lambda_G$)} & "
+             "\\multicolumn{2}{c}{$C_{\\mathrm{llr}}^{\\min}$} \\\\",
+             "\\cmidrule(lr){2-3}\\cmidrule(lr){4-5}",
+             "dataset & surface & universal & surface & universal \\\\",
+             "\\midrule"]
+    for ds in ["german_novels", "english_novels", "hungarian_novels"]:
+        a_s, c_s = res[(ds, "surface")]
+        a_c, c_c = res[(ds, "catsrank")]
+        lines.append(f"{pretty(ds)} & {a_s:.3f} & {a_c:.3f} & "
+                     f"{c_s:.3f} & {c_c:.3f} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_xalpha.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print("tab_xalpha.tex")
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     tab_b_measured()
@@ -403,3 +490,5 @@ if __name__ == "__main__":
     fig_scatter()
     tab_engines()
     tab_hpy()
+    tab_xling()
+    tab_xalpha()
