@@ -40,6 +40,9 @@ from pathlib import Path
 import numpy as np
 
 HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))
+from run_kn_grid import rechunk  # noqa: E402
+
 sys.path.insert(0, str(HERE.parent))
 from lambdag import LambdaG  # noqa: E402
 
@@ -99,8 +102,12 @@ def run(g1, g2, arm, args):
     kt = args.known_tokens
     ktag = f"K{kt}" if kt != KNOWN_W * L else ""
     tag = f"{g1}2{g2}__{arm}__L{L}{ktag}"
+    # model order and evidence unit change the FILENAME only, never the seed
+    # strings, so all variants score the identical case list
+    otag = f"O{args.order}" if args.order != 10 else ""
+    wtag = f"w{args.seg}" if args.seg else ""
     SCORES.mkdir(parents=True, exist_ok=True)
-    fn = SCORES / f"{tag}.jsonl"
+    fn = SCORES / f"{tag}{otag}{wtag}.jsonl"
     if fn.exists():
         print(f"{tag}: exists, skipped", flush=True)
         return
@@ -150,17 +157,20 @@ def run(g1, g2, arm, args):
             qwins[a2] = [window(b2[a2]["sents"], i * L, L)
                          for i in range(min(b2[a2]["ntok"] // L, SAME_W))]
 
-    lg = LambdaG(N=10, r=1, engine="kn", random_state=0)
+    lg = LambdaG(N=args.order, r=1, engine="kn", random_state=0)
     t0, rows = time.time(), []
 
     def sym_score(q, k, names):
+        # the segmentation protocol: known, questioned AND donor streams are
+        # re-tiled into w-token units (run_window_sweep.py precedent)
+        q, k = rechunk(q, args.seg), rechunk(k, args.seg)
         pool = [n for n in donors if n.split(":", 1)[-1] not in names]
         prng = random.Random(f"{tag}|{'|'.join(sorted(names))}|donors")
         picks = prng.sample(pool, min(R_DONORS, len(pool)))
         lams, n_q = [], 0
         for dn in picks:
-            r = lg.score(q, k, ref_sentences=donors[dn], r=1,
-                         with_details=False)
+            r = lg.score(q, k, ref_sentences=rechunk(donors[dn], args.seg),
+                         r=1, with_details=False)
             lams.append(r.lambda_G); n_q = r.n_query_tokens
         return float(np.mean(lams)), n_q, lams
 
@@ -200,6 +210,13 @@ def main():
     ap.add_argument("--known-tokens", type=int, default=KNOWN_W * L,
                     help="one known doc of this many tokens instead of "
                          "three 1000-token windows")
+    ap.add_argument("--order", type=int, default=10,
+                    help="model order N; N=1 gives the rate-only score whose "
+                         "difference from N=10 isolates arrangement evidence")
+    ap.add_argument("--seg", type=int, default=0,
+                    help="re-tile all streams into w-token units (0 = the "
+                         "corpus lines; the segmentation chapter's protocol "
+                         "uses w in {20, 100})")
     args = ap.parse_args()
     dirs = ([tuple(d.split("2")) for d in args.directions.split(",") if d]
             or DIRECTIONS)

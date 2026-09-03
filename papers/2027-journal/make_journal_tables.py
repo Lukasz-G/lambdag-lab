@@ -536,22 +536,29 @@ def tab_xref():
 XGENRE_DIRS = ["novels2dracor", "novels2poetree", "dracor2novels",
                "dracor2poetree", "poetree2novels", "poetree2dracor"]
 GNAME = {"novels": "novels", "dracor": "drama", "poetree": "poetry"}
+# each direction's better-performing evidence-unit window (segmentation
+# chapter's w in {20, 100}; established by the impostor-t comparison)
+XREPAIR_WIN = {"novels2dracor": 20, "novels2poetree": 100, "dracor2novels": 100,
+              "dracor2poetree": 100, "poetree2novels": 100, "poetree2dracor": 100}
 
 
 def tab_xgenre():
     from sklearn.metrics import roc_auc_score
     xs = HERE.parent / "scores" / "xgenre"
     res = {}
-    for fn in sorted(xs.glob("*__L1000*.jsonl")):
-        parts = fn.name.split("__")
-        d, arm = parts[0], parts[1]
-        kt = "10k" if "K10000" in parts[2] else "3k"
-        rows = [json.loads(l) for l in open(fn, encoding="utf-8")]
-        y = np.array([r["within"] for r in rows])
-        lam = np.array([r["lambda_G"] for r in rows])
-        n = np.array([r["n_q"] for r in rows], dtype=float)
-        res[(d, arm, kt)] = {"auc": float(roc_auc_score(y, lam)),
-                             "b": float(np.mean(lam[y == 0] / n[y == 0]))}
+    for d, w in XREPAIR_WIN.items():
+        for arm in ("native", "foreign"):
+            for kt, ktag in (("3k", ""), ("10k", "K10000")):
+                fn = xs / f"{d}__{arm}__L1000{ktag}w{w}.jsonl"
+                if not fn.exists():
+                    continue
+                rows = [json.loads(l) for l in open(fn, encoding="utf-8")]
+                y = np.array([r["within"] for r in rows])
+                lam = np.array([r["lambda_G"] for r in rows])
+                n = np.array([r["n_q"] for r in rows], dtype=float)
+                res[(d, arm, kt)] = {
+                    "auc": float(roc_auc_score(y, lam)),
+                    "b": float(np.mean(lam[y == 0] / n[y == 0]))}
     lines = [HEADER,
              "\\begin{tabular}{lccccc}", "\\toprule",
              " & \\multicolumn{3}{c}{AUC (symmetrised $\\lambda$)} & "
@@ -562,9 +569,11 @@ def tab_xgenre():
              "\\midrule"]
     for d in XGENRE_DIRS:
         g1, g2 = d.split("2")
-        n3 = res[(d, "native", "3k")]
+        n3 = res.get((d, "native", "3k"))
         n10 = res.get((d, "native", "10k"))
-        f3 = res[(d, "foreign", "3k")]
+        f3 = res.get((d, "foreign", "3k"))
+        if not (n3 and f3):
+            continue
         lines.append(f"{GNAME[g1]} $\\to$ {GNAME[g2]} & {n3['auc']:.3f} & "
                      + (f"{n10['auc']:.3f}" if n10 else "--")
                      + f" & {f3['auc']:.3f} & {n3['b']:+.3f} & "
@@ -573,6 +582,77 @@ def tab_xgenre():
     (OUT / "tab_xgenre.tex").write_text("\n".join(lines) + "\n",
                                        encoding="utf-8")
     print("tab_xgenre.tex")
+
+
+def tab_xrepair():
+    from sklearn.metrics import roc_auc_score
+    sys.path.insert(0, str(HERE.parent))
+    from lambdag import cllr
+    xs = HERE.parent / "scores" / "xgenre"
+    lines = [HEADER,
+             "\\begin{tabular}{lcccc}", "\\toprule",
+             " & \\multicolumn{2}{c}{impostor AUC} & "
+             "\\multicolumn{2}{c}{offset $C_{\\mathrm{llr}}$} \\\\",
+             "\\cmidrule(lr){2-3}\\cmidrule(lr){4-5}",
+             "known $\\to$ questioned & raw & standardised & raw & "
+             "leave-one-out \\\\",
+             "\\midrule"]
+    for d, w in XREPAIR_WIN.items():
+        g1, g2 = d.split("2")
+        ifn = xs / f"{d}__impostor__K10000w{w}.jsonl"
+        nfn = xs / f"{d}__native__L1000K10000w{w}.jsonl"
+        if not (ifn.exists() and nfn.exists()):
+            continue
+        irows = [json.loads(l) for l in open(ifn, encoding="utf-8")]
+        iy = np.array([r["within"] for r in irows])
+        iraw = np.array([r["lam_cand"] for r in irows])
+        it = np.array([(r["lam_cand"] - np.mean(r["lam_imp"]))
+                       / (np.std(r["lam_imp"]) + 1e-9) for r in irows])
+        nrows = [json.loads(l) for l in open(nfn, encoding="utf-8")]
+        known = sorted({r["known"] for r in nrows})
+        bhat = {a: float(np.mean([r["lambda_G"] / r["n_q"] for r in nrows
+                                  if r["known"] == a and r["within"] == 1]) or 0)
+               for a in known}
+        ny = np.array([r["within"] for r in nrows])
+        nraw = np.array([r["lambda_G"] / np.sqrt(r["n_q"]) for r in nrows])
+        nloo = np.array([
+            (r["lambda_G"] - r["n_q"] *
+             float(np.mean([bhat[b] for b in known if b != r["known"]])))
+            / np.sqrt(r["n_q"]) for r in nrows])
+        c_raw = cllr(nraw[ny == 1], nraw[ny == 0])
+        c_loo = cllr(nloo[ny == 1], nloo[ny == 0])
+        lines.append(f"{GNAME[g1]} $\\to$ {GNAME[g2]} & "
+                     f"{roc_auc_score(iy, iraw):.3f} & "
+                     f"{roc_auc_score(iy, it):.3f} & "
+                     f"{c_raw:.2f} & {c_loo:.2f} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_xrepair.tex").write_text("\n".join(lines) + "\n",
+                                        encoding="utf-8")
+    print("tab_xrepair.tex")
+
+
+# --------------------------------------------------------------------------- #
+# Table: profile-classifier cross-genre verification (from the Julia log)
+# --------------------------------------------------------------------------- #
+
+def tab_xptm():
+    log = HERE.parent / "scores" / "ptx_full.log"
+    rows = []
+    for line in log.read_text(encoding="utf-8").splitlines():
+        f = line.split()
+        if len(f) == 5 and "->" in f[0]:
+            g1, g2 = f[0].split("->")
+            rows.append((g1, g2, int(f[1]), int(f[2]), float(f[3]), float(f[4])))
+    lines = [HEADER,
+             "\\begin{tabular}{lcccc}", "\\toprule",
+             "known $\\to$ questioned & $n_{\\text{same}}$ & $n_{\\text{diff}}$ "
+             "& raw AUC & cohort AUC \\\\", "\\midrule"]
+    for g1, g2, npos, nneg, araw, acoh in rows:
+        lines.append(f"{GNAME[g1]} $\\to$ {GNAME[g2]} & {npos} & {nneg} & "
+                     f"{araw:.3f} & {acoh:.3f} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_xptm.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print("tab_xptm.tex")
 
 
 if __name__ == "__main__":
@@ -589,3 +669,5 @@ if __name__ == "__main__":
     tab_xling()
     tab_xalpha()
     tab_xref()
+    tab_xrepair()
+    tab_xptm()
