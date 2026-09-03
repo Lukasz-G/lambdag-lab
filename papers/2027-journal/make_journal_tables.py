@@ -479,6 +479,56 @@ def tab_xalpha():
     print("tab_xalpha.tex")
 
 
+# --------------------------------------------------------------------------- #
+# Table: borrowed reference populations (from the run_xref.py score files)
+# --------------------------------------------------------------------------- #
+
+XREF_LANGS = ["german", "english", "french", "polish", "czech", "hungarian"]
+
+
+def tab_xref():
+    from sklearn.metrics import roc_auc_score
+    sys.path.insert(0, str(HERE.parent))
+    from lambdag import cllr_min
+    xs = HERE.parent / "scores" / "xref"
+    res = {}
+    for fn in sorted(xs.glob("*__xref-*__L1000.jsonl")):
+        ds, ref = fn.name.split("__")[0], fn.name.split("__")[1][5:]
+        rows = [json.loads(l) for l in open(fn, encoding="utf-8")]
+        y = np.array([r["within"] for r in rows])
+        lam = np.array([r["lambda_G"] for r in rows])
+        n = np.array([r["n_q"] for r in rows], dtype=float)
+        t = np.array([np.mean(r["lam_j"]) / (np.std(r["lam_j"]) + 1e-9)
+                      for r in rows])
+        res[(ds.split("_")[0], ref.split("_")[0])] = {
+            "auc": float(roc_auc_score(y, lam)),
+            "auc_t": float(roc_auc_score(y, t)),
+            "cmin_t": float(cllr_min(t[y == 1], t[y == 0])),
+            "b": float(np.mean(lam[y == 0] / n[y == 0]))}
+    lines = [HEADER,
+             "\\begin{tabular}{lcccccc}", "\\toprule",
+             " & \\multicolumn{3}{c}{AUC (symmetrised $\\lambda$)} & "
+             "\\multicolumn{3}{c}{gauge $b_{\\mathrm{sym}}$} \\\\",
+             "\\cmidrule(lr){2-4}\\cmidrule(lr){5-7}",
+             "case & native & best donor & pooled & native & "
+             "\\multicolumn{2}{c}{borrowed range} \\\\",
+             "\\midrule"]
+    for lang in XREF_LANGS:
+        donors = {r: c for (d, r), c in res.items()
+                  if d == lang and r not in ("native", "pooled")}
+        best = max(donors, key=lambda r: donors[r]["auc"])
+        bs = [c["b"] for c in donors.values()] + [res[(lang, "pooled")]["b"]]
+        lines.append(
+            f"{lang.capitalize()} & {res[(lang, 'native')]['auc']:.3f} & "
+            f"{donors[best]['auc']:.3f} ({best[:2]}) & "
+            f"{res[(lang, 'pooled')]['auc']:.3f} & "
+            f"{res[(lang, 'native')]['b']:+.3f} & "
+            f"{min(bs):+.3f} & {max(bs):+.3f} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    (OUT / "tab_xref.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print("tab_xref.tex")
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     tab_b_measured()
@@ -492,3 +542,4 @@ if __name__ == "__main__":
     tab_hpy()
     tab_xling()
     tab_xalpha()
+    tab_xref()
