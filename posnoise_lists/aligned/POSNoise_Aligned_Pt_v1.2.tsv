@@ -1,0 +1,385 @@
+# aligned companion of POSNoise_PatternList_Pt_v1.0.txt; evidence: UD_Portuguese-Bosque (18714 sentences) + target corpus (0 tokens tagged)
+# entry	upos	class	evidence_count	source
+/	PUNCT	OTH	106	ud
+a	DET	DET	29352	ud
+a a medida que	DET	MWE	29352	ud
+a as vezes	DET	MWE	29352	ud
+a favor ou contra	DET	MWE	29352	ud
+a fim de	DET	MWE	29352	ud
+a fim de que	DET	MWE	29352	ud
+a não ser	DET	MWE	29352	ud
+a não ser que	DET	MWE	29352	ud
+a o	DET	MWE	29352	ud
+a o invés	DET	MWE	29352	ud
+a o invés de	DET	MWE	29352	ud
+a o passo que	DET	MWE	29352	ud
+a o ponto de	DET	MWE	29352	ud
+a par de	DET	MWE	29352	ud
+a partir de	DET	MWE	29352	ud
+a ponto de	DET	MWE	29352	ud
+a respeito de	DET	MWE	29352	ud
+abaixo	ADV	ADV	18	ud
+acabar	VERB	LVERB	176	ud
+acerca	ADV	ADV	12	ud
+acerca de	ADV	MWE	12	ud
+achar	VERB	LVERB	110	ud
+acima	ADV	ADV	28	ud
+aconselhar	VERB	LVERB	22	ud
+acreditar	VERB	LVERB	90	ud
+acrescentar	VERB	LVERB	82	ud
+actualmente	ADV	ADV	42	ud
+acusar	VERB	LVERB	96	ud
+adiantar	VERB	LVERB	44	ud
+admitir	VERB	LVERB	76	ud
+afinal	ADV	ADV	30	ud
+afirmar	VERB	LVERB	288	ud
+agora	ADV	ADV	324	ud
+agora que	ADV	MWE	324	ud
+ainda	ADV	ADV	604	ud
+ainda assim	ADV	MWE	604	ud
+ainda que	ADV	MWE	604	ud
+ajudar	VERB	LVERB	60	ud
+alegar	VERB	LVERB	30	ud
+algo	PRON	PRON	52	ud
+algum	DET	DET	408	ud
+alguém	PRON	PRON	34	ud
+ali	ADV	ADV	68	ud
+aliás	ADV	ADV	56	ud
+alto	ADJ	OTH	92	ud
+além	ADV	ADV	194	ud
+além de	ADV	MWE	194	ud
+amanhã	ADV	ADV	56	ud
+ambos	PRON	PRON	68	ud
+ameaçar	VERB	LVERB	42	ud
+andar	VERB	LVERB	64	ud
+anteontem	ADV	ADV	58	ud
+antes	ADV	ADV	272	ud
+antes de	ADV	MWE	272	ud
+anunciar	VERB	LVERB	122	ud
+ao	ADP	ADP	34	ud
+apenas	ADV	ADV	268	ud
+apesar	ADV	ADV	168	ud
+apesar de	ADV	MWE	168	ud
+apesar disso	ADV	MWE	168	ud
+apontar	VERB	LVERB	86	ud
+aprender	VERB	LVERB	26	ud
+após	ADP	ADP	168	ud
+aquele	DET	DET	220	ud
+aqui	ADV	ADV	116	ud
+aquilo	PRON	PRON	40	ud
+aquém	ADV	ADV	10	ud
+assim	ADV	ADV	200	ud
+assim como	ADV	MWE	200	ud
+através	ADV	ADV	130	ud
+atrás	ADV	ADV	42	ud
+até	ADP	ADP	518	ud
+avaliar	VERB	LVERB	30	ud
+aí	ADV	ADV	100	ud
+baixo	ADJ	OTH	66	ud
+bastante	ADV	ADV	58	ud
+bem	ADV	ADV	290	ud
+bem como	ADV	MWE	290	ud
+cada	DET	DET	218	ud
+cada vez mais	DET	MWE	218	ud
+cedo	ADV	ADV	18	ud
+cerca	ADV	ADV	198	ud
+cerca de	ADV	MWE	198	ud
+certo	DET	DET	102	ud
+certos	DET	DET	18	ud
+chamar	VERB	LVERB	124	ud
+claro	ADJ	OTH	106	ud
+classificar	VERB	LVERB	24	ud
+com	ADP	ADP	3154	ud
+com vista a	ADP	MWE	3154	ud
+começar	VERB	LVERB	256	ud
+como	ADP	ADP	1416	ud
+como que	ADP	MWE	1416	ud
+como se	ADP	MWE	1416	ud
+como também	ADP	MWE	1416	ud
+compreender	VERB	LVERB	32	ud
+comprometer	VERB	LVERB	24	ud
+comprovar	VERB	LVERB	24	ud
+concluir	VERB	LVERB	66	ud
+concordar	VERB	LVERB	24	ud
+confessar	VERB	LVERB	28	ud
+conforme	SCONJ	SCONJ	20	ud
+conseguir	VERB	LVERB	296	ud
+considerar	VERB	LVERB	244	ud
+consistir	VERB	LVERB	24	ud
+continuar	VERB	LVERB	242	ud
+contra	ADP	ADP	288	ud
+contudo	CCONJ	CCONJ	24	ud
+convencer	VERB	LVERB	42	ud
+convidar	VERB	LVERB	32	ud
+crer	VERB	LVERB	26	ud
+cujo	DET	DET	106	ud
+cá	ADV	ADV	18	ud
+da	ADP	ADP	6	ud
+dado que	NOUN	MWE	100	ud
+de	ADP	ADP	35346	ud
+de aí a	ADP	MWE	35346	ud
+de esse modo	ADP	MWE	35346	ud
+de forma a	ADP	MWE	35346	ud
+de modo a	ADP	MWE	35346	ud
+de modo que	ADP	MWE	35346	ud
+de novo	ADP	MWE	35346	ud
+de o que	ADP	MWE	35346	ud
+de o que como	ADP	MWE	35346	ud
+de tal modo que	ADP	MWE	35346	ud
+debaixo	ADV	ADV	6	ud
+decidir	VERB	LVERB	122	ud
+declarar	VERB	LVERB	52	ud
+deixar	VERB	LVERB	228	ud
+demais	ADV	ADV	46	ud
+demasiado	ADV	ADV	26	ud
+demonstrar	VERB	LVERB	40	ud
+dentro	ADV	ADV	88	ud
+depois	ADV	ADV	418	ud
+depois de	ADV	MWE	418	ud
+depressa	ADV	ADV	10	ud
+des	ADP	ADP	10	ud
+desde	ADP	ADP	244	ud
+desde que	ADP	MWE	244	ud
+desejar	VERB	LVERB	34	ud
+desta	ADP	ADP	12	ud
+destinar	VERB	LVERB	60	ud
+dever	VERB	LVERB	528	ud
+devido	ADV	ADV	50	ud
+dezena	NUM	NUM	22	ud
+dezenas de	DET	MWE	20	ud
+diante	ADV	ADV	38	ud
+diante de	ADV	MWE	38	ud
+disso	PRON	PRON	10	ud
+diversos	DET	DET	46	ud
+dizer	VERB	LVERB	1020	ud
+durante	ADP	ADP	246	ud
+e	CCONJ	CCONJ	8568	ud
+e/ou	CCONJ	CCONJ	6	ud
+eis	ADP	ADP	18	ud
+ela	PRON	PRON	372	ud
+elas	PRON	PRON	130	ud
+ele	PRON	PRON	1230	ud
+eles	PRON	PRON	324	ud
+eles/elas	PRON	PRON	8	ud
+em	ADP	ADP	12916	ud
+em a verdade	ADP	MWE	12916	ud
+em favor de	ADP	MWE	12916	ud
+em o entanto	ADP	MWE	12916	ud
+em relação a	ADP	MWE	12916	ud
+em torno de	ADP	MWE	12916	ud
+em vez de	ADP	MWE	12916	ud
+embora	SCONJ	SCONJ	126	ud
+enfim	ADV	ADV	8	ud
+enquanto	ADV	ADV	172	ud
+enquanto que	ADV	MWE	172	ud
+entender	VERB	LVERB	72	ud
+entre	ADP	ADP	744	ud
+entrementes	ADV	ADV	6	ud
+entretanto	CCONJ	CCONJ	60	ud
+então	ADV	ADV	88	ud
+esclarecer	VERB	LVERB	32	ud
+esperar	VERB	LVERB	142	ud
+esse	DET	DET	586	ud
+estar	AUX	AUX	1674	ud
+este	DET	DET	1348	ud
+etc	ADV	ADV	10	ud
+etc.	ADV	ADV	18	ud
+eu	PRON	PRON	424	ud
+exceto	ADP	ADP	6	ud
+explicar	VERB	LVERB	130	ud
+face	ADV	ADV	54	ud
+face a	ADV	MWE	54	ud
+ficar	VERB	LVERB	380	ud
+foi	AUX	AUX	1256	ud
+fora	ADV	ADV	148	ud
+fora de mão	ADV	MWE	148	ud
+forçar	VERB	LVERB	26	ud
+garantir	VERB	LVERB	98	ud
+gostar	VERB	LVERB	72	ud
+graças	ADV	ADV	24	ud
+graças a	ADV	MWE	24	ud
+haver	VERB	LVERB	782	ud
+hoje	ADV	ADV	320	ud
+há	VERB	LVERB	556	ud
+imaginar	VERB	LVERB	36	ud
+indicar	VERB	LVERB	62	ud
+informar	VERB	LVERB	88	ud
+interessar	VERB	LVERB	30	ud
+ir	AUX	AUX	970	ud
+isso	PRON	PRON	336	ud
+isto	PRON	PRON	130	ud
+isto é	PRON	MWE	130	ud
+jamais	ADV	ADV	14	ud
+julgar	VERB	LVERB	26	ud
+junto	ADV	ADV	78	ud
+já	ADV	ADV	730	ud
+já que	ADV	MWE	730	ud
+lembrar	VERB	LVERB	58	ud
+limitar	VERB	LVERB	38	ud
+logo	ADV	ADV	104	ud
+logo que	ADV	MWE	104	ud
+longe	ADV	ADV	56	ud
+lá	ADV	ADV	96	ud
+mais	ADV	ADV	1656	ud
+mais de	ADV	MWE	1656	ud
+mais de o que	ADV	MWE	1656	ud
+mais uma vez	ADV	MWE	1656	ud
+mal	ADV	ADV	76	ud
+mandar	VERB	LVERB	32	ud
+mas	CCONJ	CCONJ	1126	ud
+mediante	ADP	ADP	10	ud
+melhor	ADJ	OTH	176	ud
+menos	ADV	ADV	248	ud
+mesmo	ADJ	OTH	552	ud
+mesmo assim	ADJ	MWE	552	ud
+mesmo que	ADJ	MWE	552	ud
+meu	DET	DET	196	ud
+mostrar	VERB	LVERB	176	ud
+muitas	DET	DET	76	ud
+muito	ADV	ADV	636	ud
+nada	PRON	PRON	156	ud
+nada mais nada menos	PRON	MWE	156	ud
+negar	VERB	LVERB	44	ud
+nem	CCONJ	CCONJ	204	ud
+nem mesmo	CCONJ	MWE	204	ud
+nenhum	DET	DET	82	ud
+nessa	ADP	ADP	6	ud
+ninguém	PRON	PRON	90	ud
+nosso	DET	DET	216	ud
+novo	ADJ	OTH	628	ud
+nunca	ADV	ADV	124	ud
+não	ADV	ADV	2790	ud
+não só	ADV	MWE	2790	ud
+nós	PRON	PRON	208	ud
+o	DET	DET	57178	ud
+obrigar	VERB	LVERB	44	ud
+onde	PRON	PRON	356	ud
+ontem	ADV	ADV	594	ud
+ora	ADV	ADV	24	ud
+ou	CCONJ	CCONJ	722	ud
+ou seja	CCONJ	MWE	722	ud
+outro	DET	DET	756	ud
+outrora	ADV	ADV	6	ud
+para	ADP	ADP	3948	ud
+para além de	ADP	MWE	3948	ud
+parecer	VERB	LVERB	196	ud
+pelo	ADP	ADP	10	ud
+pelo menos	ADP	MWE	10	ud
+pensar	VERB	LVERB	142	ud
+perante	ADP	ADP	36	ud
+perceber	VERB	LVERB	28	ud
+perguntar	VERB	LVERB	38	ud
+permanecer	VERB	LVERB	34	ud
+permitir	VERB	LVERB	170	ud
+perto	ADV	ADV	52	ud
+pior	ADJ	OTH	24	ud
+poder	VERB	LVERB	1012	ud
+pois	SCONJ	SCONJ	110	ud
+por	ADP	ADP	4386	ud
+por assim dizer	ADP	MWE	4386	ud
+por exemplo	ADP	MWE	4386	ud
+por fim	ADP	MWE	4386	ud
+por mais que	ADP	MWE	4386	ud
+por meio de	ADP	MWE	4386	ud
+por o menos	ADP	MWE	4386	ud
+por o que	ADP	MWE	4386	ud
+por outro lado	ADP	MWE	4386	ud
+porque	SCONJ	SCONJ	350	ud
+porquê	ADV	ADV	12	ud
+portanto	CCONJ	CCONJ	22	ud
+porém	CCONJ	CCONJ	60	ud
+pouco	ADV	ADV	334	ud
+pra	ADP	ADP	8	ud
+precisar	VERB	LVERB	62	ud
+preferir	VERB	LVERB	60	ud
+pretender	VERB	LVERB	104	ud
+primeira	ADJ	OTH	268	ud
+primeiro	ADJ	OTH	596	ud
+procurar	VERB	LVERB	106	ud
+prometer	VERB	LVERB	28	ud
+próprio	DET	DET	204	ud
+próximo	ADJ	OTH	248	ud
+qual	PRON	PRON	212	ud
+qualquer	DET	DET	218	ud
+quando	ADV	ADV	450	ud
+quanto	ADV	ADV	164	ud
+quanto a	ADV	MWE	164	ud
+quase	ADV	ADV	158	ud
+que	PRON	PRON	8900	ud
+quem	PRON	PRON	288	ud
+quer	VERB	LVERB	106	ud
+querer	VERB	LVERB	308	ud
+recentemente	ADV	ADV	44	ud
+recomendar	VERB	LVERB	22	ud
+reconhecer	VERB	LVERB	56	ud
+recordar	VERB	LVERB	54	ud
+recusar	VERB	LVERB	44	ud
+resolver	VERB	LVERB	84	ud
+revelar	VERB	LVERB	110	ud
+rumo	ADV	ADV	16	ud
+rápido	ADJ	OTH	58	ud
+saber	VERB	LVERB	282	ud
+salientar	VERB	LVERB	22	ud
+se	PRON	PRON	3420	ud
+se bem que	PRON	MWE	3420	ud
+segundo	ADP	ADP	636	ud
+sem	ADP	ADP	438	ud
+sem que	ADP	MWE	438	ud
+sempre	ADV	ADV	226	ud
+sendo assim	AUX	MWE	100	ud
+sentir	VERB	LVERB	56	ud
+senão	ADV	ADV	20	ud
+sequer	ADV	ADV	48	ud
+ser	AUX	AUX	7486	ud
+seu	DET	DET	2188	ud
+si	PRON	PRON	64	ud
+significar	VERB	LVERB	44	ud
+sim	ADV	ADV	44	ud
+sob	ADP	ADP	102	ud
+sobre	ADP	ADP	710	ud
+sobretudo	ADV	ADV	58	ud
+sua	DET	DET	896	ud
+sublinhar	VERB	LVERB	32	ud
+só	ADV	ADV	470	ud
+tais como	DET	MWE	26	ud
+tal	DET	DET	116	ud
+tal como	DET	MWE	116	ud
+talvez	ADV	ADV	78	ud
+também	ADV	ADV	618	ud
+tampouco	ADV	ADV	6	ud
+tanto	DET	DET	124	ud
+tanto mais que	DET	MWE	124	ud
+temer	VERB	LVERB	30	ud
+tentar	VERB	LVERB	160	ud
+ter	VERB	LVERB	2534	ud
+toda	DET	DET	140	ud
+toda a	DET	MWE	140	ud
+todas as	DET	MWE	114	ud
+todo	DET	DET	704	ud
+todo o	DET	MWE	704	ud
+todos os	DET	MWE	304	ud
+tornar	VERB	LVERB	140	ud
+trás	ADV	ADV	14	ud
+tu	PRON	PRON	10	ud
+tudo	PRON	PRON	236	ud
+tão	ADV	ADV	118	ud
+um	DET	DET	7216	ud
+um pouco	DET	MWE	7216	ud
+uma	DET	DET	3332	ud
+uma a uma	DET	MWE	3332	ud
+uma vez que	DET	MWE	3332	ud
+uns vez que	DET	MWE	58	ud
+ver	VERB	LVERB	368	ud
+vice-versa	ADV	ADV	8	ud
+vir	VERB	LVERB	288	ud
+visar	VERB	LVERB	24	ud
+visto que	VERB	MWE	50	ud
+você	PRON	PRON	80	ud
+voltar	VERB	LVERB	144	ud
+vosso	DET	DET	10	ud
+vulgo	ADV	ADV	6	ud
+várias	DET	DET	74	ud
+vários	DET	DET	98	ud
+vós	PRON	PRON	8	ud
+é	AUX	AUX	2706	ud
+é como se	AUX	MWE	2706	ud

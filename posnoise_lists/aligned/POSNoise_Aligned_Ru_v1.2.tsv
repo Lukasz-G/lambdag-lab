@@ -1,0 +1,841 @@
+# aligned companion of POSNoise_PatternList_Ru_v1.0.txt; evidence: UD_Russian-SynTagRus (87337 sentences) + target corpus (0 tokens tagged)
+# entry	upos	class	evidence_count	source
+а	CCONJ	CCONJ	8641	ud
+а также	CCONJ	MWE	8641	ud
+а то	CCONJ	MWE	8641	ud
+а то и	CCONJ	MWE	8641	ud
+аж	PART	PART	13	ud
+аль	PART	PART	16	ud
+без	ADP	ADP	1170	ud
+бен	PART	PART	37	ud
+бин	PART	PART	8	ud
+благо	NOUN	OTH	63	ud
+благодаря	ADP	ADP	187	ud
+близ	ADP	ADP	20	ud
+близко	ADV	ADV	76	ud
+более	ADV	ADV	1635	ud
+более чем	ADV	MWE	1635	ud
+больше	ADV	ADV	939	ud
+больше чем	ADV	MWE	939	ud
+брать	VERB	LVERB	281	ud
+будто	PART	PART	252	ud
+будто бы	PART	MWE	252	ud
+бы	AUX	AUX	2574	ud
+было	AUX	AUX	3306	ud
+быть	AUX	AUX	15453	ud
+в	ADP	ADP	45323	ud
+в виде	ADP	MWE	45323	ud
+в виду	ADP	MWE	45323	ud
+в значительной мере	ADP	MWE	45323	ud
+в качестве	ADP	MWE	45323	ud
+в конечном счете	ADP	MWE	45323	ud
+в конечном счёте	ADP	MWE	45323	ud
+в конце концов	ADP	MWE	45323	ud
+в настоящее время	ADP	MWE	45323	ud
+в общей сложности	ADP	MWE	45323	ud
+в одиночку	ADP	MWE	45323	ud
+в особенности	ADP	MWE	45323	ud
+в отличие от	ADP	MWE	45323	ud
+в отношении	ADP	MWE	45323	ud
+в первую очередь	ADP	MWE	45323	ud
+в противном случае	ADP	MWE	45323	ud
+в связи с	ADP	MWE	45323	ud
+в случае если	ADP	MWE	45323	ud
+в соответствии с	ADP	MWE	45323	ud
+в течение	ADP	MWE	45323	ud
+в то время как	ADP	MWE	45323	ud
+в угоду	ADP	MWE	45323	ud
+в ходе	ADP	MWE	45323	ud
+в частности	ADP	MWE	45323	ud
+вам	PRON	PRON	271	ud
+вами	PRON	PRON	71	ud
+вас	PRON	PRON	366	ud
+ваш	DET	DET	281	ud
+ваша	DET	DET	33	ud
+ваше	DET	DET	29	ud
+вашего	DET	DET	24	ud
+вашей	DET	DET	34	ud
+вашем	DET	DET	11	ud
+вашему	DET	DET	8	ud
+ваши	DET	DET	39	ud
+вашим	DET	DET	16	ud
+ваших	DET	DET	13	ud
+вашу	DET	DET	19	ud
+вблизи	ADP	ADP	31	ud
+ввиду	ADP	ADP	29	ud
+вдоль	ADP	ADP	73	ud
+ведь	PART	PART	766	ud
+везде	ADV	ADV	46	ud
+весь	DET	DET	4363	ud
+весьма	ADV	ADV	290	ud
+взамен	ADV	ADV	23	ud
+взять	VERB	LVERB	450	ud
+видеть	VERB	LVERB	727	ud
+вместо	ADP	ADP	194	ud
+вне	ADP	ADP	103	ud
+вновь	ADV	ADV	179	ud
+внутри	ADV	ADV	185	ud
+внутрь	ADP	ADP	39	ud
+во	ADP	ADP	1544	ud
+во время	ADP	MWE	1544	ud
+во главе	ADP	MWE	1544	ud
+во избежание	ADP	MWE	1544	ud
+возле	ADP	ADP	76	ud
+возможно	ADV	ADV	347	ud
+вокруг	ADP	ADP	257	ud
+вон	PART	PART	34	ud
+вопреки	ADP	ADP	52	ud
+вот	PART	PART	1331	ud
+впереди	ADV	ADV	55	ud
+вплоть до	ADV	MWE	81	ud
+вполне	ADV	ADV	419	ud
+впрочем	ADV	ADV	288	ud
+вроде	ADP	ADP	209	ud
+вроде бы	ADP	MWE	209	ud
+вроде как	ADP	MWE	209	ud
+вряд ли	ADV	MWE	145	ud
+все	PRON	PRON	4900	ud
+все же	PRON	MWE	4900	ud
+все равно	PRON	MWE	4900	ud
+все равно что	PRON	MWE	4900	ud
+все-таки	PART	PART	269	ud
+всегда	ADV	ADV	639	ud
+всего	PRON	PRON	1168	ud
+всей	DET	DET	259	ud
+всем	DET	DET	497	ud
+всеми	DET	DET	114	ud
+всему	DET	DET	124	ud
+всех	DET	DET	960	ud
+всея	DET	DET	5	ud
+вследствие	ADP	ADP	32	ud
+всю	DET	DET	255	ud
+всюду	ADV	ADV	29	ud
+вся	DET	DET	210	ud
+всякая	DET	DET	27	ud
+всякие	DET	DET	23	ud
+всякий	DET	DET	325	ud
+всяким	DET	DET	6	ud
+всяких	DET	DET	43	ud
+всякого	DET	DET	42	ud
+всякое	DET	DET	18	ud
+всякой	DET	DET	29	ud
+всяком	DET	DET	47	ud
+всякому	DET	DET	8	ud
+всякую	DET	DET	11	ud
+всяческие	DET	DET	5	ud
+всё	PRON	PRON	2339	ud
+всё ещё	PRON	MWE	2339	ud
+всё же	PRON	MWE	2339	ud
+всё равно	PRON	MWE	2339	ud
+всё-таки	PART	PART	13	ud
+всём	DET	DET	5	ud
+вы	PRON	PRON	1633	ud
+выше	ADV	ADV	229	ud
+где	ADV	ADV	1291	ud
+где-то	ADV	ADV	109	ud
+главным образом	ADJ	MWE	122	ud
+говорить	VERB	LVERB	2016	ud
+да	PART	PART	1010	ud
+да и	PART	MWE	1010	ud
+дабы	SCONJ	SCONJ	34	ud
+давать	VERB	LVERB	615	ud
+давно	ADV	ADV	294	ud
+даже	PART	PART	1935	ud
+далеко	ADV	ADV	433	ud
+дать	VERB	LVERB	565	ud
+де	PART	PART	48	ud
+действительно	ADV	ADV	334	ud
+делать	VERB	LVERB	992	ud
+дель	PART	PART	7	ud
+дескать	PART	PART	25	ud
+для	ADP	ADP	4900	ud
+до	ADP	ADP	2697	ud
+до отказа	ADP	MWE	2697	ud
+до поры до времени	ADP	MWE	2697	ud
+до сих пор	ADP	MWE	2697	ud
+довольно	ADV	ADV	317	ud
+должен	ADJ	OTH	1435	ud
+др.	DET	DET	14	ud
+друг	PRON	PRON	817	ud
+друг друга	PRON	MWE	817	ud
+друга	PRON	PRON	176	ud
+другая	DET	DET	108	ud
+друге	PRON	PRON	5	ud
+другие	DET	DET	492	ud
+другим	DET	DET	179	ud
+другими	DET	DET	142	ud
+других	DET	DET	638	ud
+другого	DET	DET	135	ud
+другое	DET	DET	199	ud
+другой	DET	DET	2721	ud
+другом	DET	DET	152	ud
+другому	DET	DET	43	ud
+другу	PRON	PRON	66	ud
+другую	DET	DET	93	ud
+его	DET	DET	4493	ud
+едва	ADV	ADV	114	ud
+едва ли	ADV	MWE	114	ud
+едва не	ADV	MWE	114	ud
+единственно	PART	PART	20	ud
+ее	PRON	PRON	2158	ud
+ежели	SCONJ	SCONJ	9	ud
+ей	PRON	PRON	351	ud
+еле	PART	PART	19	ud
+ему	PRON	PRON	1091	ud
+если	SCONJ	SCONJ	2766	ud
+если бы	SCONJ	MWE	2766	ud
+еще	ADV	ADV	2609	ud
+ещё	ADV	ADV	75	ud
+ею	PRON	PRON	65	ud
+её	DET	DET	85	ud
+ж	PART	PART	76	ud
+же	PART	PART	3676	ud
+за	ADP	ADP	4413	ud
+за исключением	ADP	MWE	4413	ud
+за рубежом	ADP	MWE	4413	ud
+за счет	ADP	MWE	4413	ud
+затем	ADV	ADV	389	ud
+зато	CCONJ	CCONJ	167	ud
+зачем	ADV	ADV	155	ud
+здесь	ADV	ADV	781	ud
+значит	ADV	ADV	406	ud
+и	CCONJ	CCONJ	41393	ud
+и то	CCONJ	MWE	41393	ud
+ибо	SCONJ	SCONJ	123	ud
+идти	VERB	LVERB	1079	ud
+из	ADP	ADP	5604	ud
+из-за	ADP	ADP	406	ud
+из-под	ADP	ADP	65	ud
+изо	ADP	ADP	22	ud
+или	CCONJ	CCONJ	2933	ud
+или же	CCONJ	MWE	2933	ud
+им	PRON	PRON	762	ud
+именно	PART	PART	964	ud
+иметь	VERB	LVERB	1325	ud
+ими	PRON	PRON	114	ud
+иначе	ADV	ADV	232	ud
+иная	DET	DET	25	ud
+иногда	ADV	ADV	328	ud
+иного	DET	DET	41	ud
+иное	DET	DET	49	ud
+иной	DET	DET	475	ud
+ином	DET	DET	16	ud
+иному	DET	DET	9	ud
+иную	DET	DET	17	ud
+иные	DET	DET	54	ud
+иным	DET	DET	46	ud
+иными	DET	DET	41	ud
+иных	DET	DET	52	ud
+исключительно	ADV	ADV	112	ud
+итак	ADV	ADV	101	ud
+их	PRON	PRON	2925	ud
+ишь	PART	PART	6	ud
+к	ADP	ADP	6766	ud
+ка	PART	PART	19	ud
+каждая	DET	DET	68	ud
+каждого	DET	DET	137	ud
+каждое	DET	DET	60	ud
+каждой	DET	DET	96	ud
+каждом	DET	DET	84	ud
+каждому	DET	DET	60	ud
+каждую	DET	DET	45	ud
+каждые	DET	DET	16	ud
+каждый	DET	DET	1023	ud
+каждым	DET	DET	59	ud
+казаться	VERB	LVERB	598	ud
+как	SCONJ	SCONJ	7500	ud
+как будто	SCONJ	MWE	7500	ud
+как будто бы	SCONJ	MWE	7500	ud
+как бы	SCONJ	MWE	7500	ud
+как если бы	SCONJ	MWE	7500	ud
+как минимум	SCONJ	MWE	7500	ud
+как можно	SCONJ	MWE	7500	ud
+как нельзя	SCONJ	MWE	7500	ud
+как раз	SCONJ	MWE	7500	ud
+как только	SCONJ	MWE	7500	ud
+какая	DET	DET	100	ud
+какая-либо	DET	DET	6	ud
+какая-нибудь	DET	DET	14	ud
+какая-то	DET	DET	52	ud
+какие	DET	DET	221	ud
+какие-либо	DET	DET	12	ud
+какие-нибудь	DET	DET	13	ud
+какие-то	DET	DET	152	ud
+каким	DET	DET	93	ud
+каким-либо	DET	DET	10	ud
+каким-нибудь	DET	DET	8	ud
+каким-то	DET	DET	69	ud
+какими	DET	DET	38	ud
+какими-то	DET	DET	16	ud
+каких	DET	DET	67	ud
+каких-либо	DET	DET	27	ud
+каких-нибудь	DET	DET	6	ud
+каких-то	DET	DET	54	ud
+каков	DET	DET	89	ud
+какова	DET	DET	23	ud
+каково	DET	DET	22	ud
+каковы	DET	DET	25	ud
+какого	DET	DET	39	ud
+какого-либо	DET	DET	17	ud
+какого-нибудь	DET	DET	19	ud
+какого-то	DET	DET	38	ud
+какое	DET	DET	84	ud
+какое-нибудь	DET	DET	7	ud
+какое-то	DET	DET	100	ud
+какой	DET	DET	1040	ud
+какой-либо	DET	DET	127	ud
+какой-нибудь	DET	DET	157	ud
+какой-то	DET	DET	746	ud
+каком	DET	DET	63	ud
+каком-либо	DET	DET	6	ud
+каком-нибудь	DET	DET	6	ud
+каком-то	DET	DET	33	ud
+какому	DET	DET	16	ud
+какому-нибудь	DET	DET	7	ud
+какому-то	DET	DET	11	ud
+какую	DET	DET	52	ud
+какую-либо	DET	DET	7	ud
+какую-нибудь	DET	DET	16	ud
+какую-то	DET	DET	35	ud
+кем	PRON	PRON	84	ud
+кем-то	PRON	PRON	12	ud
+класть	VERB	LVERB	23	ud
+ко	ADP	ADP	162	ud
+когда	SCONJ	SCONJ	2257	ud
+кого	PRON	PRON	218	ud
+кого-либо	PRON	PRON	6	ud
+кого-нибудь	PRON	PRON	7	ud
+кого-то	PRON	PRON	64	ud
+кое-какие	DET	DET	16	ud
+кое-кто	PRON	PRON	19	ud
+кое-что	PRON	PRON	40	ud
+коей	DET	DET	7	ud
+коем	DET	DET	28	ud
+коли	SCONJ	SCONJ	16	ud
+коль	SCONJ	SCONJ	14	ud
+коль скоро	SCONJ	MWE	14	ud
+ком	PRON	PRON	13	ud
+кому	PRON	PRON	144	ud
+кому-то	PRON	PRON	47	ud
+конечно	ADV	ADV	783	ud
+которая	DET	DET	737	ud
+которого	DET	DET	421	ud
+которое	DET	DET	365	ud
+которой	DET	DET	599	ud
+котором	DET	DET	310	ud
+которому	DET	DET	140	ud
+которую	DET	DET	345	ud
+которые	DET	DET	1718	ud
+который	DET	DET	6950	ud
+которым	DET	DET	240	ud
+которыми	DET	DET	143	ud
+которых	DET	DET	757	ud
+крайне	ADV	ADV	149	ud
+кроме	ADP	ADP	486	ud
+кроме как	ADP	MWE	486	ud
+кроме того	ADP	MWE	486	ud
+кто	PRON	PRON	1525	ud
+кто-либо	PRON	PRON	22	ud
+кто-нибудь	PRON	PRON	53	ud
+кто-то	PRON	PRON	330	ud
+куда	ADV	ADV	368	ud
+ладно	PART	PART	34	ud
+ли	PART	PART	1188	ud
+либо	CCONJ	CCONJ	284	ud
+лишь	PART	PART	937	ud
+лишь бы	PART	MWE	937	ud
+любая	DET	DET	51	ud
+любого	DET	DET	78	ud
+любое	DET	DET	51	ud
+любой	DET	DET	656	ud
+любом	DET	DET	93	ud
+любому	DET	DET	29	ud
+любую	DET	DET	44	ud
+любые	DET	DET	54	ud
+любым	DET	DET	14	ud
+любыми	DET	DET	7	ud
+любых	DET	DET	38	ud
+мало	ADV	ADV	564	ud
+меж	ADP	ADP	13	ud
+между	ADP	ADP	861	ud
+менее	ADV	ADV	452	ud
+менее чем	ADV	MWE	452	ud
+меньше	ADV	ADV	322	ud
+меньше чем	ADV	MWE	322	ud
+меня	PRON	PRON	1147	ud
+мимо	ADP	ADP	84	ud
+минус	NOUN	OTH	40	ud
+мне	PRON	PRON	1366	ud
+многие	DET	DET	603	ud
+многим	DET	DET	59	ud
+многими	DET	DET	23	ud
+многих	DET	DET	343	ud
+много	ADV	ADV	1027	ud
+многого	PRON	PRON	7	ud
+многое	PRON	PRON	215	ud
+многом	PRON	PRON	82	ud
+многому	PRON	PRON	7	ud
+мной	PRON	PRON	97	ud
+мною	PRON	PRON	32	ud
+мое	DET	DET	111	ud
+моего	DET	DET	87	ud
+моей	DET	DET	130	ud
+моем	DET	DET	35	ud
+моему	DET	DET	39	ud
+может	VERB	LVERB	1939	ud
+можно	VERB	LVERB	1810	ud
+мои	DET	DET	132	ud
+моим	DET	DET	54	ud
+моими	DET	DET	10	ud
+моих	DET	DET	74	ud
+мой	DET	DET	1152	ud
+мол	PART	PART	94	ud
+мочь	VERB	LVERB	4047	ud
+мою	DET	DET	57	ud
+моя	DET	DET	151	ud
+мы	PRON	PRON	5318	ud
+н.	PROPN	OTH	120	ud
+на	ADP	ADP	19888	ud
+на плаву	ADP	MWE	19888	ud
+на полпути	ADP	MWE	19888	ud
+над	ADP	ADP	594	ud
+надо	VERB	LVERB	963	ud
+накануне	ADV	ADV	96	ud
+наконец	ADV	ADV	325	ud
+нам	PRON	PRON	729	ud
+нами	PRON	PRON	110	ud
+наоборот	ADV	ADV	122	ud
+наподобие	ADP	ADP	7	ud
+напротив	ADV	ADV	90	ud
+наравне с	ADV	MWE	9	ud
+нас	PRON	PRON	1263	ud
+насколько	ADV	ADV	145	ud
+настолько	ADV	ADV	119	ud
+насчет	ADP	ADP	35	ud
+наш	DET	DET	2214	ud
+наша	DET	DET	171	ud
+наше	DET	DET	132	ud
+нашего	DET	DET	199	ud
+нашей	DET	DET	476	ud
+нашем	DET	DET	96	ud
+нашему	DET	DET	60	ud
+наши	DET	DET	330	ud
+нашим	DET	DET	81	ud
+нашими	DET	DET	33	ud
+наших	DET	DET	255	ud
+нашу	DET	DET	116	ud
+не	PART	PART	19703	ud
+не столько	PART	MWE	19703	ud
+не то	PART	MWE	19703	ud
+не то что	PART	MWE	19703	ud
+не то чтобы	PART	MWE	19703	ud
+не только	PART	MWE	19703	ud
+невзирая на	ADV	MWE	15	ud
+него	PRON	PRON	831	ud
+недавно	ADV	ADV	230	ud
+нее	PRON	PRON	404	ud
+нежели	SCONJ	SCONJ	58	ud
+ней	PRON	PRON	435	ud
+некая	DET	DET	15	ud
+некие	DET	DET	15	ud
+некий	DET	DET	168	ud
+неким	DET	DET	9	ud
+неких	DET	DET	18	ud
+некое	DET	DET	12	ud
+некоего	DET	DET	19	ud
+некоей	DET	DET	5	ud
+некоем	DET	DET	6	ud
+некоторая	DET	DET	12	ud
+некоторого	DET	DET	13	ud
+некоторое	DET	DET	76	ud
+некоторой	DET	DET	23	ud
+некотором	DET	DET	17	ud
+некоторую	DET	DET	13	ud
+некоторые	DET	DET	349	ud
+некоторый	DET	DET	791	ud
+некоторым	DET	DET	58	ud
+некоторыми	DET	DET	16	ud
+некоторых	DET	DET	202	ud
+некто	PRON	PRON	7	ud
+некую	DET	DET	15	ud
+нельзя	VERB	LVERB	408	ud
+нем	PRON	PRON	338	ud
+немногим	PRON	PRON	13	ud
+немного	ADV	ADV	188	ud
+нему	PRON	PRON	155	ud
+несколько	NUM	NUM	1149	ud
+несмотря на	ADV	MWE	246	ud
+нет	VERB	LVERB	1442	ud
+неужели	PART	PART	54	ud
+нечто	PRON	PRON	103	ud
+нею	PRON	PRON	21	ud
+ни	PART	PART	1583	ud
+ни в коей мере	PART	MWE	1583	ud
+ни в коем случае	PART	MWE	1583	ud
+ни много ни мало	PART	MWE	1583	ud
+ни разу	PART	MWE	1583	ud
+ни шатко ни валко	PART	MWE	1583	ud
+нигде	ADV	ADV	37	ud
+ниже	ADJ	ADV	141	ud
+никакая	DET	DET	22	ud
+никакие	DET	DET	31	ud
+никаким	DET	DET	5	ud
+никакими	DET	DET	7	ud
+никаких	DET	DET	209	ud
+никакого	DET	DET	137	ud
+никакое	DET	DET	9	ud
+никакой	DET	DET	509	ud
+никем	PRON	PRON	8	ud
+никогда	ADV	ADV	388	ud
+никого	PRON	PRON	99	ud
+никоим	DET	DET	9	ud
+никоим образом	DET	MWE	9	ud
+никому	PRON	PRON	78	ud
+никто	PRON	PRON	608	ud
+ним	PRON	PRON	467	ud
+ними	PRON	PRON	239	ud
+них	PRON	PRON	1223	ud
+ничего	PRON	PRON	736	ud
+ничем	PRON	PRON	58	ud
+ничему	PRON	PRON	9	ud
+ничто	PRON	PRON	791	ud
+но	CCONJ	CCONJ	6767	ud
+но и	CCONJ	MWE	6767	ud
+ну	PART	PART	457	ud
+нужно	ADJ	OTH	636	ud
+нём	PRON	PRON	16	ud
+о	ADP	ADP	4392	ud
+об	ADP	ADP	1056	ud
+оба	NUM	NUM	224	ud
+обо	ADP	ADP	21	ud
+обычно	ADV	ADV	259	ud
+один	NUM	NUM	3695	ud
+один за другим	NUM	MWE	3695	ud
+один на один	NUM	MWE	3695	ud
+одна	NUM	NUM	392	ud
+одна за другой	NUM	MWE	392	ud
+однако	ADV	ADV	1139	ud
+одни	DET	DET	127	ud
+одним	NUM	NUM	256	ud
+одними	DET	DET	11	ud
+одних	DET	DET	55	ud
+одно	NUM	NUM	329	ud
+одного	NUM	NUM	377	ud
+одной	NUM	NUM	567	ud
+одном	NUM	NUM	202	ud
+одному	NUM	NUM	84	ud
+одну	NUM	NUM	221	ud
+оказаться	VERB	LVERB	830	ud
+оказываться	VERB	LVERB	220	ud
+около	ADP	ADP	472	ud
+он	PRON	PRON	10472	ud
+она	PRON	PRON	4631	ud
+они	PRON	PRON	6828	ud
+оно	PRON	PRON	775	ud
+опять	ADV	ADV	244	ud
+особенно	ADV	ADV	438	ud
+остальная	DET	DET	7	ud
+остального	DET	DET	11	ud
+остальное	DET	DET	57	ud
+остальной	DET	DET	298	ud
+остальном	DET	DET	7	ud
+остальные	DET	DET	105	ud
+остальным	DET	DET	26	ud
+остальными	DET	DET	6	ud
+остальных	DET	DET	68	ud
+от	ADP	ADP	4401	ud
+относительно	ADP	ADP	143	ud
+ото	ADP	ADP	7	ud
+отсюда	ADV	ADV	91	ud
+оттого что	ADV	MWE	48	ud
+оттуда	ADV	ADV	76	ud
+отчего	ADV	ADV	29	ud
+очень	ADV	ADV	1589	ud
+перед	ADP	ADP	629	ud
+передо	ADP	ADP	7	ud
+плюс	ADP	ADP	89	ud
+по	ADP	ADP	8028	ud
+по крайней мере	ADP	MWE	8028	ud
+по меньшей мере	ADP	MWE	8028	ud
+по мере	ADP	MWE	8028	ud
+по мере того как	ADP	MWE	8028	ud
+по отношению к	ADP	MWE	8028	ud
+по поводу	ADP	MWE	8028	ud
+по сравнению с	ADP	MWE	8028	ud
+поверх	ADP	ADP	16	ud
+под	ADP	ADP	1330	ud
+подо	ADP	ADP	6	ud
+подобно	ADP	ADP	48	ud
+позади	ADV	ADV	22	ud
+позже	ADV	ADV	160	ud
+пойти	VERB	LVERB	482	ud
+пока	ADV	ADV	762	ud
+пока что	ADV	MWE	762	ud
+полностью	ADV	ADV	222	ud
+помимо	ADP	ADP	116	ud
+поперек	ADP	ADP	12	ud
+попросту	PART	PART	37	ud
+порядка	NOUN	ADP	133	ud
+поскольку	SCONJ	SCONJ	469	ud
+после	ADP	ADP	1576	ud
+посреди	ADP	ADP	25	ud
+посредством	ADP	ADP	28	ud
+постоянно	ADV	ADV	200	ud
+потом	ADV	ADV	876	ud
+потому	ADV	ADV	1007	ud
+потому как	ADV	MWE	1007	ud
+потому что	ADV	MWE	1007	ud
+почему	ADV	ADV	511	ud
+почти	ADV	ADV	701	ud
+почти что	ADV	MWE	701	ud
+поэтому	ADV	ADV	716	ud
+пр.	DET	DET	17	ud
+прежде	ADP	ADP	355	ud
+прежде всего	ADP	MWE	355	ud
+прежде чем	ADP	MWE	355	ud
+преимущественно	ADV	ADV	25	ud
+при	ADP	ADP	2324	ud
+при помощи	ADP	MWE	2324	ud
+при условии что	ADP	MWE	2324	ud
+причем	CCONJ	CCONJ	292	ud
+причём	CCONJ	CCONJ	7	ud
+про	ADP	ADP	413	ud
+просто	PART	PART	950	ud
+просто-напросто	PART	PART	6	ud
+против	ADP	ADP	470	ud
+прочего	DET	DET	33	ud
+прочее	PRON	PRON	53	ud
+прочей	DET	DET	5	ud
+прочие	DET	DET	31	ud
+прочим	PRON	PRON	38	ud
+прочими	DET	DET	6	ud
+прочих	DET	DET	44	ud
+прямо	ADV	ADV	206	ud
+прямо-таки	PART	PART	11	ud
+пусть	PART	PART	170	ud
+путем	ADP	ADP	127	ud
+путём	ADP	ADP	9	ud
+равно как	ADJ	MWE	223	ud
+ради	ADP	ADP	121	ud
+раз	NOUN	OTH	1312	ud
+разве	PART	PART	142	ud
+разве что	PART	MWE	142	ud
+раньше	ADV	ADV	280	ud
+редко	ADV	ADV	85	ud
+рядом	ADV	ADV	221	ud
+с	ADP	ADP	13884	ud
+с помощью	ADP	MWE	13884	ud
+с тех пор	ADP	MWE	13884	ud
+с тех пор как	ADP	MWE	13884	ud
+сам	DET	DET	1700	ud
+сам собой	DET	MWE	1700	ud
+сама	DET	DET	201	ud
+сама собой	DET	MWE	201	ud
+самая	DET	DET	123	ud
+сами	DET	DET	334	ud
+сами собой	DET	MWE	334	ud
+самим	DET	DET	66	ud
+самими	DET	DET	12	ud
+самих	DET	DET	71	ud
+само	DET	DET	122	ud
+само собой	DET	MWE	122	ud
+самого	DET	DET	247	ud
+самое	DET	DET	291	ud
+самой	DET	DET	231	ud
+самом	DET	DET	415	ud
+самому	DET	DET	74	ud
+саму	DET	DET	28	ud
+самую	DET	DET	59	ud
+самые	DET	DET	241	ud
+самый	DET	DET	2128	ud
+самым	DET	DET	217	ud
+самыми	DET	DET	27	ud
+самых	DET	DET	291	ud
+сверх	ADP	ADP	7	ud
+свое	DET	DET	344	ud
+своего	DET	DET	437	ud
+своей	DET	DET	659	ud
+своем	DET	DET	213	ud
+своему	DET	DET	92	ud
+свои	DET	DET	633	ud
+своим	DET	DET	314	ud
+своими	DET	DET	194	ud
+своих	DET	DET	541	ud
+свой	DET	DET	4510	ud
+свою	DET	DET	653	ud
+своя	DET	DET	39	ud
+своё	DET	DET	15	ud
+своём	DET	DET	13	ud
+свыше	ADP	ADP	44	ud
+сделать	VERB	LVERB	948	ud
+себе	PRON	PRON	867	ud
+себя	PRON	PRON	2335	ud
+сего	DET	DET	18	ud
+сей	DET	DET	331	ud
+сейчас	ADV	ADV	1072	ud
+сих	DET	DET	246	ud
+сказать	VERB	LVERB	1838	ud
+сквозь	ADP	ADP	86	ud
+сколь	ADV	ADV	24	ud
+сколько	NUM	NUM	340	ud
+скоро	ADV	ADV	166	ud
+следовательно	ADV	ADV	69	ud
+следует	VERB	LVERB	248	ud
+слишком	ADV	ADV	295	ud
+словно	SCONJ	SCONJ	147	ud
+словно бы	SCONJ	MWE	147	ud
+снаружи	ADV	ADV	24	ud
+сначала	ADV	ADV	233	ud
+снизу вверх	ADV	MWE	31	ud
+снова	ADV	ADV	208	ud
+со	ADP	ADP	1261	ud
+со стороны	ADP	MWE	1261	ud
+собой	PRON	PRON	411	ud
+собою	PRON	PRON	20	ud
+совершенно	ADV	ADV	350	ud
+совсем	ADV	ADV	497	ud
+согласно	ADP	ADP	184	ud
+спустя	ADP	ADP	113	ud
+сразу	ADV	ADV	457	ud
+среди	ADP	ADP	466	ud
+становиться	VERB	LVERB	471	ud
+стать	VERB	LVERB	2360	ud
+стоит	VERB	LVERB	395	ud
+столько	ADV	ADV	193	ud
+сюда	ADV	ADV	95	ud
+т.	PRON	PRON	312	ud
+т. е.	PRON	MWE	312	ud
+т. есть	PRON	MWE	312	ud
+т. как	PRON	MWE	312	ud
+та	DET	DET	143	ud
+так	ADV	ADV	3578	ud
+так же как	ADV	MWE	3578	ud
+так и	ADV	MWE	3578	ud
+так как	ADV	MWE	3578	ud
+так что	ADV	MWE	3578	ud
+такая	DET	DET	312	ud
+также	PART	PART	919	ud
+таки	PART	PART	17	ud
+такие	DET	DET	467	ud
+таким	DET	DET	437	ud
+такими	DET	DET	83	ud
+таких	DET	DET	442	ud
+таков	DET	DET	103	ud
+такова	DET	DET	46	ud
+таково	DET	DET	8	ud
+такового	DET	DET	11	ud
+таковой	DET	DET	78	ud
+таковы	DET	DET	27	ud
+таковым	DET	DET	14	ud
+таковыми	DET	DET	9	ud
+таковых	DET	DET	11	ud
+такого	DET	DET	323	ud
+такое	DET	DET	424	ud
+такой	DET	DET	3536	ud
+такой-то	DET	DET	19	ud
+таком	DET	DET	122	ud
+такому	DET	DET	27	ud
+такую	DET	DET	161	ud
+там	ADV	ADV	1110	ud
+твое	DET	DET	26	ud
+твоего	DET	DET	13	ud
+твоей	DET	DET	14	ud
+твоему	DET	DET	7	ud
+твои	DET	DET	22	ud
+твоим	DET	DET	7	ud
+твоих	DET	DET	7	ud
+твой	DET	DET	164	ud
+твою	DET	DET	11	ud
+твоя	DET	DET	26	ud
+те	DET	DET	547	ud
+тебе	PRON	PRON	187	ud
+тебя	PRON	PRON	220	ud
+тем	PRON	PRON	1297	ud
+тем более что	PRON	MWE	1297	ud
+тем не менее	PRON	MWE	1297	ud
+теми	DET	DET	66	ud
+теперь	ADV	ADV	825	ud
+тех	DET	DET	641	ud
+то	PRON	PRON	7916	ud
+то есть	PRON	MWE	7916	ud
+то и дело	PRON	MWE	7916	ud
+то ли	PRON	MWE	7916	ud
+то что	PRON	MWE	7916	ud
+тобой	PRON	PRON	29	ud
+тобою	PRON	PRON	5	ud
+тогда	ADV	ADV	896	ud
+тогда как	ADV	MWE	896	ud
+того	PRON	PRON	1563	ud
+тоже	PART	PART	852	ud
+той	DET	DET	311	ud
+только	PART	PART	2930	ud
+только что	PART	MWE	2930	ud
+только-только	PART	PART	5	ud
+том	PRON	PRON	1815	ud
+тому	PRON	PRON	474	ud
+тому назад	PRON	MWE	474	ud
+тот	DET	DET	3968	ud
+точно	ADV	ADV	327	ud
+ту	DET	DET	132	ud
+туда	ADV	ADV	191	ud
+тут	ADV	ADV	781	ud
+ты	PRON	PRON	1139	ud
+у	ADP	ADP	4057	ud
+уж	PART	PART	360	ud
+уже	ADV	ADV	2635	ud
+уметь	VERB	LVERB	131	ud
+фон	NOUN	OTH	110	ud
+хотеть	VERB	LVERB	796	ud
+хоть	ADV	ADV	206	ud
+хоть бы	ADV	MWE	206	ud
+хоть и	ADV	MWE	206	ud
+хотя	SCONJ	SCONJ	869	ud
+хотя бы	SCONJ	MWE	869	ud
+хотя и	SCONJ	MWE	869	ud
+часто	ADV	ADV	487	ud
+чего	PRON	PRON	434	ud
+чего-либо	PRON	PRON	6	ud
+чего-то	PRON	PRON	46	ud
+чей	DET	DET	131	ud
+чем	SCONJ	SCONJ	1529	ud
+чем-нибудь	PRON	PRON	15	ud
+чем-то	PRON	PRON	113	ud
+чему	PRON	PRON	82	ud
+чему-то	PRON	PRON	9	ud
+через	ADP	ADP	952	ud
+что	SCONJ	SCONJ	15010	ud
+что за	SCONJ	MWE	15010	ud
+что ни на есть	SCONJ	MWE	15010	ud
+что-либо	PRON	PRON	31	ud
+что-нибудь	PRON	PRON	93	ud
+что-то	PRON	PRON	560	ud
+чтоб	SCONJ	SCONJ	41	ud
+чтобы	SCONJ	SCONJ	2006	ud
+чуть	ADV	ADV	254	ud
+чуть не	ADV	MWE	254	ud
+чуть-чуть	PART	PART	34	ud
+чье	DET	DET	12	ud
+чьей-то	DET	DET	6	ud
+чьи	DET	DET	36	ud
+чьи-то	DET	DET	8	ud
+чьих	DET	DET	6	ud
+чью	DET	DET	10	ud
+чью-то	DET	DET	5	ud
+чья	DET	DET	38	ud
+чья-то	DET	DET	6	ud
+чём	PRON	PRON	5	ud
+эта	DET	DET	598	ud
+этакий	DET	DET	18	ud
+эти	DET	DET	1108	ud
+этим	DET	DET	405	ud
+этими	DET	DET	78	ud
+этих	DET	DET	627	ud
+это	PRON	PRON	9091	ud
+этого	PRON	PRON	1409	ud
+этой	DET	DET	937	ud
+этом	PRON	PRON	1719	ud
+этому	DET	DET	327	ud
+этот	DET	DET	7358	ud
+эту	DET	DET	502	ud
+я	PRON	PRON	7733	ud
+являться	VERB	LVERB	799	ud

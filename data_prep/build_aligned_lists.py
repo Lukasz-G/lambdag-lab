@@ -68,6 +68,117 @@ UPOS_CLASS = {
 OTHER_CLASS = "OTH"   # NOUN/ADJ/PROPN/X/SYM/PUNCT-dominant entries
 UNSEEN_CLASS = "UNK"  # no treebank evidence
 
+# SECOND EVIDENCE CHANNEL: syntactic function, consulted only when the dominant
+# UPOS is content-like and the entry would otherwise be discarded as OTH.
+#
+# The tag alone is the wrong instrument in languages that do not mark adverbs
+# morphologically. German is the clear case: *absolut*, *aktuell*, *absichtlich*
+# are adverbs, but German adverbs are formally identical to predicative
+# adjectives, so UD tags them ADJ and 237 of the 312 German OTH entries were
+# adjective-dominant. Czech, which marks adverbs with -e/-o, has one classless
+# entry in the whole list. Reading the dependency relation instead of the tag
+# asks what the word DOES rather than what it looks like, and it stays entirely
+# treebank-derived -- no entry is classified from memory.
+DEPREL_CLASS = {
+    "advmod": "ADV", "det": "DET", "case": "ADP", "mark": "SCONJ",
+    "cc": "CCONJ", "aux": "AUX", "aux:pass": "AUX", "cop": "AUX",
+    "expl": "PRON", "nummod": "NUM",
+}
+
+
+def orth_variants(e):
+    """Spelling variants to try when a direct lookup fails.
+
+    Purely mechanical -- no lexical knowledge. The German list carries Swiss
+    orthography (*abschliessend*) where the treebank has the eszett form
+    (*abschliessend* -> *abschließend*), and the reverse occurs too.
+    """
+    seen = [e]
+    for v in (e.replace("ß", "ss"), e.replace("ss", "ß")):
+        if v not in seen:
+            seen.append(v)
+    return seen
+
+
+def mine_corpus(code, needed, max_tokens=400_000):
+    """UPOS + deprel evidence for entries the TREEBANK never shows, mined from
+    the target corpora themselves.
+
+    Why this is needed at all: the UD treebanks are contemporary prose, while
+    the corpora are literary texts of roughly 1840-1920. The German residue
+    after the syntactic-function fix is dominated by archaic and literary
+    function words -- *alldieweil*, *allenthalben*, *allerorten*, *allerlei* --
+    which a modern newspaper treebank was never going to contain. The evidence
+    has to come from the period, so it comes from the corpus.
+
+    The precedent is the medieval pipeline, where the gmh/gml v0.2 lists were
+    likewise augmented with corpus-derived forms rather than hand-written ones.
+    Provenance is recorded per entry in the `source` column, so a corpus-derived
+    class is never mistaken for treebank evidence.
+
+    Only tokens whose surface or lemma is in `needed` are counted, which keeps
+    this to one pass and a small table.
+    """
+    sys.path.insert(0, str(HERE))
+    import mask_corpora as mc
+
+    # several folders can share an iso (german/swissgerman -> de); take the
+    # plainest name, which is the language's own corpus
+    cands = [f for f, (iso, model) in mc.SPACY.items() if iso == code and model]
+    if not cands:
+        return {}, 0
+    folder = sorted(cands, key=len)[0]
+    model = mc.SPACY[folder][1]
+
+    src = ROOT / "data" / folder
+    if not src.is_dir():
+        return {}, 0
+    try:
+        import spacy
+        nlp = spacy.load(model, exclude=["ner"])
+    except Exception as e:                                  # noqa: BLE001
+        print(f"  {code}: corpus augmentation unavailable ({type(e).__name__})",
+              flush=True)
+        return {}, 0
+
+    texts = []
+    ntok = 0
+    for f in sorted(src.glob("av_reference_*.jsonl")):
+        for line in f.open(encoding="utf-8"):
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            t = rec.get("text") or ""
+            for para in t.split("\n"):
+                para = para.strip()
+                if not para:
+                    continue
+                texts.append(para[:100_000])
+                ntok += para.count(" ") + 1
+                if ntok >= max_tokens:
+                    break
+            if ntok >= max_tokens:
+                break
+        if ntok >= max_tokens:
+            break
+    if not texts:
+        return {}, 0
+
+    stats = {}
+    seen = 0
+    for doc in nlp.pipe(texts, batch_size=32):
+        for tok in doc:
+            seen += 1
+            for s in {tok.text.lower(), tok.lemma_.lower()}:
+                if s in needed:
+                    rec = stats.get(s)
+                    if rec is None:
+                        rec = stats[s] = (Counter(), Counter())
+                    rec[0][tok.pos_] += 1
+                    rec[1][tok.dep_] += 1
+    return stats, seen
+
 
 def find_list(code):
     cands = sorted(LISTS.glob(f"POSNoise_PatternList_{code.title()}_v*.txt"))
@@ -84,7 +195,7 @@ def load_entries(path):
 
 
 def mine_upos(repos):
-    """string (surface or lemma, lowercased) -> Counter of UPOS occurrences."""
+    """string (surface or lemma, lowercased) -> (UPOS Counter, deprel Counter)."""
     stats = {}
     n_sent = 0
     for repo in repos:
@@ -92,8 +203,21 @@ def mine_upos(repos):
             n_sent += 1
             for tok in sent:
                 for s in {tok["form"], tok["lemma"]}:
-                    stats.setdefault(s, Counter())[tok["upos"]] += 1
+                    rec = stats.get(s)
+                    if rec is None:
+                        rec = stats[s] = (Counter(), Counter())
+                    rec[0][tok["upos"]] += 1
+                    rec[1][tok["deprel"]] += 1
     return stats, n_sent
+
+
+def _lookup(e, stats):
+    """Entry -> (upos Counter, deprel Counter), trying spelling variants."""
+    for v in orth_variants(e):
+        rec = stats.get(v)
+        if rec:
+            return rec
+    return None
 
 
 def annotate(entry, stats):
@@ -102,17 +226,23 @@ def annotate(entry, stats):
     if " " in e:
         # fixed multiword unit: class is its own symbol; UPOS of the first word
         # is recorded for reference only
-        head = stats.get(e.split()[0])
-        upos = max(head, key=head.get) if head else "-"
-        return upos, "MWE", sum(head.values()) if head else 0
-    c = stats.get(e)
-    if not c:
+        rec = _lookup(e.split()[0], stats)
+        upos = max(rec[0], key=rec[0].get) if rec else "-"
+        return upos, "MWE", sum(rec[0].values()) if rec else 0
+    rec = _lookup(e, stats)
+    if not rec:
         return "-", UNSEEN_CLASS, 0
-    upos = max(c, key=c.get)
-    return upos, UPOS_CLASS.get(upos, OTHER_CLASS), sum(c.values())
+    cu, cd = rec
+    upos = max(cu, key=cu.get)
+    cls = UPOS_CLASS.get(upos)
+    if cls is None:
+        # content-dominant tag: ask what the word DOES before discarding it
+        deprel = max(cd, key=cd.get).split(":")[0] if cd else ""
+        cls = DEPREL_CLASS.get(deprel, OTHER_CLASS)
+    return upos, cls, sum(cu.values())
 
 
-def build_lang(code):
+def build_lang(code, augment=False):
     lp = find_list(code)
     if lp is None:
         return None, f"no pattern list for {code}"
@@ -123,22 +253,52 @@ def build_lang(code):
     stats, n_sent = mine_upos(repos)
     if n_sent == 0:
         return None, f"no treebank sentences loaded for {code}"
-    rows = [(e, *annotate(e, stats)) for e in entries]
+    rows = [[e, *annotate(e, stats), "ud"] for e in entries]
+    for r in rows:
+        if r[2] == UNSEEN_CLASS:
+            r[4] = "-"
+
+    n_corpus_tok = 0
+    rescued = 0
+    if augment:
+        # Only entries the treebank could not place are re-examined, so corpus
+        # evidence never overrides treebank evidence.
+        needed = {r[0].lower() for r in rows if r[2] == UNSEEN_CLASS and " " not in r[0]}
+        if needed:
+            cstats, n_corpus_tok = mine_corpus(code, needed)
+            for r in rows:
+                if r[2] != UNSEEN_CLASS:
+                    continue
+                rec = cstats.get(r[0].lower())
+                if not rec:
+                    continue
+                cu, cd = rec
+                upos = max(cu, key=cu.get)
+                cls = UPOS_CLASS.get(upos)
+                if cls is None:
+                    dep = max(cd, key=cd.get).split(":")[0] if cd else ""
+                    cls = DEPREL_CLASS.get(dep, OTHER_CLASS)
+                r[1], r[2], r[3], r[4] = upos, cls, sum(cu.values()), "corpus"
+                rescued += 1
 
     OUT.mkdir(exist_ok=True)
-    op = OUT / f"POSNoise_Aligned_{code.title()}_v1.0.tsv"
+    ver = "v1.2" if augment else "v1.1"
+    op = OUT / f"POSNoise_Aligned_{code.title()}_{ver}.tsv"
     with open(op, "w", encoding="utf-8", newline="\n") as f:
         f.write(f"# aligned companion of {lp.name}; evidence: "
-                f"{'+'.join(repos)} ({n_sent} sentences)\n")
-        f.write("# entry\tupos\tclass\tevidence_count\n")
-        for e, upos, cls, n in rows:
-            f.write(f"{e}\t{upos}\t{cls}\t{n}\n")
+                f"{'+'.join(repos)} ({n_sent} sentences)"
+                + (f" + target corpus ({n_corpus_tok} tokens tagged)" if augment else "")
+                + "\n")
+        f.write("# entry\tupos\tclass\tevidence_count\tsource\n")
+        for e, upos, cls, n, srcname in rows:
+            f.write(f"{e}\t{upos}\t{cls}\t{n}\t{srcname}\n")
 
-    hist = Counter(cls for _, _, cls, _ in rows)
-    seen = sum(1 for _, _, cls, _ in rows if cls != UNSEEN_CLASS)
+    hist = Counter(r[2] for r in rows)
+    seen = sum(1 for r in rows if r[2] != UNSEEN_CLASS)
     rep = {"list": lp.name, "treebanks": repos, "sentences": n_sent,
            "entries": len(rows), "with_evidence": seen,
            "coverage": round(seen / len(rows), 4),
+           "corpus_tokens_tagged": n_corpus_tok, "corpus_rescued": rescued,
            "by_class": dict(hist.most_common())}
     return rep, None
 
@@ -146,6 +306,9 @@ def build_lang(code):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--langs", default="all")
+    ap.add_argument("--augment", action="store_true",
+                    help="mine the target corpora for entries the treebank "
+                         "never shows (writes v1.2)")
     args = ap.parse_args()
     codes = (sorted(ALL_TREEBANKS) if args.langs == "all"
              else [c.strip().lower() for c in args.langs.split(",")])
@@ -153,7 +316,7 @@ def main():
     rp = OUT / "aligned_report.json"
     report = json.loads(rp.read_text(encoding="utf-8")) if rp.exists() else {}
     for code in codes:
-        rep, err = build_lang(code)
+        rep, err = build_lang(code, args.augment)
         if err:
             print(f"{code}: SKIP ({err})", flush=True)
             continue

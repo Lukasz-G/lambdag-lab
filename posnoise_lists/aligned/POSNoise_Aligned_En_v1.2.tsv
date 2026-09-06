@@ -1,0 +1,1037 @@
+# aligned companion of POSNoise_PatternList_En_v2.1.txt; evidence: UD_English-EWT (33244 sentences) + target corpus (481265 tokens tagged)
+# entry	upos	class	evidence_count	source
+a	DET	DET	10818	ud
+a bit of	DET	MWE	10818	ud
+a couple of	DET	MWE	10818	ud
+a few	DET	MWE	10818	ud
+a good many	DET	MWE	10818	ud
+a great many	DET	MWE	10818	ud
+a lack of	DET	MWE	10818	ud
+a little	DET	MWE	10818	ud
+a little bit of	DET	MWE	10818	ud
+a majority of	DET	MWE	10818	ud
+a minority of	DET	MWE	10818	ud
+a number of	DET	MWE	10818	ud
+a plethora of	DET	MWE	10818	ud
+a quantity of	DET	MWE	10818	ud
+aboard	ADV	ADV	12	ud
+about	ADP	ADP	1088	ud
+above	ADV	ADV	104	ud
+above all	ADV	MWE	104	ud
+absent	VERB	LVERB	4	ud
+actually	ADV	ADV	172	ud
+according	VERB	LVERB	94	ud
+according to	VERB	MWE	94	ud
+accordingly	ADV	ADV	18	ud
+across	ADP	ADP	76	ud
+additionally	ADV	ADV	6	ud
+adjacent	ADJ	OTH	2	ud
+adjacent to	ADJ	MWE	2	ud
+admittedly	ADV	ADV	2	ud
+after	ADP	ADP	546	ud
+after all	ADP	MWE	546	ud
+afterward	ADV	ADV	4	ud
+afterwards	ADV	ADV	2	ud
+again	ADV	ADV	306	ud
+against	ADP	ADP	192	ud
+ahead	ADV	ADV	42	ud
+ahead of	ADV	MWE	42	ud
+albeit	SCONJ	SCONJ	2	ud
+all	DET	DET	1310	ud
+all in all	DET	MWE	1310	ud
+all of a sudden	DET	MWE	1310	ud
+all over	DET	MWE	1310	ud
+all things considered	DET	MWE	1310	ud
+almost	ADV	ADV	98	ud
+alone	ADV	ADV	56	ud
+along	ADP	ADP	114	ud
+along the edge	ADP	MWE	114	ud
+alongside	-	UNK	0	-
+already	ADV	ADV	208	ud
+also	ADV	ADV	788	ud
+although	SCONJ	SCONJ	104	ud
+although this may be true	SCONJ	MWE	104	ud
+altogether	ADV	ADV	8	ud
+always	ADV	ADV	268	ud
+am	AUX	AUX	828	ud
+am not	AUX	MWE	828	ud
+amid	ADP	ADP	2	ud
+amidst	ADP	ADP	2	ud
+among	ADP	ADP	84	ud
+amongst	ADP	ADP	4	ud
+an	DET	DET	1244	ud
+an additional	DET	MWE	1244	ud
+an amount of	DET	MWE	1244	ud
+analogous to	-	MWE	0	ud
+and	CCONJ	CCONJ	12250	ud
+and so	CCONJ	MWE	12250	ud
+and still	CCONJ	MWE	12250	ud
+and yet	CCONJ	MWE	12250	ud
+another	DET	DET	298	ud
+another key point	DET	MWE	298	ud
+any	DET	DET	832	ud
+anybody	PRON	PRON	24	ud
+anyhow	INTJ	INTJ	2	ud
+anyone	PRON	PRON	244	ud
+anything	PRON	PRON	198	ud
+anyway	INTJ	INTJ	62	ud
+apart from	ADV	MWE	20	ud
+apart from this	ADV	MWE	20	ud
+are	AUX	AUX	2836	ud
+aren't	-	UNK	0	-
+around	ADP	ADP	306	ud
+as	ADP	ADP	2270	ud
+as a consequence	ADP	MWE	2270	ud
+as a matter of fact	ADP	MWE	2270	ud
+as a result	ADP	MWE	2270	ud
+as a result of	ADP	MWE	2270	ud
+as a rule	ADP	MWE	2270	ud
+as an example	ADP	MWE	2270	ud
+as an illustration	ADP	MWE	2270	ud
+as can be seen	ADP	MWE	2270	ud
+as has been noted	ADP	MWE	2270	ud
+as long as	ADP	MWE	2270	ud
+as much as	ADP	MWE	2270	ud
+as of	ADP	MWE	2270	ud
+as previously stated	ADP	MWE	2270	ud
+as shown above	ADP	MWE	2270	ud
+as soon as	ADP	MWE	2270	ud
+as to	ADP	MWE	2270	ud
+as usual	ADP	MWE	2270	ud
+as well	ADP	MWE	2270	ud
+as well as	ADP	MWE	2270	ud
+as well as that	ADP	MWE	2270	ud
+aside	ADV	ADV	16	ud
+ask	VERB	LVERB	328	ud
+asked	VERB	LVERB	152	ud
+asking	VERB	LVERB	34	ud
+asks	VERB	LVERB	6	ud
+astraddle	-	UNK	0	-
+astride	ADP	ADP	2	ud
+at	ADP	ADP	2082	ud
+at any rate	ADP	MWE	2082	ud
+at first	ADP	MWE	2082	ud
+at last	ADP	MWE	2082	ud
+at least	ADP	MWE	2082	ud
+at length	ADP	MWE	2082	ud
+at the bottom	ADP	MWE	2082	ud
+at the front	ADP	MWE	2082	ud
+at the left	ADP	MWE	2082	ud
+at the present time	ADP	MWE	2082	ud
+at the rear	ADP	MWE	2082	ud
+at the right	ADP	MWE	2082	ud
+at the same time	ADP	MWE	2082	ud
+at the top	ADP	MWE	2082	ud
+at this instant	ADP	MWE	2082	ud
+away	ADV	ADV	186	ud
+away from	ADV	MWE	186	ud
+barring	VERB	LVERB	2	ud
+be	AUX	AUX	19002	ud
+be able to	AUX	MWE	19002	ud
+be that as it may	AUX	MWE	19002	ud
+became	VERB	LVERB	32	ud
+because	SCONJ	SCONJ	530	ud
+because of	SCONJ	MWE	530	ud
+because the	SCONJ	MWE	530	ud
+become	VERB	LVERB	166	ud
+becomes	VERB	LVERB	10	ud
+becoming	VERB	LVERB	14	ud
+been	AUX	AUX	868	ud
+before	SCONJ	SCONJ	430	ud
+began	VERB	LVERB	36	ud
+begin	VERB	LVERB	114	ud
+beginning	NOUN	OTH	40	ud
+begins	VERB	LVERB	8	ud
+begun	VERB	LVERB	18	ud
+behind	ADP	ADP	72	ud
+being	AUX	AUX	354	ud
+being that	AUX	MWE	354	ud
+below	ADV	ADV	132	ud
+beneath	ADP	ADP	4	ud
+beside	ADP	ADP	4	ud
+besides	ADP	ADP	24	ud
+besides that	ADP	MWE	24	ud
+besides this	ADP	MWE	24	ud
+between	ADP	ADP	228	ud
+beyond	ADP	ADP	44	ud
+both	CCONJ	CCONJ	254	ud
+both-and	-	UNK	0	-
+briefly	ADV	ADV	4	ud
+but	CCONJ	CCONJ	1842	ud
+but also	CCONJ	MWE	1842	ud
+by	ADP	ADP	1566	ud
+by all means	ADP	MWE	1566	ud
+by and large	ADP	MWE	1566	ud
+by comparison	ADP	MWE	1566	ud
+by means of	ADP	MWE	1566	ud
+by the time	ADP	MWE	1566	ud
+by the time of	ADP	MWE	1566	ud
+by the way	ADP	MWE	1566	ud
+call	VERB	LVERB	762	ud
+called	VERB	LVERB	276	ud
+came	VERB	LVERB	192	ud
+can	AUX	AUX	1778	ud
+can't	-	UNK	0	-
+centrally	ADV	ADV	2	ud
+certain	ADJ	OTH	72	ud
+certainly	ADV	ADV	62	ud
+chiefly	ADV	ADV	5	corpus
+circa	ADP	ADP	2	ud
+close by	ADJ	MWE	188	ud
+close to	ADJ	MWE	188	ud
+come	VERB	LVERB	644	ud
+comes	VERB	LVERB	82	ud
+coming	VERB	LVERB	96	ud
+comparatively	-	UNK	0	-
+compared to	VERB	MWE	24	ud
+conceding that	-	MWE	0	ud
+concerning	VERB	LVERB	24	ud
+conclusion	NOUN	OTH	16	ud
+concurrently	-	UNK	0	-
+consequently	ADV	ADV	4	ud
+considering	VERB	LVERB	28	ud
+contrarily	-	UNK	0	-
+contrary to	ADJ	MWE	2	ud
+conversely	-	UNK	0	-
+correspondingly	-	UNK	0	-
+could	AUX	AUX	720	ud
+couldn't	-	UNK	0	-
+could've	-	UNK	0	-
+coupled with	VERB	MWE	6	ud
+critically	ADV	ADV	1	corpus
+currently	ADV	ADV	80	ud
+dare	VERB	LVERB	2	ud
+a day	DET	MWE	10818	ud
+definitely	ADV	ADV	102	ud
+despite	ADP	ADP	34	ud
+did	AUX	AUX	694	ud
+didn't	-	UNK	0	-
+different from	ADJ	MWE	158	ud
+differing from	VERB	MWE	2	ud
+do	AUX	AUX	3622	ud
+does	AUX	AUX	400	ud
+doesn't	-	UNK	0	-
+doing	VERB	LVERB	208	ud
+done	VERB	LVERB	224	ud
+don't	-	UNK	0	-
+down	ADP	ADP	284	ud
+due	ADJ	ADP	136	ud
+due to	ADJ	MWE	136	ud
+during	ADP	ADP	178	ud
+during the morning	ADP	MWE	178	ud
+each	DET	DET	184	ud
+each other	DET	MWE	184	ud
+earlier	ADV	ADV	90	ud
+either	CCONJ	CCONJ	114	ud
+enough	ADV	ADV	152	ud
+equally	ADV	ADV	8	ud
+equally important	ADV	MWE	8	ud
+especially	ADV	ADV	94	ud
+etc.	NOUN	OTH	142	ud
+even	ADV	ADV	544	ud
+even if	ADV	MWE	544	ud
+even more	ADV	MWE	544	ud
+even so	ADV	MWE	544	ud
+even though	ADV	MWE	544	ud
+even when	ADV	MWE	544	ud
+eventually	ADV	ADV	26	ud
+every	DET	DET	236	ud
+everybody	PRON	PRON	26	ud
+everyone	PRON	PRON	122	ud
+everything	PRON	PRON	152	ud
+everywhere	ADV	ADV	10	ud
+exactly	ADV	ADV	46	ud
+except	ADP	ADP	50	ud
+except for	ADP	MWE	50	ud
+excepting	VERB	LVERB	2	corpus
+excluding	VERB	LVERB	4	ud
+exclusively	ADV	ADV	2	ud
+explicitly	ADV	ADV	2	ud
+expressly	-	UNK	0	-
+ever	ADV	ADV	244	ud
+failing	VERB	LVERB	6	ud
+feel	VERB	LVERB	356	ud
+felt	VERB	LVERB	68	ud
+few	ADJ	OTH	290	ud
+fewer	ADJ	OTH	4	ud
+finally	ADV	ADV	84	ud
+find	VERB	LVERB	552	ud
+finds	VERB	LVERB	4	ud
+first	ADJ	OTH	410	ud
+first and foremost	ADJ	MWE	410	ud
+first of all	ADJ	MWE	410	ud
+first thing to remember	ADJ	MWE	410	ud
+first, firstly	-	MWE	0	ud
+firstly	ADV	ADV	4	ud
+following	VERB	LVERB	126	ud
+for	ADP	ADP	4590	ud
+for a minute	ADP	MWE	4590	ud
+for all	ADP	MWE	4590	ud
+for example	ADP	MWE	4590	ud
+for fear that	ADP	MWE	4590	ud
+for instance	ADP	MWE	4590	ud
+for now	ADP	MWE	4590	ud
+for one thing	ADP	MWE	4590	ud
+for that reason	ADP	MWE	4590	ud
+for the most part	ADP	MWE	4590	ud
+for the purpose of	ADP	MWE	4590	ud
+for the time being	ADP	MWE	4590	ud
+for this purpose	ADP	MWE	4590	ud
+for this reason	ADP	MWE	4590	ud
+formerly	ADV	ADV	2	corpus
+forthwith	ADV	ADV	5	corpus
+found	VERB	LVERB	192	ud
+foundationally	-	UNK	0	-
+four	NUM	NUM	94	ud
+frequently	ADV	ADV	20	ud
+from	ADP	ADP	1652	ud
+from time to time	ADP	MWE	1652	ud
+further	ADV	ADV	90	ud
+furthermore	ADV	ADV	4	ud
+gave	VERB	LVERB	112	ud
+generally	ADV	ADV	12	ud
+generally speaking	ADV	MWE	12	ud
+get	VERB	LVERB	1570	ud
+gets	VERB	LVERB	40	ud
+getting	VERB	LVERB	184	ud
+give	VERB	LVERB	642	ud
+given	VERB	LVERB	98	ud
+given that	VERB	MWE	98	ud
+given these points	VERB	MWE	98	ud
+gives	VERB	LVERB	46	ud
+giving	VERB	LVERB	56	ud
+go	VERB	LVERB	1528	ud
+goes	VERB	LVERB	56	ud
+going	VERB	LVERB	492	ud
+gone	VERB	LVERB	68	ud
+got	VERB	LVERB	316	ud
+gotten	VERB	LVERB	18	ud
+granted	VERB	LVERB	12	ud
+granted that	VERB	MWE	12	ud
+had	VERB	LVERB	1188	ud
+had better	VERB	MWE	1188	ud
+hadn't	-	UNK	0	-
+hardly	ADV	ADV	6	ud
+has	AUX	AUX	1318	ud
+hasn't	-	UNK	0	-
+have	VERB	LVERB	6540	ud
+have to	VERB	MWE	6540	ud
+haven't	-	UNK	0	-
+having	VERB	LVERB	166	ud
+he	PRON	PRON	2538	ud
+heaps of	-	MWE	0	ud
+hear	VERB	LVERB	186	ud
+heard	VERB	LVERB	82	ud
+hears	VERB	LVERB	2	ud
+he'd	-	UNK	0	-
+he'll	-	UNK	0	-
+help	VERB	LVERB	504	ud
+helped	VERB	LVERB	42	ud
+helping	VERB	LVERB	32	ud
+helps	VERB	LVERB	34	ud
+hence	ADV	ADV	14	ud
+henceforth	ADV	ADV	15	corpus
+hencefrom	-	UNK	0	-
+her	PRON	PRON	522	ud
+here	ADV	ADV	488	ud
+here and there	ADV	MWE	488	ud
+hereabout	-	UNK	0	-
+hereabouts	ADV	ADV	1	corpus
+hereafter	ADV	ADV	17	corpus
+hereat	-	UNK	0	-
+hereby	ADV	ADV	6	ud
+herefor	-	UNK	0	-
+herefore	-	UNK	0	-
+herefrom	-	UNK	0	-
+herein	ADV	ADV	10	ud
+hereinafter	-	UNK	0	-
+hereinbefore	-	UNK	0	-
+hereinto	-	UNK	0	-
+hereof	ADV	ADV	4	corpus
+hereon	-	UNK	0	-
+hereto	ADJ	ADV	1	corpus
+heretofore	ADV	ADV	6	corpus
+hereunder	-	UNK	0	-
+hereunto	-	UNK	0	-
+hereupon	-	UNK	0	-
+herewith	ADV	ADV	2	ud
+herewithal	-	UNK	0	-
+herewithin	-	UNK	0	-
+hers	PRON	PRON	4	ud
+herself	PRON	PRON	12	ud
+he's	-	UNK	0	-
+him	PRON	PRON	648	ud
+himself	PRON	PRON	38	ud
+his	PRON	PRON	914	ud
+hour	NOUN	OTH	178	ud
+how	ADV	ADV	636	ud
+how'd	-	UNK	0	-
+however	ADV	ADV	214	ud
+how'll	-	UNK	0	-
+how's	-	UNK	0	-
+i	PRON	PRON	10114	ud
+i.e.	ADV	ADV	24	ud
+i'd	SCONJ	SCONJ	2	ud
+identically	-	UNK	0	-
+if	SCONJ	SCONJ	1808	ud
+i'll	-	UNK	0	-
+i'm	-	UNK	0	-
+immediately	ADV	ADV	48	ud
+important to realize	ADJ	MWE	102	ud
+in	ADP	ADP	7676	ud
+in a moment	ADP	MWE	7676	ud
+in a similar fashion	ADP	MWE	7676	ud
+in a similar manner	ADP	MWE	7676	ud
+in addition	ADP	MWE	7676	ud
+in addition to	ADP	MWE	7676	ud
+in any case	ADP	MWE	7676	ud
+in any event	ADP	MWE	7676	ud
+in back	ADP	MWE	7676	ud
+in between	ADP	MWE	7676	ud
+in brief	ADP	MWE	7676	ud
+in case	ADP	MWE	7676	ud
+in comparison	ADP	MWE	7676	ud
+in comparison to	ADP	MWE	7676	ud
+in conclusion	ADP	MWE	7676	ud
+in contrast	ADP	MWE	7676	ud
+in contrast to	ADP	MWE	7676	ud
+in detail	ADP	MWE	7676	ud
+in due time	ADP	MWE	7676	ud
+in effect	ADP	MWE	7676	ud
+in either case	ADP	MWE	7676	ud
+in essence	ADP	MWE	7676	ud
+in fact	ADP	MWE	7676	ud
+in front	ADP	MWE	7676	ud
+in front of	ADP	MWE	7676	ud
+in general	ADP	MWE	7676	ud
+in keeping with	ADP	MWE	7676	ud
+in like fashion	ADP	MWE	7676	ud
+in like manner	ADP	MWE	7676	ud
+in most cases	ADP	MWE	7676	ud
+in order that	ADP	MWE	7676	ud
+in order to	ADP	MWE	7676	ud
+in other words	ADP	MWE	7676	ud
+in particular	ADP	MWE	7676	ud
+in place of	ADP	MWE	7676	ud
+in reality	ADP	MWE	7676	ud
+in reference to	ADP	MWE	7676	ud
+in regard to	ADP	MWE	7676	ud
+in short	ADP	MWE	7676	ud
+in similar fashion	ADP	MWE	7676	ud
+in spite of	ADP	MWE	7676	ud
+in sum	ADP	MWE	7676	ud
+in summary	ADP	MWE	7676	ud
+in that case	ADP	MWE	7676	ud
+in the background	ADP	MWE	7676	ud
+in the center	ADP	MWE	7676	ud
+in the center of	ADP	MWE	7676	ud
+in the distance	ADP	MWE	7676	ud
+in the end	ADP	MWE	7676	ud
+in the event that	ADP	MWE	7676	ud
+in the first place	ADP	MWE	7676	ud
+in the forefront	ADP	MWE	7676	ud
+in the foreground	ADP	MWE	7676	ud
+in the hope that	ADP	MWE	7676	ud
+in the light of	ADP	MWE	7676	ud
+in the long run	ADP	MWE	7676	ud
+in the meantime	ADP	MWE	7676	ud
+in the middle	ADP	MWE	7676	ud
+in the same fashion	ADP	MWE	7676	ud
+in the same way	ADP	MWE	7676	ud
+in the second place	ADP	MWE	7676	ud
+in this case	ADP	MWE	7676	ud
+in time	ADP	MWE	7676	ud
+in truth	ADP	MWE	7676	ud
+in view of	ADP	MWE	7676	ud
+inasmuch as	-	MWE	0	ud
+incidentally	-	UNK	0	-
+including	VERB	LVERB	108	ud
+indeed	ADV	ADV	18	ud
+inside	ADV	ADV	74	ud
+instantly	ADV	ADV	2	ud
+instead	ADV	ADV	80	ud
+instead of	ADV	MWE	80	ud
+into	ADP	ADP	484	ud
+is	AUX	AUX	5688	ud
+isn't	-	UNK	0	-
+it	PRON	PRON	4586	ud
+it is true	PRON	MWE	4586	ud
+it should be highlighted	PRON	MWE	4586	ud
+it should be noted	PRON	MWE	4586	ud
+it'd	-	UNK	0	-
+it'll	-	UNK	0	-
+its	PRON	PRON	418	ud
+it's	PRON	PRON	30	ud
+itself	PRON	PRON	56	ud
+i've	-	UNK	0	-
+just	ADV	ADV	1004	ud
+just as	ADV	MWE	1004	ud
+keep	VERB	LVERB	328	ud
+keeping	VERB	LVERB	36	ud
+keeps	VERB	LVERB	16	ud
+kept	VERB	LVERB	68	ud
+knew	VERB	LVERB	54	ud
+know	VERB	LVERB	1106	ud
+knowing	VERB	LVERB	12	ud
+known	VERB	LVERB	84	ud
+knows	VERB	LVERB	48	ud
+largely	ADV	ADV	18	ud
+last	ADJ	OTH	362	ud
+last but not least	ADJ	MWE	362	ud
+lastly	ADV	ADV	5	corpus
+lastly and most importantly	-	MWE	0	ud
+late	ADV	ADV	260	ud
+lately	ADV	ADV	6	ud
+later	ADV	ADV	154	ud
+leave	VERB	LVERB	324	ud
+leaved	-	UNK	0	-
+leaves	VERB	LVERB	10	ud
+leaving	VERB	LVERB	48	ud
+less	ADJ	ADV	108	ud
+lest	SCONJ	SCONJ	6	ud
+let	VERB	LVERB	452	ud
+lets	VERB	LVERB	4	ud
+letting	VERB	LVERB	8	ud
+like	ADP	ADP	1142	ud
+liked	VERB	LVERB	40	ud
+likes	VERB	LVERB	18	ud
+likewise	ADV	ADV	10	ud
+liking	NOUN	OTH	15	corpus
+little	ADJ	OTH	302	ud
+live	VERB	LVERB	246	ud
+lived	VERB	LVERB	26	ud
+lives	NOUN	OTH	48	ud
+living	VERB	LVERB	76	ud
+loads	NOUN	OTH	4	ud
+look	VERB	LVERB	656	ud
+looked	VERB	LVERB	58	ud
+looking	VERB	LVERB	230	ud
+looks	VERB	LVERB	90	ud
+lots	NOUN	OTH	88	ud
+made	VERB	LVERB	340	ud
+mainly	ADV	ADV	22	ud
+make	VERB	LVERB	1018	ud
+makes	VERB	LVERB	98	ud
+making	VERB	LVERB	134	ud
+many	ADJ	OTH	442	ud
+markedly	ADV	ADV	2	ud
+masses of	NOUN	MWE	4	ud
+may	AUX	AUX	566	ud
+mayest	VERB	LVERB	2	corpus
+mayn't	-	UNK	0	-
+me	PRON	PRON	1502	ud
+mean	VERB	LVERB	216	ud
+meaning	NOUN	OTH	24	ud
+means	VERB	LVERB	108	ud
+meant	VERB	LVERB	16	ud
+meanwhile	ADV	ADV	14	ud
+merely	ADV	ADV	20	ud
+might	AUX	AUX	194	ud
+mightn't	-	UNK	0	-
+might've	-	UNK	0	-
+mine	PRON	PRON	52	ud
+minus	CCONJ	CCONJ	4	ud
+more	ADJ	ADV	750	ud
+moreover	ADV	ADV	4	ud
+most	ADV	ADV	374	ud
+most compelling evidence	ADV	MWE	374	ud
+most important	ADV	MWE	374	ud
+most importantly	ADV	MWE	374	ud
+move	VERB	LVERB	226	ud
+moved	VERB	LVERB	62	ud
+moves	NOUN	OTH	6	ud
+moving	VERB	LVERB	68	ud
+much	ADJ	ADV	438	ud
+must	AUX	AUX	160	ud
+mustn't	-	UNK	0	-
+must've	-	UNK	0	-
+my	PRON	PRON	2282	ud
+myself	PRON	PRON	66	ud
+namely	ADV	ADV	2	corpus
+naturally	ADV	ADV	4	ud
+near	ADP	ADP	76	ud
+near to	ADP	MWE	76	ud
+nearby	ADJ	OTH	14	ud
+nearer	ADJ	OTH	13	corpus
+nearly	ADV	ADV	48	ud
+need	VERB	LVERB	740	ud
+need to	VERB	MWE	740	ud
+needed	VERB	LVERB	90	ud
+needing	VERB	LVERB	8	ud
+needn't	-	UNK	0	-
+needs	VERB	LVERB	138	ud
+neighboring on	VERB	MWE	6	ud
+neither	CCONJ	CCONJ	22	ud
+never	ADV	ADV	354	ud
+nevertheless	ADV	ADV	4	ud
+next	ADJ	OTH	260	ud
+next to	ADJ	MWE	260	ud
+no	DET	DET	832	ud
+no one	DET	MWE	832	ud
+nobody	PRON	PRON	16	ud
+none	PRON	PRON	40	ud
+nonetheless	ADV	ADV	2	ud
+nor	CCONJ	CCONJ	40	ud
+normally	ADV	ADV	20	ud
+not	PART	PART	4366	ud
+not only	PART	MWE	4366	ud
+not only-but also	PART	MWE	4366	ud
+not to mention	PART	MWE	4366	ud
+notably	ADV	ADV	2	ud
+nothing	PRON	PRON	174	ud
+notwithstanding	ADP	ADP	4	corpus
+now	ADV	ADV	624	ud
+now that	ADV	MWE	624	ud
+nowhere	ADV	ADV	8	ud
+numbers of	NOUN	MWE	56	ud
+obviously	ADV	ADV	46	ud
+occasionally	ADV	ADV	6	ud
+of	ADP	ADP	8794	ud
+of course	ADP	MWE	8794	ud
+of less importance	ADP	MWE	8794	ud
+off	ADP	ADP	312	ud
+on	ADP	ADP	3212	ud
+on account of	ADP	MWE	3212	ud
+on balance	ADP	MWE	3212	ud
+on one hand	ADP	MWE	3212	ud
+on the condition that	ADP	MWE	3212	ud
+on the contrary	ADP	MWE	3212	ud
+on the negative side	ADP	MWE	3212	ud
+on the one hand	ADP	MWE	3212	ud
+on the other hand	ADP	MWE	3212	ud
+on the positive side	ADP	MWE	3212	ud
+on the side	ADP	MWE	3212	ud
+on the whole	ADP	MWE	3212	ud
+on this side	ADP	MWE	3212	ud
+on top	ADP	MWE	3212	ud
+on top of	ADP	MWE	3212	ud
+once	ADV	ADV	172	ud
+often	ADV	ADV	82	ud
+one	NUM	NUM	1256	ud
+one another	NUM	MWE	1256	ud
+one fifth	NUM	MWE	1256	ud
+one fourth	NUM	MWE	1256	ud
+one half	NUM	MWE	1256	ud
+one quarter	NUM	MWE	1256	ud
+one third	NUM	MWE	1256	ud
+only	ADV	ADV	646	ud
+only if	ADV	MWE	646	ud
+onto	ADP	ADP	22	ud
+opposite	ADJ	OTH	6	ud
+opposite to	ADJ	MWE	6	ud
+or	CCONJ	CCONJ	1766	ud
+ordinarily	ADV	ADV	4	ud
+other	ADJ	OTH	766	ud
+other than	ADJ	MWE	766	ud
+otherwise	ADV	ADV	46	ud
+ought	AUX	AUX	4	ud
+ought to	AUX	MWE	4	ud
+our	PRON	PRON	882	ud
+ours	PRON	PRON	8	ud
+ourselves	PRON	PRON	14	ud
+out	ADP	ADP	1102	ud
+out of	ADP	MWE	1102	ud
+out of sight	ADP	MWE	1102	ud
+outside	ADP	ADP	106	ud
+over	ADP	ADP	484	ud
+over there	ADP	MWE	484	ud
+overall	ADV	ADV	52	ud
+owing to	-	MWE	0	ud
+part	NOUN	OTH	216	ud
+particularly	ADV	ADV	32	ud
+past	ADJ	OTH	88	ud
+pending	VERB	LVERB	8	ud
+per	ADP	ADP	146	ud
+perhaps	ADV	ADV	62	ud
+peripherally	-	UNK	0	-
+pertaining to	-	MWE	0	ud
+play	VERB	LVERB	148	ud
+played	VERB	LVERB	12	ud
+playing	VERB	LVERB	52	ud
+plays	VERB	LVERB	14	ud
+plenty of	NOUN	MWE	46	ud
+plus	CCONJ	CCONJ	52	ud
+precisely	ADV	ADV	10	ud
+presently	ADV	ADV	4	ud
+previously	ADV	ADV	16	ud
+primarily	ADV	ADV	12	ud
+possible	ADJ	OTH	140	ud
+particular	ADJ	OTH	48	ud
+well	ADV	ADV	668	ud
+prior to	ADJ	MWE	38	ud
+provided that	VERB	MWE	64	ud
+purely	ADV	ADV	2	ud
+pursuant to	ADV	MWE	4	ud
+put	VERB	LVERB	358	ud
+puts	NOUN	OTH	26	ud
+putting	VERB	LVERB	46	ud
+quantities of	-	MWE	0	ud
+quickly	ADV	ADV	70	ud
+quite	ADV	ADV	106	ud
+ran	VERB	LVERB	26	ud
+rarely	ADV	ADV	16	ud
+rather	ADV	ADV	70	ud
+rather than	ADV	MWE	70	ud
+really	ADV	ADV	398	ud
+recently	ADV	ADV	82	ud
+regarding	VERB	LVERB	98	ud
+regardless	ADV	ADV	10	ud
+regularly	ADV	ADV	16	ud
+respecting	VERB	LVERB	4	ud
+round	NOUN	ADV	38	ud
+run	VERB	LVERB	206	ud
+running	VERB	LVERB	62	ud
+runs	VERB	LVERB	10	ud
+said	VERB	LVERB	562	ud
+save	VERB	LVERB	86	ud
+saving	VERB	LVERB	16	ud
+saw	VERB	LVERB	60	ud
+say	VERB	LVERB	1098	ud
+saying	VERB	LVERB	76	ud
+says	VERB	LVERB	140	ud
+second	ADJ	OTH	122	ud
+secondly	ADV	ADV	6	ud
+see	VERB	LVERB	744	ud
+seeing	VERB	LVERB	56	ud
+seeing that	VERB	MWE	56	ud
+seem	VERB	LVERB	200	ud
+seemed	VERB	LVERB	30	ud
+seeming	VERB	LVERB	5	corpus
+seems	VERB	LVERB	98	ud
+seen	VERB	LVERB	90	ud
+sees	VERB	LVERB	8	ud
+seldom	ADV	ADV	6	ud
+set	VERB	LVERB	156	ud
+sets	VERB	LVERB	14	ud
+setting	VERB	LVERB	16	ud
+several	ADJ	OTH	126	ud
+shall	AUX	AUX	70	ud
+shalled	-	UNK	0	-
+shalling	-	UNK	0	-
+shalls	NOUN	OTH	2	corpus
+she	PRON	PRON	886	ud
+she'd	-	UNK	0	-
+she'll	-	UNK	0	-
+she's	-	UNK	0	-
+shortly	ADV	ADV	12	ud
+should	AUX	AUX	616	ud
+shoulded	-	UNK	0	-
+shoulding	-	UNK	0	-
+shouldn't	-	UNK	0	-
+shoulds	-	UNK	0	-
+should've	-	UNK	0	-
+show	VERB	LVERB	256	ud
+showed	VERB	LVERB	34	ud
+showing	VERB	LVERB	32	ud
+shown	VERB	LVERB	12	ud
+shows	VERB	LVERB	62	ud
+significantly	ADV	ADV	18	ud
+similar to	ADJ	MWE	36	ud
+similarly	ADV	ADV	2	ud
+simply	ADV	ADV	66	ud
+simultaneously	ADV	ADV	14	ud
+since	SCONJ	SCONJ	308	ud
+singularly	ADV	ADV	1	corpus
+so	ADV	ADV	1332	ud
+so as to	ADV	MWE	1332	ud
+so far	ADV	MWE	1332	ud
+so long as	ADV	MWE	1332	ud
+so that	ADV	MWE	1332	ud
+so then	ADV	MWE	1332	ud
+so too	ADV	MWE	1332	ud
+solely	ADV	ADV	8	ud
+some	DET	DET	864	ud
+somebody	PRON	PRON	16	ud
+someone	PRON	PRON	176	ud
+something	PRON	PRON	230	ud
+sometimes	ADV	ADV	60	ud
+soon	ADV	ADV	146	ud
+sooner or later	ADV	MWE	16	ud
+specifically	ADV	ADV	16	ud
+start	VERB	LVERB	288	ud
+started	VERB	LVERB	94	ud
+starting	VERB	LVERB	48	ud
+starts	VERB	LVERB	12	ud
+still	ADV	ADV	346	ud
+straight ahead	ADJ	MWE	20	ud
+straightaway	-	UNK	0	-
+subsequently	ADV	ADV	6	ud
+such	ADJ	OTH	242	ud
+such as	ADJ	MWE	242	ud
+suddenly	ADV	ADV	14	ud
+surely	ADV	ADV	4	ud
+surprisingly	ADV	ADV	16	ud
+surrounding	VERB	LVERB	22	ud
+take	VERB	LVERB	984	ud
+taken	VERB	LVERB	76	ud
+takes	VERB	LVERB	52	ud
+taking	VERB	LVERB	130	ud
+talk	VERB	LVERB	246	ud
+talked	VERB	LVERB	28	ud
+talking	VERB	LVERB	74	ud
+talks	NOUN	OTH	24	ud
+tell	VERB	LVERB	438	ud
+telling	VERB	LVERB	32	ud
+tells	VERB	LVERB	10	ud
+than	ADP	ADP	518	ud
+thanks to	NOUN	MWE	560	ud
+that	SCONJ	SCONJ	5190	ud
+that is	SCONJ	MWE	5190	ud
+that is to say	SCONJ	MWE	5190	ud
+that'd	-	UNK	0	-
+that'll	-	UNK	0	-
+that's	-	UNK	0	-
+the	DET	DET	22080	ud
+the lack of	DET	MWE	22080	ud
+the majority of	DET	MWE	22080	ud
+the minority of	DET	MWE	22080	ud
+the number of	DET	MWE	22080	ud
+the plethora of	DET	MWE	22080	ud
+the remainder of	DET	MWE	22080	ud
+the rest of	DET	MWE	22080	ud
+the whole	DET	MWE	22080	ud
+their	PRON	PRON	1012	ud
+theirs	PRON	PRON	4	ud
+them	PRON	PRON	870	ud
+themselves	PRON	PRON	54	ud
+then	ADV	ADV	556	ud
+then again	ADV	MWE	556	ud
+thence	ADV	ADV	41	corpus
+there	PRON	PRON	1494	ud
+thereabout	NOUN	OTH	3	corpus
+thereabouts	NOUN	OTH	3	corpus
+thereacross	-	UNK	0	-
+thereafter	ADV	ADV	6	ud
+thereagainst	-	UNK	0	-
+therearound	-	UNK	0	-
+thereat	VERB	LVERB	2	corpus
+therebeyond	-	UNK	0	-
+thereby	ADV	ADV	6	ud
+therefor	-	UNK	0	-
+therefore	ADV	ADV	36	ud
+therefrom	-	UNK	0	-
+therein	ADV	ADV	16	corpus
+thereinafter	-	UNK	0	-
+thereinbefore	-	UNK	0	-
+thereinto	-	UNK	0	-
+thereof	ADV	ADV	20	corpus
+thereon	NOUN	OTH	2	corpus
+thereover	-	UNK	0	-
+therethrough	-	UNK	0	-
+therethroughout	-	UNK	0	-
+thereto	VERB	LVERB	4	corpus
+theretofore	-	UNK	0	-
+thereunder	-	UNK	0	-
+thereunto	-	UNK	0	-
+thereupon	ADV	ADV	1	corpus
+therewith	PART	PART	1	corpus
+therewithal	-	UNK	0	-
+therewithin	-	UNK	0	-
+these	DET	DET	486	ud
+they	PRON	PRON	3540	ud
+they'd	-	UNK	0	-
+they'll	-	UNK	0	-
+they're	PRON	PRON	2	ud
+they've	-	UNK	0	-
+think	VERB	LVERB	650	ud
+thinking	VERB	LVERB	66	ud
+thinks	VERB	LVERB	20	ud
+third	ADJ	OTH	48	ud
+this	DET	DET	3330	ud
+this time	DET	MWE	3330	ud
+tho'	-	UNK	0	-
+those	DET	DET	304	ud
+though	SCONJ	SCONJ	184	ud
+thought	VERB	LVERB	182	ud
+three	NUM	NUM	156	ud
+through	ADP	ADP	274	ud
+throughout	ADP	ADP	26	ud
+thru	ADP	ADP	10	ud
+thus	ADV	ADV	28	ud
+till	SCONJ	SCONJ	18	ud
+to	PART	PART	12652	ud
+to be sure	PART	MWE	12652	ud
+to begin with	PART	MWE	12652	ud
+to clarify	PART	MWE	12652	ud
+to conclude	PART	MWE	12652	ud
+to demonstrate	PART	MWE	12652	ud
+to emphasize	PART	MWE	12652	ud
+to enumerate	PART	MWE	12652	ud
+to explain	PART	MWE	12652	ud
+to illustrate	PART	MWE	12652	ud
+to list	PART	MWE	12652	ud
+to point out	PART	MWE	12652	ud
+to put it another way	PART	MWE	12652	ud
+to put it differently	PART	MWE	12652	ud
+to repeat	PART	MWE	12652	ud
+to rephrase it	PART	MWE	12652	ud
+to say nothing of	PART	MWE	12652	ud
+to sum up	PART	MWE	12652	ud
+to summarize	PART	MWE	12652	ud
+to that end	PART	MWE	12652	ud
+to the end that	PART	MWE	12652	ud
+to the left	PART	MWE	12652	ud
+to the right	PART	MWE	12652	ud
+to this end	PART	MWE	12652	ud
+together with	ADV	MWE	106	ud
+told	VERB	LVERB	254	ud
+tons of	NOUN	MWE	12	ud
+too	ADV	ADV	350	ud
+took	VERB	LVERB	226	ud
+toward	ADP	ADP	38	ud
+towards	ADP	ADP	24	ud
+tried	VERB	LVERB	108	ud
+tries	NOUN	OTH	6	ud
+truly	ADV	ADV	30	ud
+try	VERB	LVERB	494	ud
+trying	VERB	LVERB	146	ud
+turn	VERB	LVERB	130	ud
+turned	VERB	LVERB	46	ud
+turning	VERB	LVERB	10	ud
+turns	VERB	LVERB	10	ud
+two	NUM	NUM	438	ud
+ultimately	ADV	ADV	12	ud
+under	ADP	ADP	200	ud
+under those circumstances	ADP	MWE	200	ud
+underneath	ADV	ADV	4	ud
+undoubtedly	ADV	ADV	2	ud
+uniquely	ADV	ADV	6	ud
+unless	SCONJ	SCONJ	72	ud
+unlike	ADP	ADP	8	ud
+unquestionably	ADV	ADV	2	ud
+until	SCONJ	SCONJ	156	ud
+until now	SCONJ	MWE	156	ud
+unto	ADP	ADP	2	ud
+up	ADP	ADP	1010	ud
+up to	ADP	MWE	1010	ud
+up to a point	ADP	MWE	1010	ud
+up to the present time	ADP	MWE	1010	ud
+upon	ADP	ADP	96	ud
+us	PROPN	OTH	802	ud
+use	VERB	LVERB	748	ud
+used	VERB	LVERB	246	ud
+used to	VERB	MWE	246	ud
+uses	VERB	LVERB	10	ud
+using	VERB	LVERB	134	ud
+usually	ADV	ADV	86	ud
+various	ADJ	OTH	32	ud
+versus	ADP	ADP	18	ud
+very	ADV	ADV	908	ud
+every	DET	DET	236	ud
+via	ADP	ADP	46	ud
+want	VERB	LVERB	824	ud
+wanted	VERB	LVERB	146	ud
+wanting	VERB	LVERB	18	ud
+wants	VERB	LVERB	72	ud
+was	AUX	AUX	2970	ud
+wasn't	-	UNK	0	-
+we	PRON	PRON	2672	ud
+we'd	-	UNK	0	-
+week	NOUN	OTH	336	ud
+we'll	-	UNK	0	-
+went	VERB	LVERB	188	ud
+were	AUX	AUX	954	ud
+we're	-	UNK	0	-
+weren't	-	UNK	0	-
+we've	-	UNK	0	-
+what	PRON	PRON	1170	ud
+what'd	-	UNK	0	-
+whatever	PRON	PRON	60	ud
+what'll	-	UNK	0	-
+what're	-	UNK	0	-
+what's	-	UNK	0	-
+when	ADV	ADV	918	ud
+whencefrom	-	UNK	0	-
+when'd	-	UNK	0	-
+whenever	ADV	ADV	30	ud
+when'll	-	UNK	0	-
+when's	-	UNK	0	-
+where	ADV	ADV	328	ud
+whereabout	-	UNK	0	-
+whereabouts	NOUN	OTH	6	ud
+whereafter	-	UNK	0	-
+whereagainst	-	UNK	0	-
+whereas	SCONJ	SCONJ	8	ud
+whereat	PROPN	OTH	3	corpus
+whereby	SCONJ	SCONJ	6	corpus
+where'd	-	UNK	0	-
+wherefor	-	UNK	0	-
+wherefore	ADV	ADV	21	corpus
+wherefrom	-	UNK	0	-
+wherein	ADV	ADV	2	ud
+whereinto	-	UNK	0	-
+where'll	-	UNK	0	-
+whereof	X	OTH	18	corpus
+whereon	NOUN	OTH	5	corpus
+whereover	-	UNK	0	-
+where's	-	UNK	0	-
+wherethrough	-	UNK	0	-
+whereto	VERB	LVERB	2	corpus
+wheretofore	NOUN	OTH	1	corpus
+whereunder	-	UNK	0	-
+whereunto	-	UNK	0	-
+whereupon	SCONJ	SCONJ	4	corpus
+wherever	ADV	ADV	8	ud
+wherewith	VERB	LVERB	6	corpus
+wherewithal	-	UNK	0	-
+wherewithin	-	UNK	0	-
+wherewithout	-	UNK	0	-
+whether	SCONJ	SCONJ	114	ud
+which	PRON	PRON	840	ud
+whichever	-	UNK	0	-
+while	SCONJ	SCONJ	256	ud
+while it may be true	SCONJ	MWE	256	ud
+while this may be true	SCONJ	MWE	256	ud
+whilst	SCONJ	SCONJ	6	ud
+who	PRON	PRON	848	ud
+who'd	-	UNK	0	-
+whoever	PRON	PRON	4	ud
+who'll	-	UNK	0	-
+whom	PRON	PRON	46	ud
+whomever	PRON	PRON	2	ud
+who's	PRON	PRON	6	ud
+whose	PRON	PRON	32	ud
+why	ADV	ADV	196	ud
+why'd	-	UNK	0	-
+why'll	-	UNK	0	-
+why's	-	UNK	0	-
+will	AUX	AUX	2550	ud
+willed	VERB	LVERB	5	corpus
+willing	ADJ	OTH	60	ud
+with	ADP	ADP	3076	ud
+with attention to	ADP	MWE	3076	ud
+with regard to	ADP	MWE	3076	ud
+with respect to	ADP	MWE	3076	ud
+with the exception of	ADP	MWE	3076	ud
+with the result that	ADP	MWE	3076	ud
+with this	ADP	MWE	3076	ud
+with this in mind	ADP	MWE	3076	ud
+with this intention	ADP	MWE	3076	ud
+with this purpose in mind	ADP	MWE	3076	ud
+within	ADP	ADP	128	ud
+within sight	ADP	MWE	128	ud
+without	ADP	ADP	166	ud
+without a doubt	ADP	MWE	166	ud
+without doubt	ADP	MWE	166	ud
+won't	-	UNK	0	-
+work	VERB	LVERB	860	ud
+worked	VERB	LVERB	82	ud
+working	VERB	LVERB	160	ud
+works	VERB	LVERB	80	ud
+would	AUX	AUX	1598	ud
+woulded	-	UNK	0	-
+woulding	-	UNK	0	-
+wouldn't	-	UNK	0	-
+woulds	-	UNK	0	-
+would've	-	UNK	0	-
+yes	INTJ	INTJ	172	ud
+yet	ADV	ADV	148	ud
+you	PRON	PRON	5574	ud
+you'd	-	UNK	0	-
+you'll	-	UNK	0	-
+your	PRON	PRON	1716	ud
+you're	PRON	PRON	2	ud
+yours	PRON	PRON	8	ud
+yourself	PRON	PRON	78	ud
+yourselves	PRON	PRON	4	ud
+you've	-	UNK	0	-

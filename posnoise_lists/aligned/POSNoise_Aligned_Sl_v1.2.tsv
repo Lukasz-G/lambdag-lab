@@ -1,0 +1,427 @@
+# aligned companion of POSNoise_PatternList_Sl_v1.0.txt; evidence: UD_Slovenian-SSJ (13435 sentences) + target corpus (0 tokens tagged)
+# entry	upos	class	evidence_count	source
+a	CCONJ	CCONJ	260	ud
+ali	CCONJ	CCONJ	865	ud
+ampak	CCONJ	CCONJ	110	ud
+ampak tudi	CCONJ	MWE	110	ud
+bati	VERB	LVERB	39	ud
+biti	AUX	AUX	18912	ud
+blizu	ADV	ADV	30	ud
+bodisi	CCONJ	CCONJ	13	ud
+bolj	ADV	ADV	265	ud
+brez	ADP	ADP	176	ud
+bržkone	PART	PART	8	ud
+bržčas	PART	PART	4	ud
+celo	PART	PART	137	ud
+da	SCONJ	SCONJ	3012	ud
+daleč	ADV	ADV	32	ud
+dalje	ADV	ADV	18	ud
+danes	ADV	ADV	132	ud
+dejati	VERB	LVERB	64	ud
+do	ADP	ADP	714	ud
+dobro	ADV	ADV	202	ud
+dodati	VERB	LVERB	52	ud
+dogovoriti	VERB	LVERB	13	ud
+dokaj	ADV	ADV	18	ud
+dokazati	VERB	LVERB	22	ud
+dokler	SCONJ	SCONJ	37	ud
+določati	VERB	LVERB	30	ud
+doma	ADV	ADV	48	ud
+domala	PART	PART	4	ud
+domnevati	VERB	LVERB	15	ud
+domov	ADV	ADV	20	ud
+doslej	ADV	ADV	51	ud
+dosti	DET	DET	15	ud
+dovoliti	VERB	LVERB	30	ud
+dovolj	DET	DET	96	ud
+drugače	ADV	ADV	40	ud
+drugič	ADV	ADV	15	ud
+drugje	ADV	ADV	16	ud
+dvakrat	ADV	ADV	21	ud
+edino	ADJ	OTH	12	ud
+enak	DET	DET	66	ud
+enkrat	ADV	ADV	42	ud
+glede	ADV	ADV	107	ud
+glede na	ADV	MWE	107	ud
+hitro	ADV	ADV	98	ud
+hkrati	ADV	ADV	71	ud
+hoteti	VERB	LVERB	140	ud
+in	CCONJ	CCONJ	6132	ud
+in sicer	CCONJ	MWE	6132	ud
+in to	CCONJ	MWE	6132	ud
+isti	DET	DET	79	ud
+iz	ADP	ADP	823	ud
+izmed	ADP	ADP	57	ud
+izpod	ADP	ADP	6	ud
+izpred	ADP	ADP	4	ud
+izvedeti	VERB	LVERB	32	ud
+izven	ADP	ADP	5	ud
+ja	PART	PART	17	ud
+jaz	PRON	PRON	786	ud
+jeseni	ADV	ADV	23	ud
+jest	PRON	PRON	6	ud
+jutri	ADV	ADV	15	ud
+k	ADP	ADP	223	ud
+kadar	SCONJ	SCONJ	42	ud
+kaj	PRON	PRON	324	ud
+kaj šele	PRON	MWE	324	ud
+kajpak	PART	PART	4	ud
+kajti	CCONJ	CCONJ	46	ud
+kak	DET	DET	55	ud
+kako	ADV	ADV	239	ud
+kakor	SCONJ	SCONJ	95	ud
+kakor da	SCONJ	MWE	95	ud
+kakršen	DET	DET	36	ud
+kakršenkoli	DET	DET	8	ud
+kakšen	DET	DET	148	ud
+kam	ADV	ADV	20	ud
+kamor	SCONJ	SCONJ	20	ud
+kar	PRON	PRON	532	ud
+kar se da	PRON	MWE	532	ud
+karkoli	PRON	PRON	9	ud
+kateri	DET	DET	546	ud
+kateri koli	DET	MWE	546	ud
+katerikoli	DET	DET	6	ud
+katero koli	DET	MWE	61	ud
+kazati	VERB	LVERB	73	ud
+kdaj	ADV	ADV	46	ud
+kdo	PRON	PRON	126	ud
+kdor	PRON	PRON	10	ud
+kdorkoli	PRON	PRON	8	ud
+ker	SCONJ	SCONJ	323	ud
+ki	SCONJ	SCONJ	2514	ud
+kje	ADV	ADV	36	ud
+kjer	SCONJ	SCONJ	185	ud
+kljub	ADP	ADP	118	ud
+kljub temu da	ADP	MWE	118	ud
+kmalu	ADV	ADV	56	ud
+ko	SCONJ	SCONJ	687	ud
+koder	SCONJ	SCONJ	8	ud
+koli	PART	PART	22	ud
+koliko	DET	DET	26	ud
+kolikor	SCONJ	SCONJ	23	ud
+komaj	ADV	ADV	26	ud
+kot	SCONJ	SCONJ	1200	ud
+kot da	SCONJ	MWE	1200	ud
+kot pa da	SCONJ	MWE	1200	ud
+kot če	SCONJ	MWE	1200	ud
+kvečjemu	PART	PART	5	ud
+lahko	ADV	ADV	883	ud
+lani	ADV	ADV	63	ud
+le	PART	PART	437	ud
+le da	PART	MWE	437	ud
+letos	ADV	ADV	61	ud
+malce	ADV	ADV	31	ud
+malo	DET	DET	103	ud
+manj	DET	DET	118	ud
+manj kot	DET	MWE	118	ud
+marsikaj	PRON	PRON	15	ud
+marsikateri	DET	DET	8	ud
+marsikdo	PRON	PRON	5	ud
+marveč	CCONJ	CCONJ	5	ud
+med	ADP	ADP	608	ud
+medtem	ADV	ADV	67	ud
+medtem ko	ADV	MWE	67	ud
+menda	PART	PART	25	ud
+meniti	VERB	LVERB	62	ud
+mimo	ADP	ADP	23	ud
+misliti	VERB	LVERB	106	ud
+mnog	DET	DET	62	ud
+mnogo	DET	DET	16	ud
+mogoče	ADJ	OTH	138	ud
+moj	DET	DET	134	ud
+morati	VERB	LVERB	464	ud
+morda	PART	PART	107	ud
+moči	VERB	LVERB	228	ud
+na	ADP	ADP	3557	ud
+na primer	ADP	MWE	3557	ud
+nad	ADP	ADP	119	ud
+nadvse	ADV	ADV	13	ud
+naj	PART	PART	401	ud
+najbolj	ADV	ADV	144	ud
+najbrž	PART	PART	28	ud
+najin	DET	DET	11	ud
+najmanj	ADV	ADV	21	ud
+najprej	ADV	ADV	60	ud
+največ	DET	DET	41	ud
+največkrat	ADV	ADV	15	ud
+name	PRON	PRON	38	ud
+nameravati	VERB	LVERB	17	ud
+namesto	ADP	ADP	27	ud
+namesto da	ADP	MWE	27	ud
+namreč	CCONJ	CCONJ	152	ud
+naprej	ADV	ADV	70	ud
+narobe	ADV	ADV	19	ud
+naročiti	VERB	LVERB	13	ud
+nase	PRON	PRON	11	ud
+nato	ADV	ADV	117	ud
+navkljub	ADP	ADP	5	ud
+navzdol	ADV	ADV	14	ud
+navzgor	ADV	ADV	15	ud
+nazadnje	ADV	ADV	23	ud
+nazaj	ADV	ADV	38	ud
+naš	DET	DET	230	ud
+ne	PART	PART	1433	ud
+ne da	PART	MWE	1433	ud
+ne glede na	PART	MWE	1433	ud
+ne le	PART	MWE	1433	ud
+ne pa	PART	MWE	1433	ud
+ne samo	PART	MWE	1433	ud
+nek	DET	DET	108	ud
+nekaj	DET	DET	405	ud
+nekakšen	DET	DET	37	ud
+nekateri	DET	DET	173	ud
+nekdo	PRON	PRON	39	ud
+neki	DET	DET	29	ud
+nekoč	ADV	ADV	29	ud
+nemara	PART	PART	10	ud
+nenadoma	ADV	ADV	17	ud
+nihče	PRON	PRON	49	ud
+nikakor	ADV	ADV	30	ud
+nikakršen	DET	DET	9	ud
+nikar	PART	PART	9	ud
+nikoli	ADV	ADV	66	ud
+niti	PART	PART	112	ud
+nič	PRON	PRON	140	ud
+njegov	DET	DET	448	ud
+njen	DET	DET	251	ud
+njihov	DET	DET	235	ud
+njun	DET	DET	38	ud
+no	PART	PART	31	ud
+noben	DET	DET	82	ud
+o	ADP	ADP	792	ud
+ob	ADP	ADP	411	ud
+oba	DET	DET	114	ud
+obenem	ADV	ADV	15	ud
+oboj	DET	DET	11	ud
+oceniti	VERB	LVERB	22	ud
+ocenjevati	VERB	LVERB	23	ud
+od	ADP	ADP	779	ud
+odgovoriti	VERB	LVERB	46	ud
+odkar	SCONJ	SCONJ	18	ud
+odločiti	VERB	LVERB	97	ud
+okoli	ADV	ADV	78	ud
+okrog	ADP	ADP	37	ud
+omeniti	VERB	LVERB	32	ud
+omogočiti	VERB	LVERB	36	ud
+on	PRON	PRON	2664	ud
+oni	DET	DET	26	ud
+onkraj	ADP	ADP	6	ud
+opozarjati	VERB	LVERB	19	ud
+opozoriti	VERB	LVERB	25	ud
+ostajati	VERB	LVERB	17	ud
+oziroma	CCONJ	CCONJ	142	ud
+pa	CCONJ	CCONJ	2038	ud
+pa vendar	CCONJ	MWE	2038	ud
+paziti	VERB	LVERB	18	ud
+pač	PART	PART	57	ud
+pač pa	PART	MWE	57	ud
+po	ADP	ADP	1230	ud
+po navadi	ADP	MWE	1230	ud
+pod	ADP	ADP	194	ud
+pogosto	ADV	ADV	103	ud
+pojasniti	VERB	LVERB	28	ud
+pokazati	VERB	LVERB	90	ud
+pol	DET	DET	55	ud
+poleg	ADP	ADP	119	ud
+poleti	ADV	ADV	15	ud
+pomeniti	VERB	LVERB	113	ud
+pomisliti	VERB	LVERB	28	ud
+ponavadi	ADV	ADV	23	ud
+ponoči	ADV	ADV	19	ud
+popolnoma	ADV	ADV	36	ud
+posebej	ADV	ADV	59	ud
+poskusiti	VERB	LVERB	24	ud
+poskušati	VERB	LVERB	42	ud
+postajati	VERB	LVERB	19	ud
+postati	VERB	LVERB	184	ud
+potem	ADV	ADV	197	ud
+potem ko	ADV	MWE	197	ud
+poudariti	VERB	LVERB	26	ud
+povedati	VERB	LVERB	168	ud
+povsem	ADV	ADV	86	ud
+povsod	ADV	ADV	17	ud
+pozabiti	VERB	LVERB	29	ud
+pozno	ADV	ADV	72	ud
+počasi	ADV	ADV	33	ud
+prav	PART	PART	234	ud
+praviloma	ADV	ADV	14	ud
+praviti	VERB	LVERB	112	ud
+pravzaprav	PART	PART	50	ud
+precej	ADV	ADV	70	ud
+pred	ADP	ADP	374	ud
+preden	SCONJ	SCONJ	40	ud
+predlagati	VERB	LVERB	60	ud
+predvsem	PART	PART	164	ud
+prej	ADV	ADV	64	ud
+prek	ADP	ADP	43	ud
+preko	ADP	ADP	20	ud
+premnog	DET	DET	4	ud
+prepričati	VERB	LVERB	35	ud
+preveč	DET	DET	42	ud
+pri	ADP	ADP	829	ud
+približno	ADV	ADV	92	ud
+prizadevati	VERB	LVERB	15	ud
+priznati	VERB	LVERB	30	ud
+pričeti	VERB	LVERB	17	ud
+prositi	VERB	LVERB	29	ud
+proti	ADP	ADP	187	ud
+prvič	ADV	ADV	68	ud
+pustiti	VERB	LVERB	42	ud
+rad	ADV	ADV	104	ud
+raje	ADV	ADV	23	ud
+ravno	PART	PART	47	ud
+razen	ADJ	OTH	53	ud
+razglasiti	VERB	LVERB	16	ud
+razložiti	VERB	LVERB	21	ud
+razmeroma	ADV	ADV	17	ud
+res	ADV	ADV	93	ud
+reči	VERB	LVERB	194	ud
+s tem da	ADP	MWE	1399	ud
+s tem ko	ADP	MWE	1399	ud
+saj	CCONJ	CCONJ	323	ud
+samo	PART	PART	266	ud
+se	PRON	PRON	4053	ud
+se pravi	PRON	MWE	4053	ud
+sedaj	ADV	ADV	47	ud
+sem	AUX	AUX	570	ud
+seveda	PART	PART	160	ud
+sicer	PART	PART	209	ud
+siliti	VERB	LVERB	15	ud
+skleniti	VERB	LVERB	27	ud
+sklepati	VERB	LVERB	17	ud
+skoraj	PART	PART	109	ud
+skorajda	PART	PART	18	ud
+skozi	ADP	ADP	69	ud
+skupaj	ADV	ADV	133	ud
+skušati	VERB	LVERB	48	ud
+smeti	VERB	LVERB	93	ud
+spet	ADV	ADV	81	ud
+sploh	PART	PART	96	ud
+spodaj	ADV	ADV	17	ud
+spomladi	ADV	ADV	18	ud
+spomniti	VERB	LVERB	29	ud
+sporočiti	VERB	LVERB	19	ud
+spraševati	VERB	LVERB	19	ud
+spričo	ADP	ADP	8	ud
+sprva	ADV	ADV	22	ud
+sredi	ADP	ADP	31	ud
+svoj	DET	DET	818	ud
+sčasoma	ADV	ADV	14	ud
+ta	DET	DET	2408	ud
+tak	DET	DET	126	ud
+tako	ADV	ADV	780	ud
+tako da	ADV	MWE	780	ud
+tako imenovana	ADV	MWE	780	ud
+tako imenovane	ADV	MWE	780	ud
+tako imenovanih	ADV	MWE	780	ud
+tako kot	ADV	MWE	780	ud
+tako rekoč	ADV	MWE	780	ud
+takoj	ADV	ADV	61	ud
+takrat	ADV	ADV	98	ud
+takrat ko	ADV	MWE	98	ud
+takšen	DET	DET	112	ud
+tale	DET	DET	19	ud
+tam	ADV	ADV	103	ud
+tedaj	ADV	ADV	35	ud
+temveč	CCONJ	CCONJ	66	ud
+temveč tudi	CCONJ	MWE	66	ud
+ter	CCONJ	CCONJ	290	ud
+ti	PRON	PRON	344	ud
+tik	ADV	ADV	21	ud
+tisti	DET	DET	279	ud
+tja	ADV	ADV	27	ud
+to je	DET	MWE	859	ud
+toda	CCONJ	CCONJ	134	ud
+tokrat	ADV	ADV	35	ud
+toliko	DET	DET	63	ud
+tolikšen	DET	DET	7	ud
+torej	ADV	ADV	118	ud
+trditi	VERB	LVERB	33	ud
+treba	ADV	ADV	143	ud
+truditi	VERB	LVERB	14	ud
+tu	ADV	ADV	68	ud
+tudi	PART	PART	1523	ud
+tukaj	ADV	ADV	37	ud
+tvoj	DET	DET	23	ud
+ugotavljati	VERB	LVERB	27	ud
+ugotoviti	VERB	LVERB	71	ud
+upati	VERB	LVERB	38	ud
+uspeti	VERB	LVERB	68	ud
+utegniti	VERB	LVERB	14	ud
+v	ADP	ADP	6114	ud
+vajin	DET	DET	9	ud
+vame	PRON	PRON	30	ud
+vaš	DET	DET	97	ud
+vedeti	VERB	LVERB	227	ud
+vedno	ADV	ADV	203	ud
+veliko	DET	DET	245	ud
+veljati	VERB	LVERB	89	ud
+vendar	CCONJ	CCONJ	280	ud
+vendarle	CCONJ	CCONJ	42	ud
+verjeti	VERB	LVERB	46	ud
+verjetno	ADV	ADV	97	ud
+ves	DET	DET	895	ud
+več	DET	DET	448	ud
+več kot	DET	MWE	448	ud
+večinoma	ADV	ADV	33	ud
+večkrat	ADV	ADV	40	ud
+vnaprej	ADV	ADV	15	ud
+vprašati	VERB	LVERB	41	ud
+vsaj	PART	PART	100	ud
+vsak	DET	DET	250	ud
+vsakdo	PRON	PRON	13	ud
+vsakršen	DET	DET	7	ud
+vse	DET	DET	421	ud
+vsekakor	PART	PART	39	ud
+vselej	ADV	ADV	16	ud
+vzdolž	ADP	ADP	8	ud
+včasih	ADV	ADV	61	ud
+včeraj	ADV	ADV	37	ud
+všeč	ADV	ADV	23	ud
+z	ADP	ADP	3200	ud
+za	ADP	ADP	2741	ud
+zakaj	ADV	ADV	81	ud
+zame	PRON	PRON	70	ud
+zapisati	VERB	LVERB	31	ud
+zaradi	ADP	ADP	343	ud
+zares	ADV	ADV	28	ud
+zase	PRON	PRON	20	ud
+zatem	ADV	ADV	17	ud
+zato	CCONJ	CCONJ	338	ud
+zato da	CCONJ	MWE	338	ud
+zato ker	CCONJ	MWE	338	ud
+zavedati	VERB	LVERB	24	ud
+začeti	VERB	LVERB	229	ud
+zdaj	ADV	ADV	181	ud
+zdaj ko	ADV	MWE	181	ud
+zdeti	VERB	LVERB	118	ud
+zelo	ADV	ADV	274	ud
+zgolj	PART	PART	39	ud
+zgoraj	ADV	ADV	21	ud
+zjutraj	ADV	ADV	22	ud
+zlasti	PART	PART	61	ud
+zmoči	VERB	LVERB	13	ud
+znati	VERB	LVERB	55	ud
+znotraj	ADP	ADP	29	ud
+znova	ADV	ADV	45	ud
+zoper	ADP	ADP	21	ud
+zunaj	ADP	ADP	26	ud
+zvečer	ADV	ADV	16	ud
+če	SCONJ	SCONJ	583	ud
+čeprav	SCONJ	SCONJ	137	ud
+četudi	SCONJ	SCONJ	15	ud
+čez	ADP	ADP	81	ud
+češ	PART	PART	13	ud
+češ da	PART	MWE	13	ud
+čim	ADV	ADV	46	ud
+še	PART	PART	990	ud
+še posebej	PART	MWE	990	ud
+še posebno	PART	MWE	990	ud
+še preden	PART	MWE	990	ud
+šele	PART	PART	94	ud
+šele ko	PART	MWE	94	ud
+šteti	VERB	LVERB	22	ud
+žal	ADV	ADV	27	ud
+že	PART	PART	609	ud
+želeti	VERB	LVERB	150	ud

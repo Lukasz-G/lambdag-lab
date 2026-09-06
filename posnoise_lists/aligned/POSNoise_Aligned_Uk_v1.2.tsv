@@ -1,0 +1,360 @@
+# aligned companion of POSNoise_PatternList_Uk_v1.0.txt; evidence: UD_Ukrainian-IU (7092 sentences) + target corpus (0 tokens tagged)
+# entry	upos	class	evidence_count	source
+а	CCONJ	CCONJ	739	ud
+а й	CCONJ	MWE	739	ud
+а отже	CCONJ	MWE	739	ud
+а саме	CCONJ	MWE	739	ud
+а також	CCONJ	MWE	739	ud
+а то й	CCONJ	MWE	739	ud
+аби	SCONJ	SCONJ	13	ud
+або	CCONJ	CCONJ	216	ud
+адже	SCONJ	SCONJ	26	ud
+аж	PART	PART	55	ud
+айбо	CCONJ	CCONJ	3	ud
+але	CCONJ	CCONJ	318	ud
+але й	CCONJ	MWE	318	ud
+ані	CCONJ	CCONJ	18	ud
+аніж	SCONJ	SCONJ	6	ud
+б	AUX	AUX	97	ud
+ба	PART	PART	5	ud
+багато	DET	DET	109	ud
+без	ADP	ADP	93	ud
+би	AUX	AUX	47	ud
+близько	ADP	ADP	37	ud
+бо	SCONJ	SCONJ	129	ud
+бодай	PART	PART	7	ud
+боятися	VERB	LVERB	26	ud
+бувати	VERB	LVERB	26	ud
+будь-який	DET	DET	38	ud
+бути	AUX	AUX	1254	ud
+більш	ADV	ADV	31	ud
+більш ніж	ADV	MWE	31	ud
+більш як	ADV	MWE	31	ud
+більше	ADV	ADV	87	ud
+більше ніж	ADV	MWE	87	ud
+біля	ADP	ADP	34	ud
+в	ADP	ADP	1495	ud
+в тому числі	ADP	MWE	1495	ud
+ваш	DET	DET	51	ud
+ввесь	DET	DET	4	ud
+вдатися	VERB	LVERB	11	ud
+вдома	ADV	ADV	17	ud
+весь	DET	DET	282	ud
+вже	ADV	ADV	170	ud
+взагалі	ADV	ADV	24	ud
+вздовж	ADP	ADP	4	ud
+ви	PRON	PRON	224	ud
+визнати	VERB	LVERB	11	ud
+вирішити	VERB	LVERB	14	ud
+вище	ADV	ADV	14	ud
+виявитися	VERB	LVERB	33	ud
+власне	PART	PART	14	ud
+внаслідок	ADP	ADP	10	ud
+вночі	ADV	ADV	18	ud
+водночас	ADV	ADV	14	ud
+вона	PRON	PRON	473	ud
+вони	PRON	PRON	477	ud
+воно	PRON	PRON	94	ud
+впродовж	ADP	ADP	10	ud
+все	PRON	PRON	160	ud
+все одно	PRON	MWE	160	ud
+все-таки	PART	PART	3	ud
+встановити	VERB	LVERB	15	ud
+всього	PRON	PRON	19	ud
+всякий	DET	DET	11	ud
+всілякий	DET	DET	4	ud
+від	ADP	ADP	374	ud
+відносно	ADP	ADP	7	ud
+відразу	ADV	ADV	15	ud
+він	PRON	PRON	818	ud
+геть	ADV	ADV	15	ud
+далі	ADV	ADV	65	ud
+де	ADV	ADV	116	ud
+декілька	DET	DET	15	ud
+десь	ADV	ADV	30	ud
+дехто	PRON	PRON	4	ud
+деякий	DET	DET	40	ud
+для	ADP	ADP	392	ud
+до	ADP	ADP	919	ud
+до того ж	ADP	MWE	919	ud
+добре	ADV	ADV	65	ud
+довестися	VERB	LVERB	15	ud
+довкола	ADV	ADV	9	ud
+додому	ADV	ADV	24	ud
+дозволити	VERB	LVERB	19	ud
+дозволяти	VERB	LVERB	15	ud
+допомагати	VERB	LVERB	13	ud
+допомогти	VERB	LVERB	14	ud
+досить	ADV	ADV	24	ud
+досі	ADV	ADV	26	ud
+другий	ADJ	OTH	82	ud
+дуже	ADV	ADV	143	ud
+думати	VERB	LVERB	57	ud
+дізнатися	VERB	LVERB	12	ud
+ж	PART	PART	182	ud
+же	PART	PART	41	ud
+жодний	DET	DET	41	ud
+з	ADP	ADP	1457	ud
+з-за	ADP	ADP	4	ud
+з-під	ADP	ADP	9	ud
+за	ADP	ADP	631	ud
+заборонити	VERB	LVERB	13	ud
+забувати	VERB	LVERB	10	ud
+завдяки	ADP	ADP	21	ud
+завжди	ADV	ADV	46	ud
+загалом	ADV	ADV	17	ud
+задля	ADP	ADP	4	ud
+зазначити	VERB	LVERB	19	ud
+заки	SCONJ	SCONJ	4	ud
+замість	ADP	ADP	26	ud
+запропонувати	VERB	LVERB	19	ud
+заради	ADP	ADP	4	ud
+зараз	ADV	ADV	37	ud
+зате	CCONJ	CCONJ	10	ud
+заявити	VERB	LVERB	14	ud
+збиратися	VERB	LVERB	11	ud
+згадати	VERB	LVERB	14	ud
+згодом	ADV	ADV	11	ud
+згідно	ADV	ADV	18	ud
+змогти	VERB	LVERB	20	ud
+знати	VERB	LVERB	114	ud
+знов	ADV	ADV	20	ud
+знову	ADV	ADV	28	ud
+зовсім	ADV	ADV	52	ud
+зокрема	ADV	ADV	32	ud
+зрозуміти	VERB	LVERB	20	ud
+зі	ADP	ADP	86	ud
+й	CCONJ	CCONJ	542	ud
+його	PRON	PRON	406	ud
+кожний	DET	DET	109	ud
+кожній	DET	DET	13	ud
+коли	ADV	ADV	247	ud
+колись	ADV	ADV	16	ud
+коло	ADP	ADP	34	ud
+котрий	DET	DET	32	ud
+котрийсь	DET	DET	3	ud
+краще	ADV	ADV	25	ud
+крізь	ADP	ADP	7	ud
+крім	ADP	ADP	31	ud
+куди	ADV	ADV	21	ud
+кілька	DET	DET	102	ud
+лиш	PART	PART	10	ud
+лише	PART	PART	109	ud
+любити	VERB	LVERB	41	ud
+мабуть	ADV	ADV	11	ud
+майже	ADV	ADV	48	ud
+менш	ADV	ADV	14	ud
+менш як	ADV	MWE	14	ud
+менше ніж	ADV	MWE	15	ud
+ми	PRON	PRON	477	ud
+мов	SCONJ	SCONJ	23	ud
+могти	VERB	LVERB	237	ud
+може	VERB	LVERB	125	ud
+можна	ADV	ADV	157	ud
+мусити	VERB	LVERB	38	ud
+між	ADP	ADP	72	ud
+мій	DET	DET	149	ud
+на	ADP	ADP	1885	ud
+навколо	ADP	ADP	16	ud
+навпаки	ADV	ADV	13	ud
+навпроти	ADP	ADP	6	ud
+навіть	PART	PART	145	ud
+над	ADP	ADP	49	ud
+назад	ADV	ADV	18	ud
+найбільш	ADV	ADV	12	ud
+намагатися	VERB	LVERB	22	ud
+наприклад	ADV	ADV	32	ud
+наприкінці	ADP	ADP	9	ud
+нарешті	ADV	ADV	19	ud
+насправді	ADV	ADV	22	ud
+натомість	CCONJ	CCONJ	18	ud
+наче	SCONJ	SCONJ	21	ud
+наш	DET	DET	192	ud
+не	PART	PART	1418	ud
+не лише	PART	MWE	1418	ud
+не просто	PART	MWE	1418	ud
+не те що	PART	MWE	1418	ud
+не то	PART	MWE	1418	ud
+не тільки	PART	MWE	1418	ud
+невже	PART	PART	3	ud
+немати	VERB	LVERB	79	ud
+немов	SCONJ	SCONJ	9	ud
+неначе	SCONJ	SCONJ	8	ud
+нехай	PART	PART	8	ud
+нині	ADV	ADV	22	ud
+но	PART	PART	8	ud
+ну	PART	PART	32	ud
+ні	CCONJ	CCONJ	85	ud
+ніби	SCONJ	SCONJ	20	ud
+нібито	PART	PART	9	ud
+ніж	SCONJ	SCONJ	74	ud
+ніколи	ADV	ADV	44	ud
+ніхто	PRON	PRON	62	ud
+ніщо	PRON	PRON	42	ud
+ніяк	ADV	ADV	16	ud
+ніякий	DET	DET	17	ud
+о	PROPN	ADP	29	ud
+об	ADP	ADP	12	ud
+од	ADP	ADP	18	ud
+один	DET	DET	314	ud
+однак	CCONJ	CCONJ	25	ud
+одначе	CCONJ	CCONJ	7	ud
+одне	DET	DET	27	ud
+означати	VERB	LVERB	10	ud
+окрім	ADP	ADP	15	ud
+окрім як	ADP	MWE	15	ud
+оскільки	SCONJ	SCONJ	31	ud
+ось	PART	PART	22	ud
+от	PART	PART	55	ud
+отже	PART	PART	29	ud
+ото	PART	PART	9	ud
+отой	DET	DET	11	ud
+оце	PART	PART	10	ud
+оцей	DET	DET	9	ud
+пам’ятати	VERB	LVERB	15	ud
+перед	ADP	ADP	67	ud
+перестати	VERB	LVERB	11	ud
+питати	VERB	LVERB	13	ud
+питатися	VERB	LVERB	11	ud
+по	ADP	ADP	182	ud
+повз	ADP	ADP	5	ud
+повністю	ADV	ADV	17	ud
+повідомити	VERB	LVERB	16	ud
+поза	ADP	ADP	13	ud
+поки	ADV	ADV	28	ud
+поки що	ADV	MWE	28	ud
+поміж	ADP	ADP	9	ud
+понад	ADP	ADP	20	ud
+попри	ADP	ADP	14	ud
+попросити	VERB	LVERB	10	ud
+поруч	ADV	ADV	13	ud
+посеред	ADP	ADP	6	ud
+потім	ADV	ADV	64	ud
+почати	VERB	LVERB	69	ud
+починати	VERB	LVERB	28	ud
+при	ADP	ADP	88	ud
+принаймні	ADV	ADV	11	ud
+про	ADP	ADP	410	ud
+пропонувати	VERB	LVERB	12	ud
+просити	VERB	LVERB	21	ud
+просто	PART	PART	62	ud
+проте	CCONJ	CCONJ	28	ud
+проти	ADP	ADP	45	ud
+протягом	ADP	ADP	44	ud
+прямо	ADV	ADV	7	ud
+під	ADP	ADP	194	ud
+після	ADP	ADP	139	ud
+разом	ADV	ADV	47	ud
+раптом	ADV	ADV	14	ud
+розуміти	VERB	LVERB	20	ud
+сам	DET	DET	120	ud
+саме	PART	PART	72	ud
+самий	DET	DET	55	ud
+свій	DET	DET	360	ud
+се	PRON	PRON	15	ud
+себе	PRON	PRON	174	ud
+сей	DET	DET	13	ud
+серед	ADP	ADP	54	ud
+сказати	VERB	LVERB	92	ud
+скільки	ADV	ADV	14	ud
+слід	ADV	ADV	38	ud
+сподіватися	VERB	LVERB	12	ud
+спочатку	ADV	ADV	22	ud
+справді	ADV	ADV	17	ud
+спробувати	VERB	LVERB	15	ud
+стосовно	ADP	ADP	4	ud
+стільки	ADV	ADV	11	ud
+супроти	ADP	ADP	3	ud
+сьогодні	ADV	ADV	53	ud
+т.	ADV	ADV	23	ud
+та	CCONJ	CCONJ	955	ud
+та й то	CCONJ	MWE	955	ud
+так	ADV	ADV	274	ud
+так само	ADV	MWE	274	ud
+так що	ADV	MWE	274	ud
+так і	ADV	MWE	274	ud
+таке	DET	DET	53	ud
+таки	PART	PART	39	ud
+такий	DET	DET	309	ud
+також	ADV	ADV	139	ud
+там	ADV	ADV	98	ud
+твій	DET	DET	28	ud
+те	PRON	PRON	275	ud
+теж	ADV	ADV	35	ud
+тепер	ADV	ADV	58	ud
+ти	PRON	PRON	172	ud
+типу	NOUN	OTH	16	ud
+то	PART	PART	217	ud
+тобто	SCONJ	SCONJ	27	ud
+тоді	ADV	ADV	103	ud
+тоді як	ADV	MWE	103	ud
+тож	SCONJ	SCONJ	15	ud
+той	DET	DET	382	ud
+тому	ADV	ADV	142	ud
+тому що	ADV	MWE	142	ud
+тощо	PART	PART	25	ud
+треба	ADV	ADV	89	ud
+трохи	ADV	ADV	41	ud
+туди	ADV	ADV	27	ud
+тут	ADV	ADV	109	ud
+тільки	PART	PART	136	ud
+тільки що	PART	MWE	136	ud
+у	ADP	ADP	1578	ud
+у той час як	ADP	MWE	1578	ud
+у тому числі	ADP	MWE	1578	ud
+увесь	DET	DET	134	ud
+уже	ADV	ADV	38	ud
+уздовж	ADP	ADP	3	ud
+унаслідок	ADP	ADP	4	ud
+усе	PRON	PRON	34	ud
+усякий	DET	DET	5	ud
+хай	PART	PART	15	ud
+хотіти	VERB	LVERB	83	ud
+хотітися	VERB	LVERB	20	ud
+хоч	PART	PART	44	ud
+хоча	SCONJ	SCONJ	37	ud
+хто	PRON	PRON	117	ud
+хтось	PRON	PRON	38	ud
+хіба	PART	PART	12	ud
+це	PRON	PRON	525	ud
+цей	DET	DET	459	ud
+цілком	ADV	ADV	24	ud
+часом	NOUN	OTH	32	ud
+часто	ADV	ADV	46	ud
+через	ADP	ADP	132	ud
+чи	CCONJ	CCONJ	222	ud
+чи то	CCONJ	MWE	222	ud
+чи то пак	CCONJ	MWE	222	ud
+чий	DET	DET	3	ud
+чийсь	DET	DET	3	ud
+чому	ADV	ADV	32	ud
+шляхом	ADP	ADP	17	ud
+шо	SCONJ	SCONJ	10	ud
+ще	ADV	ADV	240	ud
+що	SCONJ	SCONJ	1337	ud
+щоб	SCONJ	SCONJ	183	ud
+щоби	SCONJ	SCONJ	37	ud
+щодня	ADV	ADV	12	ud
+щодо	ADP	ADP	50	ud
+щось	PRON	PRON	69	ud
+я	PRON	PRON	629	ud
+як	SCONJ	SCONJ	546	ud
+як також	SCONJ	MWE	546	ud
+як тільки	SCONJ	MWE	546	ud
+як і	SCONJ	MWE	546	ud
+якби	SCONJ	SCONJ	12	ud
+який	DET	DET	650	ud
+якийсь	DET	DET	92	ud
+якось	ADV	ADV	28	ud
+якраз	PART	PART	22	ud
+якщо	SCONJ	SCONJ	119	ud
+і	CCONJ	CCONJ	2238	ud
+із	ADP	ADP	211	ud
+інакше	ADV	ADV	10	ud
+іноді	ADV	ADV	15	ud
+інш.	DET	DET	3	ud
+інше	PRON	PRON	19	ud
+інший	DET	DET	226	ud
+їх	PRON	PRON	167	ud
+їхній	DET	DET	46	ud
+її	PRON	PRON	205	ud

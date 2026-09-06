@@ -1,0 +1,492 @@
+# aligned companion of POSNoise_PatternList_Nl_v1.0.txt; evidence: UD_Dutch-Alpino+UD_Dutch-LassySmall (30723 sentences) + target corpus (0 tokens tagged)
+# entry	upos	class	evidence_count	source
+'s nachts	DET	MWE	69	ud
+'s werelds	DET	MWE	69	ud
+1/2	DET	DET	21	ud
+2 1/2	NUM	MWE	186	ud
+3 1/2	NUM	MWE	155	ud
+aan	ADP	ADP	2645	ud
+aan de hand van	ADP	MWE	2645	ud
+aan de vooravond van	ADP	MWE	2645	ud
+aan het	ADP	MWE	2645	ud
+aan het adres van	ADP	MWE	2645	ud
+aan toe	ADP	MWE	2645	ud
+aan_geven	VERB	LVERB	26	ud
+aan_kondigen	VERB	LVERB	39	ud
+aan_stellen	VERB	LVERB	37	ud
+aangaande	ADP	ADP	10	ud
+aangezien	SCONJ	SCONJ	45	ud
+achten	VERB	LVERB	50	ud
+achter	ADP	ADP	137	ud
+achteraf	ADV	ADV	9	ud
+af	ADP	ADP	299	ud
+af aan	ADP	MWE	299	ud
+af en toe	ADP	MWE	299	ud
+af_vragen	VERB	LVERB	26	ud
+al	ADV	ADV	1277	ud
+aldaar	ADV	ADV	10	ud
+aldus	ADV	ADV	92	ud
+alhoewel	SCONJ	SCONJ	14	ud
+allang	ADV	ADV	7	ud
+allebei	PRON	PRON	14	ud
+alleen	ADV	ADV	313	ud
+allemaal	ADV	ADV	79	ud
+aller_eerst	ADV	ADV	10	ud
+allerlei	DET	DET	39	ud
+alles	PRON	PRON	145	ud
+als	SCONJ	SCONJ	2137	ud
+als gevolg van	SCONJ	MWE	2137	ud
+als wel	SCONJ	MWE	2137	ud
+alsmede	CCONJ	CCONJ	15	ud
+alsnog	ADV	ADV	17	ud
+alsof	SCONJ	SCONJ	26	ud
+alsook	CCONJ	CCONJ	8	ud
+altijd	ADV	ADV	209	ud
+alvast	ADV	ADV	13	ud
+alvorens	SCONJ	SCONJ	10	ud
+anno	ADP	ADP	8	ud
+bedoelen	VERB	LVERB	38	ud
+begrijpen	VERB	LVERB	40	ud
+behalve	SCONJ	SCONJ	44	ud
+beide	DET	DET	198	ud
+bekend_staan	VERB	LVERB	30	ud
+beloven	VERB	LVERB	47	ud
+beneden	ADP	ADP	27	ud
+beschouwen	VERB	LVERB	73	ud
+besluiten	VERB	LVERB	163	ud
+betekenen	VERB	LVERB	108	ud
+beweren	VERB	LVERB	29	ud
+bewijzen	VERB	LVERB	34	ud
+bij	ADP	ADP	1544	ud
+bij gebrek aan	ADP	MWE	1544	ud
+bij monde van	ADP	MWE	1544	ud
+bij wijze van	ADP	MWE	1544	ud
+bijgevolg	ADV	ADV	9	ud
+bijna	ADV	ADV	128	ud
+bijvoorbeeld	ADV	ADV	114	ud
+binnen	ADP	ADP	247	ud
+binnenkort	ADV	ADV	15	ud
+blijken	VERB	LVERB	221	ud
+blijven	VERB	LVERB	410	ud
+boven	ADP	ADP	116	ud
+bovendien	ADV	ADV	93	ud
+bovenop	ADP	ADP	11	ud
+buiten	ADP	ADP	115	ud
+circa	X	OTH	58	ud
+daar	ADV	ADV	372	ud
+daarbij	ADV	ADV	75	ud
+daardoor	ADV	ADV	58	ud
+daarmee	ADV	ADV	91	ud
+daarna	ADV	ADV	103	ud
+daarnaast	ADV	ADV	59	ud
+daarom	ADV	ADV	122	ud
+daarop	ADV	ADV	59	ud
+daartoe	ADV	ADV	20	ud
+daarvoor	ADV	ADV	40	ud
+dan	SCONJ	SCONJ	1082	ud
+dan wel	SCONJ	MWE	1082	ud
+dank zij	NOUN	MWE	21	ud
+dankzij	ADP	ADP	22	ud
+dat	SCONJ	SCONJ	4277	ud
+dat wil zeggen	SCONJ	MWE	4277	ud
+datzelfde	DET	DET	14	ud
+de	DET	DET	32612	ud
+de eerste de beste	DET	MWE	32612	ud
+degeen	PRON	PRON	25	ud
+denken	VERB	LVERB	186	ud
+derhalve	ADV	ADV	10	ud
+deze	DET	DET	1454	ud
+dezelfde	DET	DET	121	ud
+dicht bij	ADJ	MWE	45	ud
+die	PRON	PRON	3518	ud
+dienen	VERB	LVERB	79	ud
+diezelfde	DET	DET	7	ud
+dit	DET	DET	1243	ud
+ditmaal	ADV	ADV	13	ud
+doch	CCONJ	CCONJ	30	ud
+door	ADP	ADP	2565	ud
+door middel van	ADP	MWE	2565	ud
+doordat	SCONJ	SCONJ	64	ud
+doorheen	ADP	ADP	8	ud
+dreigen	VERB	LVERB	31	ud
+dus	ADV	ADV	189	ud
+dwingen	VERB	LVERB	59	ud
+echter	ADV	ADV	495	ud
+een	DET	DET	10546	ud
+eenmaal	ADV	ADV	25	ud
+eens	ADV	ADV	236	ud
+eerst	ADJ	OTH	184	ud
+elk	DET	DET	211	ud
+elkaar	PRON	PRON	167	ud
+en	CCONJ	CCONJ	10660	ud
+en dergelijke	CCONJ	MWE	10660	ud
+en wel	CCONJ	MWE	10660	ud
+enig	PRON	PRON	197	ud
+enkel	DET	DET	366	ud
+enzovoort	ADV	ADV	8	ud
+enzovoorts	CCONJ	CCONJ	17	ud
+er	ADV	ADV	2088	ud
+erbij	ADV	ADV	9	ud
+ermee	ADV	ADV	7	ud
+erop	ADV	ADV	31	ud
+ertoe	ADV	ADV	25	ud
+ervoor	ADV	ADV	32	ud
+etcetera	CCONJ	CCONJ	9	ud
+even	ADV	ADV	139	ud
+evenals	SCONJ	SCONJ	44	ud
+evenwel	ADV	ADV	18	ud
+gaan	VERB	LVERB	870	ud
+gedurende	ADP	ADP	85	ud
+geen	DET	DET	685	ud
+geleden	ADV	ADV	103	ud
+geloven	VERB	LVERB	69	ud
+genoeg	ADV	ADV	87	ud
+gij	PRON	PRON	7	ud
+gisteravond	ADV	ADV	45	ud
+gisteren	ADV	ADV	157	ud
+gistermiddag	ADV	ADV	26	ud
+graag	ADV	ADV	56	ud
+haar	PRON	PRON	573	ud
+haast	ADV	ADV	11	ud
+halverwege	ADP	ADP	18	ud
+hebben	AUX	AUX	3610	ud
+heen	ADP	ADP	57	ud
+helemaal	ADV	ADV	80	ud
+hem	PRON	PRON	483	ud
+hen	PRON	PRON	143	ud
+her en der	ADV	MWE	10	ud
+het	DET	DET	13528	ud
+heten	VERB	LVERB	310	ud
+hetgeen	PRON	PRON	29	ud
+hetzelfde	DET	DET	68	ud
+hetzij	CCONJ	CCONJ	10	ud
+hier	ADV	ADV	297	ud
+hierbij	ADV	ADV	31	ud
+hierdoor	ADV	ADV	59	ud
+hiermee	ADV	ADV	52	ud
+hierna	ADV	ADV	23	ud
+hierop	ADV	ADV	42	ud
+hiervoor	ADV	ADV	38	ud
+hij	PRON	PRON	2822	ud
+hoe	ADV	ADV	689	ud
+hoeven	VERB	LVERB	54	ud
+hoewel	SCONJ	SCONJ	159	ud
+hoogst	ADV	ADV	15	ud
+hopen	VERB	LVERB	46	ud
+hun	PRON	PRON	843	ud
+ieder	DET	DET	130	ud
+iedereen	PRON	PRON	78	ud
+iemand	PRON	PRON	46	ud
+iets	PRON	PRON	182	ud
+ik	PRON	PRON	1351	ud
+in	ADP	ADP	11733	ud
+in antwoord op	ADP	MWE	11733	ud
+in combinatie met	ADP	MWE	11733	ud
+in de aanloop naar	ADP	MWE	11733	ud
+in de loop van	ADP	MWE	11733	ud
+in de persoon van	ADP	MWE	11733	ud
+in geval van	ADP	MWE	11733	ud
+in het kader van	ADP	MWE	11733	ud
+in naam van	ADP	MWE	11733	ud
+in navolging van	ADP	MWE	11733	ud
+in opdracht van	ADP	MWE	11733	ud
+in overleg met	ADP	MWE	11733	ud
+in plaats van	ADP	MWE	11733	ud
+in reactie op	ADP	MWE	11733	ud
+in ruil voor	ADP	MWE	11733	ud
+in samenwerking met	ADP	MWE	11733	ud
+in tegenstelling tot	ADP	MWE	11733	ud
+in verband met	ADP	MWE	11733	ud
+in vergelijking met	ADP	MWE	11733	ud
+inderdaad	ADV	ADV	26	ud
+indertijd	ADV	ADV	7	ud
+indien	SCONJ	SCONJ	15	ud
+integendeel	ADV	ADV	6	ud
+inzake	ADP	ADP	15	ud
+je	PRON	PRON	479	ud
+jij	PRON	PRON	33	ud
+jou	PRON	PRON	23	ud
+jullie	PRON	PRON	38	ud
+klinken	VERB	LVERB	32	ud
+kortweg	ADV	ADV	7	ud
+krijgen	VERB	LVERB	565	ud
+kunnen	AUX	AUX	1460	ud
+laat staan	ADJ	MWE	814	ud
+langs	ADP	ADP	83	ud
+langzamerhand	ADV	ADV	9	ud
+laten	VERB	LVERB	396	ud
+leren	VERB	LVERB	59	ud
+liefst	ADV	ADV	19	ud
+lijken	VERB	LVERB	173	ud
+maar	CCONJ	CCONJ	1540	ud
+maar dan	CCONJ	MWE	1540	ud
+me	PRON	PRON	159	ud
+mede	ADV	ADV	64	ud
+mee	ADP	ADP	237	ud
+mee_delen	VERB	LVERB	30	ud
+meerdere	DET	DET	34	ud
+meestal	ADV	ADV	64	ud
+melden	VERB	LVERB	47	ud
+men	PRON	PRON	610	ud
+menen	VERB	LVERB	44	ud
+menig	DET	DET	10	ud
+met	ADP	ADP	3782	ud
+met behulp van	ADP	MWE	3782	ud
+met betrekking tot	ADP	MWE	3782	ud
+met het oog op	ADP	MWE	3782	ud
+met ingang van	ADP	MWE	3782	ud
+met medewerking van	ADP	MWE	3782	ud
+met steun van	ADP	MWE	3782	ud
+met uitzondering van	ADP	MWE	3782	ud
+mezelf	PRON	PRON	15	ud
+middels	ADP	ADP	9	ud
+mij	PRON	PRON	127	ud
+mijn	PRON	PRON	165	ud
+mits	ADP	ADP	8	ud
+moeten	AUX	AUX	1017	ud
+mogen	AUX	AUX	230	ud
+na	ADP	ADP	907	ud
+na afloop van	ADP	MWE	907	ud
+na verloop van	ADP	MWE	907	ud
+naar	ADP	ADP	1496	ud
+naar aanleiding van	ADP	MWE	1496	ud
+naarmate	SCONJ	SCONJ	13	ud
+naast	ADP	ADP	137	ud
+nabij	ADP	ADP	25	ud
+nadat	SCONJ	SCONJ	104	ud
+nagenoeg	ADV	ADV	13	ud
+namelijk	ADV	ADV	84	ud
+namens	ADP	ADP	15	ud
+net	ADV	ADV	133	ud
+niemand	PRON	PRON	44	ud
+niet	ADV	ADV	2169	ud
+niet alleen	ADV	MWE	2169	ud
+niet zozeer	ADV	MWE	2169	ud
+niets	PRON	PRON	163	ud
+niks	PRON	PRON	13	ud
+noch	CCONJ	CCONJ	27	ud
+noemen	VERB	LVERB	471	ud
+nog	ADV	ADV	1151	ud
+nogal	ADV	ADV	27	ud
+nooit	ADV	ADV	155	ud
+nou	ADV	ADV	21	ud
+nu	ADV	ADV	540	ud
+of	CCONJ	CCONJ	1074	ud
+of dat	CCONJ	MWE	1074	ud
+ofwel	CCONJ	CCONJ	20	ud
+om	ADP	ADP	1988	ud
+omdat	SCONJ	SCONJ	368	ud
+omhoog	ADV	ADV	24	ud
+omstreeks	ADP	ADP	26	ud
+omtrent	ADP	ADP	11	ud
+omwille	ADV	ADV	12	ud
+omwille van	ADV	MWE	12	ud
+ondanks	ADP	ADP	87	ud
+onder	ADP	ADP	758	ud
+onder aanvoering van	ADP	MWE	758	ud
+onder invloed van	ADP	MWE	758	ud
+onder leiding van	ADP	MWE	758	ud
+onder voorzitterschap van	ADP	MWE	758	ud
+onderweg	ADV	ADV	16	ud
+ongetwijfeld	ADV	ADV	18	ud
+ongeveer	ADV	ADV	151	ud
+ons	PRON	PRON	384	ud
+ook	ADV	ADV	1961	ud
+op	ADP	ADP	4958	ud
+op advies van	ADP	MWE	4958	ud
+op basis van	ADP	MWE	4958	ud
+op grond van	ADP	MWE	4958	ud
+op het gebied van	ADP	MWE	4958	ud
+op initiatief van	ADP	MWE	4958	ud
+op last van	ADP	MWE	4958	ud
+op uitnodiging van	ADP	MWE	4958	ud
+op verdenking van	ADP	MWE	4958	ud
+op verzoek van	ADP	MWE	4958	ud
+op weg	ADP	MWE	4958	ud
+op_merken	VERB	LVERB	25	ud
+opdat	SCONJ	SCONJ	13	ud
+opnieuw	ADV	ADV	150	ud
+opzij	ADV	ADV	7	ud
+over	ADP	ADP	1171	ud
+overal	ADV	ADV	31	ud
+overeind	ADV	ADV	9	ud
+overtuigen	VERB	LVERB	45	ud
+pal	ADV	ADV	6	ud
+pas	ADV	ADV	152	ud
+per	ADP	ADP	177	ud
+plus	ADP	ADP	12	ud
+proberen	VERB	LVERB	147	ud
+qua	ADP	ADP	13	ud
+raken	VERB	LVERB	117	ud
+realiseren	VERB	LVERB	29	ud
+reeds	ADV	ADV	114	ud
+respectievelijk	CCONJ	CCONJ	25	ud
+rond	ADP	ADP	220	ud
+rondom	ADP	ADP	15	ud
+samen	ADV	ADV	191	ud
+schijnen	VERB	LVERB	27	ud
+sedert	ADP	ADP	16	ud
+simpelweg	ADV	ADV	8	ud
+sinds	ADP	ADP	216	ud
+slagen	VERB	LVERB	83	ud
+slechts	ADV	ADV	189	ud
+sommig	DET	DET	134	ud
+steeds	ADV	ADV	269	ud
+stellen	VERB	LVERB	246	ud
+te	ADP	ADP	5097	ud
+te midden van	ADP	MWE	5097	ud
+te weten	ADP	MWE	5097	ud
+tegelijk	ADV	ADV	17	ud
+tegelijkertijd	ADV	ADV	22	ud
+tegemoet	ADV	ADV	15	ud
+tegen	ADP	ADP	700	ud
+tegenover	ADP	ADP	80	ud
+temidden van	ADV	MWE	6	ud
+ten aanzien van	ADP	MWE	268	ud
+ten bate van	ADP	MWE	268	ud
+ten behoeve van	ADP	MWE	268	ud
+ten einde	ADP	MWE	268	ud
+ten gevolge van	ADP	MWE	268	ud
+ten gunste van	ADP	MWE	268	ud
+ten het westen van	ADP	MWE	268	ud
+ten koste van	ADP	MWE	268	ud
+ten noorden van	ADP	MWE	268	ud
+ten oosten van	ADP	MWE	268	ud
+ten opzichte van	ADP	MWE	268	ud
+ten overstaan van	ADP	MWE	268	ud
+ten tijde van	ADP	MWE	268	ud
+ten voordele van	ADP	MWE	268	ud
+ten westen van	ADP	MWE	268	ud
+ten zuid-oosten van	ADP	MWE	268	ud
+ten zuiden van	ADP	MWE	268	ud
+tengevolge van	ADV	MWE	4	ud
+tenminste	ADV	ADV	23	ud
+tenslotte	ADV	ADV	35	ud
+ter bevordering van	ADP	MWE	165	ud
+ter ere van	ADP	MWE	165	ud
+ter gelegenheid van	ADP	MWE	165	ud
+ter hoogte van	ADP	MWE	165	ud
+ter vervanging van	ADP	MWE	165	ud
+ter voorbereiding op	ADP	MWE	165	ud
+ter waarde van	ADP	MWE	165	ud
+ter wille van	ADP	MWE	165	ud
+terug	ADV	ADV	247	ud
+terwijl	SCONJ	SCONJ	168	ud
+teveel	DET	DET	17	ud
+tijdens	ADP	ADP	398	ud
+toch	ADV	ADV	309	ud
+toe	ADP	ADP	225	ud
+toe_staan	VERB	LVERB	28	ud
+toen	SCONJ	SCONJ	538	ud
+tonen	VERB	LVERB	79	ud
+tot	ADP	ADP	1660	ud
+tot en met	ADP	MWE	1660	ud
+totdat	SCONJ	SCONJ	20	ud
+trachten	VERB	LVERB	34	ud
+tussen	ADP	ADP	494	ud
+tweemaal	ADV	ADV	8	ud
+u	PRON	PRON	159	ud
+uit	ADP	ADP	1740	ud
+uit angst voor	ADP	MWE	1740	ud
+uit het oogpunt van	ADP	MWE	1740	ud
+uiteraard	ADV	ADV	14	ud
+uitermate	ADV	ADV	10	ud
+vallen	VERB	LVERB	222	ud
+van	ADP	ADP	16249	ud
+vanaf	ADP	ADP	181	ud
+vanavond	ADV	ADV	9	ud
+vandaag	ADV	ADV	102	ud
+vandaan	ADP	ADP	14	ud
+vandaar	ADV	ADV	22	ud
+vannacht	ADV	ADV	14	ud
+vanuit	ADP	ADP	122	ud
+vanwege	ADP	ADP	65	ud
+vast_stellen	VERB	LVERB	37	ud
+veel	ADV	ADV	1952	ud
+veelal	ADV	ADV	29	ud
+verklaren	VERB	LVERB	106	ud
+vertellen	VERB	LVERB	86	ud
+via	ADP	ADP	145	ud
+vinden	VERB	LVERB	392	ud
+vlakbij	ADP	ADP	9	ud
+voelen	VERB	LVERB	76	ud
+vol	ADJ	ADP	89	ud
+voldoende	ADJ	DET	53	ud
+volgens	ADP	ADP	243	ud
+volop	ADV	ADV	11	ud
+voor	ADP	ADP	3507	ud
+voor het eerst	ADP	MWE	3507	ud
+voor het geval	ADP	MWE	3507	ud
+voor in de plaats	ADP	MWE	3507	ud
+voor zover	ADP	MWE	3507	ud
+voor_stellen	VERB	LVERB	65	ud
+vooraf	ADV	ADV	12	ud
+vooral	ADV	ADV	284	ud
+vooralsnog	ADV	ADV	15	ud
+voordat	SCONJ	SCONJ	56	ud
+voorgoed	ADV	ADV	6	ud
+voorkomen	VERB	LVERB	68	ud
+voort	ADV	ADV	29	ud
+vragen	VERB	LVERB	222	ud
+vrijwel	ADV	ADV	80	ud
+waar	ADV	ADV	625	ud
+waarbij	ADV	ADV	162	ud
+waardoor	ADV	ADV	108	ud
+waarin	ADV	ADV	244	ud
+waarmee	ADV	ADV	82	ud
+waarna	ADV	ADV	47	ud
+waarom	ADV	ADV	60	ud
+waarop	ADV	ADV	102	ud
+waarschuwen	VERB	LVERB	33	ud
+waartoe	ADV	ADV	11	ud
+waarvan	ADV	ADV	113	ud
+waarvoor	ADV	ADV	37	ud
+wanneer	ADV	ADV	248	ud
+want	CCONJ	CCONJ	172	ud
+wat	PRON	PRON	908	ud
+wat een	PRON	MWE	908	ud
+wat voor	PRON	MWE	908	ud
+wat voor een	PRON	MWE	908	ud
+we	PRON	PRON	547	ud
+weer	ADV	ADV	421	ud
+wegens	ADP	ADP	59	ud
+weigeren	VERB	LVERB	62	ud
+weinig	ADV	ADV	377	ud
+wel	ADV	ADV	606	ud
+weliswaar	ADV	ADV	30	ud
+welk	DET	DET	887	ud
+wellicht	ADV	ADV	26	ud
+weten	VERB	LVERB	323	ud
+wie	PRON	PRON	517	ud
+wij	PRON	PRON	210	ud
+wijzen	VERB	LVERB	61	ud
+willen	VERB	LVERB	606	ud
+worden	AUX	AUX	5546	ud
+ze	PRON	PRON	1164	ud
+zeer	ADV	ADV	250	ud
+zeggen	VERB	LVERB	473	ud
+zelf	ADV	ADV	262	ud
+zelfs	ADV	ADV	219	ud
+zich	PRON	PRON	1205	ud
+zichzelf	PRON	PRON	73	ud
+zien	VERB	LVERB	695	ud
+zij	PRON	PRON	530	ud
+zij het	PRON	MWE	530	ud
+zijn	AUX	AUX	12201	ud
+zo	ADV	ADV	730	ud
+zo niet	ADV	MWE	730	ud
+zo ook	ADV	MWE	730	ud
+zo'n	DET	DET	116	ud
+zoals	SCONJ	SCONJ	333	ud
+zodat	SCONJ	SCONJ	85	ud
+zodoende	ADV	ADV	17	ud
+zodra	SCONJ	SCONJ	13	ud
+zoiets	PRON	PRON	22	ud
+zolang	SCONJ	SCONJ	17	ud
+zonder	ADP	ADP	221	ud
+zorgen	VERB	LVERB	124	ud
+zoveel	NUM	NUM	65	ud
+zowel	ADV	ADV	130	ud
+zulk	DET	DET	23	ud
+zullen	AUX	AUX	1651	ud
+à	CCONJ	CCONJ	35	ud

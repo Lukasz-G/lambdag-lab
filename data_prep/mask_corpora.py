@@ -52,8 +52,45 @@ HAVE_LIST = {"en", "de", "fr", "es", "it", "pl", "ru", "cs", "el", "hr", "hu", "
              "lv", "nl", "no", "pt", "ro", "sl", "sr", "sv", "uk"}
 
 
+# The bank filename is the only place an author's identity survives into the
+# masked corpus, and the [^a-z0-9] rule below deletes every script that is not
+# Latin. A Cyrillic or Greek name therefore reduced to nothing and fell through
+# to the "x" fallback, so 94 authors across six corpora (russian_dracor,
+# russian_novels, ukrainian_dracor, ukrainian_novels, serbian_novels,
+# greek_novels) shared one indistinguishable name and no cross-corpus author
+# matching was possible for them.
+#
+# The map exists to make names DISTINGUISHABLE and STABLE, not to be a correct
+# romanisation: Russian and Ukrainian disagree over и (i vs y) and we cannot know
+# the language here, so one consistent choice is made. A Latin-script name
+# contains none of these characters, so every existing bank filename is
+# unchanged by this and no re-masking is required for the Latin corpora.
+_TRANSLIT = {
+    # Russian
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e",
+    "ж": "zh", "з": "z", "и": "i", "й": "j", "к": "k", "л": "l", "м": "m",
+    "н": "n", "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u",
+    "ф": "f", "х": "h", "ц": "c", "ч": "ch", "ш": "sh", "щ": "shch",
+    "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "ju", "я": "ja",
+    # Ukrainian
+    "ґ": "g", "є": "je", "і": "i", "ї": "ji", "'": "",
+    # Serbian
+    "ђ": "dj", "ј": "j", "љ": "lj", "њ": "nj", "ћ": "c", "џ": "dz",
+    # Greek
+    "α": "a", "β": "b", "γ": "g", "δ": "d", "ε": "e", "ζ": "z", "η": "i",
+    "θ": "th", "ι": "i", "κ": "k", "λ": "l", "μ": "m", "ν": "n", "ξ": "x",
+    "ο": "o", "π": "p", "ρ": "r", "σ": "s", "ς": "s", "τ": "t", "υ": "y",
+    "φ": "f", "χ": "ch", "ψ": "ps", "ω": "o", "ά": "a", "έ": "e", "ή": "i",
+    "ί": "i", "ό": "o", "ύ": "y", "ώ": "o", "ϊ": "i", "ϋ": "y", "ΐ": "i",
+    "ΰ": "y",
+}
+
+
 def slug(s):
-    return re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")[:60] or "x"
+    s = s.lower()
+    if any(c in _TRANSLIT for c in s):
+        s = "".join(_TRANSLIT.get(c, c) for c in s)
+    return re.sub(r"[^a-z0-9]+", "_", s).strip("_")[:60] or "x"
 
 
 def write_tsv(path, sents):

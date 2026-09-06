@@ -1,0 +1,450 @@
+# aligned companion of POSNoise_PatternList_Es_v1.0.txt; evidence: UD_Spanish-AnCora (17662 sentences) + target corpus (0 tokens tagged)
+# entry	upos	class	evidence_count	source
+a	ADP	ADP	13440	ud
+a bordo	ADP	MWE	13440	ud
+a corto plazo	ADP	MWE	13440	ud
+a el contrario	ADP	MWE	13440	ud
+a el fin	ADP	MWE	13440	ud
+a el final	ADP	MWE	13440	ud
+a el igual que	ADP	MWE	13440	ud
+a el menos	ADP	MWE	13440	ud
+a el menos en	ADP	MWE	13440	ud
+a el mismo tiempo	ADP	MWE	13440	ud
+a el máximo	ADP	MWE	13440	ud
+a el parecer	ADP	MWE	13440	ud
+a el principio	ADP	MWE	13440	ud
+a el respecto	ADP	MWE	13440	ud
+a el revés	ADP	MWE	13440	ud
+a el tiempo que	ADP	MWE	13440	ud
+a la perfección	ADP	MWE	13440	ud
+a la vez	ADP	MWE	13440	ud
+a la vez que	ADP	MWE	13440	ud
+a lo mejor	ADP	MWE	13440	ud
+a medida que	ADP	MWE	13440	ud
+a medio plazo	ADP	MWE	13440	ud
+a mediodía	ADP	MWE	13440	ud
+a menudo	ADP	MWE	13440	ud
+a muerte	ADP	MWE	13440	ud
+a pesar de que	ADP	MWE	13440	ud
+a priori	ADP	MWE	13440	ud
+a puerta cerrada	ADP	MWE	13440	ud
+a su vez	ADP	MWE	13440	ud
+a veces	ADP	MWE	13440	ud
+abajo	ADV	ADV	12	ud
+absolutamente	ADV	ADV	12	ud
+actualmente	ADV	ADV	45	ud
+acá	ADV	ADV	1	ud
+además	ADV	ADV	335	ud
+ahora	ADV	ADV	419	ud
+ahora bien	ADV	MWE	419	ud
+ahí	ADV	ADV	59	ud
+algo	PRON	PRON	179	ud
+alguien	PRON	PRON	50	ud
+alguna	DET	DET	73	ud
+algunas	DET	DET	109	ud
+alguno	DET	DET	499	ud
+algunos	DET	DET	223	ud
+algún	DET	DET	68	ud
+allá	ADV	ADV	40	ud
+allí	ADV	ADV	77	ud
+alrededor	ADV	ADV	38	ud
+ambos	NUM	NUM	162	ud
+ante	ADP	ADP	476	ud
+antes	ADV	ADV	304	ud
+apenas	ADV	ADV	61	ud
+aquel	DET	DET	172	ud
+aquella	DET	DET	40	ud
+aquellas	DET	DET	19	ud
+aquello	PRON	PRON	17	ud
+aquellos	DET	DET	38	ud
+aquí	ADV	ADV	97	ud
+arriba	ADV	ADV	24	ud
+asimismo	ADV	ADV	50	ud
+así	ADV	ADV	327	ud
+así como	ADV	MWE	327	ud
+así pues	ADV	MWE	327	ud
+así que	ADV	MWE	327	ud
+aun cuando	ADV	MWE	23	ud
+aunque	SCONJ	SCONJ	446	ud
+aunque sin	SCONJ	MWE	446	ud
+aún	ADV	ADV	163	ud
+aún así	ADV	MWE	163	ud
+bajo	ADP	ADP	184	ud
+bastante	ADV	ADV	56	ud
+bastantes	DET	DET	6	ud
+bien	ADV	ADV	307	ud
+cada	DET	DET	261	ud
+cada vez que	DET	MWE	261	ud
+cara a	NOUN	MWE	69	ud
+casi	ADV	ADV	194	ud
+cerca	ADV	ADV	93	ud
+cierta	DET	DET	24	ud
+ciertas	DET	DET	18	ud
+cierto	ADJ	DET	125	ud
+ciertos	DET	DET	12	ud
+como	SCONJ	SCONJ	1969	ud
+como dios manda	SCONJ	MWE	1969	ud
+como mínimo	SCONJ	MWE	1969	ud
+completamente	ADV	ADV	11	ud
+con	ADP	ADP	4478	ud
+con creces	ADP	MWE	4478	ud
+con respecto a	ADP	MWE	4478	ud
+con todo	ADP	MWE	4478	ud
+con vistas a	ADP	MWE	4478	ud
+conforme a	NOUN	MWE	9	ud
+conmigo	PRON	PRON	7	ud
+consigo	PRON	PRON	6	ud
+contra	ADP	ADP	512	ud
+cual	PRON	PRON	124	ud
+cuales	PRON	PRON	49	ud
+cualquier	DET	DET	115	ud
+cualquiera	DET	DET	132	ud
+cuando	SCONJ	SCONJ	651	ud
+cuanto	PRON	PRON	88	ud
+cuanto antes	PRON	MWE	88	ud
+cuantos	DET	DET	10	ud
+cuya	DET	DET	59	ud
+cuyas	DET	DET	12	ud
+cuyo	DET	DET	155	ud
+cuyos	DET	DET	20	ud
+cuál	PRON	PRON	41	ud
+cuáles	PRON	PRON	8	ud
+cuándo	ADV	ADV	14	ud
+cuánto	PRON	PRON	13	ud
+cuántos	DET	DET	5	ud
+cómo	PRON	PRON	122	ud
+dar	VERB	LVERB	656	ud
+de	ADP	ADP	40491	ud
+de acuerdo a	ADP	MWE	40491	ud
+de acuerdo con	ADP	MWE	40491	ud
+de alta	ADP	MWE	40491	ud
+de cara a	ADP	MWE	40491	ud
+de entrada	ADP	MWE	40491	ud
+de forma que	ADP	MWE	40491	ud
+de manera que	ADP	MWE	40491	ud
+de modo que	ADP	MWE	40491	ud
+de nuevo	ADP	MWE	40491	ud
+de por sí	ADP	MWE	40491	ud
+de por vida	ADP	MWE	40491	ud
+de todos modos	ADP	MWE	40491	ud
+de vez en cuando	ADP	MWE	40491	ud
+debajo	ADV	ADV	29	ud
+deber	AUX	AUX	561	ud
+debido a	ADJ	MWE	79	ud
+debido a que	ADJ	MWE	79	ud
+decir	VERB	LVERB	994	ud
+dejar	VERB	LVERB	291	ud
+delante	ADV	ADV	35	ud
+demasiada	DET	DET	6	ud
+demasiado	ADV	ADV	65	ud
+demás	PRON	PRON	52	ud
+dentro	ADV	ADV	130	ud
+desde	ADP	ADP	673	ud
+desde luego	ADP	MWE	673	ud
+después	ADV	ADV	436	ud
+detrás	ADV	ADV	24	ud
+diferentes	ADJ	DET	67	ud
+distintas	DET	DET	32	ud
+distintos	DET	DET	28	ud
+diversas	DET	DET	31	ud
+diversos	DET	DET	36	ud
+donde	ADV	ADV	421	ud
+durante	ADP	ADP	443	ud
+dónde	ADV	ADV	27	ud
+e	CCONJ	CCONJ	329	ud
+el	DET	DET	62489	ud
+ella	PRON	PRON	116	ud
+ellas	PRON	PRON	73	ud
+ello	PRON	PRON	142	ud
+ellos	PRON	PRON	213	ud
+els	DET	DET	12	ud
+en	ADP	ADP	13990	ud
+en absoluto	ADP	MWE	13990	ud
+en alusión a	ADP	MWE	13990	ud
+en base a	ADP	MWE	13990	ud
+en breve	ADP	MWE	13990	ud
+en cambio	ADP	MWE	13990	ud
+en caso de que	ADP	MWE	13990	ud
+en cierto modo	ADP	MWE	13990	ud
+en colaboración con	ADP	MWE	13990	ud
+en comparación con	ADP	MWE	13990	ud
+en común	ADP	MWE	13990	ud
+en concreto	ADP	MWE	13990	ud
+en contra	ADP	MWE	13990	ud
+en cuanto	ADP	MWE	13990	ud
+en cuanto a	ADP	MWE	13990	ud
+en definitiva	ADP	MWE	13990	ud
+en dirección a	ADP	MWE	13990	ud
+en directo	ADP	MWE	13990	ud
+en efecto	ADP	MWE	13990	ud
+en especial	ADP	MWE	13990	ud
+en general	ADP	MWE	13990	ud
+en nada	ADP	MWE	13990	ud
+en particular	ADP	MWE	13990	ud
+en referencia a	ADP	MWE	13990	ud
+en relación a	ADP	MWE	13990	ud
+en relación con	ADP	MWE	13990	ud
+en tanto	ADP	MWE	13990	ud
+en tanto que	ADP	MWE	13990	ud
+en todo caso	ADP	MWE	13990	ud
+en torno a	ADP	MWE	13990	ud
+en total	ADP	MWE	13990	ud
+encima	ADV	ADV	56	ud
+enseguida	ADV	ADV	4	ud
+entonces	ADV	ADV	141	ud
+entre	ADP	ADP	903	ud
+es decir	AUX	MWE	2577	ud
+es más	AUX	MWE	2577	ud
+esa	DET	DET	294	ud
+esas	DET	DET	69	ud
+escasos	DET	DET	11	ud
+ese	DET	DET	986	ud
+eso	PRON	PRON	239	ud
+eso sí	PRON	MWE	239	ud
+esos	DET	DET	100	ud
+especialmente	ADV	ADV	63	ud
+esta	DET	DET	733	ud
+estar	AUX	AUX	1652	ud
+estas	DET	DET	169	ud
+este	DET	DET	2372	ud
+esto	PRON	PRON	131	ud
+esto es	PRON	MWE	131	ud
+estos	DET	DET	224	ud
+excepto	ADP	ADP	10	ud
+finalmente	ADV	ADV	53	ud
+frecuentemente	ADV	ADV	1	ud
+frente a	NOUN	MWE	228	ud
+fuera	ADV	ADV	114	ud
+generalmente	ADV	ADV	9	ud
+gracias a	NOUN	MWE	71	ud
+haber	AUX	AUX	4880	ud
+habitualmente	ADV	ADV	3	ud
+hacer	VERB	LVERB	1440	ud
+hacia	ADP	ADP	176	ud
+harto	ADJ	OTH	6	ud
+hasta	ADP	ADP	641	ud
+hasta que	ADP	MWE	641	ud
+hoy día	ADV	MWE	822	ud
+hoy en día	ADV	MWE	822	ud
+hoy por hoy	ADV	MWE	822	ud
+i	CCONJ	CCONJ	41	ud
+igual que	ADJ	MWE	93	ud
+in	ADP	ADP	9	ud
+incluso	ADV	ADV	166	ud
+ir	VERB	LVERB	579	ud
+jamás	ADV	ADV	22	ud
+junto a	ADJ	MWE	158	ud
+junto con	ADJ	MWE	158	ud
+justamente	ADV	ADV	7	ud
+la	DET	DET	20549	ud
+las	DET	DET	5385	ud
+le	PRON	PRON	1050	ud
+lejos	ADV	ADV	53	ud
+les	PRON	PRON	301	ud
+llevar	VERB	LVERB	375	ud
+lo	PRON	PRON	2079	ud
+lo mismo	PRON	MWE	2079	ud
+los	DET	DET	8778	ud
+luego	ADV	ADV	93	ud
+me	PRON	PRON	443	ud
+mediante	ADP	ADP	50	ud
+menos	ADV	ADV	254	ud
+merced a	NOUN	MWE	7	ud
+mi	DET	DET	214	ud
+mientras	SCONJ	SCONJ	334	ud
+mientras que	SCONJ	MWE	334	ud
+mientras tanto	SCONJ	MWE	334	ud
+mis	DET	DET	39	ud
+misma	DET	DET	131	ud
+mismas	DET	DET	30	ud
+mismo	DET	DET	481	ud
+mismos	DET	DET	43	ud
+mucha	DET	DET	50	ud
+muchas	DET	DET	95	ud
+mucho	ADV	ADV	1053	ud
+muchos	DET	DET	170	ud
+muy	ADV	ADV	545	ud
+más	ADV	ADV	1855	ud
+más bien	ADV	MWE	1855	ud
+más o menos	ADV	MWE	1855	ud
+más que	ADV	MWE	1855	ud
+mí	PRON	PRON	58	ud
+mío	DET	DET	9	ud
+nada	PRON	PRON	224	ud
+nada más	PRON	MWE	224	ud
+nadie	PRON	PRON	135	ud
+ni	CCONJ	CCONJ	376	ud
+ni siquiera	CCONJ	MWE	376	ud
+ninguna	DET	DET	70	ud
+ninguno	DET	DET	223	ud
+ningún	DET	DET	116	ud
+no	ADV	ADV	3796	ud
+no obstante	ADV	MWE	3796	ud
+no solo	ADV	MWE	3796	ud
+no sólo	ADV	MWE	3796	ud
+no tanto	ADV	MWE	3796	ud
+normalmente	ADV	ADV	5	ud
+nos	PRON	PRON	406	ud
+nosotros	PRON	PRON	97	ud
+nuestra	DET	DET	95	ud
+nuestras	DET	DET	35	ud
+nuestro	DET	DET	262	ud
+nuestros	DET	DET	44	ud
+nunca	ADV	ADV	155	ud
+o	CCONJ	CCONJ	958	ud
+o bien	CCONJ	MWE	958	ud
+o sea	CCONJ	MWE	958	ud
+os	PRON	PRON	8	ud
+otra	DET	DET	247	ud
+otra cosa que	DET	MWE	247	ud
+otra vez	DET	MWE	247	ud
+otras	DET	DET	196	ud
+otro	DET	DET	1077	ud
+otros	DET	DET	383	ud
+para	ADP	ADP	3785	ud
+para nada	ADP	MWE	3785	ud
+para que	ADP	MWE	3785	ud
+parecer	VERB	LVERB	236	ud
+particularmente	ADV	ADV	3	ud
+per	ADP	ADP	17	ud
+pero	CCONJ	CCONJ	1263	ud
+pese a	NOUN	MWE	119	ud
+pese a que	NOUN	MWE	119	ud
+poca	DET	DET	28	ud
+pocas	DET	DET	33	ud
+poco	ADV	ADV	341	ud
+poco a poco	ADV	MWE	341	ud
+poco menos que	ADV	MWE	341	ud
+pocos	DET	DET	57	ud
+poder	AUX	AUX	1458	ud
+poner	VERB	LVERB	348	ud
+por	ADP	ADP	5277	ud
+por ahora	ADP	MWE	5277	ud
+por aquel entonces	ADP	MWE	5277	ud
+por cierto	ADP	MWE	5277	ud
+por contra	ADP	MWE	5277	ud
+por el contrario	ADP	MWE	5277	ud
+por encima	ADP	MWE	5277	ud
+por escrito	ADP	MWE	5277	ud
+por eso	ADP	MWE	5277	ud
+por lo menos	ADP	MWE	5277	ud
+por lo tanto	ADP	MWE	5277	ud
+por más que	ADP	MWE	5277	ud
+por otra parte	ADP	MWE	5277	ud
+por otro lado	ADP	MWE	5277	ud
+por qué	ADP	MWE	5277	ud
+por su parte	ADP	MWE	5277	ud
+por supuesto	ADP	MWE	5277	ud
+por tanto	ADP	MWE	5277	ud
+por último	ADP	MWE	5277	ud
+porque	SCONJ	SCONJ	578	ud
+precisamente	ADV	ADV	44	ud
+principalmente	ADV	ADV	21	ud
+pronto	ADV	ADV	37	ud
+propia	DET	DET	82	ud
+propio	ADJ	DET	234	ud
+propios	ADJ	OTH	31	ud
+pues	SCONJ	SCONJ	135	ud
+pues bien	SCONJ	MWE	135	ud
+puesto que	NOUN	MWE	185	ud
+que	PRON	PRON	16313	ud
+quedar	VERB	LVERB	268	ud
+querer	VERB	LVERB	397	ud
+quien	PRON	PRON	409	ud
+quienes	PRON	PRON	78	ud
+quizás	ADV	ADV	14	ud
+quién	PRON	PRON	51	ud
+qué	PRON	PRON	229	ud
+rara vez	ADJ	MWE	10	ud
+recién	ADV	ADV	36	ud
+respecto a	NOUN	MWE	125	ud
+resultar	VERB	LVERB	111	ud
+saber	VERB	LVERB	310	ud
+salvo	ADP	ADP	25	ud
+se	PRON	PRON	6368	ud
+seguir	VERB	LVERB	373	ud
+según	ADP	ADP	631	ud
+semejante	ADJ	OTH	21	ud
+sendas	DET	DET	8	ud
+sendos	DET	DET	13	ud
+ser	AUX	AUX	6265	ud
+si	SCONJ	SCONJ	745	ud
+si bien	SCONJ	MWE	745	ud
+siempre	ADV	ADV	247	ud
+siempre que	ADV	MWE	247	ud
+simplemente	ADV	ADV	20	ud
+sin	ADP	ADP	733	ud
+sin embargo	ADP	MWE	733	ud
+sino	CCONJ	CCONJ	253	ud
+sino que	CCONJ	MWE	253	ud
+sino también	CCONJ	MWE	253	ud
+sobre	ADP	ADP	897	ud
+sobre todo	ADP	MWE	897	ud
+solamente	ADV	ADV	16	ud
+soler	VERB	LVERB	56	ud
+solo	ADJ	OTH	105	ud
+su	DET	DET	4918	ud
+sumamente	ADV	ADV	3	ud
+sus	DET	DET	1298	ud
+suya	DET	DET	11	ud
+suyo	DET	DET	40	ud
+suyos	DET	DET	11	ud
+sí	INTJ	INTJ	161	ud
+sólo	ADV	ADV	518	ud
+tal	NOUN	DET	143	ud
+tal como	NOUN	MWE	143	ud
+tal vez	NOUN	MWE	143	ud
+tal y como	NOUN	MWE	143	ud
+tales	DET	DET	18	ud
+también	ADV	ADV	836	ud
+tampoco	ADV	ADV	72	ud
+tan	ADV	ADV	242	ud
+tan solo	ADV	MWE	242	ud
+tan sólo	ADV	MWE	242	ud
+tanta	DET	DET	24	ud
+tantas	DET	DET	18	ud
+tanto	ADV	ADV	562	ud
+tantos	DET	DET	27	ud
+tarde	NOUN	ADV	123	ud
+te	PRON	PRON	82	ud
+temprano	ADJ	OTH	11	ud
+tener	VERB	LVERB	1762	ud
+ti	PRON	PRON	9	ud
+toda	DET	DET	164	ud
+todas	DET	DET	192	ud
+todavía	ADV	ADV	91	ud
+todo	DET	DET	1303	ud
+todos	DET	DET	385	ud
+tomar	VERB	LVERB	141	ud
+totalmente	ADV	ADV	39	ud
+tras	ADP	ADP	435	ud
+tu	DET	DET	33	ud
+tú	PRON	PRON	172	ud
+u	CCONJ	CCONJ	32	ud
+un	DET	DET	5458	ud
+un poco	DET	MWE	5458	ud
+un tanto	DET	MWE	5458	ud
+una	DET	DET	4045	ud
+una vez	DET	MWE	4045	ud
+una vez que	DET	MWE	4045	ud
+unas	DET	DET	153	ud
+uno	DET	DET	10346	ud
+unos	DET	DET	325	ud
+usted	PRON	PRON	49	ud
+ustedes	PRON	PRON	7	ud
+varias	DET	DET	76	ud
+varios	DET	DET	192	ud
+venir	VERB	LVERB	129	ud
+ver	VERB	LVERB	427	ud
+volver	VERB	LVERB	231	ud
+y	CCONJ	CCONJ	11730	ud
+ya	ADV	ADV	809	ud
+ya que	ADV	MWE	809	ud
+yo	PRON	PRON	1148	ud
+él	PRON	PRON	11194	ud
+ésa	PRON	PRON	6	ud
+ésta	PRON	PRON	45	ud
+éstas	PRON	PRON	11	ud
+éste	PRON	PRON	78	ud
+éstos	PRON	PRON	20	ud
+únicamente	ADV	ADV	23	ud
