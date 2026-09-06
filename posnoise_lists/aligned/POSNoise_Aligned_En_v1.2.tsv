@@ -1,4 +1,4 @@
-# aligned companion of POSNoise_PatternList_En_v2.1.txt; evidence: UD_English-EWT (33244 sentences) + target corpus (481265 tokens tagged)
+# aligned companion of POSNoise_PatternList_En_v2.1.txt; evidence: UD_English-EWT (33244 sentences) + target corpus (706684 tokens tagged)
 # entry	upos	class	evidence_count	source
 a	DET	DET	10818	ud
 a bit of	DET	MWE	10818	ud
@@ -175,7 +175,7 @@ can't	-	UNK	0	-
 centrally	ADV	ADV	2	ud
 certain	ADJ	OTH	72	ud
 certainly	ADV	ADV	62	ud
-chiefly	ADV	ADV	5	corpus
+chiefly	ADV	ADV	8	corpus
 circa	ADP	ADP	2	ud
 close by	ADJ	MWE	188	ud
 close to	ADJ	MWE	188	ud
@@ -198,7 +198,7 @@ could	AUX	AUX	720	ud
 couldn't	-	UNK	0	-
 could've	-	UNK	0	-
 coupled with	VERB	MWE	6	ud
-critically	ADV	ADV	1	corpus
+critically	-	UNK	0	-
 currently	ADV	ADV	80	ud
 dare	VERB	LVERB	2	ud
 a day	DET	MWE	10818	ud
@@ -243,7 +243,7 @@ everywhere	ADV	ADV	10	ud
 exactly	ADV	ADV	46	ud
 except	ADP	ADP	50	ud
 except for	ADP	MWE	50	ud
-excepting	VERB	LVERB	2	corpus
+excepting	VERB	LVERB	1	corpus
 excluding	VERB	LVERB	4	ud
 exclusively	ADV	ADV	2	ud
 explicitly	ADV	ADV	2	ud
@@ -278,8 +278,8 @@ for the purpose of	ADP	MWE	4590	ud
 for the time being	ADP	MWE	4590	ud
 for this purpose	ADP	MWE	4590	ud
 for this reason	ADP	MWE	4590	ud
-formerly	ADV	ADV	2	corpus
-forthwith	ADV	ADV	5	corpus
+formerly	ADV	ADV	8	corpus
+forthwith	ADV	ADV	2	corpus
 found	VERB	LVERB	192	ud
 foundationally	-	UNK	0	-
 four	NUM	NUM	94	ud
@@ -330,14 +330,14 @@ helped	VERB	LVERB	42	ud
 helping	VERB	LVERB	32	ud
 helps	VERB	LVERB	34	ud
 hence	ADV	ADV	14	ud
-henceforth	ADV	ADV	15	corpus
+henceforth	ADV	ADV	21	corpus
 hencefrom	-	UNK	0	-
 her	PRON	PRON	522	ud
 here	ADV	ADV	488	ud
 here and there	ADV	MWE	488	ud
 hereabout	-	UNK	0	-
-hereabouts	ADV	ADV	1	corpus
-hereafter	ADV	ADV	17	corpus
+hereabouts	ADV	ADV	4	corpus
+hereafter	ADV	ADV	31	corpus
 hereat	-	UNK	0	-
 hereby	ADV	ADV	6	ud
 herefor	-	UNK	0	-
@@ -349,8 +349,8 @@ hereinbefore	-	UNK	0	-
 hereinto	-	UNK	0	-
 hereof	ADV	ADV	4	corpus
 hereon	-	UNK	0	-
-hereto	ADJ	ADV	1	corpus
-heretofore	ADV	ADV	6	corpus
+hereto	VERB	LVERB	1	corpus
+heretofore	-	UNK	0	-
 hereunder	-	UNK	0	-
 hereunto	-	UNK	0	-
 hereupon	-	UNK	0	-
@@ -478,7 +478,7 @@ knows	VERB	LVERB	48	ud
 largely	ADV	ADV	18	ud
 last	ADJ	OTH	362	ud
 last but not least	ADJ	MWE	362	ud
-lastly	ADV	ADV	5	corpus
+lastly	ADV	ADV	7	corpus
 lastly and most importantly	-	MWE	0	ud
 late	ADV	ADV	260	ud
 lately	ADV	ADV	6	ud
@@ -496,7 +496,7 @@ like	ADP	ADP	1142	ud
 liked	VERB	LVERB	40	ud
 likes	VERB	LVERB	18	ud
 likewise	ADV	ADV	10	ud
-liking	NOUN	OTH	15	corpus
+liking	VERB	LVERB	6	corpus
 little	ADJ	OTH	302	ud
 live	VERB	LVERB	246	ud
 lived	VERB	LVERB	26	ud
@@ -517,7 +517,7 @@ many	ADJ	OTH	442	ud
 markedly	ADV	ADV	2	ud
 masses of	NOUN	MWE	4	ud
 may	AUX	AUX	566	ud
-mayest	VERB	LVERB	2	corpus
+mayest	VERB	LVERB	4	corpus
 mayn't	-	UNK	0	-
 me	PRON	PRON	1502	ud
 mean	VERB	LVERB	216	ud
@@ -547,12 +547,12 @@ mustn't	-	UNK	0	-
 must've	-	UNK	0	-
 my	PRON	PRON	2282	ud
 myself	PRON	PRON	66	ud
-namely	ADV	ADV	2	corpus
+namely	ADV	ADV	1	corpus
 naturally	ADV	ADV	4	ud
 near	ADP	ADP	76	ud
 near to	ADP	MWE	76	ud
 nearby	ADJ	OTH	14	ud
-nearer	ADJ	OTH	13	corpus
+nearer	ADV	ADV	25	corpus
 nearly	ADV	ADV	48	ud
 need	VERB	LVERB	740	ud
 need to	VERB	MWE	740	ud
@@ -579,7 +579,7 @@ not only-but also	PART	MWE	4366	ud
 not to mention	PART	MWE	4366	ud
 notably	ADV	ADV	2	ud
 nothing	PRON	PRON	174	ud
-notwithstanding	ADP	ADP	4	corpus
+notwithstanding	ADP	ADP	6	corpus
 now	ADV	ADV	624	ud
 now that	ADV	MWE	624	ud
 nowhere	ADV	ADV	8	ud
@@ -696,7 +696,7 @@ seeing	VERB	LVERB	56	ud
 seeing that	VERB	MWE	56	ud
 seem	VERB	LVERB	200	ud
 seemed	VERB	LVERB	30	ud
-seeming	VERB	LVERB	5	corpus
+seeming	VERB	LVERB	21	corpus
 seems	VERB	LVERB	98	ud
 seen	VERB	LVERB	90	ud
 sees	VERB	LVERB	8	ud
@@ -708,7 +708,7 @@ several	ADJ	OTH	126	ud
 shall	AUX	AUX	70	ud
 shalled	-	UNK	0	-
 shalling	-	UNK	0	-
-shalls	NOUN	OTH	2	corpus
+shalls	-	UNK	0	-
 she	PRON	PRON	886	ud
 she'd	-	UNK	0	-
 she'll	-	UNK	0	-
@@ -796,25 +796,25 @@ them	PRON	PRON	870	ud
 themselves	PRON	PRON	54	ud
 then	ADV	ADV	556	ud
 then again	ADV	MWE	556	ud
-thence	ADV	ADV	41	corpus
+thence	ADV	ADV	43	corpus
 there	PRON	PRON	1494	ud
-thereabout	NOUN	OTH	3	corpus
-thereabouts	NOUN	OTH	3	corpus
+thereabout	NOUN	OTH	2	corpus
+thereabouts	NOUN	OTH	4	corpus
 thereacross	-	UNK	0	-
 thereafter	ADV	ADV	6	ud
 thereagainst	-	UNK	0	-
 therearound	-	UNK	0	-
-thereat	VERB	LVERB	2	corpus
+thereat	VERB	LVERB	1	corpus
 therebeyond	-	UNK	0	-
 thereby	ADV	ADV	6	ud
 therefor	-	UNK	0	-
 therefore	ADV	ADV	36	ud
 therefrom	-	UNK	0	-
-therein	ADV	ADV	16	corpus
+therein	ADV	ADV	13	corpus
 thereinafter	-	UNK	0	-
 thereinbefore	-	UNK	0	-
 thereinto	-	UNK	0	-
-thereof	ADV	ADV	20	corpus
+thereof	ADV	ADV	16	corpus
 thereon	NOUN	OTH	2	corpus
 thereover	-	UNK	0	-
 therethrough	-	UNK	0	-
@@ -822,9 +822,9 @@ therethroughout	-	UNK	0	-
 thereto	VERB	LVERB	4	corpus
 theretofore	-	UNK	0	-
 thereunder	-	UNK	0	-
-thereunto	-	UNK	0	-
-thereupon	ADV	ADV	1	corpus
-therewith	PART	PART	1	corpus
+thereunto	ADV	ADV	1	corpus
+thereupon	ADV	ADV	2	corpus
+therewith	ADP	ADP	1	corpus
 therewithal	-	UNK	0	-
 therewithin	-	UNK	0	-
 these	DET	DET	486	ud
@@ -952,27 +952,27 @@ whereabouts	NOUN	OTH	6	ud
 whereafter	-	UNK	0	-
 whereagainst	-	UNK	0	-
 whereas	SCONJ	SCONJ	8	ud
-whereat	PROPN	OTH	3	corpus
-whereby	SCONJ	SCONJ	6	corpus
+whereat	PROPN	OTH	2	corpus
+whereby	SCONJ	SCONJ	16	corpus
 where'd	-	UNK	0	-
 wherefor	-	UNK	0	-
-wherefore	ADV	ADV	21	corpus
+wherefore	ADV	ADV	28	corpus
 wherefrom	-	UNK	0	-
 wherein	ADV	ADV	2	ud
-whereinto	-	UNK	0	-
+whereinto	NOUN	OTH	1	corpus
 where'll	-	UNK	0	-
-whereof	X	OTH	18	corpus
-whereon	NOUN	OTH	5	corpus
+whereof	X	ADV	20	corpus
+whereon	NOUN	OTH	11	corpus
 whereover	-	UNK	0	-
 where's	-	UNK	0	-
 wherethrough	-	UNK	0	-
-whereto	VERB	LVERB	2	corpus
-wheretofore	NOUN	OTH	1	corpus
+whereto	NOUN	OTH	3	corpus
+wheretofore	-	UNK	0	-
 whereunder	-	UNK	0	-
-whereunto	-	UNK	0	-
-whereupon	SCONJ	SCONJ	4	corpus
+whereunto	NOUN	OTH	1	corpus
+whereupon	-	UNK	0	-
 wherever	ADV	ADV	8	ud
-wherewith	VERB	LVERB	6	corpus
+wherewith	VERB	LVERB	9	corpus
 wherewithal	-	UNK	0	-
 wherewithin	-	UNK	0	-
 wherewithout	-	UNK	0	-
@@ -996,7 +996,7 @@ why'd	-	UNK	0	-
 why'll	-	UNK	0	-
 why's	-	UNK	0	-
 will	AUX	AUX	2550	ud
-willed	VERB	LVERB	5	corpus
+willed	-	UNK	0	-
 willing	ADJ	OTH	60	ud
 with	ADP	ADP	3076	ud
 with attention to	ADP	MWE	3076	ud

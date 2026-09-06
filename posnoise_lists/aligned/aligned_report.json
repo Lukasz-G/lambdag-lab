@@ -26,31 +26,31 @@
   },
   "de": {
     "by_class": {
-      "ADP": 88,
-      "ADV": 524,
-      "AUX": 89,
-      "CCONJ": 16,
-      "DET": 175,
-      "INTJ": 5,
-      "LVERB": 36,
+      "ADP": 92,
+      "ADV": 563,
+      "AUX": 96,
+      "CCONJ": 14,
+      "DET": 182,
+      "INTJ": 6,
+      "LVERB": 43,
       "MWE": 391,
-      "NUM": 37,
-      "OTH": 270,
-      "PART": 4,
+      "NUM": 38,
+      "OTH": 313,
+      "PART": 3,
       "PRON": 49,
       "SCONJ": 24,
-      "UNK": 295
+      "UNK": 189
     },
-    "corpus_rescued": 247,
-    "corpus_tokens_tagged": 468962,
-    "coverage": 0.8527,
+    "corpus_rescued": 353,
+    "corpus_tokens_tagged": 2000004,
+    "coverage": 0.9056,
     "entries": 2003,
     "list": "POSNoise_PatternList_De_v3.0.txt",
     "sentences": 15589,
     "treebanks": [
       "UD_German-GSD"
     ],
-    "with_evidence": 1708
+    "with_evidence": 1814
   },
   "el": {
     "by_class": {
@@ -78,7 +78,7 @@
   },
   "en": {
     "by_class": {
-      "ADP": 57,
+      "ADP": 58,
       "ADV": 161,
       "AUX": 22,
       "CCONJ": 9,
@@ -87,22 +87,22 @@
       "LVERB": 182,
       "MWE": 322,
       "NUM": 4,
-      "OTH": 47,
-      "PART": 3,
+      "OTH": 45,
+      "PART": 2,
       "PRON": 55,
-      "SCONJ": 19,
-      "UNK": 137
+      "SCONJ": 18,
+      "UNK": 140
     },
-    "corpus_rescued": 40,
-    "corpus_tokens_tagged": 481265,
-    "coverage": 0.8676,
+    "corpus_rescued": 37,
+    "corpus_tokens_tagged": 706684,
+    "coverage": 0.8647,
     "entries": 1035,
     "list": "POSNoise_PatternList_En_v2.1.txt",
     "sentences": 33244,
     "treebanks": [
       "UD_English-EWT"
     ],
-    "with_evidence": 898
+    "with_evidence": 895
   },
   "es": {
     "by_class": {

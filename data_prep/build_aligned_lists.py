@@ -100,7 +100,7 @@ def orth_variants(e):
     return seen
 
 
-def mine_corpus(code, needed, max_tokens=400_000):
+def mine_corpus(code, needed, max_tokens=2_000_000):
     """UPOS + deprel evidence for entries the TREEBANK never shows, mined from
     the target corpora themselves.
 
@@ -141,33 +141,63 @@ def mine_corpus(code, needed, max_tokens=400_000):
               flush=True)
         return {}, 0
 
+    # SAMPLE ACROSS THE WHOLE CORPUS, not off the front of it. Filling the
+    # budget by reading records in order spends it all on the first file and its
+    # first few authors -- for German, entirely on drama, with novels and poetry
+    # never opened. The residue we are trying to reach is archaic literary
+    # vocabulary, so breadth of author and genre matters more than depth in any
+    # one of them. A per-record quota, taken from the middle of each text to
+    # skip front matter, spreads the same budget over every author.
+    files = sorted(src.glob("av_reference_*.jsonl"))
+    nrec = 0
+    for f in files:
+        with f.open(encoding="utf-8") as fh:
+            nrec += sum(1 for line in fh if line.strip())
+    if nrec == 0:
+        return {}, 0
+    quota = max(500, max_tokens // nrec)
+
     texts = []
     ntok = 0
-    for f in sorted(src.glob("av_reference_*.jsonl")):
+    for f in files:
         for line in f.open(encoding="utf-8"):
             try:
                 rec = json.loads(line)
             except json.JSONDecodeError:
                 continue
-            t = rec.get("text") or ""
-            for para in t.split("\n"):
-                para = para.strip()
-                if not para:
-                    continue
+            paras = [p.strip() for p in (rec.get("text") or "").split("\n") if p.strip()]
+            if not paras:
+                continue
+            start = len(paras) // 4          # skip title pages and front matter
+            got = 0
+            for para in paras[start:]:
                 texts.append(para[:100_000])
-                ntok += para.count(" ") + 1
-                if ntok >= max_tokens:
+                n = para.count(" ") + 1
+                got += n
+                ntok += n
+                if got >= quota:
                     break
-            if ntok >= max_tokens:
-                break
-        if ntok >= max_tokens:
-            break
     if not texts:
         return {}, 0
 
+    # TWO BOUNDS ON THE TAGGING, because the entries we are chasing are a
+    # Zipfian tail: waiting for every one of them to be decided is a condition
+    # that never becomes true, and without a bound the pass simply tags
+    # everything collected.
+    #   - a hard token budget, so the cost is predictable whatever was collected
+    #   - a saturation exit: stop when a long stretch of text has resolved no
+    #     entry that was not already resolved
     stats = {}
     seen = 0
-    for doc in nlp.pipe(texts, batch_size=32):
+    stale = 0
+    # Generous: rare entries are separated by long stretches of text, so a
+    # short stale window quits while evidence is still arriving (measured:
+    # at 40k it stopped early and lost ground against a smaller front-loaded
+    # sample). The token budget is the real bound; this only saves time when
+    # a language genuinely runs dry.
+    STALE_LIMIT = 250_000         # tokens without a newly-resolved entry
+    for doc in nlp.pipe(texts, batch_size=64):
+        before = len(stats)
         for tok in doc:
             seen += 1
             for s in {tok.text.lower(), tok.lemma_.lower()}:
@@ -177,6 +207,9 @@ def mine_corpus(code, needed, max_tokens=400_000):
                         rec = stats[s] = (Counter(), Counter())
                     rec[0][tok.pos_] += 1
                     rec[1][tok.dep_] += 1
+        stale = 0 if len(stats) > before else stale + len(doc)
+        if seen >= max_tokens or stale >= STALE_LIMIT:
+            break
     return stats, seen
 
 
