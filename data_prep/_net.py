@@ -21,12 +21,27 @@ SESSION.headers["User-Agent"] = "LambdaG-CHR2027/1.0 (academic authorship verifi
 
 
 def get(url, as_json=True, tries=4, timeout=60, session=None):
-    """GET with retries; returns parsed JSON / text, or None on a hard failure."""
+    """GET with retries; returns parsed JSON / text, or None on a hard failure.
+
+    NB on ENCODING: when a response carries no charset in its Content-Type,
+    requests falls back to ISO-8859-1 (RFC 2616), so a UTF-8 XML body silently
+    decodes to mojibake -- German umlauts become "zugÃ¤nglich". The TextGrid TEI
+    endpoint does exactly this, and it corrupted every file of a 15k-document
+    harvest before it was caught. Where the server declares no charset we decode
+    as UTF-8 instead, which is right for XML and JSON (both default to UTF-8) and
+    falls back to the requests behaviour if that fails.
+    """
     s = session or SESSION
     for k in range(tries):
         try:
             r = s.get(url, timeout=timeout)
             if r.status_code == 200:
+                if "charset=" not in r.headers.get("Content-Type", "").lower():
+                    try:
+                        r.encoding = "utf-8"
+                        r.content.decode("utf-8")
+                    except UnicodeDecodeError:
+                        r.encoding = r.apparent_encoding
                 return r.json() if as_json else r.text
             if r.status_code in (400, 404):
                 return None
