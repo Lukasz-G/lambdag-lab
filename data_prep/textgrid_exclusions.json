@@ -1,0 +1,106 @@
+{
+  "_README": [
+    "Per-author title exclusions for fetch_textgrid.py, applied as case-insensitive",
+    "regexes against the object title. The Digitale Bibliothek reproduces public-domain",
+    "editions WITHOUT flagging whether the text is the author's own: third-party-edited",
+    "editions, unauthorised editions and the author's adaptations of other writers all",
+    "appear under his name. For authorship verification that is not a metadata nuisance",
+    "but a contaminated identity label, so any author with a complicated publication",
+    "history needs auditing before his texts enter a bank.",
+    "Each entry records WHY, because the exclusion has to be defensible in the paper."
+  ],
+
+  "petrarca_francesco": {
+    "audit_finding": [
+      "Italian; reaches the Digitale Bibliothek in German translation. The GND",
+      "provenance gate cannot see this -- neither the edition records nor an exact",
+      "name search return a usable authority record -- so the exclusion is recorded",
+      "here by hand rather than guessed at automatically. Same reasoning as",
+      "shakespeare_william: the grammatical habit of a translated text is the",
+      "translator's."
+    ],
+    "titles": [".*"]
+  },
+
+  "leopardi_giacomo": {
+    "audit_finding": [
+      "Italian, German translation, no decisive GND record -- see",
+      "petrarca_francesco."
+    ],
+    "titles": [".*"]
+  },
+
+  "shakespeare_william": {
+    "audit_finding": [
+      "Excluded ENTIRELY, and the reason generalises. The want-list matched him",
+      "because our German drama bank holds him for German productions, and the",
+      "Digitale Bibliothek then supplied two things, both wrong for us: the ENGLISH",
+      "originals (1.1M words, caught by the language test in looks_german), and the",
+      "Schlegel-Tieck GERMAN TRANSLATION (553k drama + 21k verse), which passes any",
+      "language test because it is genuinely German.",
+      "The translation is the more dangerous of the two. Its grammatical habit is the",
+      "translator's, and Ludwig Tieck is one of our own three-genre authors -- so",
+      "keeping it would place one hand in the bank under two identities and",
+      "manufacture a same-author signal across what we would score as different",
+      "authors.",
+      "GENERAL RULE: a foreign author reached through a translation is never usable",
+      "for authorship verification, whatever the language test says."
+    ],
+    "titles": [".*"]
+  },
+
+  "may_karl": {
+    "audit_finding": [
+      "Audited 2026-09-07 against the 200 objects listed for May. The disputed",
+      "material is confined to one collection ('Collection 101': the Fischer-Ausgabe",
+      "Waldroeschen volumes, Die Liebe des Ulanen, Deutsche Herzen, Der Weg zum Glueck,",
+      "Scepter und Hammer, Die Juweleninsel) and ALL 48 of its objects are aggregation",
+      "manifests that yield no TEI body, so none of that text entered the harvest.",
+      "The rules below therefore cost only ~168k words of genuinely fetched material",
+      "(Der Waldlaeufer, Der Waldkoenig, riddles, open letters) out of 5.34M, and stand",
+      "as a guard in case those aggregations are ever resolved to their leaf chapters.",
+      "What remains is 'Collection 58' -- the Fehsenfeld Reiseerzaehlungen and the",
+      "Erzgebirgische Dorfgeschichten -- which is May's own text."
+    ],
+    "why": [
+      "Fischer-Ausgabe (1902-03): an edition published AGAINST May's will, whose text",
+      "was edited on the publisher's behalf by Paul Staberow. Waldroeschen was issued in",
+      "it as six volumes -- Die Tochter des Granden / Der Schatz der Mixtekas / Matavese,",
+      "der Fuerst des Felsens / Erkaempftes Glueck I-III -- so those titles denote an",
+      "edited text, not May's.",
+      "Muenchmeyer colportage novels (1882-87): authorship disputed. May claimed the",
+      "objectionable passages were interpolated by other hands; the manuscripts are lost",
+      "so it cannot be settled, and modern scholarship (Harder) leans towards most of the",
+      "text being May's own. Excluded as a precaution, not as a verdict -- the safe",
+      "choice for a method paper is to drop a disputed text and say so.",
+      "Der Waldlaeufer: May's reworking of Gabriel Ferry's 'Le Coureur des Bois' via",
+      "Gustav Fuellner's German translation, so its sentence structure descends from a",
+      "translator, which is exactly what a grammatical-habit method measures.",
+      "Non-narrative material: riddles, proverb collections and occasional prose are not",
+      "running text and would enter the stream as a different register."
+    ],
+    "titles": [
+      "tochter des granden",
+      "schatz der mixtekas",
+      "matavese",
+      "erk[aä]mpftes gl[uü]ck",
+      "lopez jordan",
+      "schatz der inkas",
+      "abenteuer des schwarzen gerard",
+      "der waldk[oö]nig",
+      "der waldl[aä]ufer",
+      "liebe des ulanen",
+      "deutsche herzen",
+      "weg zum gl[uü]ck",
+      "scepter und hammer",
+      "juweleninsel",
+      "wortr[aä]thsel",
+      "silbenr[aä]thsel",
+      "deutsche spr[uü]chw[oö]rter",
+      "sendepistel",
+      "antwortschreiben",
+      "beganntmachung",
+      "meine lieben kameraden"
+    ]
+  }
+}
