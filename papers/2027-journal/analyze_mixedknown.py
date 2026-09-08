@@ -84,38 +84,69 @@ def main():
             print(f"  {arm:16s} {len(recs):4d} {auc(lam, y):6.3f} {s1:12.1f} "
                   f"{s0:12.1f} {s1 - s0:9.1f}")
 
-        singles = [a for a in stats if a != "mixed"]
+        singles = sorted(a for a in stats if a.startswith("single:"))
+        splits = sorted(a for a in stats if a.startswith("split:"))
         common = set(stats["mixed"])
-        for a in singles:
+        for a in singles + splits:
             common &= set(stats[a])
         common = sorted(common)
         if not common:
             print("  (no authors common to all arms)\n")
             continue
 
-        mixed = np.array([stats["mixed"][a] for a in common])
-        best = np.array([max(stats[s][a] for s in singles) for a in common])
-        d = mixed - best
-        rng = np.random.default_rng(0)
-        boot = [np.mean(d[rng.integers(0, len(d), len(d))]) for _ in range(B)]
-        lo, hi = np.percentile(boot, [2.5, 97.5])
-        win = int((d > 0).sum())
-        print(f"\n  PAIRED mixed - BETTER single, over {len(common)} authors:")
-        print(f"    mean {d.mean():+.2f}  95% CI [{lo:+.2f}, {hi:+.2f}]  "
-              f"mixed ahead in {win}/{len(d)} authors")
-        print(f"    -> {'MIXED WINS' if lo > 0 else 'SINGLE WINS' if hi < 0 else 'no difference resolved'}\n")
-        rows.append((C, d.mean(), lo, hi, win, len(d)))
+        def paired(lhs, rhs, label):
+            d = np.array(lhs) - np.array(rhs)
+            rng = np.random.default_rng(0)
+            boot = [np.mean(d[rng.integers(0, len(d), len(d))]) for _ in range(B)]
+            lo, hi = np.percentile(boot, [2.5, 97.5])
+            verdict = ("first" if lo > 0 else "second" if hi < 0 else "neither")
+            print(f"    {label:34s} {d.mean():+8.2f}  [{lo:+7.2f},{hi:+7.2f}]  "
+                  f"{int((d > 0).sum()):2d}/{len(d)}  "
+                  f"{'^' if verdict == 'first' else 'v' if verdict == 'second' else '='}")
+            return d.mean(), lo, hi, verdict
+
+        mixed = [stats["mixed"][a] for a in common]
+        best_single = [max(stats[s][a] for s in singles) for a in common]
+        print(f"\n  PAIRED differences over {len(common)} authors "
+              f"(^ = first arm wins, v = second, = unresolved):")
+        r_ms = paired(mixed, best_single, "mixed - better single")
+
+        if splits:
+            # THE CONTROL. split:X is the same genre as single:X and the same
+            # total, differing only in being drawn from two non-adjacent blocks.
+            # If splitting alone costs what mixing costs, the mixed arm's deficit
+            # is fragmentation of the known text and carries no claim about
+            # genre; only a mixed-minus-split gap isolates genre.
+            for s in singles:
+                g = s.split(":", 1)[1]
+                sp = f"split:{g}"
+                if sp in stats:
+                    paired([stats[sp][a] for a in common],
+                           [stats[s][a] for a in common],
+                           f"split:{g} - single:{g}  (fragmentation)")
+            best_split = [max(stats[s][a] for s in splits) for a in common]
+            r_msp = paired(mixed, best_split,
+                           "mixed - better split  (genre, net)")
+            rows.append((C, r_ms, r_msp))
+        else:
+            rows.append((C, r_ms, None))
+        print()
 
     if rows:
-        print("SUMMARY (paired mixed - better single, per questioned genre)")
-        print(f"  {'questioned':12s} {'mean':>8s} {'95% CI':>20s} {'authors ahead':>15s}")
-        for C, m, lo, hi, win, n in rows:
-            print(f"  {C:12s} {m:+8.2f}  [{lo:+7.2f}, {hi:+7.2f}] {win:>10d}/{n}")
-        print("\nA positive interval excluding zero is the signature of an author's"
-              "\nstationary process including his genre switching: single-genre text"
-              "\nconverges to a genre conditional, and only varied text reaches him."
-              "\nA null result leaves genre as a rate, and more text of any one genre"
-              "\nremains the right advice.")
+        print("SUMMARY")
+        print(f"  {'questioned':12s} {'mixed-single':>22s} {'mixed-split':>22s}")
+        for C, ms, msp in rows:
+            a = f"{ms[0]:+7.2f} [{ms[1]:+6.1f},{ms[2]:+6.1f}]"
+            b = (f"{msp[0]:+7.2f} [{msp[1]:+6.1f},{msp[2]:+6.1f}]"
+                 if msp else "n/a")
+            print(f"  {C:12s} {a:>22s} {b:>22s}")
+        print()
+        if all(r[2] for r in rows):
+            print("READING. mixed-single is the headline; mixed-split is what it")
+            print("means. If split arms lose as much as mixed, the cost is")
+            print("FRAGMENTING the known text and the comparison says nothing")
+            print("about genre. Only a mixed-split gap that excludes zero is")
+            print("evidence that mixing GENRES costs beyond mixing blocks.")
 
 
 if __name__ == "__main__":

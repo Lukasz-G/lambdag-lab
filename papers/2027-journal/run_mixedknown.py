@@ -35,6 +35,7 @@
 # case, read by analyze_mixedknown.py.
 
 import argparse
+import csv
 import json
 import random
 import sys
@@ -55,14 +56,21 @@ from lambdag import LambdaG  # noqa: E402
 
 GENRES = {"prose": "german_tgproseall", "verse": "german_tgverseall",
           "drama": "german_tgdramaall"}
-OUT = SCORES / "mixedknown"
+# POSNoise keeps the function word itself; CatSRank folds it into class x
+# frequency rank, so the same stream is compared under two alphabets. A
+# representation that genuinely washes genre out should SHRINK the mixed-split
+# gap, which makes this the roadmap's stability criterion measured rather than
+# asserted.
+ALPHABETS = {"posnoise": (None, "", "mixedknown"),
+             "catsrank": (Path("masked_catsrank"), "_heldout",
+                          "mixedknown_catsrank")}
 
 
-def banks():
+def banks(root, suffix):
     """{genre: {author_slug: sentences}} over the full-author banks."""
     out = {}
     for g, ds in GENRES.items():
-        d = MASKED / ds / "bank"
+        d = root / f"{ds}{suffix}" / "bank"
         out[g] = {}
         for f in sorted(d.glob("*.tsv")):
             stem = f.stem.split("_", 1)[1] if f.stem[:3].isdigit() else f.stem
@@ -72,6 +80,47 @@ def banks():
 
 def ntok(sents):
     return sum(len(s) for s in sents)
+
+
+def floruits():
+    """{author_slug: year}. Real publication years where Wikidata supplies them,
+    otherwise the lifespan-derived estimate."""
+    out = {}
+    per = HERE.parent / "data_prep" / "periods"
+    f = per / "textgrid_author_periods.tsv"
+    if f.exists():
+        for r in csv.DictReader(open(f, encoding="utf-8"), delimiter="	"):
+            if r.get("floruit"):
+                out[r["slug"]] = int(r["floruit"])
+    f = per / "wikidata_author_periods.tsv"          # preferred: real dates
+    if f.exists():
+        for r in csv.DictReader(open(f, encoding="utf-8"), delimiter="	"):
+            if r.get("year_median"):
+                out[r["slug"]] = int(r["year_median"])
+    return out
+
+
+def pick_donors(pool, per, anchors, window, rng, want=None):
+    """Donor authors, optionally restricted to a period window around the case.
+
+    Why this matters. Donors are the H_d population, and an impostor two
+    centuries from the case author scores about -0.08 per token worse than a
+    contemporary -- against roughly -0.05 for the entire cross-genre author
+    effect (r = -0.35 between period gap and score over 1,160 cases). Sampling
+    donors from a bank spanning 1529-1924 therefore inflates the apparent author
+    signal by roughly a third, for reasons that have nothing to do with who
+    wrote what. Matching the window removes that gradient.
+    """
+    if window <= 0:
+        return pool
+    ys = [per[a] for a in anchors if a in per]
+    if not ys:
+        return pool
+    mid = sum(ys) / len(ys)
+    near = [n for n in pool if n in per and abs(per[n] - mid) <= window]
+    # Fall back rather than fail: a thin window is worse than a wide one, and
+    # the gap is recorded per case either way so it can be conditioned on.
+    return near if len(near) >= (want or 12) else pool
 
 
 def main():
@@ -87,15 +136,31 @@ def main():
     ap.add_argument("--order", type=int, default=10)
     ap.add_argument("--r", type=int, default=30)
     ap.add_argument("--max-donors", type=int, default=40)
+    ap.add_argument("--alphabet", default="posnoise", choices=sorted(ALPHABETS),
+                    help="which encoding of the same banks to score")
+    ap.add_argument("--period-window", type=int, default=0, metavar="YEARS",
+                    help="restrict donors to authors whose floruit is within "
+                         "YEARS of the case; 0 = no matching (the uncontrolled "
+                         "design, which inflates cross-genre results)")
     ap.add_argument("--split-control", action="store_true",
                     help="add same-genre split arms, which separate the cost of "
                          "FRAGMENTING the known text from the cost of mixing "
                          "genres; raises the per-author requirement to 3*K/2")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
+    root, suffix, outdir = ALPHABETS[args.alphabet]
+    root = MASKED if root is None else MASKED.parent / root
+    # Period-matched runs are written apart so the controlled and uncontrolled
+    # designs can be compared rather than one silently replacing the other.
+    OUT = SCORES / (f"{outdir}_pw{args.period_window}" if args.period_window
+                    else outdir)
     OUT.mkdir(parents=True, exist_ok=True)
+    print(f"alphabet: {args.alphabet}  banks: {root.name}", flush=True)
 
-    B = banks()
+    B = banks(root, suffix)
+    PER = floruits()
+    print(f"period labels for {len(PER)} authors; donor window "
+          f"{args.period_window or 'OFF'}", flush=True)
     half = args.known // 2
     # authors present in all three genres with enough on every side
     three = [a for a in B["prose"]
@@ -168,8 +233,11 @@ def main():
                     known.extend(part)
                 if not ok:
                     continue
-                pool = [s for n2 in sorted(B[C]) if n2 not in (qa, ka)
-                        for s in B[C][n2]]
+                donors = pick_donors(
+                    [n2 for n2 in sorted(B[C]) if n2 not in (qa, ka)],
+                    PER, (qa, ka), args.period_window,
+                    random.Random(f"{C}|{arm}|{qa}|{ka}|{w}|pd"))
+                pool = [s for n2 in donors for s in B[C][n2]]
                 rng = random.Random(f"{C}|{arm}|{qa}|{ka}|{w}")
                 rng.shuffle(pool)
                 kept, tot = [], 0
@@ -180,7 +248,12 @@ def main():
                 lg.set_reference(rechunk(kept, args.seg))
                 res = lg.score(rechunk(q, args.seg), rechunk(known, args.seg),
                                with_details=False)
+                dg = [abs(PER[n2] - PER[qa]) for n2 in donors
+                      if n2 in PER and qa in PER]
                 recs[arm].append({"id": ci, "label": int(qa == ka),
+                                  "period_gap_median": (
+                                      int(sorted(dg)[len(dg) // 2]) if dg else None),
+                                  "n_donors": len(donors),
                                   "q_author": qa, "k_author": ka, "window": w,
                                   "arm": arm, "questioned": C,
                                   "lambda_G": res.lambda_G,
