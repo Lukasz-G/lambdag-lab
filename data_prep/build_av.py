@@ -22,6 +22,13 @@ RAW = HERE / "raw"
 OUT = ROOT / "data"
 
 SEED = 42
+# Defaults reproduce the notebooks' asymmetric design, and the novels/dracor/
+# poetree datasets are built with them, so they must not change: those are the
+# published baselines.
+#
+# --symmetric overrides both to one length. Cross-genre work needs it: there the
+# open question is how much evidence each SIDE requires, and an asymmetric pair
+# confounds that with the fixed 1000/5000 split. See --symmetric in main().
 QUERY_WORDS = 1000        # length of each questioned document D_U
 KNOWN_WORDS = 5000        # length of each author's known / enrollment sample D_A
 REF_AUTHOR_FRACTION = 0.5
@@ -115,6 +122,53 @@ def build(texts_by_author, corpus, lang, folder, quiet=False):
             "ref": len(ref_authors), "test": len(elig), "pairs": 2 * n}
 
 
+def build_full_bank(texts_by_author, corpus, lang, folder, quiet=False):
+    """A reference file holding EVERY author, plus a token test file.
+
+    Why this is needed. build() splits authors 50/50 into reference and test, and
+    mask_corpora builds masked/{folder}_{corpus}/bank/ from the reference half
+    alone -- the test half survives only as 5,000-word pair slices. That is right
+    for pair evaluation, where a reference model must not have seen the test
+    author.
+
+    It is wrong for cross-genre work, which matches an author's identity ACROSS
+    genres and therefore needs him in the bank on BOTH sides. The split is drawn
+    independently per genre, so an author must fall on the reference side twice:
+    expected retention is 0.25, and measured, the German harvest's 67 cross-genre
+    authors came through as 15, and its 17 three-genre authors as 2.
+
+    So the bank for cross-genre work is built separately, under its own corpus
+    tag, and the evaluation datasets are left exactly as they are. No leakage is
+    introduced: the cross-genre drivers exclude both case authors from the donor
+    pool per case, rather than relying on a corpus-level split.
+    """
+    tag = f"{corpus}all"
+    reference = [{"author": a, "text": t} for a, t in sorted(texts_by_author.items())]
+    if len(reference) < 4:
+        return None
+    d = OUT / folder
+    d.mkdir(parents=True, exist_ok=True)
+    with open(d / f"av_reference_{tag}_{lang}.jsonl", "w", encoding="utf-8") as fh:
+        for it in reference:
+            fh.write(json.dumps(it, ensure_ascii=False) + "\n")
+    # mask_corpora keys a dataset on the presence of its test file, so write a
+    # minimal one; only bank/ is wanted from this tag.
+    names = [r["author"] for r in reference[:4]]
+    stub = []
+    for i, a in enumerate(names):
+        w = texts_by_author[a].split()
+        stub.append({"id": i, "label": 1, "authors": [a, a],
+                     "pair": [" ".join(w[:200]), " ".join(w[200:400])]})
+    with open(d / f"av_test_{tag}_{lang}.jsonl", "w", encoding="utf-8") as fh:
+        for it in stub:
+            fh.write(json.dumps(it, ensure_ascii=False) + "\n")
+    if not quiet:
+        print(f"  {folder:12s} {tag:10s} {len(reference):4d} authors -> full bank")
+    return {"folder": folder, "corpus": tag, "lang": lang,
+            "authors": len(reference), "ref": len(reference), "test": 0,
+            "pairs": 0}
+
+
 def load_eltec():
     for p in sorted((RAW / "eltec").glob("*_preprocessed.jsonl")):
         folder = p.name.replace("_preprocessed.jsonl", "")
@@ -147,14 +201,51 @@ def load_poetree():
         yield texts, "poetree", POETREE_ISO.get(corpus, corpus), corpus
 
 
+def load_textgrid():
+    """The multi-genre German harvest (fetch_textgrid.py).
+
+    Unlike the other three sources this one supplies ALL THREE genres for the
+    same authors from a single catalogue, so its genre lives in the file name
+    rather than in the source: german_tgprose / _tgverse / _tgdrama. The corpus
+    tag is kept distinct from novels/dracor/poetree so that the ELTeC, DraCor
+    and PoeTree baselines stay untouched and comparable.
+    """
+    for p in sorted((RAW / "textgrid").glob("*_preprocessed.jsonl")):
+        stem = p.name.replace("_preprocessed.jsonl", "")   # german_tgprose
+        folder, _, corpus = stem.partition("_")
+        if not corpus:
+            continue
+        texts = {}
+        for line in open(p, encoding="utf-8"):
+            o = json.loads(line)
+            texts[o["author_id"]] = o["text"]
+        yield texts, corpus, ELTEC_ISO.get(folder, folder), folder
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--genres", default="novels,dracor,poetree")
+    ap.add_argument("--full-bank", action="store_true",
+                    help="ALSO write a {corpus}all dataset whose reference file "
+                         "holds every author, so cross-genre identity matching "
+                         "is not thinned by the 50/50 reference split")
+    ap.add_argument("--symmetric", type=int, default=0, metavar="N",
+                    help="build pairs with N words on BOTH sides instead of the "
+                         "default 1000 questioned / 5000 known. Required for "
+                         "cross-genre work, where how much evidence each side "
+                         "needs is the question under test. Raises the per-author "
+                         "minimum to 2N words, so fewer authors qualify.")
     args = ap.parse_args()
     genres = {g.strip() for g in args.genres.split(",")}
+    if args.symmetric:
+        global QUERY_WORDS, KNOWN_WORDS
+        QUERY_WORDS = KNOWN_WORDS = args.symmetric
+        print(f"symmetric pairs: {args.symmetric} words on both sides "
+              f"(per-author minimum {2 * args.symmetric:,} words)")
 
     rows = []
-    loaders = [("novels", load_eltec), ("dracor", load_dracor), ("poetree", load_poetree)]
+    loaders = [("novels", load_eltec), ("dracor", load_dracor),
+               ("poetree", load_poetree), ("textgrid", load_textgrid)]
     for genre, loader in loaders:
         if genre not in genres:
             continue
@@ -163,6 +254,10 @@ def main():
             r = build(texts, corpus, iso, folder)
             if r:
                 rows.append(r)
+            if args.full_bank:
+                r = build_full_bank(texts, corpus, iso, folder)
+                if r:
+                    rows.append(r)
 
     print(f"\n{len(rows)} datasets written under {OUT}")
     cov = defaultdict(set)
