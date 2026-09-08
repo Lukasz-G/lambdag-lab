@@ -126,12 +126,44 @@ class Tagger:
     # are the unit of independence downstream, so a cut between paragraphs costs nothing.
     CHUNK = 400_000
 
+    def _split_long(self, para):
+        """Break a single paragraph that is itself over the limit.
+
+        Paragraph boundaries alone are not enough: a source that emits a whole
+        work as one unbroken line (no blank lines, no hard wrapping) yields a
+        single paragraph of millions of characters, which reaches spaCy intact
+        and raises E088. Cut at the last sentence terminator before the limit so
+        that only the sentence stream's shape is preserved, never broken; fall
+        back to a hard cut if a stretch has no terminator at all.
+        """
+        out = []
+        while len(para) > self.CHUNK:
+            cut = max(para.rfind(". ", 0, self.CHUNK),
+                      para.rfind("! ", 0, self.CHUNK),
+                      para.rfind("? ", 0, self.CHUNK))
+            if cut <= 0:
+                cut = para.rfind(" ", 0, self.CHUNK)
+            if cut <= 0:
+                cut = self.CHUNK
+            else:
+                cut += 1
+            out.append(para[:cut])
+            para = para[cut:].lstrip()
+        if para:
+            out.append(para)
+        return out
+
     def _chunks(self, text):
         if len(text) <= self.CHUNK:
             return [text]
         out, buf = [], []
         n = 0
         for para in text.split("\n"):
+            if len(para) > self.CHUNK:          # oversized on its own
+                if buf:
+                    out.append("\n".join(buf)); buf, n = [], 0
+                out.extend(self._split_long(para))
+                continue
             if n + len(para) > self.CHUNK and buf:
                 out.append("\n".join(buf)); buf, n = [], 0
             buf.append(para); n += len(para) + 1
