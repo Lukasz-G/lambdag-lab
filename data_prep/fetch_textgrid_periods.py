@@ -52,8 +52,8 @@ from xml.etree import ElementTree as ET
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 from _net import get  # noqa: E402
-from fetch_textgrid import (CACHE, RAW, SEARCH, drop_eltec, namekey,  # noqa: E402
-                            parse_result, slug, NS)
+from fetch_textgrid import (CACHE, RAW, SEARCH, drop_eltec, gnd_by_name,  # noqa: E402
+                            namekey, parse_result, slug, NS)
 
 OUT = HERE / "periods"; OUT.mkdir(parents=True, exist_ok=True)
 INFO = CACHE / "info"; INFO.mkdir(parents=True, exist_ok=True)
@@ -106,6 +106,12 @@ def objects_with_parents(author, cap=200, page=100):
 # ---- the bibliographic record on the parent edition -------------------------
 
 YEAR = re.compile(r"(1[0-9]{3}|20[0-2][0-9])")
+
+# The Digitale Bibliothek's own scope: "from the beginning of book printing to
+# the early twentieth century". Used as the plausibility bound for authors whose
+# GND lifespan does not resolve, so that a digitisation date cannot masquerade as
+# a composition date in the absence of anything to check it against.
+CORPUS_LATEST = 1940
 
 
 def edition_record(uri):
@@ -237,15 +243,52 @@ def main():
         gnds = [r["gnd"] for _, r in dated if r and r.get("gnd")]
         gnd = max(set(gnds), key=gnds.count) if gnds else ""
         birth, death = gnd_lifespan(gnd)
+        if birth is None and death is None:
+            # No id on the edition. Fall back to the name search the provenance
+            # gate uses, and accept it only when every exact-name match agrees on
+            # the dates -- a name can denote several people. Without this an
+            # author whose id is missing keeps whatever edition year the record
+            # carries: Jakob Ayrer (d. 1605) was dated to 1865, the year of a
+            # nineteenth-century reprint, which no corpus-level bound can catch.
+            cand = []
+            for hit in gnd_by_name(name):
+                b = d_ = None
+                for key, slot in (("dateOfBirth", "b"), ("dateOfDeath", "d")):
+                    v = hit.get(key) or []
+                    v = [v] if isinstance(v, str) else v
+                    for s in v:
+                        m = YEAR.search(str(s))
+                        if m:
+                            if slot == "b":
+                                b = int(m.group(1))
+                            else:
+                                d_ = int(m.group(1))
+                            break
+                if b or d_:
+                    cand.append((b, d_))
+            if cand and len(set(cand)) == 1:
+                birth, death = cand[0]
 
         # A year is a composition date only if the author was alive for it;
         # anything later is TextGrid's digitisation date wearing the same tag.
+        #
+        # WITHOUT a lifespan the test has nothing to bite on, and unguarded it
+        # accepted 2016 for authors dead for centuries -- Jakob Ayrer (d. 1605)
+        # came out with a floruit of 1865, Wilhelm Busch (d. 1908) with 1969. So
+        # a corpus-level bound applies whenever the lifespan is unknown: the
+        # Digitale Bibliothek runs from the beginning of book printing to the
+        # early twentieth century, so a later year cannot be a composition date
+        # whatever the record says.
         years, ndig = [], 0
         for o, r in dated:
             if not r or not r["year"]:
                 continue
             y = r["year"]
-            live = (birth is None or y >= birth) and (death is None or y <= death + 5)
+            if birth is None and death is None:
+                live = y <= CORPUS_LATEST
+            else:
+                live = ((birth is None or y >= birth)
+                        and (death is None or y <= death + 5))
             if not live:
                 ndig += 1
                 continue
@@ -259,7 +302,12 @@ def main():
         # otherwise mid-career from the lifespan -- birth+35 is the convention
         # fetch_periods.py uses, flagged so the two are never confused.
         if years:
-            flor, src = int(statistics.median(years)), "works"
+            # "works" only counts as validated when a lifespan existed to test
+            # the year against. Without one the year survived a corpus-level
+            # bound alone, which cannot catch a late reprint of an early author:
+            # Jakob Ayrer (d. 1605) keeps 1865 this way. Flagged, not hidden.
+            flor = int(statistics.median(years))
+            src = "works" if (birth or death) else "works-unchecked"
         elif birth:
             flor = min(birth + 35, death) if death else birth + 35
             src = "lifespan"
