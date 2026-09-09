@@ -57,8 +57,14 @@ GENRES = {"prose": "german_tgproseall", "verse": "german_tgverseall",
 # CatSRank folds it into class x frequency rank. Whether the accumulation result
 # is a fact about authorship or about one representation cannot be told from a
 # single alphabet, and the trend -- not the gap -- is where the question lives.
+# dep_* replace the alphabet with `relation·symbol`, one symbol per token, so
+# stream length is unchanged and per-token rates stay comparable. linear keeps
+# surface order and is the control; traversal walks the tree head-first, which
+# removes surface order and therefore metre.
 ALPHABETS = {"posnoise": (None, ""),
-             "catsrank": (Path("masked_catsrank"), "_heldout")}
+             "catsrank": (Path("masked_catsrank"), "_heldout"),
+             "dep_linear": (Path("masked_dep"), "_linear"),
+             "dep_traversal": (Path("masked_dep"), "_traversal")}
 # PINNED: the known side is held fixed and only the questioned block grows, so
 # the slope is an accumulation exponent and not the estimator's own convergence.
 # 150 -> 20000 is a 133x span; the earlier 16x was too short to fit a slope
@@ -76,13 +82,22 @@ OUT = SCORES / "xgenre_ladder"
 
 
 def banks(root, suffix):
+    """Load every genre's bank, with the symbols interned.
+
+    Interning is not a micro-optimisation here. The three banks are 40M tokens,
+    and without it each job holds 40M distinct str objects -- some 3GB, which a
+    box running one job per core cannot survive. The alphabet is at most a few
+    thousand symbols, so interning collapses the strings to one copy each and
+    leaves an array of pointers. It matters most for the dependency alphabets,
+    whose symbols are the longest.
+    """
     out = {}
     for g, ds in GENRES.items():
         d = root / f"{ds}{suffix}" / "bank"
         out[g] = {}
         for f in sorted(d.glob("*.tsv")):
             stem = f.stem.split("_", 1)[1] if f.stem[:3].isdigit() else f.stem
-            out[g][stem] = read_tsv(f)
+            out[g][stem] = [[sys.intern(t) for t in s] for s in read_tsv(f)]
     return out
 
 
