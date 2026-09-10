@@ -53,6 +53,14 @@ from lambdag import LambdaG  # noqa: E402
 
 GENRES = {"prose": "german_tgproseall", "verse": "german_tgverseall",
           "drama": "german_tgdramaall"}
+# DOMAINS split out of the prose bank by the library's own shelf marks
+# (split_domains.py): belletristic prose, essays, autobiography. They are NOT
+# part of the default direction set -- "prose" above is the historical mixed
+# bank that the committed results used -- and are reachable via --directions
+# (e.g. bell2essay). Do not pair "prose" with "bell": bell is a subset of it.
+EXTRA = {"bell": "german_tgbellall", "essay": "german_tgessayall",
+         "autob": "german_tgautoball"}
+ALL_GENRES = {**GENRES, **EXTRA}
 # The same banks under two encodings. POSNoise keeps the function word itself;
 # CatSRank folds it into class x frequency rank. Whether the accumulation result
 # is a fact about authorship or about one representation cannot be told from a
@@ -81,7 +89,7 @@ K_DEFAULT = 20000
 OUT = SCORES / "xgenre_ladder"
 
 
-def banks(root, suffix):
+def banks(root, suffix, wanted):
     """Load every genre's bank, with the symbols interned.
 
     Interning is not a micro-optimisation here. The three banks are 40M tokens,
@@ -92,7 +100,7 @@ def banks(root, suffix):
     whose symbols are the longest.
     """
     out = {}
-    for g, ds in GENRES.items():
+    for g, ds in wanted.items():
         d = root / f"{ds}{suffix}" / "bank"
         out[g] = {}
         for f in sorted(d.glob("*.tsv")):
@@ -129,6 +137,10 @@ def main():
                          "advantage the numerator lacks. 'both' gives a "
                          "genre-neutral population.")
     ap.add_argument("--rot", type=int, default=2)
+    ap.add_argument("--min-authors", type=int, default=6,
+                    help="direction floor. The domain banks split from prose "
+                         "hold as few as 5 qualifying authors; lowering the "
+                         "floor there is explicit, never silent.")
     ap.add_argument("--max-authors", type=int, default=40,
                     help="cap per direction; the within-genre directions draw on "
                          "the whole bank and would otherwise dominate the run")
@@ -139,13 +151,18 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     OUT.mkdir(parents=True, exist_ok=True)
 
-    aroot, asuf = ALPHABETS[args.alphabet]
-    aroot = MASKED if aroot is None else MASKED.parent / aroot
-    B = banks(aroot, asuf)
-    print(f"alphabet: {args.alphabet}  banks: {aroot.name}", flush=True)
-    modes = (["pinned", "symmetric"] if args.mode == "both" else [args.mode])
     dirs = ([tuple(d.split("2")) for d in args.directions.split(",") if d]
             or [(a, b) for a in GENRES for b in GENRES])
+    for kg, qg in dirs:
+        if kg not in ALL_GENRES or qg not in ALL_GENRES:
+            raise SystemExit(f"unknown genre in direction {kg}2{qg}; known: "
+                             + ", ".join(sorted(ALL_GENRES)))
+    wanted = {g: ALL_GENRES[g] for d in dirs for g in d}
+    aroot, asuf = ALPHABETS[args.alphabet]
+    aroot = MASKED if aroot is None else MASKED.parent / aroot
+    B = banks(aroot, asuf, wanted)
+    print(f"alphabet: {args.alphabet}  banks: {aroot.name}", flush=True)
+    modes = (["pinned", "symmetric"] if args.mode == "both" else [args.mode])
 
     lg = LambdaG(N=args.order, r=args.r, engine="kn", random_state=0)
 
@@ -158,6 +175,10 @@ def main():
             tag = f"{kg}2{qg}__{mode}"
             dsuf = ("" if args.donor_genre == "questioned"
                     else f"__d-{args.donor_genre}")
+            # a non-default rung set changes what the file MEANS; say so in
+            # the name, or a later standard run would silently collide with it
+            if args.qs:
+                dsuf += f"__Q{qmax}"
             if args.alphabet != "posnoise":
                 dsuf += f"__{args.alphabet}"
             fn = OUT / (f"{tag}__K{args.known}{dsuf}.jsonl" if mode == "pinned"
@@ -174,7 +195,7 @@ def main():
             elig = sorted(a for a in B[kg]
                           if a in B[qg] and ntok(B[kg][a]) >= need_k
                           and ntok(B[qg][a]) >= (need_k + qmax if same else qmax))
-            if len(elig) < 6:
+            if len(elig) < args.min_authors:
                 print(f"{tag}: only {len(elig)} authors, skipped", flush=True)
                 continue
             if len(elig) > args.max_authors:
