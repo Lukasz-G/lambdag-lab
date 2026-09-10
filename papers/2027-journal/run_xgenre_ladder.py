@@ -59,7 +59,11 @@ GENRES = {"prose": "german_tgproseall", "verse": "german_tgverseall",
 # bank that the committed results used -- and are reachable via --directions
 # (e.g. bell2essay). Do not pair "prose" with "bell": bell is a subset of it.
 EXTRA = {"bell": "german_tgbellall", "essay": "german_tgessayall",
-         "autob": "german_tgautoball"}
+         "autob": "german_tgautoball",
+         # v2: + Thoma's memoir and Keller's diary from Projekt Gutenberg-DE
+         # (fetch_pgde.py). Versioned so the committed autob cells stay
+         # reproducible against the bank they were computed on.
+         "autobx": "german_tgautob2all"}
 ALL_GENRES = {**GENRES, **EXTRA}
 # The same banks under two encodings. POSNoise keeps the function word itself;
 # CatSRank folds it into class x frequency rank. Whether the accumulation result
