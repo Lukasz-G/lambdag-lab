@@ -63,7 +63,15 @@ EXTRA = {"bell": "german_tgbellall", "essay": "german_tgessayall",
          # v2: + Thoma's memoir and Keller's diary from Projekt Gutenberg-DE
          # (fetch_pgde.py). Versioned so the committed autob cells stay
          # reproducible against the bank they were computed on.
-         "autobx": "german_tgautob2all"}
+         "autobx": "german_tgautob2all",
+         # the 2026-09-12 multilingual banks (build_multilang_banks.py); short
+         # keys so a direction string still splits on the single literal "2"
+         "eprose": "english_pgproseall", "everse": "english_pgverseall",
+         "edrama": "english_pgdramaall",
+         "fprose": "french_pgproseall", "fverse": "french_pgverseall",
+         "fdrama": "french_pgdramaall",
+         "pprose": "polish_wlproseall", "pverse": "polish_wlverseall",
+         "pdrama": "polish_wldramaall"}
 ALL_GENRES = {**GENRES, **EXTRA}
 # The same banks under two encodings. POSNoise keeps the function word itself;
 # CatSRank folds it into class x frequency rank. Whether the accumulation result
@@ -141,6 +149,13 @@ def main():
                          "advantage the numerator lacks. 'both' gives a "
                          "genre-neutral population.")
     ap.add_argument("--rot", type=int, default=2)
+    ap.add_argument("--author-shard", default="", metavar="k/N",
+                    help="split one direction's ELIGIBLE authors (after the "
+                         "deterministic cap) into N slices and run slice k. "
+                         "Case ids are offset by k*10000 so shard files merge "
+                         "without collision; the shard tag enters the "
+                         "filename. For parallelising a heavy direction over "
+                         "cores, since one direction is otherwise one process.")
     ap.add_argument("--min-authors", type=int, default=6,
                     help="direction floor. The domain banks split from prose "
                          "hold as few as 5 qualifying authors; lowering the "
@@ -185,11 +200,6 @@ def main():
                 dsuf += f"__Q{qmax}"
             if args.alphabet != "posnoise":
                 dsuf += f"__{args.alphabet}"
-            fn = OUT / (f"{tag}__K{args.known}{dsuf}.jsonl" if mode == "pinned"
-                        else f"{tag}{dsuf}.jsonl")
-            if fn.exists():
-                print(f"{tag}: exists, skipped", flush=True)
-                continue
 
             # Budgets differ by mode. Pinned: K in the known genre, qmax in the
             # questioned one. Symmetric: qmax on BOTH sides, since the known side
@@ -205,10 +215,24 @@ def main():
             if len(elig) > args.max_authors:
                 elig = sorted(random.Random(f"{tag}|cap").sample(
                     elig, args.max_authors))
+            shard_k = 0
+            if args.author_shard:
+                shard_k, shard_n = (int(x) for x in args.author_shard.split("/"))
+                elig = [a for i, a in enumerate(elig) if i % shard_n == shard_k]
+                dsuf += f"__s{shard_k}of{shard_n}"
+                if not elig:
+                    print(f"{tag}: empty shard, skipped", flush=True)
+                    continue
+            fn = OUT / (f"{tag}__K{args.known}{dsuf}.jsonl" if mode == "pinned"
+                        else f"{tag}{dsuf}.jsonl")
+            if fn.exists():
+                print(f"{tag}: exists, skipped", flush=True)
+                continue
             print(f"\n=== {mode}: known {kg} -> questioned {qg}: "
                   f"{len(elig)} authors ===", flush=True)
 
             cases = []
+            cid0 = shard_k * 10000 if args.author_shard else 0
             for a in elig:
                 cases.append((a, a))
                 rng = random.Random(f"{tag}|{a}")
@@ -261,7 +285,7 @@ def main():
                         continue
                     res = lg.score(rechunk(quest, args.seg),
                                    rechunk(known, args.seg), with_details=False)
-                    recs.append({"id": ci, "label": int(qa == ka), "Q": q,
+                    recs.append({"id": cid0 + ci, "label": int(qa == ka), "Q": q,
                                  "mode": mode, "known_genre": kg,
                                  "quest_genre": qg, "within_genre": int(same),
                                  "donor_genre": args.donor_genre,
