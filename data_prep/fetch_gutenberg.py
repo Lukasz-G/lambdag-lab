@@ -84,6 +84,18 @@ KIND_PAT = {
                         r"|\btales?\b|nouvelles", re.I),
 }
 AUTH = re.compile(r"^(.*?),\s*(\d{3,4})\??-(\d{3,4})?")
+# Utilitarian kinds, matched on SUBJECTS -- "Letters on England" is essays and
+# "Letters of Two Brides" a novel, so titles never decide. The letters kind
+# additionally refuses two title shapes learned the hard way: volumes of
+# letters addressed TO the author, and posthumous "Life and letters"
+# compilations, which are a biographer's prose wrapped round the letters.
+UTIL_PAT = {
+    "letters": re.compile(r"correspondence", re.I),
+    "diary": re.compile(r"diaries", re.I),
+    "memoir": re.compile(r"autobiograph|memoirs", re.I),
+    "essay": re.compile(r"essays|essais", re.I),
+}
+LETTER_TRAP = re.compile(r"letters to|life and letters", re.I)
 PG_START = re.compile(r"\*\*\*\s*START OF (THE|THIS) PROJECT GUTENBERG.*?\*\*\*",
                       re.I | re.S)
 PG_END = re.compile(r"\*\*\*\s*END OF (THE|THIS) PROJECT GUTENBERG", re.I)
@@ -194,11 +206,24 @@ def main():
                     help="author birth-year window")
     ap.add_argument("--authors", default="", help="restrict to these names; SEMICOLON-separated, since catalogue names contain commas")
     ap.add_argument("--min-words", type=int, default=8000)
+    ap.add_argument("--util", action="store_true",
+                    help="harvest the utilitarian kinds (letters/diary/memoir/"
+                         "essay) INSTEAD of the literary genres, restricted to "
+                         "authors already kept by the literary harvest -- the "
+                         "join with the literary banks is the point")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
     RAW.mkdir(parents=True, exist_ok=True)
     b_lo, b_hi = (int(x) for x in args.born.split("-"))
 
+    kind_pat = UTIL_PAT if args.util else KIND_PAT
+    pool = None
+    if args.util:
+        idx = json.loads((RAW / f"{args.language}_pg_index.json")
+                         .read_text(encoding="utf-8"))
+        pool = {v["author_name"] for v in idx.values() if v.get("kinds")}
+        print(f"utilitarian mode: restricted to {len(pool)} literary-pool "
+              f"authors", flush=True)
     # ---- inventory from the offline catalogue -------------------------------
     excl = load_exclusions()
     n_excl = 0
@@ -212,11 +237,20 @@ def main():
         birth = int(m.group(2))
         if not (b_lo <= birth <= b_hi):
             continue
+        if pool is not None and name not in pool:
+            continue
         pat = excl.get(slug(name))
         if pat and pat.search(row["Title"] or ""):
             n_excl += 1
             continue
-        for k in kinds_of(row):
+        s_ = (row["Subjects"] or "") + " ; " + (row["Bookshelves"] or "")
+        ks = {k for k, p2 in kind_pat.items() if p2.search(s_)}
+        if not args.util and "drama" in ks:
+            ks.discard("prose")
+        if args.util and "letters" in ks and LETTER_TRAP.search(row["Title"] or ""):
+            n_excl += 1
+            continue
+        for k in ks:
             per[name][k].append(int(row["Text#"]))
     want = {x.strip() for x in args.authors.split(";") if x.strip()}
     sel = {}
@@ -224,15 +258,19 @@ def main():
         if want and name not in want:
             continue
         good = {k: ids for k, ids in ks.items() if len(ids) >= args.min_books}
+        if args.util:
+            if good:
+                sel[name] = good
         # verse is the bottleneck genre everywhere; an author with no verse
         # and no drama duplicates what ELTeC already supplies
-        if len(good) >= 2 and ("verse" in good or "drama" in good):
+        elif len(good) >= 2 and ("verse" in good or "drama" in good):
             sel[name] = good
     print(f"{args.language}: {len(sel)} candidate authors "
           f"({n_excl} books excluded by title rules)", flush=True)
 
     # ---- harvest -------------------------------------------------------------
-    out = {k: {} for k in ("prose", "verse", "drama")}
+    out = {k: {} for k in (("letters", "diary", "memoir", "essay")
+                           if args.util else ("prose", "verse", "drama"))}
     index = {}
     for ni, name in enumerate(sorted(sel), 1):
         aslug = slug(name)
@@ -257,8 +295,9 @@ def main():
                 if not lang_ok(t, args.language):
                     rec["excluded"]["wrong-language"] += 1
                     continue
-                if shape_of(t) != kind:
-                    rec["excluded"][f"shape!={kind}"] += 1
+                want_shape = "prose" if args.util else kind
+                if shape_of(t) != want_shape:
+                    rec["excluded"][f"shape!={want_shape}"] += 1
                     continue
                 keys = dupkeys(t)
                 if any(k in seen for k in keys):
@@ -286,7 +325,8 @@ def main():
             for a in sorted(keep):
                 fh.write(json.dumps(keep[a], ensure_ascii=False) + "\n")
         print(f"{kind}: {len(keep)} authors -> {p.name}")
-    (RAW / f"{args.language}_pg_index.json").write_text(
+    (RAW / (f"{args.language}_pg_util_index.json" if args.util
+            else f"{args.language}_pg_index.json")).write_text(
         json.dumps(index, ensure_ascii=False, indent=1, default=dict),
         encoding="utf-8")
     multi = [a for a in index
