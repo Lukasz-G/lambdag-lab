@@ -91,11 +91,11 @@ AUTH = re.compile(r"^(.*?),\s*(\d{3,4})\??-(\d{3,4})?")
 # compilations, which are a biographer's prose wrapped round the letters.
 UTIL_PAT = {
     "letters": re.compile(r"correspondence", re.I),
-    "diary": re.compile(r"diaries", re.I),
-    "memoir": re.compile(r"autobiograph|memoirs", re.I),
-    "essay": re.compile(r"essays|essais", re.I),
+    "diary": re.compile(r"\bdiaries\b", re.I),
+    "memoir": re.compile(r"autobiograph|\bmemoirs\b", re.I),
+    "essay": re.compile(r"\bessays\b|essais", re.I),
 }
-LETTER_TRAP = re.compile(r"letters to|life and letters", re.I)
+LETTER_TRAP = re.compile(r"letters to\b|life and letters", re.I)
 PG_START = re.compile(r"\*\*\*\s*START OF (THE|THIS) PROJECT GUTENBERG.*?\*\*\*",
                       re.I | re.S)
 PG_END = re.compile(r"\*\*\*\s*END OF (THE|THIS) PROJECT GUTENBERG", re.I)
