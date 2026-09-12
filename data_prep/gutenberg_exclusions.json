@@ -1,0 +1,48 @@
+{
+ "_comment": "Per-author title exclusions for the Gutenberg harvest, in the textgrid_exclusions.json pattern. Two classes: anthologies and editions carrying OTHER people's work under an editor's name (an identity error), and the author's own re-chopped selections (a dedup hazard). Found by the anthology screen of 2026-09-12 over banks with verse>=250k or drama>=300k.",
+ "stevenson_burton_egbert": {
+  "titles": [
+   "Home Book of Verse"
+  ],
+  "reason": "editor; the volumes are an anthology of other poets"
+ },
+ "quiller_couch_arthur": {
+  "titles": [
+   "Oxford Book of English Verse",
+   "Book of English Verse"
+  ],
+  "reason": "editor; anthologies of other poets"
+ },
+ "wells_carolyn": {
+  "titles": [
+   "Anthology",
+   "Book of Humorous Verse"
+  ],
+  "reason": "editor; parody/nonsense anthologies of other writers"
+ },
+ "yeats_w_b_william_butler": {
+  "titles": [
+   "A Book of Irish Verse"
+  ],
+  "reason": "edited anthology of other poets; his own verse stands"
+ },
+ "francke_kuno": {
+  "titles": [
+   ".*"
+  ],
+  "reason": "editor of The German Classics: translations by many hands"
+ },
+ "browning_robert": {
+  "titles": [
+   "Selections from",
+   "Pomegranates from"
+  ],
+  "reason": "own work, but re-chopped selections that defeat windowed dedup"
+ },
+ "kipling_rudyard": {
+  "titles": [
+   "Kipling Reader"
+  ],
+  "reason": "own work, selections volume; dedup hazard"
+ }
+}
