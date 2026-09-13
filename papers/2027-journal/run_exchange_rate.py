@@ -57,8 +57,15 @@ from run_longtexts import window  # noqa: E402
 sys.path.insert(0, str(HERE.parent))
 from lambdag import LambdaG  # noqa: E402
 
-GENRES = {"prose": "german_tgproseall", "verse": "german_tgverseall",
-          "drama": "german_tgdramaall"}
+LANGS = {
+    "de": {"prose": "german_tgproseall", "verse": "german_tgverseall",
+           "drama": "german_tgdramaall"},
+    "en": {"prose": "english_pgproseall", "verse": "english_pgverseall",
+           "drama": "english_pgdramaall"},
+    "pl": {"prose": "polish_wlproseall", "verse": "polish_wlverseall",
+           "drama": "polish_wldramaall"},
+}
+GENRES = LANGS["de"]
 OUT = SCORES / "exchange"
 MS = [0, 250, 500, 1000, 2000, 5000]
 
@@ -88,10 +95,14 @@ def main():
     ap.add_argument("--ms", default="")
     ap.add_argument("--authors", default="")
     ap.add_argument("--tag", default="")
+    ap.add_argument("--lang", default="de", choices=sorted(LANGS),
+                    help="which language's banks; the protocol is identical")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
     OUT.mkdir(parents=True, exist_ok=True)
 
+    global GENRES
+    GENRES = LANGS[args.lang]
     ms = sorted(int(x) for x in args.ms.split(",")) if args.ms else MS
     mmax = max(ms)
     need = max(mmax + args.quest, args.known + mmax)
@@ -108,7 +119,7 @@ def main():
         return
 
     lg = LambdaG(N=args.order, r=args.r, engine="kn", random_state=0)
-    fn = OUT / f"exchange__K{args.known}__Q{args.quest}{args.tag}.jsonl"
+    fn = OUT / f"exchange__{args.lang}__K{args.known}__Q{args.quest}{args.tag}.jsonl"
     recs, t0, cid = [], time.time(), 0
 
     for a in elig:

@@ -34,6 +34,19 @@ for g in ("prose", "verse", "drama"):
     SETS[f"pl_wl{g}"] = (HERE / "raw" / "wolnelektury" /
                          f"polish_wl{g}_preprocessed.jsonl",
                          "polish", f"wl{g}", "pl")
+# utilitarian kinds, same conventions; registered whether or not the JSONL
+# exists yet, since --list reports the gap rather than hiding the dataset
+for k in ("letters", "diary", "memoir", "essay"):
+    SETS[f"en_pg{k}"] = (HERE / "raw" / "gutenberg" / f"en_pg{k}_preprocessed.jsonl",
+                         "english", f"pg{k}", "en")
+    SETS[f"fr_pg{k}"] = (HERE / "raw" / "gutenberg" / f"fr_pg{k}_preprocessed.jsonl",
+                         "french", f"pg{k}", "fr")
+    SETS[f"pl_wl{k}"] = (HERE / "raw" / "wolnelektury" /
+                         f"polish_wl{k}_preprocessed.jsonl",
+                         "polish", f"wl{k}", "pl")
+SETS["fr_wsletters"] = (HERE / "raw" / "wikisource" /
+                        "french_wsletters_preprocessed.jsonl",
+                        "french", "wsletters", "fr")
 
 
 def main():
@@ -54,10 +67,27 @@ def main():
         texts[d["author_id"]] = d["text"]
     print(f"{args.dataset}: {len(texts)} authors, "
           f"{sum(len(t.split()) for t in texts.values()):,} words", flush=True)
-    build_av.build_full_bank(texts, corpus, iso, folder)
+    if not texts:
+        print("empty dataset, nothing to do")
+        return
     lang, model = mask_corpora.SPACY[folder]
     tg = mask_corpora.Tagger(lang, "spacy", model)
-    mask_corpora.do_dataset(folder, corpus + "all", iso, tg)
+    if len(texts) >= 4:
+        build_av.build_full_bank(texts, corpus, iso, folder)
+        mask_corpora.do_dataset(folder, corpus + "all", iso, tg)
+    else:
+        # a register bank can be legitimately tiny (one author's letters);
+        # build_full_bank refuses under four authors because its test stub
+        # needs them, but the BANK is all downstream work reads, so write it
+        # directly with the same masking and naming
+        dest = mask_corpora.OUT / f"{folder}_{corpus}all"
+        (dest / "bank").mkdir(parents=True, exist_ok=True)
+        for i, a in enumerate(sorted(texts)):
+            sents = tg.mask_text(texts[a])
+            mask_corpora.write_tsv(
+                dest / "bank" / f"{i:03d}_{mask_corpora.slug(a)}.tsv", sents)
+            print(f"  {a}: {sum(len(x) for x in sents):,} tokens -> bank",
+                  flush=True)
 
 
 if __name__ == "__main__":

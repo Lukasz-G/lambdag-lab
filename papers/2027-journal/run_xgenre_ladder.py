@@ -71,7 +71,13 @@ EXTRA = {"bell": "german_tgbellall", "essay": "german_tgessayall",
          "fprose": "french_pgproseall", "fverse": "french_pgverseall",
          "fdrama": "french_pgdramaall",
          "pprose": "polish_wlproseall", "pverse": "polish_wlverseall",
-         "pdrama": "polish_wldramaall"}
+         "pdrama": "polish_wldramaall",
+         # register banks (utilitarian kinds), 2026-09-13
+         "eessay": "english_pgessayall", "eletters": "english_pglettersall",
+         "ememoir": "english_pgmemoirall", "ediary": "english_pgdiaryall",
+         "pessay": "polish_wlessayall", "pmemoir": "polish_wlmemoirall",
+         "pletters": "polish_wllettersall",
+         "fletters": "french_wslettersall"}
 ALL_GENRES = {**GENRES, **EXTRA}
 # The same banks under two encodings. POSNoise keeps the function word itself;
 # CatSRank folds it into class x frequency rank. Whether the accumulation result
