@@ -22,6 +22,7 @@ and token-level explainability heat maps.
 | Stylometrie mit LambdaG für die mittelhochdeutsche Literatur (2026) | DHd | [`papers/2026-mhg/`](papers/2026-mhg/) *(backfill in progress)* |
 | *Grammar on Trial: Forensic Authorship Verification across Twenty-Three Languages and Three Genres* (CHR 2027, submitted) | CHR | [`papers/2027-chr/`](papers/2027-chr/) |
 | Journal long paper (in preparation) | TBD | [`papers/2027-journal/`](papers/2027-journal/) |
+| The Kaiserchronik: authorship across 47 witnesses (in preparation) | ZfdG | [`papers/2026-zfdg/`](papers/2026-zfdg/) |
 
 Each paper directory holds the exact scripts and frozen result files behind the
 paper's tables and figures; links to the published papers are added as they

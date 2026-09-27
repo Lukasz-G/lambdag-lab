@@ -57,3 +57,20 @@ Engine grids run with the extended `ENGINES` dict in
 
 Score files land on Zenodo with the release; the remote-execution pattern is
 documented in `docs/remote-compute.md`.
+
+## The paper's figures
+
+Drawn from the frozen result files shipped beside them; the heavy per-case score
+files stay on the Zenodo deposit.
+
+| Script | Exhibit | Inputs |
+|---|---|---|
+| `make_b_mechanism_figure.py` | where the offset comes from: pooled against per-author denominators | score summaries |
+| `make_b_offset_figure.py` | the offset across corpora and lengths | score summaries |
+| `make_composition_steps_figure.py` | projecting out the between-genre directions, step by step | `xgenre_map.json` |
+| `make_estimator_comparison_figure.py` | the estimators side by side at matched evidence | score summaries |
+| `make_explain_figures.py` | the explainability exhibits | per-case details |
+| `make_genre_rescue_figure.py` | the rescue at three window lengths | `genre_rescue_w500.json`, `genre_rescue_w1000.json`, `genre_rescue_w1000_k3.json` |
+| `make_llr_expectation_figure.py` | what a calibrated log-LR should look like against what it does | score summaries |
+| `make_register_figure.py` | the register axis: essays, letters, memoirs | register ladder outputs |
+| `make_xgenre_map_figure.py` | the cross-genre map over known length and questioned length | `xgenre_map.json` |
