@@ -1,0 +1,25 @@
+stream	k	other	share_of_other	rank	of_n	baseline_median	baseline_robust_sd	z
+lemma_full	3	Annolied (O)	146	0.032194	44	128	0.026281	0.010283	0.58
+lemma_full	3	Rolandslied (P)	1425	0.033059	40	128	0.026281	0.010283	0.66
+lemma_full	3	Rolandslied (A)	812	0.03771	14	128	0.026281	0.010283	1.11
+lemma_full	3	Straßburger Alexander	2933	0.093096	1	128	0.026281	0.010283	6.5
+lemma_full	4	Annolied (O)	7	0.001544	38	128	0.001014	0.00089	0.6
+lemma_full	4	Rolandslied (P)	77	0.001786	30	128	0.001014	0.00089	0.87
+lemma_full	4	Rolandslied (A)	40	0.001858	25	128	0.001014	0.00089	0.95
+lemma_full	4	Straßburger Alexander	1201	0.038122	1	128	0.001014	0.00089	41.7
+lemma_full	5	Annolied (O)	0	0.0	118	128	1.5e-05	0.000127	-0.12
+lemma_full	5	Rolandslied (P)	9	0.000209	9	128	1.5e-05	0.000127	1.52
+lemma_full	5	Rolandslied (A)	4	0.000186	12	128	1.5e-05	0.000127	1.34
+lemma_full	5	Straßburger Alexander	759	0.024093	1	128	1.5e-05	0.000127	189.08
+lemma_full	6	Annolied (O)	0	0.0	109	128	0.0	1.1e-05	0.0
+lemma_full	6	Rolandslied (P)	3	7e-05	5	128	0.0	1.1e-05	6.45
+lemma_full	6	Rolandslied (A)	1	4.6e-05	8	128	0.0	1.1e-05	4.3
+lemma_full	6	Straßburger Alexander	528	0.016761	1	128	0.0	1.1e-05	1552.75
+lemma_full	7	Annolied (O)	0	0.0	106	128	0.0	0.0	nan
+lemma_full	7	Rolandslied (P)	1	2.3e-05	2	128	0.0	0.0	nan
+lemma_full	7	Rolandslied (A)	0	0.0	111	128	0.0	0.0	nan
+lemma_full	7	Straßburger Alexander	377	0.011968	1	128	0.0	0.0	nan
+lemma_full	8	Annolied (O)	0	0.0	105	128	0.0	0.0	nan
+lemma_full	8	Rolandslied (P)	0	0.0	111	128	0.0	0.0	nan
+lemma_full	8	Rolandslied (A)	0	0.0	110	128	0.0	0.0	nan
+lemma_full	8	Straßburger Alexander	265	0.008413	1	128	0.0	0.0	nan

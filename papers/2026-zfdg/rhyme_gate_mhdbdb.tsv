@@ -1,0 +1,161 @@
+file	verses	chance_tail	lag1_odd	lag1_even	lag2	lag1_odd_rhyme_rate	lag1_even_rhyme_rate	chance_rhyme_rate	verdict
+mhdbdb__monch_von_heilsbronn__ALX	461	0.27	0.2	2.95	0.21	0.004	0.627	0.022	verse per line
+mhdbdb__der_stricker__AMI	2510	0.22	2.93	0.22	0.22	0.603	0.002	0.007	verse per line
+mhdbdb__der_stricker__ARK	186	0.24	3.23	0.25	0.25	0.75	0.0	0.0	verse per line
+mhdbdb__konrad_von_wurzburg__AX	1412	0.24	3.13	0.19	0.19	0.675	0.001	0.006	verse per line
+mhdbdb__ulrich_von_etzenbach__eschenbach__AXH	2100	0.22	2.85	0.21	0.21	0.536	0.011	0.009	verse per line
+mhdbdb__rudolf_von_ems__AXR	21645	0.21	2.0	0.92	0.19	0.408	0.165	0.009	verse per line
+mhdbdb__lamprecht_der_pfaffe__AXS	7085	0.33	1.65	1.34	0.34	0.318	0.255	0.01	verse per line
+mhdbdb__rudolf_von_ems__BAR	16164	0.26	2.86	0.25	0.25	0.616	0.005	0.01	verse per line
+mhdbdb__lamprecht_der_pfaffe__BAX	542	0.25	2.68	0.19	0.18	0.536	0.007	0.013	verse per line
+mhdbdb__der_stricker__BEK	222	0.31	3.38	0.26	0.27	0.745	0.0	0.009	verse per line
+mhdbdb__der_stricker__BES	138	0.27	3.06	0.28	0.27	0.582	0.0	0.007	verse per line
+mhdbdb__der_stricker__BIL	186	0.2	3.05	0.27	0.27	0.692	0.0	0.005	verse per line
+mhdbdb__der_stricker__BKN	692	0.3	3.06	0.35	0.35	0.646	0.012	0.001	verse per line
+mhdbdb__der_stricker__BUS	118	0.26	2.98	0.29	0.28	0.607	0.0	0.009	verse per line
+mhdbdb__der_stricker__BZI	104	0.26	2.86	0.18	0.18	0.647	0.0	0.01	verse per line
+mhdbdb__der_wilde_mann__CL	222	0.28	2.02	0.72	0.33	0.427	0.101	0.018	verse per line
+mhdbdb__heinrich_von_dem_turlin__CRO	30072	0.26	1.69	1.65	0.35	0.343	0.332	0.01	verse per line (no parity)
+mhdbdb__der_stricker__DA	8481	0.3	3.23	0.3	0.3	0.71	0.008	0.012	verse per line
+mhdbdb__hartmann_von_aue__DAH	1546	0.29	3.23	0.24	0.25	0.733	0.005	0.016	verse per line
+mhdbdb__der_stricker__DBE	248	0.17	2.59	0.11	0.12	0.463	0.0	0.004	verse per line
+mhdbdb__hans_rosenplut__DBW	136	0.25	3.01	0.22	0.22	0.612	0.0	0.007	verse per line
+mhdbdb__der_stricker__DDE	392	0.27	2.97	0.27	0.27	0.649	0.0	0.003	verse per line
+mhdbdb__der_stricker__DEH	196	0.19	3.05	0.2	0.2	0.633	0.0	0.01	verse per line
+mhdbdb__der_stricker__DEK	250	0.38	3.11	0.27	0.27	0.664	0.0	0.028	verse per line
+mhdbdb__der_stricker__DES	170	0.28	2.88	0.26	0.24	0.548	0.012	0.03	verse per line
+mhdbdb__der_stricker__DFB	110	0.25	3.15	0.3	0.3	0.691	0.019	0.009	verse per line
+mhdbdb__heinrich_kaufringer__DFE	296	0.33	2.66	0.16	0.16	0.582	0.007	0.021	verse per line
+mhdbdb__der_stricker__DFK	216	0.36	2.94	0.3	0.3	0.685	0.009	0.019	verse per line
+mhdbdb__der_stricker__DFR	2008	0.32	3.23	0.33	0.33	0.736	0.007	0.012	verse per line
+mhdbdb__hans_rosenplut__DFS	188	0.33	3.01	0.37	0.36	0.677	0.0	0.005	verse per line
+mhdbdb__der_stricker__DGH	168	0.29	3.17	0.31	0.31	0.683	0.012	0.012	verse per line
+mhdbdb__der_stricker__DGK	128	0.2	3.06	0.17	0.17	0.71	0.0	0.016	verse per line
+mhdbdb__der_stricker__DGR	160	0.28	3.18	0.37	0.34	0.731	0.013	0.0	verse per line
+mhdbdb__der_stricker__DHE	198	0.23	2.66	0.23	0.24	0.49	0.0	0.005	verse per line
+mhdbdb__hans_rosenplut__DIS	408	0.41	2.94	0.26	0.26	0.615	0.01	0.02	verse per line
+mhdbdb__der_stricker__DJA	136	0.24	3.12	0.34	0.34	0.615	0.0	0.0	verse per line
+mhdbdb__der_stricker__DJR	308	0.3	3.14	0.33	0.34	0.701	0.007	0.007	verse per line
+mhdbdb__der_stricker__DKA	138	0.33	3.0	0.43	0.43	0.662	0.029	0.007	verse per line
+mhdbdb__der_stricker__DKF	186	0.26	2.78	0.18	0.18	0.602	0.0	0.011	verse per line
+mhdbdb__der_stricker__DKK	670	0.28	2.89	0.21	0.22	0.61	0.012	0.013	verse per line
+mhdbdb__der_stricker__DKM	146	0.22	3.11	0.33	0.33	0.603	0.0	0.007	verse per line
+mhdbdb__heinrich_kaufringer__DLF	560	0.21	2.68	0.13	0.13	0.572	0.0	0.009	verse per line
+mhdbdb__der_stricker__DMB	134	0.29	2.92	0.21	0.21	0.576	0.0	0.038	verse per line
+mhdbdb__der_stricker__DMD	198	0.26	3.04	0.26	0.26	0.615	0.01	0.015	verse per line
+mhdbdb__der_stricker__DME	1172	0.3	3.0	0.29	0.29	0.656	0.003	0.007	verse per line
+mhdbdb__der_stricker__DML	108	0.36	3.35	0.23	0.23	0.704	0.019	0.028	verse per line
+mhdbdb__der_stricker__DNB	222	0.27	2.84	0.34	0.34	0.593	0.036	0.014	verse per line
+mhdbdb__der_stricker__DNR	100	0.19	2.71	0.14	0.14	0.583	0.0	0.0	verse per line
+mhdbdb__heinrich_kaufringer__DRE	516	0.23	2.69	0.2	0.2	0.625	0.008	0.01	verse per line
+mhdbdb__der_stricker__DRT	380	0.24	3.12	0.24	0.24	0.696	0.005	0.005	verse per line
+mhdbdb__der_stricker__DRW	228	0.19	2.8	0.21	0.2	0.565	0.0	0.0	verse per line
+mhdbdb__herrand_von_wildonie__DTG	276	0.23	2.53	0.17	0.17	0.493	0.015	0.007	verse per line
+mhdbdb__der_stricker__DTP	216	0.36	3.05	0.31	0.31	0.626	0.0	0.019	verse per line
+mhdbdb__heinrich_kaufringer__DUM	763	0.19	2.72	0.2	0.19	0.585	0.0	0.009	verse per line
+mhdbdb__der_stricker__DUS	122	0.29	3.4	0.33	0.33	0.767	0.017	0.008	verse per line
+mhdbdb__der_stricker__DUZ	136	0.35	2.91	0.15	0.15	0.603	0.0	0.022	verse per line
+mhdbdb__der_stricker__DVF	136	0.29	3.12	0.31	0.31	0.706	0.0	0.0	verse per line
+mhdbdb__der_stricker__DWE	160	0.34	3.37	0.42	0.41	0.747	0.0	0.019	verse per line
+mhdbdb__der_stricker__DWG	154	0.26	3.07	0.39	0.39	0.645	0.013	0.007	verse per line
+mhdbdb__der_stricker__DWI	128	0.33	2.9	0.29	0.29	0.59	0.0	0.008	verse per line
+mhdbdb__der_stricker__DWR	134	0.38	3.2	0.26	0.26	0.697	0.0	0.03	verse per line
+mhdbdb__der_stricker__DWU	222	0.3	3.05	0.29	0.29	0.591	0.0	0.014	verse per line
+mhdbdb__der_stricker__DZH	114	0.29	2.93	0.11	0.11	0.593	0.0	0.018	verse per line
+mhdbdb__der_stricker__EGF	400	0.3	3.01	0.24	0.23	0.657	0.0	0.008	verse per line
+mhdbdb__der_stricker__EHR	214	0.19	2.88	0.35	0.35	0.567	0.0	0.0	verse per line
+mhdbdb__heinrich_von_veldeke__ENE	13474	0.31	3.15	0.32	0.32	0.684	0.009	0.012	verse per line
+mhdbdb__konrad_von_wurzburg__ENG	6504	0.26	3.3	0.26	0.26	0.724	0.009	0.009	verse per line
+mhdbdb__hartmann_von_aue__ER	10134	0.27	2.65	0.71	0.26	0.553	0.106	0.01	verse per line
+mhdbdb__der_stricker__ESP	218	0.29	2.84	0.22	0.22	0.623	0.0	0.018	verse per line
+mhdbdb__der_stricker__EUP	380	0.22	3.12	0.24	0.24	0.696	0.005	0.008	verse per line
+mhdbdb__ulrich_von_liechtenstein__FB	2131	0.28	1.67	1.43	0.26	0.302	0.254	0.011	verse per line (no parity)
+mhdbdb__ulrich_von_liechtenstein__FD	14755	0.23	1.42	1.28	0.17	0.257	0.232	0.014	verse per line (no parity)
+mhdbdb__hans_rosenplut__FGP	308	0.34	2.92	0.27	0.27	0.591	0.0	0.02	verse per line
+mhdbdb__der_stricker__FRF	322	0.25	2.9	0.24	0.24	0.594	0.006	0.006	verse per line
+mhdbdb__der_pleier__GAR	21320	0.29	1.55	1.64	0.26	0.312	0.319	0.014	verse per line (no parity)
+mhdbdb__der_stricker__GEI	238	0.31	2.78	0.25	0.25	0.597	0.0	0.009	verse per line
+mhdbdb__rudolf_von_ems__GER	6920	0.23	2.74	0.22	0.22	0.573	0.007	0.008	verse per line
+mhdbdb__der_stricker__GFM	394	0.29	3.08	0.37	0.37	0.698	0.01	0.013	verse per line
+mhdbdb__der_stricker__GGG	106	0.17	3.21	0.15	0.14	0.66	0.019	0.0	verse per line
+mhdbdb__der_wilde_mann__GIR	423	0.37	0.44	2.29	0.33	0.028	0.469	0.014	verse per line
+mhdbdb__hartmann_von_aue__GR	4006	0.27	3.16	0.28	0.28	0.679	0.006	0.011	verse per line
+mhdbdb__der_stricker__GRA	340	0.3	3.02	0.25	0.26	0.675	0.0	0.015	verse per line
+mhdbdb__konrad_von_wurzburg__GS	2000	0.22	3.47	0.22	0.22	0.807	0.003	0.006	verse per line
+mhdbdb__der_stricker__GUW	158	0.16	3.07	0.23	0.22	0.658	0.0	0.0	verse per line
+mhdbdb__der_stricker__HEO	204	0.29	3.19	0.33	0.33	0.7	0.0	0.005	verse per line
+mhdbdb__konrad_von_heimesfurt__HIN	1210	0.26	2.96	0.24	0.23	0.628	0.008	0.012	verse per line
+mhdbdb__konrad_von_wurzburg__HK	770	0.29	3.16	0.23	0.23	0.69	0.0	0.01	verse per line
+mhdbdb__der_stricker__HOF	160	0.3	2.99	0.23	0.23	0.628	0.0	0.0	verse per line
+mhdbdb__der_stricker__HUJ	100	0.3	3.22	0.22	0.21	0.714	0.0	0.0	verse per line
+mhdbdb__konrad_von_wurzburg__HZ	588	0.27	3.08	0.22	0.22	0.668	0.0	0.012	verse per line
+mhdbdb__hartmann_von_aue__IW	8164	0.27	3.1	0.25	0.25	0.683	0.006	0.011	verse per line
+mhdbdb__der_stricker__KAK	142	0.48	3.54	0.48	0.5	0.786	0.043	0.021	verse per line
+mhdbdb__der_stricker__KAR	12204	0.32	2.76	0.8	0.3	0.586	0.126	0.012	verse per line
+mhdbdb__konrad_von_wurzburg__KK	248	0.28	0.06	0.07	2.42	0.0	0.0	0.012	HALF-LINES
+mhdbdb__der_stricker__KRA	198	0.29	3.14	0.31	0.31	0.691	0.0	0.01	verse per line
+mhdbdb__konrad_von_wurzburg__KWL	1935	0.27	1.32	1.09	0.97	0.253	0.204	0.007	verse per line (no parity)
+mhdbdb__der_stricker__MAL	150	0.34	2.99	0.18	0.18	0.671	0.0	0.02	verse per line
+mhdbdb__heinrich_von_dem_turlin__MAN	994	0.31	1.96	1.75	0.32	0.411	0.349	0.008	verse per line (no parity)
+mhdbdb__der_stricker__MAR	214	0.31	2.99	0.28	0.29	0.667	0.019	0.009	verse per line
+mhdbdb__der_pleier__MEL	12828	0.29	1.79	1.35	0.25	0.348	0.247	0.012	verse per line
+mhdbdb__hartmann_von_aue__MHA	578	0.23	0.47	0.94	0.92	0.055	0.157	0.007	verse per line
+mhdbdb__heinrich_von_veldeke__MHV	506	0.3	0.77	0.98	1.18	0.123	0.183	0.012	verse per line (no parity)
+mhdbdb__der_monch_von_salzburg__MSG	4502	0.23	1.06	1.1	0.95	0.198	0.207	0.006	verse per line (no parity)
+mhdbdb__der_monch_von_salzburg__MSW	2181	0.26	1.04	1.14	0.79	0.206	0.227	0.01	verse per line (no parity)
+mhdbdb__der_stricker__MUF	120	0.28	2.75	0.29	0.28	0.5	0.017	0.025	verse per line
+mhdbdb__heinrich_von_veldeke__MVL	403	0.36	0.73	0.85	1.2	0.124	0.159	0.025	NO RHYME FOUND
+mhdbdb__wolfram_von_eschenbach__MWE	345	0.25	0.69	0.69	0.59	0.111	0.118	0.009	NO RHYME FOUND
+mhdbdb__sebastian_brant__NAR	7270	0.18	1.03	1.12	0.24	0.177	0.2	0.005	verse per line (no parity)
+mhdbdb__konrad_von_wurzburg__NT	1156	0.31	3.45	0.27	0.27	0.762	0.005	0.01	verse per line
+mhdbdb__der_stricker__PFL	112	0.39	3.24	0.35	0.35	0.8	0.0	0.045	verse per line
+mhdbdb__der_stricker__PRL	711	0.28	3.04	0.31	0.29	0.67	0.011	0.011	verse per line
+mhdbdb__konrad_von_wurzburg__PRT	21778	0.25	1.47	1.94	0.22	0.295	0.409	0.008	verse per line
+mhdbdb__monch_von_heilsbronn__PSG	2220	0.29	0.67	2.69	0.29	0.094	0.576	0.009	verse per line
+mhdbdb__konrad_von_wurzburg__PT	2158	0.27	3.23	0.26	0.26	0.691	0.003	0.004	verse per line
+mhdbdb__monch_von_heilsbronn__PTS	592	0.27	1.56	1.45	0.26	0.327	0.295	0.012	verse per line (no parity)
+mhdbdb__wolfram_von_eschenbach__PZ	24812	0.24	3.04	0.21	0.21	0.645	0.004	0.007	verse per line
+mhdbdb__ulrich_von_turheim__REN	36481	0.28	2.14	1.31	0.29	0.447	0.247	0.009	verse per line
+mhdbdb__konrad_von_wurzburg__RHB	515	0.25	2.79	0.75	0.26	0.621	0.121	0.008	verse per line
+mhdbdb__der_stricker__RUT	224	0.26	2.92	0.23	0.23	0.682	0.009	0.014	verse per line
+mhdbdb__der_stricker__SBK	116	0.36	3.05	0.26	0.26	0.679	0.0	0.017	verse per line
+mhdbdb__der_stricker__SEV	240	0.37	3.26	0.39	0.39	0.782	0.008	0.017	verse per line
+mhdbdb__lamprecht_von_regensburg__SFL	5049	0.23	1.82	1.39	0.26	0.347	0.258	0.009	verse per line
+mhdbdb__heinrich_kaufringer__SGE	506	0.23	2.67	0.17	0.17	0.602	0.0	0.014	verse per line
+mhdbdb__der_stricker__SHG	116	0.24	2.75	0.28	0.3	0.589	0.0	0.009	verse per line
+mhdbdb__konrad_von_wurzburg__SL	5222	0.25	3.13	0.24	0.24	0.674	0.005	0.01	verse per line
+mhdbdb__der_stricker__SOG	108	0.33	2.91	0.23	0.23	0.642	0.0	0.019	verse per line
+mhdbdb__der_stricker__SPI	126	0.35	3.13	0.34	0.31	0.635	0.016	0.016	verse per line
+mhdbdb__der_stricker__STH	230	0.22	2.98	0.21	0.21	0.649	0.0	0.009	verse per line
+mhdbdb__konrad_von_wurzburg__SW	1436	0.27	3.25	0.28	0.26	0.727	0.015	0.012	verse per line
+mhdbdb__der_pleier__TAN	18041	0.28	1.33	1.8	0.23	0.245	0.343	0.013	verse per line
+mhdbdb__der_stricker__TDS	150	0.31	2.99	0.18	0.18	0.671	0.0	0.013	verse per line
+mhdbdb__der_stricker__TEA	236	0.36	3.07	0.36	0.36	0.698	0.017	0.017	verse per line
+mhdbdb__hans_rosenplut__TIN	114	0.19	3.07	0.32	0.33	0.709	0.018	0.0	verse per line
+mhdbdb__wolfram_von_eschenbach__TIT	682	0.65	1.48	3.44	0.69	0.259	0.772	0.035	verse per line
+mhdbdb__gottfried_von_straßburg__TR	19548	0.26	3.06	0.27	0.26	0.634	0.006	0.008	verse per line
+mhdbdb__anonym__TRO	49857	0.26	2.05	1.39	0.24	0.427	0.271	0.008	verse per line
+mhdbdb__ulrich_von_turheim__TRU	3741	0.3	1.31	2.04	0.29	0.24	0.398	0.009	verse per line
+mhdbdb__lamprecht_von_regensburg__TSY	4313	0.26	1.54	1.64	0.44	0.3	0.326	0.009	verse per line (no parity)
+mhdbdb__der_stricker__TUH	170	0.31	2.98	0.39	0.38	0.663	0.012	0.024	verse per line
+mhdbdb__konrad_von_heimesfurt__URS	2162	0.28	3.04	0.32	0.32	0.655	0.007	0.01	verse per line
+mhdbdb__ulrich_von_liechtenstein__UVL	2384	0.25	0.75	0.74	1.12	0.126	0.116	0.01	NO RHYME FOUND
+mhdbdb__ulrich_von_winterstetten__UVW	1699	0.28	0.72	0.94	0.91	0.133	0.185	0.019	verse per line (no parity)
+mhdbdb__ulrich_von_winterstetten__UWL	565	0.23	0.96	1.04	0.64	0.167	0.179	0.012	verse per line (no parity)
+mhdbdb__der_stricker__VAT	140	0.25	2.96	0.2	0.2	0.571	0.0	0.0	verse per line
+mhdbdb__der_stricker__VBF	901	0.28	2.33	0.88	0.28	0.466	0.152	0.011	verse per line
+mhdbdb__der_wilde_mann__VER	660	0.27	2.43	0.28	0.29	0.532	0.009	0.014	verse per line
+mhdbdb__der_stricker__VES	220	0.33	3.07	0.28	0.28	0.667	0.0	0.009	verse per line
+mhdbdb__der_stricker__VEV	292	0.27	3.24	0.35	0.36	0.698	0.007	0.007	verse per line
+mhdbdb__der_stricker__VHG	878	0.32	3.17	0.35	0.35	0.704	0.014	0.006	verse per line
+mhdbdb__der_wilde_mann__VSN	278	0.33	2.41	0.3	0.29	0.547	0.022	0.014	verse per line
+mhdbdb__der_stricker__VTO	132	0.38	2.89	0.15	0.15	0.523	0.0	0.008	verse per line
+mhdbdb__wolfram_von_eschenbach__WH	14001	0.25	3.14	0.23	0.23	0.683	0.005	0.009	verse per line
+mhdbdb__konrad_von_wurzburg__WL	274	0.19	3.26	0.23	0.23	0.708	0.007	0.004	verse per line
+mhdbdb__walther_von_der_vogelweide__WLE	189	0.26	1.65	1.72	1.0	0.383	0.348	0.022	verse per line (no parity)
+mhdbdb__der_stricker__WSA	210	0.3	3.08	0.27	0.27	0.743	0.0	0.019	verse per line
+mhdbdb__der_stricker__WST	176	0.34	3.24	0.46	0.46	0.782	0.0	0.029	verse per line
+mhdbdb__der_stricker__WUH	104	0.27	2.98	0.27	0.27	0.569	0.0	0.019	verse per line
+mhdbdb__der_stricker__WUS	182	0.32	2.99	0.31	0.31	0.604	0.011	0.022	verse per line
+mhdbdb__walther_von_der_vogelweide__WVV	4619	0.26	0.93	0.91	0.8	0.167	0.166	0.008	verse per line (no parity)
+mhdbdb__ulrich_von_etzenbach__eschenbach__WVW	8358	0.26	3.07	0.24	0.24	0.65	0.004	0.008	verse per line

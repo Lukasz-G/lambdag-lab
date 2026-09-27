@@ -1,0 +1,948 @@
+{
+ "witness": "kcd__anon__kaiserchronik__a9",
+ "tokens": 396,
+ "units": 82,
+ "k": 8,
+ "min_span": 8,
+ "gap": 4,
+ "baseline_median": 0.0,
+ "baseline_robust_sd": 0.0,
+ "partner_cut": 0.0,
+ "masked_tokens": 65,
+ "masked_share": 0.16414,
+ "masked_units": [
+  6,
+  7,
+  8,
+  28,
+  29,
+  31,
+  32,
+  33,
+  42,
+  43,
+  44,
+  48,
+  49,
+  56,
+  57,
+  68,
+  69
+ ],
+ "partners": {
+  "rem__M541B": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 0.00041,
+   "z": 412371134.02,
+   "spans": [
+    [
+     211,
+     218
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.31579,
+    0.1,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "hvad__hartmann_von_aue__gregorius__L": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 0.00032,
+   "z": 320821302.53,
+   "spans": [
+    [
+     211,
+     218
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.31579,
+    0.1,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "rem__M205S": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 0.00018,
+   "z": 181093806.59,
+   "spans": [
+    [
+     212,
+     219
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.26316,
+    0.15,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "hvad__hartmann_von_aue__gregorius__G": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 0.00012,
+   "z": 117041198.5,
+   "spans": [
+    [
+     211,
+     218
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.31579,
+    0.1,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "hvad__hartmann_von_aue__gregorius__B": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 0.00011,
+   "z": 108962135.66,
+   "spans": [
+    [
+     211,
+     218
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.31579,
+    0.1,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "hvad__hartmann_von_aue__iwein__D": {
+   "share_of_chronicle": 0.02525,
+   "share_of_partner": 0.0001,
+   "z": 96627693.5,
+   "spans": [
+    [
+     277,
+     286
+    ]
+   ],
+   "tokens": 10,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 15
+  },
+  "ambraser__stricker__pfaffe_amis__d": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 8e-05,
+   "z": 83745079.98,
+   "spans": [
+    [
+     28,
+     35
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 2
+  },
+  "rem__M343": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 8e-05,
+   "z": 82973780.29,
+   "spans": [
+    [
+     211,
+     218
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.31579,
+    0.1,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "rem__M241": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 8e-05,
+   "z": 80664676.94,
+   "spans": [
+    [
+     237,
+     244
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 13
+  },
+  "hvad__hartmann_von_aue__iwein__a_lc": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 6e-05,
+   "z": 58455602.97,
+   "spans": [
+    [
+     279,
+     286
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 15
+  },
+  "hvad__hartmann_von_aue__gregorius__K": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 5e-05,
+   "z": 51361068.31,
+   "spans": [
+    [
+     211,
+     218
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.31579,
+    0.1,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "rem__M205P": {
+   "share_of_chronicle": 0.0404,
+   "share_of_partner": 5e-05,
+   "z": 46403712.3,
+   "spans": [
+    [
+     142,
+     149
+    ],
+    [
+     212,
+     219
+    ]
+   ],
+   "tokens": 16,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.26316,
+    0.15,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 8
+  },
+  "hvad__hartmann_von_aue__iwein__z": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 3e-05,
+   "z": 28876696.51,
+   "spans": [
+    [
+     279,
+     286
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 15
+  },
+  "hvad__hartmann_von_aue__iwein__l": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 2e-05,
+   "z": 23698367.18,
+   "spans": [
+    [
+     279,
+     286
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 15
+  },
+  "rem__M541H": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 2e-05,
+   "z": 23372950.48,
+   "spans": [
+    [
+     211,
+     218
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.31579,
+    0.1,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "hvad__hartmann_von_aue__iwein__B": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 2e-05,
+   "z": 22733472.77,
+   "spans": [
+    [
+     279,
+     286
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 15
+  },
+  "ambraser__anon__dietrichs_flucht__d": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 2e-05,
+   "z": 19296079.04,
+   "spans": [
+    [
+     25,
+     32
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 2
+  },
+  "parzival__wolfram_von_eschenbach__parzival__nk": {
+   "share_of_chronicle": 0.02273,
+   "share_of_partner": 2e-05,
+   "z": 16660419.01,
+   "spans": [
+    [
+     160,
+     168
+    ]
+   ],
+   "tokens": 9,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.45,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 9
+  },
+  "ambraser__anon__kudrun__d": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 2e-05,
+   "z": 16478536.71,
+   "spans": [
+    [
+     211,
+     218
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.31579,
+    0.1,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "ambraser__anon__biterolf_und_dietleib__d": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 1e-05,
+   "z": 14593214.16,
+   "spans": [
+    [
+     212,
+     219
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.26316,
+    0.15,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "parzival__wolfram_von_eschenbach__parzival__m": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 1e-05,
+   "z": 10777836.46,
+   "spans": [
+    [
+     337,
+     344
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 18
+  },
+  "parzival__wolfram_von_eschenbach__parzival__r": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 1e-05,
+   "z": 9282982.44,
+   "spans": [
+    [
+     337,
+     344
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 18
+  },
+  "parzival__wolfram_von_eschenbach__parzival__ok": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 1e-05,
+   "z": 8714141.31,
+   "spans": [
+    [
+     160,
+     167
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 9
+  },
+  "parzival__wolfram_von_eschenbach__parzival__mk": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 1e-05,
+   "z": 8533588.2,
+   "spans": [
+    [
+     160,
+     167
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 9
+  },
+  "parzival__wolfram_von_eschenbach__parzival__z": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 1e-05,
+   "z": 7983075.88,
+   "spans": [
+    [
+     209,
+     216
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.42105,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 11
+  },
+  "parzival__wolfram_von_eschenbach__parzival__v": {
+   "share_of_chronicle": 0.0202,
+   "share_of_partner": 1e-05,
+   "z": 7738141.3,
+   "spans": [
+    [
+     160,
+     167
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 9
+  }
+ }
+}

@@ -1,0 +1,113 @@
+source	work	witness	reference	shared_verses	rhyme_word	first_word	body	rhyme_above_chance	first_above_chance	status
+hvad	hartmann_von_aue__der_arme_heinrich	hvad__hartmann_von_aue__der_arme_heinrich__A	hvad__hartmann_von_aue__der_arme_heinrich__Bb	1469	0.0524	0.0851	0.0513			not aligned
+hvad	hartmann_von_aue__der_arme_heinrich	hvad__hartmann_von_aue__der_arme_heinrich__Ba	hvad__hartmann_von_aue__der_arme_heinrich__Bb	1407	0.1286	0.1784	0.1474			not aligned
+hvad	hartmann_von_aue__der_arme_heinrich	hvad__hartmann_von_aue__der_arme_heinrich__E	hvad__hartmann_von_aue__der_arme_heinrich__Bb	311	0.0032	0.045	0.0154			not aligned
+hvad	hartmann_von_aue__gregorius	hvad__hartmann_von_aue__gregorius__J	hvad__hartmann_von_aue__gregorius__K	3691	0.0192	0.0629	0.0342			not aligned
+hvad	hartmann_von_aue__gregorius	hvad__hartmann_von_aue__gregorius__E	hvad__hartmann_von_aue__gregorius__K	3644	0.0044	0.0431	0.0194			not aligned
+hvad	hartmann_von_aue__gregorius	hvad__hartmann_von_aue__gregorius__A	hvad__hartmann_von_aue__gregorius__K	3682	0.003	0.0432	0.021			not aligned
+hvad	hartmann_von_aue__gregorius	hvad__hartmann_von_aue__gregorius__B	hvad__hartmann_von_aue__gregorius__K	3594	0.0036	0.0423	0.0196			not aligned
+hvad	hartmann_von_aue__gregorius	hvad__hartmann_von_aue__gregorius__G	hvad__hartmann_von_aue__gregorius__K	1671	0.0036	0.0401	0.0181			not aligned
+hvad	hartmann_von_aue__gregorius	hvad__hartmann_von_aue__gregorius__L	hvad__hartmann_von_aue__gregorius__K	618	0.0032	0.0437	0.0213			not aligned
+hvad	hartmann_von_aue__gregorius	hvad__hartmann_von_aue__gregorius__H	hvad__hartmann_von_aue__gregorius__K	374	0.0	0.0294	0.0145			not aligned
+hvad	hartmann_von_aue__gregorius	hvad__hartmann_von_aue__gregorius__M	hvad__hartmann_von_aue__gregorius__K	236	0.0	0.0297	0.0195			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__f_lc	hvad__hartmann_von_aue__iwein__B	6947	0.0046	0.0518	0.0211			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__A	hvad__hartmann_von_aue__iwein__B	7913	0.0049	0.0531	0.023			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__D	hvad__hartmann_von_aue__iwein__B	7845	0.0187	0.0664	0.0359			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__c_lc	hvad__hartmann_von_aue__iwein__B	7214	0.0061	0.0521	0.0226			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__d_lc	hvad__hartmann_von_aue__iwein__B	8053	0.0565	0.1181	0.0735			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__l	hvad__hartmann_von_aue__iwein__B	7930	0.0927	0.1368	0.0919			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__a_lc	hvad__hartmann_von_aue__iwein__B	6524	0.0064	0.0483	0.0212			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__z	hvad__hartmann_von_aue__iwein__B	6581	0.0033	0.0527	0.0216			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__W	hvad__hartmann_von_aue__iwein__B	552	0.0	0.0525	0.0186			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__H	hvad__hartmann_von_aue__iwein__B	526	0.0095	0.0361	0.0169			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__U	hvad__hartmann_von_aue__iwein__B	353	0.0113	0.0425	0.0145			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__M	hvad__hartmann_von_aue__iwein__B	341	0.0029	0.0381	0.0167			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__R	hvad__hartmann_von_aue__iwein__B	283	0.0	0.0495	0.0212			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__S	hvad__hartmann_von_aue__iwein__B	244	0.0041	0.0369	0.0253			not aligned
+hvad	hartmann_von_aue__iwein	hvad__hartmann_von_aue__iwein__s_lc	hvad__hartmann_von_aue__iwein__B	244	0.0041	0.041	0.0219			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__Z	kcd__anon__kaiserchronik__K	17507	0.008	0.0713	0.0257			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__VC	kcd__anon__kaiserchronik__K	17570	0.0177	0.0882	0.037			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__H	kcd__anon__kaiserchronik__K	16740	0.0026	0.0698	0.0248			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__C1	kcd__anon__kaiserchronik__K	17132	0.0056	0.0741	0.0268			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__A1	kcd__anon__kaiserchronik__K	16545	0.0055	0.0691	0.0232			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__M	kcd__anon__kaiserchronik__K	16858	0.004	0.0704	0.0255			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__B1	kcd__anon__kaiserchronik__K	15793	0.0044	0.067	0.0243			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__Co	kcd__anon__kaiserchronik__K	15004	0.0036	0.0658	0.0229			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__VB	kcd__anon__kaiserchronik__K	15184	0.0036	0.0643	0.0229			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__W	kcd__anon__kaiserchronik__K	9055	0.0039	0.0554	0.0205			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__P	kcd__anon__kaiserchronik__K	5154	0.0043	0.0621	0.0204			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b8	kcd__anon__kaiserchronik__K	1386	0.0036	0.0476	0.016			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__a15	kcd__anon__kaiserchronik__K	674	0.0	0.0564	0.0184			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b1_lc	kcd__anon__kaiserchronik__K	602	0.005	0.0498	0.0202			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__x1β	kcd__anon__kaiserchronik__K	614	0.0	0.0505	0.0201			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__a4α	kcd__anon__kaiserchronik__K	350	0.0	0.0229	0.0072			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__a6	kcd__anon__kaiserchronik__K	578	0.0035	0.0467	0.0173			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b7	kcd__anon__kaiserchronik__K	481	0.0	0.0437	0.0172			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b9	kcd__anon__kaiserchronik__K	393	0.0025	0.0738	0.0244			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__a11	kcd__anon__kaiserchronik__K	307	0.0033	0.0489	0.0165			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b10	kcd__anon__kaiserchronik__K	394	0.0	0.0508	0.015			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b5	kcd__anon__kaiserchronik__K	353	0.0057	0.0453	0.0171			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__c5	kcd__anon__kaiserchronik__K	372	0.0027	0.0806	0.0264			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__x1α	kcd__anon__kaiserchronik__K	321	0.0125	0.0467	0.013			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__x2	kcd__anon__kaiserchronik__K	333	0.006	0.036	0.0161			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__a4γ	kcd__anon__kaiserchronik__K	297	0.0	0.0539	0.0187			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b4	kcd__anon__kaiserchronik__K	280	0.0	0.0714	0.0229			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b6β	kcd__anon__kaiserchronik__K	287	0.0035	0.0523	0.0193			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b6γ	kcd__anon__kaiserchronik__K	279	0.0	0.0573	0.0207			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b11	kcd__anon__kaiserchronik__K	264	0.0	0.0189	0.0068			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__b6α	kcd__anon__kaiserchronik__K	261	0.0077	0.0498	0.0161			not aligned
+kcd	anon__kaiserchronik	kcd__anon__kaiserchronik__c3	kcd__anon__kaiserchronik__K	229	0.0	0.0306	0.0164			not aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__v	parzival__wolfram_von_eschenbach__parzival__nk	22679	0.68	0.7192	0.6147	0.679	0.7074	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__mk	parzival__wolfram_von_eschenbach__parzival__nk	21279	0.6814	0.7928	0.6755	0.6804	0.7841	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__d	parzival__wolfram_von_eschenbach__parzival__nk	22949	0.6762	0.7239	0.6211	0.6752	0.7124	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__w	parzival__wolfram_von_eschenbach__parzival__nk	22818	0.644	0.7227	0.59	0.6429	0.7111	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__z	parzival__wolfram_von_eschenbach__parzival__nk	21988	0.6783	0.693	0.6057	0.6773	0.6802	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__l	parzival__wolfram_von_eschenbach__parzival__nk	22321	0.6662	0.7038	0.5934	0.6652	0.6913	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__g	parzival__wolfram_von_eschenbach__parzival__nk	22688	0.6619	0.6703	0.57	0.6609	0.6566	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__m	parzival__wolfram_von_eschenbach__parzival__nk	17288	0.6365	0.6447	0.5323	0.6354	0.6298	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__i	parzival__wolfram_von_eschenbach__parzival__nk	21633	0.6362	0.6694	0.5384	0.6351	0.6557	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__r	parzival__wolfram_von_eschenbach__parzival__nk	19665	0.6399	0.6852	0.5618	0.6388	0.6722	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__ok	parzival__wolfram_von_eschenbach__parzival__nk	20673	0.714	0.8167	0.7154	0.7131	0.809	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__q	parzival__wolfram_von_eschenbach__parzival__nk	20974	0.6322	0.7051	0.5778	0.6311	0.6928	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__u	parzival__wolfram_von_eschenbach__parzival__nk	17356	0.6595	0.6968	0.5735	0.6585	0.684	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__t	parzival__wolfram_von_eschenbach__parzival__nk	15689	0.658	0.6605	0.5403	0.657	0.6461	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__o	parzival__wolfram_von_eschenbach__parzival__nk	15195	0.6525	0.6623	0.5716	0.6514	0.6479	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr21	parzival__wolfram_von_eschenbach__parzival__nk	3199	0.608	0.6474	0.536	0.6066	0.6315	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr40	parzival__wolfram_von_eschenbach__parzival__nk	2528	0.6025	0.6491	0.5419	0.601	0.6355	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr39	parzival__wolfram_von_eschenbach__parzival__nk	1976	0.6265	0.6422	0.5377	0.6251	0.6271	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr18	parzival__wolfram_von_eschenbach__parzival__nk	1430	0.6385	0.6434	0.5372	0.637	0.6268	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__vv	parzival__wolfram_von_eschenbach__parzival__nk	1230	0.6911	0.7398	0.63	0.6898	0.7296	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr69	parzival__wolfram_von_eschenbach__parzival__nk	1076	0.6004	0.6524	0.5429	0.5987	0.638	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr32	parzival__wolfram_von_eschenbach__parzival__nk	893	0.6473	0.6137	0.516	0.6456	0.5956	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr24	parzival__wolfram_von_eschenbach__parzival__nk	960	0.6125	0.6385	0.5258	0.6109	0.6228	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr51	parzival__wolfram_von_eschenbach__parzival__nk	962	0.5852	0.5925	0.4794	0.5832	0.5747	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr5	parzival__wolfram_von_eschenbach__parzival__nk	697	0.594	0.6714	0.5366	0.5923	0.6583	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr31	parzival__wolfram_von_eschenbach__parzival__nk	663	0.5566	0.6259	0.4866	0.5547	0.6099	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr48	parzival__wolfram_von_eschenbach__parzival__nk	460	0.6391	0.6935	0.5681	0.637	0.6798	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr20	parzival__wolfram_von_eschenbach__parzival__nk	665	0.5594	0.5353	0.4173	0.5569	0.5162	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr61	parzival__wolfram_von_eschenbach__parzival__nk	452	0.6416	0.6726	0.5437	0.6395	0.6592	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr7	parzival__wolfram_von_eschenbach__parzival__nk	526	0.6008	0.6559	0.5275	0.5987	0.6407	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr22	parzival__wolfram_von_eschenbach__parzival__nk	561	0.6435	0.6096	0.4982	0.6417	0.5932	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr9	parzival__wolfram_von_eschenbach__parzival__nk	507	0.6154	0.6686	0.5297	0.6131	0.6515	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr23	parzival__wolfram_von_eschenbach__parzival__nk	510	0.5941	0.6824	0.5532	0.5921	0.6672	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr1	parzival__wolfram_von_eschenbach__parzival__nk	473	0.63	0.6765	0.5446	0.6281	0.6611	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr11	parzival__wolfram_von_eschenbach__parzival__nk	500	0.582	0.632	0.5045	0.5801	0.6131	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr29	parzival__wolfram_von_eschenbach__parzival__nk	438	0.5868	0.4909	0.4291	0.5841	0.4683	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr36	parzival__wolfram_von_eschenbach__parzival__nk	392	0.5281	0.5026	0.3871	0.5254	0.4827	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr25	parzival__wolfram_von_eschenbach__parzival__nk	410	0.6512	0.6634	0.5383	0.6495	0.6491	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr38	parzival__wolfram_von_eschenbach__parzival__nk	398	0.6759	0.6281	0.5296	0.6734	0.6141	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr19	parzival__wolfram_von_eschenbach__parzival__nk	340	0.6029	0.5765	0.5251	0.6008	0.5567	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr33	parzival__wolfram_von_eschenbach__parzival__nk	349	0.6103	0.6304	0.5137	0.6079	0.6054	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr47	parzival__wolfram_von_eschenbach__parzival__nk	376	0.5319	0.5851	0.4647	0.5291	0.563	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr68	parzival__wolfram_von_eschenbach__parzival__nk	347	0.6225	0.6744	0.5499	0.6203	0.6595	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr8	parzival__wolfram_von_eschenbach__parzival__nk	332	0.5602	0.6175	0.5483	0.5572	0.6037	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr37	parzival__wolfram_von_eschenbach__parzival__nk	263	0.5399	0.6236	0.5103	0.5371	0.6012	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr44	parzival__wolfram_von_eschenbach__parzival__nk	238	0.605	0.6471	0.5467	0.6022	0.6253	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr14	parzival__wolfram_von_eschenbach__parzival__nk	313	0.5911	0.7093	0.5262	0.5884	0.6896	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr28	parzival__wolfram_von_eschenbach__parzival__nk	293	0.5495	0.57	0.4308	0.5462	0.5458	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr62	parzival__wolfram_von_eschenbach__parzival__nk	275	0.7309	0.7164	0.5904	0.7289	0.7035	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr45	parzival__wolfram_von_eschenbach__parzival__nk	291	0.6082	0.5773	0.4984	0.6051	0.5573	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr49	parzival__wolfram_von_eschenbach__parzival__nk	226	0.5575	0.6814	0.5311	0.5541	0.6628	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr6	parzival__wolfram_von_eschenbach__parzival__nk	267	0.6142	0.6629	0.5704	0.6116	0.6421	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr71	parzival__wolfram_von_eschenbach__parzival__nk	244	0.6066	0.5984	0.448	0.6035	0.5768	aligned
+parzival	wolfram_von_eschenbach__parzival	parzival__wolfram_von_eschenbach__parzival__fr4	parzival__wolfram_von_eschenbach__parzival__nk	222	0.6622	0.6847	0.5435	0.6591	0.6714	aligned

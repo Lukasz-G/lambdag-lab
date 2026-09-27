@@ -1,0 +1,6 @@
+run	known	chronicle_windows_z	best_window_z	ceiling_z	named_z	share_above_whole_cohort
+known: Rolandslied (Konrad)	rem__M205P	3.06	4.41	+5.6	alexanderlied +1.8	0.893
+known: Rolandslied, shared wording removed	rem__M205P	3.07	4.56	+5.6	alexanderlied +1.8	0.897
+known: Alexanderlied (Lambrecht)	rem__M009	2.79	4.33	+3.3	M205P +2.9 M013O +3.4	0.84
+known: Annolied	rem__M013O	2.27	5.39	--	M205P +2.5 M009 +2.6	0.734
+known: Annolied, shared wording removed	rem__M013O	2.22	4.76	--	M205P +2.5 M009 +2.6	0.721

@@ -1,0 +1,343 @@
+{
+ "witness": "kcd__anon__kaiserchronik__b3",
+ "tokens": 796,
+ "units": 163,
+ "k": 8,
+ "min_span": 8,
+ "gap": 4,
+ "baseline_median": 0.0,
+ "baseline_robust_sd": 0.0,
+ "partner_cut": 0.0,
+ "masked_tokens": 32,
+ "masked_share": 0.0402,
+ "masked_units": [
+  21,
+  22,
+  23,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  129,
+  130
+ ],
+ "partners": {
+  "rem__M064R": {
+   "share_of_chronicle": 0.01005,
+   "share_of_partner": 0.00059,
+   "z": 594177064.77,
+   "spans": [
+    [
+     191,
+     198
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 5
+  },
+  "hvad__hartmann_von_aue__gregorius__H": {
+   "share_of_chronicle": 0.01005,
+   "share_of_partner": 0.00051,
+   "z": 510204081.63,
+   "spans": [
+    [
+     624,
+     631
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.20513,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 16
+  },
+  "rem__M321": {
+   "share_of_chronicle": 0.01005,
+   "share_of_partner": 7e-05,
+   "z": 69343318.77,
+   "spans": [
+    [
+     101,
+     108
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 3
+  },
+  "hvad__hartmann_von_aue__gregorius__B": {
+   "share_of_chronicle": 0.01005,
+   "share_of_partner": 5e-05,
+   "z": 54481067.83,
+   "spans": [
+    [
+     624,
+     631
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.20513,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 16
+  },
+  "hvad__hartmann_von_aue__gregorius__J": {
+   "share_of_chronicle": 0.01005,
+   "share_of_partner": 5e-05,
+   "z": 52284847.85,
+   "spans": [
+    [
+     624,
+     631
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.20513,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 16
+  },
+  "hvad__hartmann_von_aue__gregorius__A": {
+   "share_of_chronicle": 0.01005,
+   "share_of_partner": 5e-05,
+   "z": 52162119.87,
+   "spans": [
+    [
+     624,
+     631
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.20513,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 16
+  },
+  "parzival__wolfram_von_eschenbach__parzival__w": {
+   "share_of_chronicle": 0.01256,
+   "share_of_partner": 2e-05,
+   "z": 23087045.86,
+   "spans": [
+    [
+     197,
+     206
+    ]
+   ],
+   "tokens": 10,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.05,
+    0.20513,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 6
+  },
+  "rem__M541H": {
+   "share_of_chronicle": 0.01005,
+   "share_of_partner": 1e-05,
+   "z": 11686475.24,
+   "spans": [
+    [
+     101,
+     108
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 3
+  },
+  "parzival__wolfram_von_eschenbach__parzival__i": {
+   "share_of_chronicle": 0.01005,
+   "share_of_partner": 1e-05,
+   "z": 8019374.81,
+   "spans": [
+    [
+     191,
+     198
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 5
+  }
+ }
+}

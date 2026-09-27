@@ -1,0 +1,60 @@
+{
+  "medieval": "mhg_witnesses_lemma",
+  "modern": "german_novels",
+  "encodings": {
+    "posnoise": [
+      {
+        "order": 1,
+        "symbols_medieval": 14202,
+        "symbols_modern": 2731,
+        "shared_mass": 0.4598,
+        "js_divergence": 0.5829,
+        "perplexity_under_modern": 22937.6
+      },
+      {
+        "order": 2,
+        "symbols_medieval": 93941,
+        "symbols_modern": 118691,
+        "shared_mass": 0.1698,
+        "js_divergence": 0.8666,
+        "perplexity_under_modern": 1557808.8
+      }
+    ],
+    "cats": [
+      {
+        "order": 1,
+        "symbols_medieval": 20,
+        "symbols_modern": 35,
+        "shared_mass": 1.0,
+        "js_divergence": 0.1059,
+        "perplexity_under_modern": 14.7
+      },
+      {
+        "order": 2,
+        "symbols_medieval": 327,
+        "symbols_modern": 1019,
+        "shared_mass": 0.9998,
+        "js_divergence": 0.2508,
+        "perplexity_under_modern": 221.3
+      }
+    ],
+    "catsrank": [
+      {
+        "order": 1,
+        "symbols_medieval": 116,
+        "symbols_modern": 116,
+        "shared_mass": 0.9957,
+        "js_divergence": 0.1765,
+        "perplexity_under_modern": 55.3
+      },
+      {
+        "order": 2,
+        "symbols_medieval": 9568,
+        "symbols_modern": 8827,
+        "shared_mass": 0.9592,
+        "js_divergence": 0.4168,
+        "perplexity_under_modern": 4490.0
+      }
+    ]
+  }
+}

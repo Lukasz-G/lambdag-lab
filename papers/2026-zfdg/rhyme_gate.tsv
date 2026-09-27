@@ -1,0 +1,175 @@
+file	verses	chance_tail	lag1_odd	lag1_even	lag2	lag1_odd_rhyme_rate	lag1_even_rhyme_rate	chance_rhyme_rate	verdict
+ambraser__anon__biterolf_und_dietleib__d	13451	0.32	1.77	1.34	0.27	0.333	0.239	0.016	verse per line
+ambraser__anon__der_mantel__d	994	0.31	1.79	1.66	0.32	0.355	0.325	0.015	verse per line (no parity)
+ambraser__anon__dietrichs_flucht__d	10110	0.3	1.73	1.38	0.26	0.329	0.247	0.012	verse per line
+ambraser__anon__kudrun__d	6805	0.4	1.74	1.44	0.26	0.34	0.271	0.019	verse per line
+ambraser__anon__moriz_von_craun__d	1777	0.28	0.76	2.4	0.26	0.122	0.495	0.006	verse per line
+ambraser__anon__nibelungenklage__d	4095	0.35	1.71	1.57	0.32	0.332	0.297	0.019	verse per line (no parity)
+ambraser__anon__nibelungenlied__d	8000	0.33	1.42	1.05	0.25	0.249	0.16	0.016	verse per line
+ambraser__anon__ortnit__d	2384	0.31	1.82	0.96	0.24	0.356	0.162	0.018	verse per line
+ambraser__anon__rabenschlacht__d	6818	0.4	1.34	0.43	1.19	0.271	0.036	0.022	verse per line
+ambraser__anon__von_dem_uebelen_wibe__d	820	0.23	1.12	2.07	0.25	0.222	0.401	0.005	verse per line
+ambraser__anon__wolfdietrich_a__d	2422	0.28	2.49	0.37	0.22	0.51	0.04	0.015	verse per line
+ambraser__anon__zweites_buechlein__d	825	0.26	0.82	2.21	0.26	0.144	0.421	0.007	verse per line
+ambraser__hartmann_von_aue__erec__d	10070	0.27	1.01	2.05	0.25	0.171	0.398	0.011	verse per line
+ambraser__hartmann_von_aue__iwein__d	8078	0.25	2.05	1.0	0.25	0.407	0.175	0.01	verse per line
+ambraser__hartmann_von_aue__klage__d	1909	0.25	1.81	0.81	0.53	0.345	0.129	0.009	verse per line
+ambraser__herrand_von_wildonie__der_nackte_kaiser__d	668	0.19	2.63	0.18	0.18	0.46	0.0	0.006	verse per line
+ambraser__herrand_von_wildonie__der_verkehrte_wirt__d	364	0.32	2.56	0.2	0.22	0.506	0.006	0.017	verse per line
+ambraser__herrand_von_wildonie__die_katze__d	302	0.24	2.71	0.15	0.16	0.538	0.0	0.03	verse per line
+ambraser__herrand_von_wildonie__die_treue_gattin__d	276	0.21	2.37	0.14	0.15	0.423	0.015	0.004	verse per line
+ambraser__priester_wernher__maria__d	1080	0.28	2.92	0.3	0.3	0.602	0.015	0.01	verse per line
+ambraser__stricker__frauenehre__d	622	0.31	3.11	0.34	0.35	0.632	0.006	0.01	verse per line
+ambraser__stricker__pfaffe_amis__d	2227	0.22	1.87	1.04	0.2	0.359	0.18	0.011	verse per line
+ambraser__ulrich_von_liechtenstein__frauenbuch__d	2126	0.27	2.36	0.65	0.25	0.434	0.086	0.008	verse per line
+ambraser__wernher_der_gartenaere__helmbrecht__d	1932	0.27	3.18	0.26	0.28	0.686	0.007	0.012	verse per line
+ambraser__wolfram_von_eschenbach__titurel__d	273	0.61	2.26	2.3	0.66	0.471	0.459	0.022	verse per line (no parity)
+hvad__hartmann_von_aue__der_arme_heinrich__A	1485	0.29	1.09	2.22	0.25	0.227	0.482	0.011	verse per line
+hvad__hartmann_von_aue__der_arme_heinrich__A__reg	1521	0.26	2.81	0.53	0.25	0.633	0.082	0.009	verse per line
+hvad__hartmann_von_aue__der_arme_heinrich__Ba	1414	0.27	2.51	0.71	0.26	0.545	0.116	0.008	verse per line
+hvad__hartmann_von_aue__der_arme_heinrich__Ba__reg	1507	0.26	2.7	0.58	0.26	0.596	0.081	0.006	verse per line
+hvad__hartmann_von_aue__der_arme_heinrich__Bb	1509	0.26	2.69	0.59	0.26	0.589	0.084	0.01	verse per line
+hvad__hartmann_von_aue__der_arme_heinrich__Bb__reg	1515	0.27	2.71	0.58	0.26	0.595	0.079	0.011	verse per line
+hvad__hartmann_von_aue__der_arme_heinrich__E	319	0.2	1.51	0.28	0.21	0.354	0.019	0.009	verse per line
+hvad__hartmann_von_aue__der_arme_heinrich__E__reg	322	0.22	1.45	0.3	0.2	0.342	0.025	0.013	verse per line
+hvad__hartmann_von_aue__gregorius__A	3760	0.29	2.04	1.22	0.28	0.422	0.224	0.013	verse per line
+hvad__hartmann_von_aue__gregorius__A__reg	3769	0.27	1.64	1.64	0.28	0.332	0.32	0.012	verse per line (no parity)
+hvad__hartmann_von_aue__gregorius__B	3675	0.27	1.79	1.37	0.27	0.366	0.269	0.011	verse per line
+hvad__hartmann_von_aue__gregorius__B__reg	3675	0.26	1.8	1.38	0.27	0.367	0.27	0.007	verse per line
+hvad__hartmann_von_aue__gregorius__C__reg	248	0.22	1.77	0.34	0.21	0.355	0.041	0.012	verse per line
+hvad__hartmann_von_aue__gregorius__E	3724	0.25	1.13	1.79	0.25	0.212	0.356	0.009	verse per line
+hvad__hartmann_von_aue__gregorius__E__reg	3722	0.24	1.43	1.47	0.25	0.28	0.286	0.008	verse per line (no parity)
+hvad__hartmann_von_aue__gregorius__G	1674	0.27	2.0	1.06	0.28	0.408	0.191	0.011	verse per line
+hvad__hartmann_von_aue__gregorius__G__reg	1702	0.26	1.82	1.27	0.28	0.371	0.24	0.011	verse per line
+hvad__hartmann_von_aue__gregorius__H	374	0.27	2.03	0.93	0.31	0.405	0.145	0.005	verse per line
+hvad__hartmann_von_aue__gregorius__H__reg	374	0.34	2.03	0.93	0.31	0.405	0.145	0.014	verse per line
+hvad__hartmann_von_aue__gregorius__J	3779	0.21	1.29	1.52	0.22	0.238	0.282	0.006	verse per line (no parity)
+hvad__hartmann_von_aue__gregorius__J__reg	3892	0.23	1.76	1.12	0.23	0.333	0.199	0.009	verse per line
+hvad__hartmann_von_aue__gregorius__K	3859	0.23	1.49	1.23	0.24	0.281	0.239	0.008	verse per line (no parity)
+hvad__hartmann_von_aue__gregorius__K__reg	3944	0.24	1.31	1.47	0.24	0.253	0.279	0.009	verse per line (no parity)
+hvad__hartmann_von_aue__gregorius__L	618	0.24	2.82	0.28	0.27	0.57	0.007	0.005	verse per line
+hvad__hartmann_von_aue__gregorius__L__reg	618	0.3	2.82	0.28	0.27	0.57	0.007	0.011	verse per line
+hvad__hartmann_von_aue__gregorius__M	236	0.27	2.13	0.52	0.16	0.452	0.103	0.021	verse per line
+hvad__hartmann_von_aue__gregorius__M__reg	236	0.21	2.16	0.52	0.16	0.457	0.103	0.009	verse per line
+hvad__hartmann_von_aue__iwein__A	7934	0.27	1.74	1.28	0.26	0.337	0.228	0.009	verse per line
+hvad__hartmann_von_aue__iwein__A__reg	7934	0.27	1.77	1.29	0.26	0.345	0.233	0.009	verse per line
+hvad__hartmann_von_aue__iwein__a_lc	6524	0.26	1.63	1.27	0.25	0.325	0.243	0.012	verse per line
+hvad__hartmann_von_aue__iwein__a_lc__reg	7691	0.26	1.96	1.15	0.25	0.4	0.214	0.01	verse per line
+hvad__hartmann_von_aue__iwein__B	8248	0.25	1.67	1.54	0.24	0.351	0.314	0.01	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__B__reg	8249	0.25	1.87	1.36	0.24	0.394	0.272	0.01	verse per line
+hvad__hartmann_von_aue__iwein__c_lc	7215	0.27	1.55	1.43	0.25	0.324	0.297	0.012	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__c_lc__reg	7944	0.27	1.46	1.67	0.26	0.307	0.353	0.012	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__D	7889	0.29	1.66	1.53	0.27	0.336	0.304	0.013	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__D__reg	8109	0.29	1.46	1.77	0.27	0.288	0.361	0.013	verse per line
+hvad__hartmann_von_aue__iwein__d_lc	8092	0.28	2.26	0.82	0.25	0.467	0.14	0.01	verse per line
+hvad__hartmann_von_aue__iwein__d_lc__reg	8089	0.26	2.27	0.82	0.25	0.472	0.143	0.01	verse per line
+hvad__hartmann_von_aue__iwein__f_lc	6947	0.25	1.43	1.4	0.21	0.285	0.272	0.01	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__f_lc__reg	7907	0.25	1.23	1.87	0.23	0.236	0.377	0.01	verse per line
+hvad__hartmann_von_aue__iwein__H	526	0.31	1.62	1.7	0.3	0.338	0.33	0.019	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__H__reg	526	0.28	1.6	1.72	0.3	0.338	0.332	0.008	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__l	7947	0.23	1.38	1.6	0.23	0.282	0.326	0.008	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__l__reg	7993	0.24	1.03	1.97	0.23	0.195	0.418	0.007	verse per line
+hvad__hartmann_von_aue__iwein__M	341	0.25	1.88	1.21	0.27	0.391	0.224	0.015	verse per line
+hvad__hartmann_von_aue__iwein__M__reg	350	0.26	2.28	0.86	0.26	0.466	0.161	0.014	verse per line
+hvad__hartmann_von_aue__iwein__R	283	0.32	0.56	2.45	0.29	0.071	0.496	0.004	verse per line
+hvad__hartmann_von_aue__iwein__R__reg	283	0.39	0.57	2.56	0.3	0.071	0.521	0.021	verse per line
+hvad__hartmann_von_aue__iwein__S	244	0.31	1.36	1.45	0.17	0.281	0.289	0.025	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__S__reg	244	0.22	1.39	1.45	0.17	0.289	0.289	0.004	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__s_lc	244	0.27	1.36	1.45	0.17	0.281	0.289	0.021	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__s_lc__reg	244	0.21	1.39	1.45	0.17	0.289	0.289	0.004	verse per line (no parity)
+hvad__hartmann_von_aue__iwein__U	354	0.32	0.8	1.5	0.31	0.102	0.246	0.031	verse per line
+hvad__hartmann_von_aue__iwein__U__reg	354	0.29	0.81	1.51	0.31	0.102	0.246	0.011	verse per line
+hvad__hartmann_von_aue__iwein__W	552	0.21	2.96	0.23	0.23	0.684	0.004	0.013	verse per line
+hvad__hartmann_von_aue__iwein__W__reg	552	0.27	2.98	0.23	0.23	0.684	0.004	0.018	verse per line
+hvad__hartmann_von_aue__iwein__z	6581	0.25	1.13	1.62	0.23	0.206	0.318	0.008	verse per line
+hvad__hartmann_von_aue__iwein__z__reg	6692	0.23	1.76	1.03	0.23	0.348	0.182	0.007	verse per line
+kcd__anon__kaiserchronik__A1	16574	0.35	1.03	1.0	0.37	0.148	0.144	0.012	verse per line (no parity)
+kcd__anon__kaiserchronik__a11	307	0.31	0.81	1.07	0.27	0.105	0.163	0.016	verse per line (no parity)
+kcd__anon__kaiserchronik__a15	674	0.35	1.0	0.8	0.36	0.142	0.096	0.009	verse per line (no parity)
+kcd__anon__kaiserchronik__a4α	350	0.14	0.18	0.2	0.16	0.0	0.012	0.003	NO RHYME FOUND
+kcd__anon__kaiserchronik__a4γ	297	0.35	0.64	1.33	0.36	0.068	0.176	0.014	verse per line
+kcd__anon__kaiserchronik__a6	578	0.28	0.63	0.9	0.37	0.076	0.126	0.01	verse per line (no parity)
+kcd__anon__kaiserchronik__B1	15822	0.3	1.46	1.39	0.33	0.273	0.26	0.012	verse per line (no parity)
+kcd__anon__kaiserchronik__b10	394	0.29	1.8	0.9	0.26	0.352	0.155	0.005	verse per line
+kcd__anon__kaiserchronik__b11	264	0.29	1.72	0.4	0.3	0.315	0.031	0.011	verse per line
+kcd__anon__kaiserchronik__b1_lc	602	0.28	1.63	1.1	0.24	0.303	0.201	0.008	verse per line
+kcd__anon__kaiserchronik__b4	280	0.39	2.16	1.04	0.51	0.457	0.168	0.032	verse per line
+kcd__anon__kaiserchronik__b5	353	0.24	0.51	2.48	0.24	0.069	0.517	0.011	verse per line
+kcd__anon__kaiserchronik__b6α	261	0.31	1.67	0.83	0.36	0.305	0.138	0.012	verse per line
+kcd__anon__kaiserchronik__b6β	287	0.28	1.99	0.52	0.27	0.413	0.063	0.007	verse per line
+kcd__anon__kaiserchronik__b6γ	279	0.28	1.17	1.45	0.35	0.261	0.317	0.007	verse per line (no parity)
+kcd__anon__kaiserchronik__b7	481	0.32	2.14	0.76	0.31	0.402	0.129	0.008	verse per line
+kcd__anon__kaiserchronik__b8	1386	0.36	1.37	1.62	0.44	0.269	0.329	0.015	verse per line (no parity)
+kcd__anon__kaiserchronik__b9	393	0.36	1.43	1.06	0.31	0.263	0.179	0.013	verse per line
+kcd__anon__kaiserchronik__C1	17161	0.25	1.56	1.55	0.27	0.291	0.287	0.009	verse per line (no parity)
+kcd__anon__kaiserchronik__c3	229	0.26	1.1	1.5	0.28	0.219	0.272	0.0	verse per line
+kcd__anon__kaiserchronik__c5	372	0.3	0.97	2.22	0.32	0.156	0.446	0.019	verse per line
+kcd__anon__kaiserchronik__Co	15032	0.29	1.65	1.13	0.29	0.327	0.207	0.013	verse per line
+kcd__anon__kaiserchronik__H	16768	0.35	1.21	1.15	0.34	0.192	0.178	0.012	verse per line (no parity)
+kcd__anon__kaiserchronik__K	17699	0.28	1.47	1.71	0.27	0.278	0.335	0.011	verse per line (no parity)
+kcd__anon__kaiserchronik__M	16886	0.32	1.09	1.21	0.34	0.166	0.196	0.01	verse per line (no parity)
+kcd__anon__kaiserchronik__P	5158	0.32	1.47	1.29	0.33	0.28	0.228	0.014	verse per line (no parity)
+kcd__anon__kaiserchronik__VB	15213	0.32	1.77	1.47	0.32	0.348	0.282	0.013	verse per line (no parity)
+kcd__anon__kaiserchronik__VC	17599	0.26	1.54	1.61	0.26	0.305	0.32	0.011	verse per line (no parity)
+kcd__anon__kaiserchronik__W	9068	0.3	1.07	1.07	0.32	0.166	0.163	0.012	verse per line (no parity)
+kcd__anon__kaiserchronik__x1α	321	0.29	0.99	1.3	0.29	0.169	0.209	0.013	verse per line
+kcd__anon__kaiserchronik__x1β	614	0.3	1.28	0.74	0.29	0.225	0.128	0.01	verse per line
+kcd__anon__kaiserchronik__x2	333	0.29	1.05	1.98	0.21	0.2	0.41	0.012	verse per line
+kcd__anon__kaiserchronik__Z	17536	0.25	1.47	1.3	0.25	0.27	0.234	0.01	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__d	24745	0.24	1.07	2.05	0.21	0.201	0.429	0.008	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr1	480	0.21	2.5	0.53	0.23	0.533	0.059	0.013	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr11	519	0.2	1.57	1.12	0.23	0.329	0.217	0.006	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr14	321	0.3	0.87	1.69	0.21	0.164	0.306	0.016	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr17	219	0.26	2.34	0.94	0.28	0.459	0.157	0.014	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr18	1533	0.22	2.2	0.74	0.21	0.457	0.118	0.007	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr19	396	0.27	1.44	1.58	0.22	0.289	0.337	0.005	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__fr20	666	0.22	1.46	1.19	0.23	0.261	0.201	0.005	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__fr21	3468	0.22	1.49	1.27	0.19	0.287	0.245	0.005	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__fr22	578	0.25	1.82	1.07	0.25	0.372	0.189	0.012	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr23	554	0.23	1.43	1.2	0.23	0.275	0.234	0.009	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__fr24	1010	0.28	1.9	1.08	0.23	0.396	0.188	0.008	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr25	428	0.2	2.16	0.52	0.18	0.411	0.07	0.005	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr28	314	0.15	0.2	2.08	0.19	0.006	0.4	0.01	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr29	529	0.23	0.54	1.73	0.2	0.087	0.355	0.006	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr31	718	0.21	1.49	1.18	0.19	0.304	0.237	0.007	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr32	1056	0.24	0.72	2.28	0.23	0.116	0.457	0.009	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr33	395	0.16	1.32	1.25	0.2	0.265	0.244	0.005	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__fr36	453	0.24	1.2	1.08	0.22	0.227	0.173	0.007	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__fr37	294	0.19	2.16	0.44	0.21	0.469	0.069	0.003	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr38	401	0.25	2.11	0.61	0.24	0.402	0.095	0.007	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr39	2069	0.24	1.95	0.98	0.23	0.399	0.17	0.008	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr4	227	0.37	0.23	2.81	0.24	0.0	0.64	0.018	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr40	2657	0.23	1.96	0.94	0.22	0.412	0.179	0.008	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr44	276	0.23	2.86	0.18	0.17	0.62	0.007	0.011	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr45	308	0.28	2.64	0.35	0.2	0.513	0.039	0.007	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr47	386	0.19	1.59	1.01	0.22	0.342	0.214	0.005	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr48	554	0.28	0.7	2.02	0.2	0.127	0.433	0.011	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr49	266	0.27	1.57	1.32	0.23	0.313	0.288	0.019	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__fr5	765	0.17	0.8	2.14	0.21	0.131	0.418	0.003	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr50	206	0.27	2.85	0.19	0.18	0.573	0.0	0.005	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr51	992	0.28	1.61	1.19	0.22	0.309	0.233	0.015	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr6	271	0.13	2.84	0.16	0.16	0.57	0.0	0.004	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr61	495	0.28	0.57	2.37	0.23	0.089	0.523	0.016	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr62	280	0.27	3.05	0.21	0.21	0.636	0.007	0.011	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr68	356	0.32	2.4	0.76	0.27	0.48	0.113	0.017	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr69	1172	0.23	0.92	0.97	0.2	0.154	0.159	0.009	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__fr7	590	0.26	1.1	1.51	0.22	0.204	0.3	0.015	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr71	288	0.24	1.23	1.27	0.21	0.238	0.261	0.017	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__fr8	349	0.28	1.27	1.95	0.26	0.243	0.395	0.009	verse per line
+parzival__wolfram_von_eschenbach__parzival__fr9	566	0.24	2.67	0.22	0.2	0.61	0.004	0.007	verse per line
+parzival__wolfram_von_eschenbach__parzival__g	24471	0.25	1.65	1.42	0.22	0.321	0.269	0.007	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__i	23251	0.24	1.33	1.65	0.21	0.248	0.324	0.008	verse per line
+parzival__wolfram_von_eschenbach__parzival__l	24089	0.25	1.55	1.47	0.22	0.299	0.286	0.008	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__m	18476	0.24	1.23	1.36	0.22	0.229	0.255	0.007	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__mk	22586	0.24	1.39	1.46	0.22	0.261	0.275	0.007	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__nk	22991	0.24	1.6	1.36	0.22	0.318	0.266	0.007	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__o	16507	0.25	1.55	1.56	0.22	0.308	0.305	0.009	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__ok	22015	0.24	1.49	1.28	0.22	0.288	0.239	0.007	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__q	22567	0.24	1.41	1.46	0.22	0.289	0.295	0.009	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__r	20983	0.22	1.34	1.34	0.2	0.248	0.243	0.007	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__t	17033	0.24	1.59	1.49	0.21	0.315	0.287	0.008	verse per line (no parity)
+parzival__wolfram_von_eschenbach__parzival__u	18736	0.24	1.16	1.86	0.21	0.209	0.365	0.007	verse per line
+parzival__wolfram_von_eschenbach__parzival__v	24474	0.24	1.19	1.88	0.22	0.225	0.378	0.008	verse per line
+parzival__wolfram_von_eschenbach__parzival__vv	1330	0.2	1.87	1.08	0.21	0.364	0.208	0.004	verse per line
+parzival__wolfram_von_eschenbach__parzival__w	24570	0.24	1.86	1.37	0.21	0.389	0.27	0.008	verse per line
+parzival__wolfram_von_eschenbach__parzival__z	23734	0.24	1.57	1.54	0.22	0.308	0.303	0.008	verse per line (no parity)

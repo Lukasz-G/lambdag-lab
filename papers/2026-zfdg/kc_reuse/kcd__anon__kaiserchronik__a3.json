@@ -1,0 +1,15 @@
+{
+ "witness": "kcd__anon__kaiserchronik__a3",
+ "tokens": 667,
+ "units": 167,
+ "k": 8,
+ "min_span": 8,
+ "gap": 4,
+ "baseline_median": 0.0,
+ "baseline_robust_sd": 0.0,
+ "partner_cut": 0.0,
+ "masked_tokens": 0,
+ "masked_share": 0.0,
+ "masked_units": [],
+ "partners": {}
+}

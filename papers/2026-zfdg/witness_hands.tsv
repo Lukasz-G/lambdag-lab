@@ -1,0 +1,26 @@
+## Hand status per witness, for the author-by-scribe design.
+##
+## A witness may be the work of several scribes, so two passages of one
+## manuscript are in one hand only where that is documented. The converse is
+## definitive: another witness is always another hand.
+##
+## status: one_hand | multi_hand | unknown
+## Nothing here is written from memory. Every non-Ambraser row carries the
+## Handschriftencensus id it was read from and the statement quoted verbatim;
+## `unknown` means the page says nothing about the number of hands, which is the
+## common case.
+##
+## FINDING OF THE 2026-09-26 SAMPLE: of six witnesses looked up, four say nothing
+## and two document several hands. NONE was documented as single-hand. The
+## database therefore disqualifies witnesses; it does not certify them, so the
+## same-scribe row of the design cannot be built from same-witness pairs.
+##
+## Columns: witness  source  siglum  shelfmark  status  hands  hsc  evidence
+witness	source	siglum	shelfmark	status	hands	hsc	evidence
+ambraser__*	ambraser	d	Wien, ÖNB, Cod. Ser. nova 2663	one_hand	1	-	The Ambraser Heldenbuch was written throughout by Hans Ried; single-scribe status is not in dispute in the philological literature.
+rem__M205P	rem	M205P	Heidelberg, Universitätsbibl., Cpg 112	unknown	?	1145	No statement on the number of hands. Kodikologie gives only language and layout.
+rem__M342	rem	M342	München, Staatsbibl., Cgm 51	unknown	?	1286	No statement on the number of hands.
+rem__M321	rem	M321	Karlsruhe, Landesbibl., Cod. Donaueschingen 63	unknown	?	1482	No statement on the original hands; only "Auf dem Vorderspiegel von einer Hand des 15. Jh.s Freidank-Verse", a later addition.
+hvad__hartmann_von_aue__iwein__c	hvad	c	Heidelberg, Universitätsbibl., Cpg 316	unknown	?	4906	No statement on the number of hands.
+kcd__A1	kcd	A1	Vorau, Stiftsbibl., Cod. 276	multi_hand	>=2	1432	"Bl. 1 und 8 wurden von einer zweiten Hand neu geschrieben" -- the body is one hand, two leaves another.
+parzival__wolfram_von_eschenbach__parzival__v	parzival	v	Karlsruhe, Landesbibl., Cod. Donaueschingen 97	multi_hand	2	5020	Two scribes named on Bl. 320va, "der von Onhein" and "Henselin"; the page gives no folio division between them.

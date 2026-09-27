@@ -1,0 +1,73 @@
+focal	other	focal_kgrams	other_kgrams	share_of_other	rank	of_n	baseline_median	baseline_robust_sd	z	same_work
+Kaiserchronik (A1)	Kaiserchronik (H)	86373	87183	0.26986	0	107	8e-06	0.000231	1169.8	same work
+Kaiserchronik (A1)	Annolied (O)	86373	4532	0.01125	1	107	8e-06	0.000231	48.8	
+Kaiserchronik (A1)	Rolandslied (P)	86373	43102	0.00206	2	107	8e-06	0.000231	8.9	
+Kaiserchronik (A1)	Rolandslied (A)	86373	21530	0.00144	3	107	8e-06	0.000231	6.2	
+Kaiserchronik (A1)	Alexanderlied (V)	86373	8140	0.00012	22	107	8e-06	0.000231	0.5	
+Kaiserchronik (A1)	Straßburger Alexander	86373	31502	0.00032	10	107	8e-06	0.000231	1.3	
+Kaiserchronik (A1)	Liet von Troye (H)	86373	85571	0.00023	17	107	8e-06	0.000231	1.0	
+Kaiserchronik (A1)	Driu liet von der maget	86373	12399	0.00024	16	107	8e-06	0.000231	1.0	
+Kaiserchronik (H)	Kaiserchronik (A1)	87183	86373	0.2711	0	107	2.6e-05	0.000262	1033.1	same work
+Kaiserchronik (H)	Annolied (O)	87183	4532	0.00574	1	107	2.6e-05	0.000262	21.8	
+Kaiserchronik (H)	Rolandslied (P)	87183	43102	0.00227	3	107	2.6e-05	0.000262	8.6	
+Kaiserchronik (H)	Rolandslied (A)	87183	21530	0.00209	4	107	2.6e-05	0.000262	7.9	
+Kaiserchronik (H)	Alexanderlied (V)	87183	8140	0.00025	20	107	2.6e-05	0.000262	0.8	
+Kaiserchronik (H)	Straßburger Alexander	87183	31502	0.00048	6	107	2.6e-05	0.000262	1.7	
+Kaiserchronik (H)	Liet von Troye (H)	87183	85571	0.00033	13	107	2.6e-05	0.000262	1.1	
+Kaiserchronik (H)	Driu liet von der maget	87183	12399	0.00016	28	107	2.6e-05	0.000262	0.5	
+Annolied (O)	Kaiserchronik (A1)	4532	86373	0.0006	3	128	0.0	7e-06	80.3	
+Annolied (O)	Kaiserchronik (H)	4532	87183	0.0003	7	128	0.0	7e-06	39.8	
+Annolied (O)	Rolandslied (P)	4532	43102	0.0	111	128	0.0	7e-06	0.0	
+Annolied (O)	Rolandslied (A)	4532	21530	0.0	110	128	0.0	7e-06	0.0	
+Annolied (O)	Alexanderlied (V)	4532	8140	0.0	105	128	0.0	7e-06	0.0	
+Annolied (O)	Straßburger Alexander	4532	31502	0.0	104	128	0.0	7e-06	0.0	
+Annolied (O)	Liet von Troye (H)	4532	85571	0.0	127	128	0.0	7e-06	0.0	
+Annolied (O)	Driu liet von der maget	4532	12399	0.0	113	128	0.0	7e-06	0.0	
+Rolandslied (P)	Kaiserchronik (A1)	43102	86373	0.00107	9	128	1.6e-05	0.000578	1.8	
+Rolandslied (P)	Kaiserchronik (H)	43102	87183	0.00117	7	128	1.6e-05	0.000578	2.0	
+Rolandslied (P)	Annolied (O)	43102	4532	0.0	118	128	1.6e-05	0.000578	-0.0	
+Rolandslied (P)	Rolandslied (A)	43102	21530	0.62318	2	128	1.6e-05	0.000578	1077.8	
+Rolandslied (P)	Alexanderlied (V)	43102	8140	0.00037	20	128	1.6e-05	0.000578	0.6	
+Rolandslied (P)	Straßburger Alexander	43102	31502	0.0001	37	128	1.6e-05	0.000578	0.1	
+Rolandslied (P)	Liet von Troye (H)	43102	85571	0.00015	32	128	1.6e-05	0.000578	0.2	
+Rolandslied (P)	Driu liet von der maget	43102	12399	8e-05	43	128	1.6e-05	0.000578	0.1	
+Rolandslied (A)	Kaiserchronik (A1)	21530	86373	0.00043	10	128	0.0	0.000285	1.5	
+Rolandslied (A)	Kaiserchronik (H)	21530	87183	0.00058	5	128	0.0	0.000285	2.1	
+Rolandslied (A)	Annolied (O)	21530	4532	0.0	113	128	0.0	0.000285	0.0	
+Rolandslied (A)	Rolandslied (P)	21530	43102	0.31244	2	128	0.0	0.000285	1095.7	
+Rolandslied (A)	Alexanderlied (V)	21530	8140	0.00012	24	128	0.0	0.000285	0.4	
+Rolandslied (A)	Straßburger Alexander	21530	31502	0.0	112	128	0.0	0.000285	0.0	
+Rolandslied (A)	Liet von Troye (H)	21530	85571	7e-05	36	128	0.0	0.000285	0.2	
+Rolandslied (A)	Driu liet von der maget	21530	12399	8e-05	32	128	0.0	0.000285	0.3	
+Alexanderlied (V)	Kaiserchronik (A1)	8140	86373	1e-05	14	128	0.0	1.1e-05	1.1	
+Alexanderlied (V)	Kaiserchronik (H)	8140	87183	3e-05	10	128	0.0	1.1e-05	3.2	
+Alexanderlied (V)	Annolied (O)	8140	4532	0.0	109	128	0.0	1.1e-05	0.0	
+Alexanderlied (V)	Rolandslied (P)	8140	43102	7e-05	5	128	0.0	1.1e-05	6.4	
+Alexanderlied (V)	Rolandslied (A)	8140	21530	5e-05	8	128	0.0	1.1e-05	4.3	
+Alexanderlied (V)	Straßburger Alexander	8140	31502	0.01676	1	128	0.0	1.1e-05	1552.8	
+Alexanderlied (V)	Liet von Troye (H)	8140	85571	0.0	127	128	0.0	1.1e-05	0.0	
+Alexanderlied (V)	Driu liet von der maget	8140	12399	0.0	114	128	0.0	1.1e-05	0.0	
+Straßburger Alexander	Kaiserchronik (A1)	31502	86373	0.0001	30	128	0.0	0.000215	0.5	
+Straßburger Alexander	Kaiserchronik (H)	31502	87183	0.00017	22	128	0.0	0.000215	0.8	
+Straßburger Alexander	Annolied (O)	31502	4532	0.0	116	128	0.0	0.000215	0.0	
+Straßburger Alexander	Rolandslied (P)	31502	43102	7e-05	35	128	0.0	0.000215	0.3	
+Straßburger Alexander	Rolandslied (A)	31502	21530	0.0	119	128	0.0	0.000215	0.0	
+Straßburger Alexander	Alexanderlied (V)	31502	8140	0.0645	1	128	0.0	0.000215	300.6	
+Straßburger Alexander	Liet von Troye (H)	31502	85571	0.00021	19	128	0.0	0.000215	1.0	
+Straßburger Alexander	Driu liet von der maget	31502	12399	8e-05	34	128	0.0	0.000215	0.4	
+Liet von Troye (H)	Kaiserchronik (A1)	85571	86373	0.00023	26	128	5.5e-05	0.000211	0.8	
+Liet von Troye (H)	Kaiserchronik (H)	85571	87183	0.00033	11	128	5.5e-05	0.000211	1.3	
+Liet von Troye (H)	Annolied (O)	85571	4532	0.0	121	128	5.5e-05	0.000211	-0.3	
+Liet von Troye (H)	Rolandslied (P)	85571	43102	0.00032	14	128	5.5e-05	0.000211	1.3	
+Liet von Troye (H)	Rolandslied (A)	85571	21530	0.00023	25	128	5.5e-05	0.000211	0.8	
+Liet von Troye (H)	Alexanderlied (V)	85571	8140	0.0	120	128	5.5e-05	0.000211	-0.3	
+Liet von Troye (H)	Straßburger Alexander	85571	31502	0.00054	5	128	5.5e-05	0.000211	2.3	
+Liet von Troye (H)	Driu liet von der maget	85571	12399	8e-05	52	128	5.5e-05	0.000211	0.1	
+Driu liet von der maget	Kaiserchronik (A1)	12399	86373	3e-05	20	128	0.0	3.7e-05	0.9	
+Driu liet von der maget	Kaiserchronik (H)	12399	87183	2e-05	24	128	0.0	3.7e-05	0.6	
+Driu liet von der maget	Annolied (O)	12399	4532	0.0	112	128	0.0	3.7e-05	0.0	
+Driu liet von der maget	Rolandslied (P)	12399	43102	2e-05	23	128	0.0	3.7e-05	0.6	
+Driu liet von der maget	Rolandslied (A)	12399	21530	5e-05	17	128	0.0	3.7e-05	1.2	
+Driu liet von der maget	Alexanderlied (V)	12399	8140	0.0	111	128	0.0	3.7e-05	0.0	
+Driu liet von der maget	Straßburger Alexander	12399	31502	3e-05	21	128	0.0	3.7e-05	0.9	
+Driu liet von der maget	Liet von Troye (H)	12399	85571	1e-05	30	128	0.0	3.7e-05	0.3	

@@ -1,0 +1,321 @@
+{
+ "witness": "kcd__anon__kaiserchronik__c3",
+ "tokens": 1061,
+ "units": 229,
+ "k": 8,
+ "min_span": 8,
+ "gap": 4,
+ "baseline_median": 0.0,
+ "baseline_robust_sd": 0.0,
+ "partner_cut": 0.0,
+ "masked_tokens": 55,
+ "masked_share": 0.05184,
+ "masked_units": [
+  130,
+  131,
+  132,
+  133,
+  139,
+  140,
+  141,
+  142,
+  143,
+  170,
+  171,
+  172,
+  210,
+  211,
+  217,
+  218
+ ],
+ "partners": {
+  "hvad__hartmann_von_aue__gregorius__G": {
+   "share_of_chronicle": 0.00754,
+   "share_of_partner": 0.00012,
+   "z": 117041198.5,
+   "spans": [
+    [
+     1006,
+     1013
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01887,
+    0.12963
+   ],
+   "densest_twentieth": 20
+  },
+  "ambraser__anon__rabenschlacht__d": {
+   "share_of_chronicle": 0.01508,
+   "share_of_partner": 6e-05,
+   "z": 58626956.67,
+   "spans": [
+    [
+     595,
+     602
+    ],
+    [
+     777,
+     784
+    ]
+   ],
+   "tokens": 16,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.15094,
+    0.0,
+    0.0,
+    0.15094,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 12
+  },
+  "ambraser__anon__nibelungenklage__d": {
+   "share_of_chronicle": 0.00754,
+   "share_of_partner": 5e-05,
+   "z": 50733093.2,
+   "spans": [
+    [
+     640,
+     647
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.15094,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 13
+  },
+  "parzival__wolfram_von_eschenbach__parzival__mk": {
+   "share_of_chronicle": 0.01602,
+   "share_of_partner": 3e-05,
+   "z": 25600764.61,
+   "spans": [
+    [
+     652,
+     660
+    ],
+    [
+     1006,
+     1013
+    ]
+   ],
+   "tokens": 17,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.16981,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01887,
+    0.12963
+   ],
+   "densest_twentieth": 13
+  },
+  "rem__M541H": {
+   "share_of_chronicle": 0.00848,
+   "share_of_partner": 2e-05,
+   "z": 23372950.48,
+   "spans": [
+    [
+     600,
+     608
+    ]
+   ],
+   "tokens": 9,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.16981,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "densest_twentieth": 12
+  },
+  "hvad__hartmann_von_aue__iwein__B": {
+   "share_of_chronicle": 0.00754,
+   "share_of_partner": 2e-05,
+   "z": 22733472.77,
+   "spans": [
+    [
+     969,
+     976
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.15094,
+    0.0
+   ],
+   "densest_twentieth": 19
+  },
+  "parzival__wolfram_von_eschenbach__parzival__ok": {
+   "share_of_chronicle": 0.00754,
+   "share_of_partner": 1e-05,
+   "z": 8714141.31,
+   "spans": [
+    [
+     1006,
+     1013
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01887,
+    0.12963
+   ],
+   "densest_twentieth": 20
+  },
+  "parzival__wolfram_von_eschenbach__parzival__v": {
+   "share_of_chronicle": 0.00754,
+   "share_of_partner": 1e-05,
+   "z": 7738141.3,
+   "spans": [
+    [
+     1006,
+     1013
+    ]
+   ],
+   "tokens": 8,
+   "profile": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01887,
+    0.12963
+   ],
+   "densest_twentieth": 20
+  }
+ }
+}

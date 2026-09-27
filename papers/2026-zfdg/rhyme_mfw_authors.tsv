@@ -1,0 +1,11 @@
+stream	positions	top	verses	per_author	n_identities	n_same_pairs	n_cross_witness	d_same_witness	d_cross_witness	d_diff_author	auc	auc_sd	auc_cross	auc_cross_sd
+surface_full	all	200	1000	6	19	119	119	nan	0.8348	0.9311	0.7308	0.0148	0.7308	0.0148
+surface_full	rhyme	200	1000	6	19	119	119	nan	0.8519	0.9525	0.6559	0.0139	0.6559	0.0139
+surface_full	rime	200	1000	6	19	119	119	nan	0.7902	0.9464	0.8459	0.011	0.8459	0.011
+lemma_full	all	200	1000	6	19	119	119	nan	0.8898	0.9686	0.7281	0.0147	0.7281	0.0147
+lemma_full	rhyme	200	1000	6	19	119	119	nan	0.8809	0.9942	0.7356	0.0117	0.7356	0.0117
+surface_full	all	200	2000	6	17	92	92	nan	0.8669	0.994	0.7627	0.0084	0.7627	0.0084
+surface_full	rhyme	200	2000	6	17	92	92	nan	0.8527	1.014	0.7501	0.0122	0.7501	0.0122
+surface_full	rime	200	2000	6	17	92	92	nan	0.7874	0.9937	0.8942	0.0075	0.8942	0.0075
+lemma_full	all	200	2000	6	17	92	92	nan	0.9017	1.0279	0.8257	0.0136	0.8257	0.0136
+lemma_full	rhyme	200	2000	6	17	92	92	nan	0.8693	1.0396	0.82	0.0153	0.82	0.0153
