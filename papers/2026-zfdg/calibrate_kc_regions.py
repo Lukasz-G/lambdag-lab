@@ -68,7 +68,14 @@ def verse_ranges(witness, region_len, n_regions):
     The bank keeps the verse identifier of every unit, so the boundaries are
     carried back through the units the tokens came from.
     """
+    # A case may be in either layer: the witness banks hold a scribe's copy and
+    # the edition bank an editor's text, and both keep the verse identifier of
+    # every unit. Whichever bank the known text is in is the one asked.
     base = ROOT / "masked" / "mhg_witnesses_lemma"
+    if not (base / "bank" / f"{witness}.tsv").exists():
+        base = ROOT / "masked" / "mhdbdb_lemma"
+    if not (base / "bank" / f"{witness}.tsv").exists():
+        return [("", "")] * n_regions
     units = [l.split("	") for l in
              (base / "bank" / f"{witness}.tsv").read_text(
                  encoding="utf-8").splitlines() if l]

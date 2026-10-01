@@ -37,6 +37,7 @@
 # Output: scores/konrad_profile/calib__crosswork__q{L}.jsonl
 
 import argparse
+import csv
 import json
 import random
 import sys
@@ -89,6 +90,91 @@ CASES = [
 ]
 
 
+def load_named(stream, names):
+    """only the witnesses this run actually reads
+
+    A run needs the reference grammars and the cohort passages the region run
+    used -- some fifty texts -- and the bank loader reads all 247, several of them
+    over a hundred thousand tokens. Reading the named files keeps the run inside
+    a gigabyte instead of tens of them.
+    """
+    # A region run may set its scale with the tagged editions rather than the
+    # witnesses -- the witness corpus has only fourteen authors whose copies are
+    # early enough and the grammars need twelve of them -- so a name that is not a
+    # witness is looked for there before it is given up.
+    bases = [ROOT / "masked" / f"mhg_witnesses_{stream}",
+             ROOT / "masked" / f"mhdbdb_{stream}"]
+    man = {}
+    for b in bases:
+        man.update({r["file"]: r for r in csv.DictReader(
+            (b / "MANIFEST.tsv").open(encoding="utf-8"), delimiter="	")})
+    out = {}
+    for n in sorted(set(names)):
+        f = next((b / "bank" / f"{n}.tsv" for b in bases
+                  if (b / "bank" / f"{n}.tsv").exists()), None)
+        if f is None:
+            continue
+        lines = [l.split("	") for l in
+                 f.read_text(encoding="utf-8").splitlines() if l]
+        r = man.get(n, {})
+        out[n] = dict(sents=lines, author=W.author_id(r) if r else n,
+                      work=W.norm(r.get("work", n)), period=r.get("date", "-"),
+                      ntok=sum(len(u) for u in lines))
+    return out
+
+
+def load_editions(stream, years):
+    """the tagged editions as a bank, with a period filter
+
+    They are masked by the same masker and tagged by the same model as the
+    witnesses, which is why their passages may stand in one calibration class
+    with a case built on witnesses. What still differs is the layer of the KNOWN
+    side -- an editor's normalised text against a scribe's -- and that residual is
+    named in the report rather than assumed away.
+    """
+    base = ROOT / "masked" / f"mhdbdb_{stream}"
+    lo, hi = ((int(x) for x in years.split("-")) if years else (0, 9999))
+    out = {}
+    with (base / "MANIFEST.tsv").open(encoding="utf-8") as fh:
+        for r in csv.DictReader(fh, delimiter="	"):
+            y = int(r["date"]) if r["date"].isdigit() else 0
+            if not (lo <= y <= hi):
+                continue
+            lines = [l.split("	") for l in
+                     (base / "bank" / f"{r['file']}.tsv").read_text(
+                         encoding="utf-8").splitlines() if l]
+            out[r["file"]] = dict(sents=lines, author=W.norm(r["author"]),
+                                  work=W.norm(r["work"]), year=y,
+                                  ntok=sum(len(u) for u in lines))
+    return out
+
+
+def edition_cases(bank, klen, L, per_author, min_pos):
+    """(author, known work, its other works) for every author with two works
+
+    The known side takes the author's longest work, so that a case is built on as
+    much of him as the chronicle's regions are built on of itself; the positives
+    come from every other work he has, which is the class the attribution is
+    about.
+    """
+    by = defaultdict(list)
+    for n, e in bank.items():
+        by[e["author"]].append(n)
+    cases = []
+    for a, ns in sorted(by.items()):
+        works = {}
+        for n in ns:
+            w = bank[n]["work"]
+            if w not in works or bank[n]["ntok"] > bank[works[w]]["ntok"]:
+                works[w] = n
+        ws = sorted(works.values(), key=lambda n: -bank[n]["ntok"])
+        for known in ws[:per_author]:
+            others = [n for n in ws if n != known and bank[n]["ntok"] >= L]
+            if bank[known]["ntok"] >= klen and len(others) >= min_pos:
+                cases.append((a, known, others))
+    return cases
+
+
 def toks(entry):
     return [t for s in entry["sents"] for t in s]
 
@@ -113,6 +199,18 @@ def main():
                          "one scale")
     ap.add_argument("--positives", type=int, default=6,
                     help="passages of the author's other works per case")
+    ap.add_argument("--case-bank", default="",
+                    help="mhdbdb draws the cases from the tagged editions, where "
+                         "an author has several works; the default uses the "
+                         "witness bank and the case list written into this file")
+    ap.add_argument("--years", default="",
+                    help="with --case-bank, keep only the authors writing inside "
+                         "this band, so that the class is of the case's own "
+                         "milieu and not of another century")
+    ap.add_argument("--per-author", type=int, default=2,
+                    help="with --case-bank, how many of an author's works may "
+                         "serve as the known text; more than one or two lets a "
+                         "prolific author dominate the class")
     ap.add_argument("--tag", default="crosswork")
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--dry-run", action="store_true")
@@ -124,7 +222,11 @@ def main():
     meta = rows[0]
     L, seg = int(meta["L"]), int(meta["seg"])
     klen = int(meta["region_len"])
-    bank = W.load(meta["stream"])
+    need = [d.rpartition("@")[0] for d in meta["donors"]]
+    need += [r["text"] for r in rows[1:] if r.get("kind") == "cohort"]
+    bank = load_named(meta["stream"], need)
+    print(f"{len(bank)} witnesses read: {len(set(d.rpartition('@')[0] for d in meta['donors']))} "
+          f"for the reference grammars, the rest for the cohort")
     rng = random.Random(args.seed)
 
     # the same reference grammars, at the same offsets, as the region run
@@ -141,8 +243,17 @@ def main():
           f"tokens, {len(coh)} cohort passages of {L:,}, stream "
           f"{meta['stream']}")
 
+    case_list = CASES
+    if args.case_bank:
+        eb = load_editions(meta["stream"], args.years)
+        case_list = edition_cases(eb, klen, L, args.per_author, 1)
+        bank = {**bank, **eb}
+        print(f"cases from the tagged editions: {len(eb)} texts"
+              + (f" written {args.years}" if args.years else "")
+              + f", {len(case_list)} cases from "
+              f"{len({a for a, _, _ in case_list})} authors")
     cases = []
-    for author, known, others in CASES:
+    for author, known, others in case_list:
         if known not in bank or any(o not in bank for o in others):
             print(f"  skipped {known}: not in the bank")
             continue

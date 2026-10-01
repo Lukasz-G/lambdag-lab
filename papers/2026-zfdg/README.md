@@ -17,9 +17,13 @@ the manuscripts cannot: one author's several works.
 | Text-against-text reuse matrix, shingle-length sweep | `kc_reuse_pairs.py`, `kc_reuse_k_sweep.py` | the same masks |
 | Rolling profile across a documented author boundary | `make_vorau_rolling_figure.py` | `scores/vorau_rolling/*.jsonl` from `run_vorau_rolling.py` |
 | What is compared with what (schematic) | `make_vorau_design_figure.py` | — |
-| Candidates on the oldest witness | `make_paper_tables.py::candidates` | `kc_reuse/konrad_summary.tsv` from `analyze_konrad_profile.py` ← `run_konrad_profile.py` |
-| A verdict for each fragment | `make_paper_tables.py::verdicts` | `kc_reuse/kc_regions_verdicts.tsv` from `calibrate_kc_regions.py`, `kc_reuse/kc_regions_crosswork.tsv` from `calibrate_crosswork.py` ← `run_calibration_cases.py`, both over `run_kc_regions.py` |
-| The rhyme-word baseline | `make_paper_tables.py::rhyme_baseline` | `rhyme_mfw.tsv`, `rhyme_mfw_authors.tsv` from `run_rhyme_mfw.py` |
+| Candidates on the oldest witness | `make_tables.py::candidates` | `kc_reuse/konrad_summary.tsv` from `analyze_konrad_profile.py` ← `run_konrad_profile.py` |
+| A verdict for each fragment | `make_tables.py::verdicts` | `kc_reuse/kc_regions_verdicts.tsv` from `calibrate_kc_regions.py`, `kc_reuse/kc_regions_crosswork.tsv` from `calibrate_crosswork.py` ← `run_calibration_cases.py`, both over `run_kc_regions.py` |
+| What each choice in the design was worth, arm by arm | `make_tables.py::arms` | `kc_reuse/kc_regions_crosswork__{broad,milieu,ed2000,ed4000,ed8k}.tsv` |
+| The chronicle against itself, region by region | `make_tables.py::internal`, `make_kc_internal_figure.py` | `kc_reuse/kc_internal.tsv` from `run_kc_internal.py` |
+| The verdict figure | `make_kc_verdict_figure.py` | `kc_reuse/kc_regions_crosswork__ed4000.tsv`, `kc_reuse/kc_regions_field__ed4000.tsv` from `rank_candidate_vs_field.py` |
+| What a cohort of the wrong layer costs | `compare_cohort_layers.py`, `measure_layer.py` | `kc_reuse/layer_offset.tsv` |
+| The rhyme-word baseline | `make_tables.py::rhyme_baseline`, `make_rhyme_figure.py` | `rhyme_mfw.tsv`, `rhyme_mfw_authors.tsv` from `run_rhyme_mfw.py` |
 | Author-by-scribe cells, the in-case gauge | `analyze_witness_cells.py`, `analyze_witness_gauge.py` | `scores/witness_cells/*`, `scores/witness_gauge/*` |
 
 ## Building the corpus
@@ -36,6 +40,26 @@ the manuscripts cannot: one author's several works.
 4. `run_rhyme_gate.py` is the gate that must pass before any rhyme stream is
    used: it measures whether the last word of a printed line stands at the
    rhyme, and it refuses the texts whose editions print half-lines separately.
+
+## Two corrections the frozen results carry
+
+Both changed numbers rather than prose, and anyone comparing this kit against an
+earlier draft of the article will see the difference.
+
+**The controls were in the denominator.** Three of the four poems that say how
+high a text of the milieu reaches were also reference grammars, so each was
+predicted by the population it belonged to and the candidate's margin over it
+was an artefact of the arrangement. `run_kc_regions.py --exclude` now keeps the
+whole case — known text, candidates, controls — out of every pool, and the
+filter has to reach pools drawn from a *different bank* than the case, which is
+where it originally failed. With that corrected the ceiling falls from 61:1 to
+39:1 and the candidate reaches it in 11 regions of 20 rather than in all 20. The
+verdict stands; its size did not.
+
+**The cohort is a scale, not a sample.** Of the 33 early texts this corpus can
+offer, 17 are witnesses of one poem, so a cohort assembled from whatever the
+reference population left over measured a twelfth-century chronicle against
+*Parzival*. `--cohort-per-author 1` is now the rule.
 
 ## Rerunning
 

@@ -39,6 +39,13 @@ COLS = ["file", "source", "author", "work", "siglum", "layer", "date", "units",
 # than to any one experiment, and because the language stage moves over these
 # three centuries -- an experiment that separates a fourteenth-century author
 # from a twelfth-century one may be separating their German and not their hands.
+# An anonymous work has no author to date, so the conventional dating of the poem
+# itself is used. These are the handbook datings, and they are approximate in the
+# way such datings always are: they place a work in a generation, not a decade, and
+# the period filters that read them are correspondingly coarse.
+WORK_DATE = {"NBB": 1200, "KLA": 1200, "CR": 1220, "ORT": 1225, "WDA": 1230,
+             "KU": 1240, "BRF": 1260, "DFL": 1280, "RAB": 1280, "WEN": 1300}
+
 AUTHOR_DATE = {
     "Lamprecht der Pfaffe": 1150, "Der Wilde Mann": 1170,
     "Heinrich von Veldeke": 1180, "Hartmann von Aue": 1195,

@@ -96,8 +96,27 @@ def main():
     ap.add_argument("--only", default="", help="substring of the author's name")
     ap.add_argument("--list", action="store_true",
                     help="print the panel and fetch nothing")
+    ap.add_argument("--sigles", default="",
+                    help="fetch these works by sigle whatever their author, "
+                         "comma separated. The panel rule exists because an "
+                         "author with one work cannot supply a same-author pair; "
+                         "an anonymous work supplies no author at all and is "
+                         "skipped by it, which is right for a calibration class "
+                         "and wrong when the anonymous work IS the question.")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
+
+    if args.sigles:
+        want = {x.strip() for x in args.sigles.split(",") if x.strip()}
+        get(f"{BASE}/authority-files/lexicon.xml", RAW / "lexicon.xml")
+        got = 0
+        for sig in sorted(want):
+            n, cached = get(f"{BASE}/tei/{sig}.tei.xml",
+                            RAW / "tei" / f"{sig}.tei.xml")
+            got += n > 0
+            print(f"  {sig:8} {n / 1e6:6.2f} MB{' (already here)' if cached else ''}")
+        print(f"{got} of {len(want)} works in {RAW.relative_to(ROOT)}/tei")
+        return
 
     by = defaultdict(list)
     for sig, au, ti in registry():

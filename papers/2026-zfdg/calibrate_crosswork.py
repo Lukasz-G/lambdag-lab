@@ -71,8 +71,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--calibration", default="calib__crosswork__q2000.jsonl")
     ap.add_argument("--regions", default="regions__A1__r20__q2000__controls.jsonl")
+    ap.add_argument("--tag", default="",
+                    help="name the verdict table after the arm, so that arms "
+                         "differing in the cohort or the questioned length do "
+                         "not overwrite one another. Without it the table the "
+                         "paper reads is written.")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
+    out = OUT if not args.tag else OUT.with_name(f"{OUT.stem}__{args.tag}.tsv")
 
     same, diff, per, cmeta = crosswork(SCORES / args.calibration)
     auc = float(np.mean([(a > b) + 0.5 * (a == b) for a in same for b in diff]))
@@ -122,11 +128,26 @@ def main():
           f"regions, for a different author of the same milieu in {n_t}")
     print(f"  the candidate stands above that control in {n_ab} of "
           f"{len(rows)} regions")
-    print(f"  both saturate the bound in most regions, so the odds separate "
-          f"them nowhere; what survives is the ordering")
+    # Whether the odds SEPARATE the two is the whole question, and it is a
+    # property of the arm, not of the method: a calibration set whose bound is low
+    # saturates for the control as readily as for the candidate, and then only the
+    # ordering survives. So it is counted here rather than concluded.
+    at_top = sum(abs(r["llr"] - cal.hi) < 1e-6 for r in rows)
+    ct_top = sum(abs(r["llr_control"] - cal.hi) < 1e-6 for r in rows)
+    strong = sum(r["llr"] > 0.477 for r in rows)      # better than three to one
+    ct_str = sum(r["llr_control"] > 0.477 for r in rows)
+    print(f"  the candidate reaches the bound in {at_top} regions and exceeds "
+          f"three to one in {strong}; the control reaches the bound in {ct_top} "
+          f"and exceeds three to one in {ct_str}")
+    if ct_top >= len(rows) // 2 and at_top >= len(rows) // 2:
+        print(f"  both saturate the bound in most regions, so the odds separate "
+              f"them nowhere; what survives is the ordering")
+    elif strong and not ct_str:
+        print(f"  the odds separate them: the candidate is supported in "
+              f"{strong} regions where the control is not")
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    with OUT.open("w", encoding="utf-8") as fh:
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with out.open("w", encoding="utf-8") as fh:
         fh.write("region\tverses\tz\tllr\tz_control\tllr_control\tauc_class\t"
                  "cllr_class\telub_hi\n")
         for r in rows:
@@ -135,7 +156,7 @@ def main():
                      f"{r['llr_control']:.4f}\t{auc:.4f}\t"
                      f"{cllr(cal.transform(same), cal.transform(diff)):.4f}\t"
                      f"{cal.hi:.4f}\n")
-    print(f"  wrote {OUT.relative_to(ROOT)}")
+    print(f"  wrote {out.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
