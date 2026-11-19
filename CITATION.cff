@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: >-
-  If you use this software, please cite it together with the paper it
-  accompanies (see README for the per-paper references).
+  If you use this software, please cite the version you used together with the
+  paper relevant to your use. The preferred citation below is the general
+  reference for this implementation; the per-paper references are in the README.
 title: "lambdag-lab: multilingual grammar-based authorship verification"
 type: software
 authors:
@@ -12,7 +13,7 @@ authors:
     orcid: "https://orcid.org/0009-0002-0149-2038"
 repository-code: "https://github.com/Lukasz-G/lambdag-lab"
 license: Apache-2.0
-version: "1.0-chr2027"
+version: "1.0.0"
 date-released: 2026-11-19
 keywords:
   - authorship verification
