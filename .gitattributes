@@ -2,3 +2,5 @@
 *.sh text eol=lf
 *.py text
 *.yml text
+*.tar.gz binary
+*.jsonl text

@@ -1,7 +1,11 @@
 # CHR 2027 — "Grammar on Trial" reproduction kit
 
-Scripts and frozen outputs behind the paper's tables and figures.
-Paper link: *added upon publication.*
+Scripts and frozen outputs behind the paper's tables and figures. Accepted for
+the Computational Humanities Research Conference 2027; paper link added upon
+publication.
+
+The per-case score files behind every reported number are in [`data/`](data/),
+with a standalone script that recomputes the paper's headline AUC from them.
 
 ## Table/figure ↔ script map
 
@@ -22,11 +26,15 @@ These scripts ran from an `experiments/` directory with `masked/` and
 
 1. `pip install -e ".[numba,spacy,dev]"` from the repo root.
 2. Rebuild the masked corpora with `data_prep/` (fetch_eltec / fetch_dracor /
-   fetch_poetree → mask_corpora), or download them from the Zenodo deposit
-   (DOI added at release).
+   fetch_poetree → mask_corpora). They are not deposited: the masked streams
+   run to several gigabytes, and the corpora they derive from are public.
 3. Recreate the layout the scripts expect: place `masked/` next to `lambdag.py`
    and run the `run_*.py` stages from a sibling directory, e.g.
    `python run_kn_grid.py --stage primary`.
+
+To check a reported number without rerunning the grid, unpack
+`data/scores_chr2027.tar.gz` instead and read it with `make_paper_tables.py`;
+`data/README.md` gives the file format and the exhibit map.
 
 Frozen here: `results_primary.csv`, `results_segmentation.csv` (partial-run
 remnants — the score files are canonical), and the run logs (`*.log`) as
