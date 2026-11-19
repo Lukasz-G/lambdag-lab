@@ -30,8 +30,9 @@ paper's tables and figures; links to the published papers are added as they
 appear. Per-case score files ship with the kit that needs them, so that a
 reported AUC or cost can be recomputed without rerunning a grid; masked corpora
 are not deposited, being rebuildable from public sources with `data_prep/`.
-Each release is archived on Zenodo, and the DOI is cited in the paper it
-accompanies.
+Each release is archived on Zenodo, all versions under
+[10.5281/zenodo.24375479](https://doi.org/10.5281/zenodo.24375479), and each
+paper cites the DOI of the version it was built against.
 
 ## Install
 

@@ -4,6 +4,10 @@ Scripts and frozen outputs behind the paper's tables and figures. Accepted for
 the Computational Humanities Research Conference 2027; paper link added upon
 publication.
 
+The version the paper reports is archived as
+[10.5281/zenodo.24375480](https://doi.org/10.5281/zenodo.24375480), which is the
+DOI its data-availability statement cites.
+
 The per-case score files behind every reported number are in [`data/`](data/),
 with a standalone script that recomputes the paper's headline AUC from them.
 

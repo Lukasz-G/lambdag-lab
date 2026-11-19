@@ -12,6 +12,11 @@ authors:
     affiliation: "Georg-August-Universität Göttingen"
     orcid: "https://orcid.org/0009-0002-0149-2038"
 repository-code: "https://github.com/Lukasz-G/lambdag-lab"
+doi: "10.5281/zenodo.24375480"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24375479"
+    description: "Concept DOI, resolving to the latest archived version."
 license: Apache-2.0
 version: "1.0.0"
 date-released: 2026-11-19
