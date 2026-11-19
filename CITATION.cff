@@ -5,20 +5,34 @@ message: >-
 title: "lambdag-lab: multilingual grammar-based authorship verification"
 type: software
 authors:
-  - family-names: "Gagala"
-    given-names: "Lukasz"
+  - family-names: "Gągała"
+    given-names: "Łukasz"
     email: "lukaszgagala@wp.pl"
     affiliation: "Georg-August-Universität Göttingen"
+    orcid: "https://orcid.org/0009-0002-0149-2038"
 repository-code: "https://github.com/Lukasz-G/lambdag-lab"
 license: Apache-2.0
-version: 1.0.0
-date-released: 2026-09-01
+version: "1.0-chr2027"
+date-released: 2026-11-19
 keywords:
   - authorship verification
   - stylometry
   - forensic linguistics
   - POSNoise
   - likelihood ratio
+preferred-citation:
+  type: conference-paper
+  title: >-
+    Grammar on Trial: Forensic Authorship Verification across Twenty-Three
+    Languages and Three Genres
+  authors:
+    - family-names: "Gągała"
+      given-names: "Łukasz"
+      affiliation: "Georg-August-Universität Göttingen"
+      orcid: "https://orcid.org/0009-0002-0149-2038"
+  collection-title: >-
+    Proceedings of the Computational Humanities Research Conference 2027
+  year: 2027
 references:
   - type: article
     title: >-

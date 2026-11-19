@@ -20,15 +20,18 @@ and token-level explainability heat maps.
 | Paper | Where | Reproduction kit |
 |---|---|---|
 | Stylometrie mit LambdaG für die mittelhochdeutsche Literatur (2026) | DHd | [`papers/2026-mhg/`](papers/2026-mhg/) *(backfill in progress)* |
-| *Grammar on Trial: Forensic Authorship Verification across Twenty-Three Languages and Three Genres* (CHR 2027, submitted) | CHR | [`papers/2027-chr/`](papers/2027-chr/) |
+| *Grammar on Trial: Forensic Authorship Verification across Twenty-Three Languages and Three Genres* (CHR 2027, accepted) | CHR | [`papers/2027-chr/`](papers/2027-chr/) |
 | Journal long paper (in preparation) | TBD | [`papers/2027-journal/`](papers/2027-journal/) |
 | *Authorship verification for medieval manuscript witnesses. Grammar models, the scribal toll and the Kaiserchronik* (in preparation) | ZfdG | [`papers/2026-zfdg/`](papers/2026-zfdg/) |
 | *Anonymous epics in one scribe's hand. Relational authorship verification in the Ambraser Heldenbuch* (in preparation) | TBD | [`papers/2026-ambraser/`](papers/2026-ambraser/) |
 
 Each paper directory holds the exact scripts and frozen result files behind the
 paper's tables and figures; links to the published papers are added as they
-appear. Heavy artefacts (masked corpora, per-case score files) are deposited on
-Zenodo per release — see the paper READMEs.
+appear. Per-case score files ship with the kit that needs them, so that a
+reported AUC or cost can be recomputed without rerunning a grid; masked corpora
+are not deposited, being rebuildable from public sources with `data_prep/`.
+Each release is archived on Zenodo, and the DOI is cited in the paper it
+accompanies.
 
 ## Install
 
